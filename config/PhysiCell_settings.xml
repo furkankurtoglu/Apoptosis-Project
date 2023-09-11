@@ -125,35 +125,16 @@
 	</options>	
 
 	<microenvironment_setup>
-		<variable name="oxygen" units="mmHg" ID="0">
+		<variable name="ligand" units="mM" ID="0">
 			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">100.0</diffusion_coefficient>
+				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
 				<decay_rate units="1/min">0.0</decay_rate>  
 			</physical_parameter_set>
-			<initial_condition units="mmHg">38</initial_condition>
+			<initial_condition units="mmHg">3000</initial_condition> <!-- more to come ... --> 
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
-		
         
-        
-		<variable name="glucose" units="mM" ID="1">
-			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">300.0</diffusion_coefficient>
-				<decay_rate units="1/min">0.0</decay_rate>  
-			</physical_parameter_set>
-			<initial_condition units="mM">50</initial_condition>
-			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
- 		</variable>
-        
-        
-		<variable name="lactate" units="mM" ID="2">
-			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">300.0</diffusion_coefficient>
-				<decay_rate units="1/min">0.0</decay_rate>  
-			</physical_parameter_set>
-			<initial_condition units="mmHg">0</initial_condition>
-			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
- 		</variable>
+        <!-- more to come ... --> 
         
 		<options>
 			<calculate_gradients>false</calculate_gradients>
@@ -259,45 +240,33 @@
 						<use_2D>true</use_2D>
 						<chemotaxis>
 							<enabled>false</enabled>
-							<substrate>oxygen</substrate>
+							<substrate>ligand</substrate>
 							<direction>1</direction>
 						</chemotaxis>
 					</options>
 				</motility>
 				
 				<secretion>
-                    <substrate name="oxygen">
+                    <substrate name="ligand">
 						<secretion_rate units="1/min">0.0</secretion_rate>
 						<secretion_target units="substrate density">0.0</secretion_target>
-						<uptake_rate units="1/min">0.005</uptake_rate>
-						<net_export_rate units="total substrate/min">0</net_export_rate> 
-                    </substrate> 
-                    <substrate name="glucose">
-						<secretion_rate units="1/min">0.0</secretion_rate>
-						<secretion_target units="substrate density">0.0</secretion_target>
-						<uptake_rate units="1/min">0.001</uptake_rate>
-						<net_export_rate units="total substrate/min">0</net_export_rate> 
-                    </substrate> 
-					<substrate name="lactate">
-						<secretion_rate units="1/min">0.00</secretion_rate>
-						<secretion_target units="substrate density">10</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
 				</secretion>
 
 				<cell_interactions>
-				<dead_phagocytosis_rate units="1/min">0</dead_phagocytosis_rate>
-				<live_phagocytosis_rates>
-					<phagocytosis_rate name="default" units="1/min">0</phagocytosis_rate>
-				</live_phagocytosis_rates>
-				<attack_rates>
-					<attack_rate name="default" units="1/min">0</attack_rate>
-				</attack_rates>
-				<damage_rate units="1/min">1</damage_rate>
-				<fusion_rates>
-					<fusion_rate name="default" units="1/min">0</fusion_rate>
-				</fusion_rates>
+                    <dead_phagocytosis_rate units="1/min">0</dead_phagocytosis_rate>
+                    <live_phagocytosis_rates>
+                        <phagocytosis_rate name="default" units="1/min">0</phagocytosis_rate>
+                    </live_phagocytosis_rates>
+                    <attack_rates>
+                        <attack_rate name="default" units="1/min">0</attack_rate>
+                    </attack_rates>
+                    <damage_rate units="1/min">0</damage_rate>
+                    <fusion_rates>
+                        <fusion_rate name="default" units="1/min">0</fusion_rate>
+                    </fusion_rates>
 				</cell_interactions>
 				<cell_transformations>
 					<transformation_rates>
@@ -306,24 +275,15 @@
 				</cell_transformations>
 
 				<intracellular type="roadrunner">
-					<sbml_filename>./config/Toy_Metabolic_Model.xml</sbml_filename>
+					<sbml_filename>./config/BIOMD0000000220_test.xml</sbml_filename>
                     <intracellular_dt>0.01</intracellular_dt>
-                    <map PC_substrate="oxygen" sbml_species="Oxygen"></map >
-                    <map PC_substrate="lactate" sbml_species="Lactate"></map >
-                    <map PC_substrate="glucose" sbml_species="Glucose"></map >
-                    <map PC_phenotype="da" sbml_species="apoptosis_rate"></map>
-                    <map PC_phenotype="mms" sbml_species="migration_speed"></map>
-                    <map PC_phenotype="ssr_lactate" sbml_species="Lac_Secretion_Rate"></map>
-                    <map PC_phenotype="ctr_0_0" sbml_species="Transition_Rate"></map>
+                    <map PC_phenotype="da" sbml_species="apoptosis_flag"></map>
 				</intracellular>
                 
 				<molecular />
 			</phenotype>
 			<custom_data>  
-                <intra_oxy units="mmHg">0.0</intra_oxy>
-                <intra_glu units="mM">0.0</intra_glu>
-                <intra_lac units="mM">0.0</intra_lac>
-                <intra_energy units="dimensionless">0.0</intra_energy>
+                <receptor units="none">200.0</receptor>
 			</custom_data>
 		</cell_definition>
 	</cell_definitions>
@@ -347,10 +307,6 @@
 	
 	<user_parameters>
 		<random_seed type="int" units="dimensionless">0</random_seed>
-        <initial_internal_oxygen type="double" units="mmHg">0.8</initial_internal_oxygen>
-        <initial_internal_glucose type="double" units="mM">15</initial_internal_glucose>
-        <initial_internal_lactate type="double" units="mM">0</initial_internal_lactate>
-        <initial_energy type="double" units="dimensionless">450</initial_energy>
 	</user_parameters>
 	
 </PhysiCell_settings>

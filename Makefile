@@ -1,5 +1,5 @@
 VERSION := $(shell grep . VERSION.txt | cut -f1 -d:)
-PROGRAM_NAME := ode_energy
+PROGRAM_NAME := apoptosis_project
 
 CC := g++
 
