@@ -160,7 +160,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 10;
+	double initial_tissue_radius = 150;
     double retval;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -175,7 +175,7 @@ void setup_tissue( void )
         
         pCell->phenotype.intracellular->start();
         (*all_cells)[i]->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
-       std::cout << "Initial Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
+       //std::cout << "Initial Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
     }
 
 	return; 

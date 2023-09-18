@@ -10,7 +10,8 @@ import os
 import sys
 import tarfile
 import zipfile
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 def reminder_dynamic_link_path_macos():
     print("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
     print("*    NOTE: if you have not yet done this, you need to specify where the shared libs can be found, e.g., via bash shell:")
