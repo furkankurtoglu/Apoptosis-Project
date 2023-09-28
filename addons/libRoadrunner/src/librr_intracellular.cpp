@@ -197,7 +197,7 @@ bool RoadRunnerIntracellular::need_update()
 void RoadRunnerIntracellular::update()
 {
     static double start_time = 0.0;
-    static double end_time = 1000;
+    static double end_time = 0.1;
     // static double end_time = 10.0;
     // static int num_vals = 1;
     // static int num_vals = 10;

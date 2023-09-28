@@ -165,18 +165,27 @@ void setup_tissue( void )
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
     
-    std::cout << "NUMBER OF CELLS : " << positions.size() << " __________" << std::endl;
+    std::cout << "NUMBER OF TARGET CELLS : " << positions.size() << " __________" << std::endl;
     for( int i=0; i < positions.size(); i++ )
     {
-        pCell = create_cell(get_cell_definition("default")); 
+        pCell = create_cell(get_cell_definition("target")); 
         pCell->assign_position( positions[i] );
        
         double cell_volume = pCell->phenotype.volume.total;
         
         pCell->phenotype.intracellular->start();
+<<<<<<< Updated upstream
         (*all_cells)[i]->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
+=======
+        pCell->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
+        pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand"));
+>>>>>>> Stashed changes
        //std::cout << "Initial Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
     }
+    
+    pCell = create_cell(get_cell_definition("NK"));
+    pCell-> assign_position({100,100,0});
+    
 
 	return; 
 }
@@ -191,18 +200,29 @@ void update_intracellular()
     #pragma omp parallel for 
     for( int i=0; i < (*all_cells).size(); i++ )
     {
-        if( (*all_cells)[i]->is_out_of_domain == false  )
+        if ((*all_cells)[i]->type == 0)
         {
-            // SBML Simulation
-            (*all_cells)[i]->phenotype.intracellular->update();
-            
-            // Phenotype Simulation
-            (*all_cells)[i]->phenotype.intracellular->update_phenotype_parameters((*all_cells)[i]->phenotype);
-                        
-            // Internalized Chemical Update After SBML Simulation
-            
-            //std::cout << "Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
-
+            if( (*all_cells)[i]->is_out_of_domain == false  )
+            {
+                
+                (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
+                // SBML Simulation
+                (*all_cells)[i]->phenotype.intracellular->update();
+                
+                // Phenotype Simulation
+                (*all_cells)[i]->phenotype.intracellular->update_phenotype_parameters((*all_cells)[i]->phenotype);
+                
+                
+                
+                double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
+                if (apoptosome_level > 10)
+                {
+                    std::cout << "Apoptosome level = " << apoptosome_level << std::endl;
+                }        
+                // Internalized Chemical Update After SBML Simulation
+                
+                //std::cout << "Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
+            }
         }
     }
     
@@ -213,25 +233,22 @@ void update_intracellular()
 std::vector<std::string> my_coloring_function( Cell* pCell )
 {
 	
-    // Get Energy index
-	static int energy_vi = pCell->custom_data.find_variable_index( "intra_energy" );
-    
+
     // start with flow cytometry coloring 
 	std::vector<std::string> output = false_cell_coloring_cytometry(pCell); 
 	
 	// color
-    // proliferative cell
-	if( pCell->phenotype.death.dead == false && pCell->type == 0 && pCell->custom_data[energy_vi] > 445)
+
+	if( pCell->phenotype.death.dead == false && pCell->type == 0)
 	{
 		output[0] = "rgb(255,255,0)";
 		output[2] = "rgb(125,125,0)";
 	}
 
-    // arrested cell
-	if( pCell->phenotype.death.dead == false && pCell->type == 0 && pCell->custom_data[energy_vi] <= 445)
+	if( pCell->phenotype.death.dead == false && pCell->type == 1)
 	{
-		output[0] = "rgb(255,0,0)";
-		output[2] = "rgb(125,0,0)";
+		output[0] = "rgb(0,255,0)";
+		output[2] = "rgb(0,125,0)";
 	}     
     
     // dead cell
