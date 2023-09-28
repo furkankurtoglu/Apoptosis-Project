@@ -104,12 +104,12 @@
 		<folder>output</folder> <!-- use . for root --> 
 
 		<full_data>
-			<interval units="min">30</interval>
+			<interval units="min">10</interval>
 			<enable>true</enable>
 		</full_data>
 		
 		<SVG>
-			<interval units="min">30</interval>
+			<interval units="min">10</interval>
 			<enable>true</enable>
 		</SVG>
 		
@@ -128,12 +128,21 @@
 		<variable name="ligand" units="mM" ID="0">
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
-				<decay_rate units="1/min">0.0</decay_rate>
+				<decay_rate units="1/min">10.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mmHg">3000</initial_condition> <!-- more to come ... --> 
+			<initial_condition units="mmHg">0.0</initial_condition> <!-- more to come ... --> 
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
+        
+        <variable name="chemokine" units="mM" ID="1">
+			<physical_parameter_set>
+				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
+				<decay_rate units="1/min">5.0</decay_rate>
+			</physical_parameter_set>
+			<initial_condition units="mmHg">0.0</initial_condition> <!-- more to come ... --> 
+			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
+ 		</variable>
         <!-- more to come ... --> 
         
 		<options>
@@ -253,6 +262,13 @@
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
+                    
+                    <substrate name="chemokine">
+						<secretion_rate units="1/min">1.0</secretion_rate>
+						<secretion_target units="substrate density">200.0</secretion_target>
+						<uptake_rate units="1/min">0.0</uptake_rate>
+						<net_export_rate units="total substrate/min">0</net_export_rate> 
+                    </substrate> 
 				</secretion>
 
 				<cell_interactions>
@@ -367,16 +383,16 @@
 				</mechanics>
 				
 				<motility>  
-					<speed units="micron/min">0.0</speed>
+					<speed units="micron/min">15.0</speed>
 					<persistence_time units="min">0.1</persistence_time>
-					<migration_bias units="dimensionless">.9</migration_bias>
+					<migration_bias units="dimensionless">0.5</migration_bias>
 					
 					<options>
 						<enabled>true</enabled>
 						<use_2D>true</use_2D>
 						<chemotaxis>
-							<enabled>false</enabled>
-							<substrate>ligand</substrate>
+							<enabled>true</enabled>
+							<substrate>chemokine</substrate>
 							<direction>1</direction>
 						</chemotaxis>
 					</options>
@@ -384,8 +400,8 @@
 				
 				<secretion>
                     <substrate name="ligand">
-						<secretion_rate units="1/min">0.0</secretion_rate> <!-- -->
-						<secretion_target units="substrate density">4000.0</secretion_target>
+						<secretion_rate units="1/min">40.0</secretion_rate> <!-- -->
+						<secretion_target units="substrate density">500.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 

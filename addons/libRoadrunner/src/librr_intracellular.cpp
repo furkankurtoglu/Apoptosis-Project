@@ -197,7 +197,7 @@ bool RoadRunnerIntracellular::need_update()
 void RoadRunnerIntracellular::update()
 {
     static double start_time = 0.0;
-    static double end_time = 0.1;
+    static double end_time = 1;
     // static double end_time = 10.0;
     // static int num_vals = 1;
     // static int num_vals = 10;
@@ -213,7 +213,7 @@ void RoadRunnerIntracellular::update()
     this->result = rrc::simulateEx (this->rrHandle, start_time, end_time, num_vals);  // start time, end time, and number of points
 
 
-    // this->next_librr_run += this->rrHandle.get_time_to_update();
+    //this->next_librr_run += this->rrHandle.get_time_to_update();
     // std::cout << "----- update(): result=" << result << std::endl;
     //std::cout << "----- update(): result->CSize=" << this->result->CSize << std::endl;
     //std::cout << "----- update(): result->RSize=" << this->result->RSize << std::endl;  // should be = num_vals
@@ -222,40 +222,16 @@ void RoadRunnerIntracellular::update()
     // debug - does it generate expected data?
     int index = 0;
     // Print out column headers... typically time and species.
-    for (int col = 0; col < this->result->CSize; col++)
-    {
-        // std::cout << result->ColumnHeaders[index++];
-        // std::cout << std::left << std::setw(15) << result->ColumnHeaders[index++];
-        //std::cout << std::left << this->result->ColumnHeaders[index++];
-        // if (col < result->CSize - 1)
-        // {
-        // 	// std::cout << "\t";
-        // 	std::cout << "  ";
-        // }
-    }
     //std::cout << "\n";
 
     index = 0;
-    // Print out the data
-    for (int row = 0; row < this->result->RSize; row++)
-    {
-        for (int col = 0; col < this->result->CSize; col++)
-        {
-            // std::cout << result->Data[index++];
-            //std::cout << std::left << std::setw(15) << this->result->Data[index++];
-            // if (col < result->CSize -1)
-            // {
-            // 	// std::cout << "\t";
-            // 	std::cout << "  ";
-            // }
-        }
-       // std::cout << "\n";
-    }
+
     // int idx = (result->RSize - 1) * result->CSize + 1;
     // std::cout << "Saving last energy value (cell custom var) = " << result->Data[idx] << std::endl;
     // pCell->custom_data[energy_cell_idx]  = result->Data[idx];
 
     // return 0;
+    this->next_librr_run += 0.01;
 }
 
 double RoadRunnerIntracellular::get_parameter_value(std::string param_name)

@@ -160,7 +160,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 150;
+	double initial_tissue_radius = 50;
     double retval;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -174,17 +174,14 @@ void setup_tissue( void )
         double cell_volume = pCell->phenotype.volume.total;
         
         pCell->phenotype.intracellular->start();
-<<<<<<< Updated upstream
-        (*all_cells)[i]->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
-=======
         pCell->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
         pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand"));
->>>>>>> Stashed changes
+
        //std::cout << "Initial Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
     }
     
     pCell = create_cell(get_cell_definition("NK"));
-    pCell-> assign_position({100,100,0});
+    pCell-> assign_position({50,50,0});
     
 
 	return; 
@@ -215,10 +212,11 @@ void update_intracellular()
                 
                 
                 double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
-                if (apoptosome_level > 10)
+                /* if (apoptosome_level > 35000)
                 {
-                    std::cout << "Apoptosome level = " << apoptosome_level << std::endl;
-                }        
+                    //std::cout << "Apoptosome level = " << apoptosome_level << std::endl;
+                    //std::cout << "Simulation Wall time = " << PhysiCell_globals.current_time << std::endl;
+                }    */     
                 // Internalized Chemical Update After SBML Simulation
                 
                 //std::cout << "Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
