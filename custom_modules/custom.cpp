@@ -160,7 +160,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 50;
+	double initial_tissue_radius = 10;
     double retval;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -174,10 +174,10 @@ void setup_tissue( void )
         double cell_volume = pCell->phenotype.volume.total;
         
         pCell->phenotype.intracellular->start();
-        pCell->phenotype.intracellular->set_parameter_value("R",get_single_signal( pCell, "custom:receptor"));
+        
+        double receptor_level = 160 + (240 - 160) * UniformRandom(); // Furkan to fix it. It should read custom data named "receptor"
+        pCell->phenotype.intracellular->set_parameter_value("R",receptor_level);
         pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand"));
-
-       //std::cout << "Initial Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
     }
     
     pCell = create_cell(get_cell_definition("NK"));
@@ -211,7 +211,28 @@ void update_intracellular()
                 
                 
                 
-                double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
+                double apop_flag = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag");
+                
+                if ( apop_flag > 0.0 )
+                {
+                    Cell* pCell;
+                    double number_of_debris = 5;
+                    double cell_x = (*all_cells)[i]->position[0];
+                    double cell_y = (*all_cells)[i]->position[1];
+                    double cell_z = (*all_cells)[i]->position[2];
+                    
+                    for( int k=0; k < number_of_debris; k++ )
+                    {
+                       // (*all_cells)[i].positions[0]
+                       Cell* pCell;
+                       pCell = create_cell(get_cell_definition("debris"));
+                       pCell-> assign_position({cell_x,cell_y,cell_z});
+                       
+                    }
+                    delete_cell((*all_cells)[i]);
+                }
+                //std::cout << (*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") << std::endl;
+                //double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
                 /* if (apoptosome_level > 35000)
                 {
                     //std::cout << "Apoptosome level = " << apoptosome_level << std::endl;
@@ -247,6 +268,13 @@ std::vector<std::string> my_coloring_function( Cell* pCell )
 	{
 		output[0] = "rgb(0,255,0)";
 		output[2] = "rgb(0,125,0)";
+	}     
+    
+    
+    if( pCell->phenotype.death.dead == false && pCell->type == 2)
+	{
+		output[0] = "rgb(0,255,255)";
+		output[2] = "rgb(0,125,125)";
 	}     
     
     // dead cell
