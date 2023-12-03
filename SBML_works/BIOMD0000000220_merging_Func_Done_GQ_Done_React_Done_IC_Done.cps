@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.40 (Build 278) (http://www.copasi.org) at 2023-11-28T21:50:56Z -->
+<!-- generated with COPASI 4.40 (Build 278) (http://www.copasi.org) at 2023-11-28T21:00:41Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="40" versionDevel="278" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_6" name="Constant flux (irreversible)" type="PreDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_6">
 </rdf:Description>
 </rdf:RDF>
@@ -69,7 +71,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_42" name="Function for re26" type="UserDefined" reversible="true">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_42">
 </rdf:Description>
 </rdf:RDF>
@@ -87,7 +91,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_43" name="Function for re27" type="UserDefined" reversible="true">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_43">
 </rdf:Description>
 </rdf:RDF>
@@ -106,7 +112,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_44" name="Function for re29" type="UserDefined" reversible="true">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_44">
 </rdf:Description>
 </rdf:RDF>
@@ -249,7 +257,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_53" name="Function for R82" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_53">
 </rdf:Description>
 </rdf:RDF>
@@ -265,7 +275,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_54" name="Function substrate modifier" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_54">
 </rdf:Description>
 </rdf:RDF>
@@ -281,7 +293,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_55" name="Function for R1" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_55">
 </rdf:Description>
 </rdf:RDF>
@@ -301,7 +315,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_56" name="Function for R12" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_56">
 </rdf:Description>
 </rdf:RDF>
@@ -319,7 +335,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_57" name="Function for R2" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_57">
 </rdf:Description>
 </rdf:RDF>
@@ -334,6 +352,14 @@ Reaction scheme where the products are created from the reactants and the change
       </ListOfParameterDescriptions>
     </Function>
     <Function key="Function_58" name="Function for R22" type="UserDefined" reversible="unspecified">
+      <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Function_58">
+</rdf:Description>
+</rdf:RDF>
+      </MiriamAnnotation>
       <Expression>
         s3*(q0_mdm2 + q1_mdm2*y6^h)/(q2+q0_mdm2 + q1_mdm2*y6^h)
       </Expression>
@@ -348,7 +374,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_59" name="Function for R4" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_59">
 </rdf:Description>
 </rdf:RDF>
@@ -366,7 +394,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_60" name="Function for R43" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_60">
 </rdf:Description>
 </rdf:RDF>
@@ -382,7 +412,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_61" name="Function for R45" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_61">
 </rdf:Description>
 </rdf:RDF>
@@ -398,7 +430,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_62" name="Function for R53" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_62">
 </rdf:Description>
 </rdf:RDF>
@@ -414,7 +448,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_63" name="Function for R59" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_63">
 </rdf:Description>
 </rdf:RDF>
@@ -430,7 +466,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_64" name="Function for R8" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_64">
 </rdf:Description>
 </rdf:RDF>
@@ -447,7 +485,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_65" name="Function modifier" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_65">
 </rdf:Description>
 </rdf:RDF>
@@ -462,7 +502,9 @@ Reaction scheme where the products are created from the reactants and the change
     </Function>
     <Function key="Function_66" name="Function modifier1 modifier2" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Function_66">
 </rdf:Description>
 </rdf:RDF>
@@ -3628,15 +3670,18 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfCompartments>
       <Compartment key="Compartment_0" name="cell" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Compartment_0">
     <CopasiMT:is>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/go/GO:0005829" />
+        <rdf:li rdf:resource="http://identifiers.org/go/GO:0005829"/>
       </rdf:Bag>
     </CopasiMT:is>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Compartment>
       <Compartment key="Compartment_1" name="mitochondrion" simulationType="fixed" dimensionality="3" addNoise="false">
@@ -3664,19 +3709,16 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfMetabolites>
       <Metabolite key="Metabolite_0" name="L" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_0">
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_3803"/>
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/P50591"/>
+        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_3803" />
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/P50591" />
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -3733,21 +3775,24 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_2" name="flip" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_2">
     <CopasiMT:isDescribedBy>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/omim/603599" />
+        <rdf:li rdf:resource="http://identifiers.org/omim/603599"/>
       </rdf:Bag>
     </CopasiMT:isDescribedBy>
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_2438" />
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/O15519" />
+        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_2438"/>
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/O15519"/>
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
@@ -4040,16 +4085,19 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_16" name="Smac" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_16">
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_5375" />
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/Q9NR28" />
+        <rdf:li rdf:resource="http://identifiers.org/reactome/REACT_5375"/>
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/Q9NR28"/>
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
@@ -4130,18 +4178,15 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_20" name="Bcl-2" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_20">
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/P10415"/>
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/P10415" />
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           <p xmlns="http://www.w3.org/1999/xhtml">
@@ -4371,14 +4416,6 @@ Reaction scheme where the products are created from the reactants and the change
         </ListOfUnsupportedAnnotations>
       </Metabolite>
       <Metabolite key="Metabolite_32" name="XIAP:C3" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_32">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
 <celldesigner:positionToCompartment xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">inside</celldesigner:positionToCompartment><celldesigner:speciesIdentity xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
@@ -4453,6 +4490,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ListOfUnsupportedAnnotations>
       </Metabolite>
       <Metabolite key="Metabolite_37" name="Bax:tBid" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+        </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
 <celldesigner:positionToCompartment xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">inside</celldesigner:positionToCompartment><celldesigner:speciesIdentity xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
@@ -4595,6 +4635,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ListOfUnsupportedAnnotations>
       </Metabolite>
       <Metabolite key="Metabolite_44" name="M#" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Metabolite_44">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
         <Comment>
           <p xmlns="http://www.w3.org/1999/xhtml">
         opened inner mitochondrial membrane pore</p>
@@ -4759,15 +4805,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Metabolite>
       <Metabolite key="Metabolite_52" name="Apaf" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_52">
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/O14727" />
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/O14727"/>
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
@@ -4830,18 +4879,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Metabolite>
       <Metabolite key="Metabolite_56" name="Baxm" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_56">
     <CopasiMT:isVersionOf>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/Q07812"/>
+        <rdf:li rdf:resource="http://identifiers.org/uniprot/Q07812" />
       </rdf:Bag>
     </CopasiMT:isVersionOf>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <ListOfUnsupportedAnnotations>
           <UnsupportedAnnotation name="http://www.sbml.org/2001/ns/celldesigner">
@@ -4880,44 +4926,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Metabolite key="Metabolite_58" name="Bax_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_59" name="Caspase" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_59">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_60" name="proCaspase" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_60">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_61" name="Bad_phosphorylated_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_61">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_62" name="Fourteen33_free" simulationType="assignment" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_62">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex],Reference=Concentration>
         </Expression>
@@ -4927,97 +4941,25 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Metabolite key="Metabolite_64" name="BclXL_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_65" name="Bad_0_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_65">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_66" name="Cyclin_E (free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_66">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_67" name="Cyclin_E:p21_complex" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_67">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_68" name="p21_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_68">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_69" name="E2F1" simulationType="assignment" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_69">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration>
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_70" name="Rb1_0:E2F1 complex" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_70">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_71" name="Rb1_0_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_71">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_72" name="HIPK2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_72">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_73" name="Mdm2_nuc_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_73">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_74" name="SIAH1_0" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <InitialExpression>
@@ -5027,138 +4969,34 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Metabolite key="Metabolite_75" name="Bax_mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_76" name="p21_mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_76">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_77" name="PTEN" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_77">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_78" name="Wip1 mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_78">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_79" name="PTEN mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_79">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_80" name="Mdm2_nuc_S166S186p_S395p" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_80">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_81" name="p53_arrester" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_81">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_82" name="p53_S46phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_82">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_83" name="p53_killer" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_84" name="Mdm2 mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_85" name="Mdm2_cyt_0phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_85">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_86" name="Mdm2_cyt_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_86">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_87" name="p53_0phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_87">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_88" name="ATM_phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_88">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_89" name="Wip1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_89">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_90" name="Bad_phosphorylated_Fourteen33_complex" simulationType="assignment" compartment="Compartment_1" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_90">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_Bad_complex],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_0_(free)],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_phosphorylated_(free)],Reference=Concentration>
         </Expression>
@@ -5166,24 +5004,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Metabolite key="Metabolite_91" name="AKT_phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_92" name="PIP3" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_92">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_93" name="Rb_phosphorylated" simulationType="assignment" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_93">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0_(free)],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration>
         </Expression>
@@ -5199,149 +5021,53 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_96" name="DNA_double_strand_break" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_96">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_97" name="AKT_0" simulationType="assignment" compartment="Compartment_1" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_97">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[AKT_phosphorylated],Reference=Concentration>
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_98" name="PI3K_tot" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_98">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_99" name="PIP2" simulationType="assignment" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_99">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP3],Reference=Concentration>
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_100" name="ATM_0" simulationType="assignment" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_100">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[ATM_tot],Reference=Concentration>-&lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_phosphorylated],Reference=Concentration>
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_101" name="AKT_tot" simulationType="fixed" compartment="Compartment_1" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_101">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_102" name="ATM_tot" simulationType="fixed" compartment="Compartment_1" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_102">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_103" name="Bad_tot" simulationType="fixed" compartment="Compartment_1" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_103">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_104" name="BclXL_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
       </Metabolite>
       <Metabolite key="Metabolite_105" name="E2F1_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_105">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_106" name="Fourteen33_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_106">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_107" name="PIP_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_107">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_108" name="Rb_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_108">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_109" name="SIAH1_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_109">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
       <ModelValue key="ModelValue_0" name="k1" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelValue_0">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_1" name="k_1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
@@ -5657,7 +5383,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_40" name="k17" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_40">
 </rdf:Description>
 </rdf:RDF>
@@ -5897,7 +5625,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_70" name="v" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_70">
 </rdf:Description>
 </rdf:RDF>
@@ -5905,7 +5635,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_71" name="pC3 fraction" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_71">
 </rdf:Description>
 </rdf:RDF>
@@ -5949,7 +5681,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_75" name="total Caspase 3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_75">
 </rdf:Description>
 </rdf:RDF>
@@ -5960,7 +5694,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_76" name="free C3 fraction" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_76">
 </rdf:Description>
 </rdf:RDF>
@@ -6006,7 +5742,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_84" name="d1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_84">
 </rdf:Description>
 </rdf:RDF>
@@ -6014,7 +5752,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_85" name="can_Caspase_make_DNA_DSB" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_85">
 </rdf:Description>
 </rdf:RDF>
@@ -6022,7 +5762,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_86" name="d10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_86">
 </rdf:Description>
 </rdf:RDF>
@@ -6030,7 +5772,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_87" name="d11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_87">
 </rdf:Description>
 </rdf:RDF>
@@ -6038,7 +5782,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_88" name="d4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_88">
 </rdf:Description>
 </rdf:RDF>
@@ -6046,7 +5792,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_89" name="d5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_89">
 </rdf:Description>
 </rdf:RDF>
@@ -6054,7 +5802,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_90" name="d6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_90">
 </rdf:Description>
 </rdf:RDF>
@@ -6062,7 +5812,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_91" name="d7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_91">
 </rdf:Description>
 </rdf:RDF>
@@ -6070,7 +5822,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_92" name="d8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_92">
 </rdf:Description>
 </rdf:RDF>
@@ -6078,7 +5832,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_93" name="d9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_93">
 </rdf:Description>
 </rdf:RDF>
@@ -6086,7 +5842,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_94" name="DNA_DSB_due_to_IR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_94">
 </rdf:Description>
 </rdf:RDF>
@@ -6097,7 +5855,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_95" name="DNA_DSB_max" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_95">
 </rdf:Description>
 </rdf:RDF>
@@ -6105,7 +5865,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_96" name="d12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_96">
 </rdf:Description>
 </rdf:RDF>
@@ -6113,7 +5875,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_97" name="d2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_97">
 </rdf:Description>
 </rdf:RDF>
@@ -6121,7 +5885,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_98" name="d3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_98">
 </rdf:Description>
 </rdf:RDF>
@@ -6129,7 +5895,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_99" name="DNA_DSB_per_IR_Gy" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_99">
 </rdf:Description>
 </rdf:RDF>
@@ -6137,7 +5905,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_100" name="DNA_DSB_RepairCplx_total" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_100">
 </rdf:Description>
 </rdf:RDF>
@@ -6145,7 +5915,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_101" name="g14" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_101">
 </rdf:Description>
 </rdf:RDF>
@@ -6153,7 +5925,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_102" name="g15" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_102">
 </rdf:Description>
 </rdf:RDF>
@@ -6161,7 +5935,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_103" name="g16" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_103">
 </rdf:Description>
 </rdf:RDF>
@@ -6169,7 +5945,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_104" name="g17" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_104">
 </rdf:Description>
 </rdf:RDF>
@@ -6177,7 +5955,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_105" name="g18" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_105">
 </rdf:Description>
 </rdf:RDF>
@@ -6185,7 +5965,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_106" name="g19" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_106">
 </rdf:Description>
 </rdf:RDF>
@@ -6193,7 +5975,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_107" name="g2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_107">
 </rdf:Description>
 </rdf:RDF>
@@ -6201,7 +5985,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_108" name="g20" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_108">
 </rdf:Description>
 </rdf:RDF>
@@ -6209,7 +5995,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_109" name="g10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_109">
 </rdf:Description>
 </rdf:RDF>
@@ -6217,7 +6005,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_110" name="g1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_110">
 </rdf:Description>
 </rdf:RDF>
@@ -6225,7 +6015,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_111" name="g101" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_111">
 </rdf:Description>
 </rdf:RDF>
@@ -6233,7 +6025,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_112" name="g11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_112">
 </rdf:Description>
 </rdf:RDF>
@@ -6241,7 +6035,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_113" name="g12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_113">
 </rdf:Description>
 </rdf:RDF>
@@ -6249,7 +6045,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_114" name="g13" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_114">
 </rdf:Description>
 </rdf:RDF>
@@ -6257,7 +6055,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_115" name="g3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_115">
 </rdf:Description>
 </rdf:RDF>
@@ -6265,7 +6065,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_116" name="g4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_116">
 </rdf:Description>
 </rdf:RDF>
@@ -6275,7 +6077,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_118" name="p10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_118">
 </rdf:Description>
 </rdf:RDF>
@@ -6283,7 +6087,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_119" name="p11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_119">
 </rdf:Description>
 </rdf:RDF>
@@ -6291,7 +6097,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_120" name="p12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_120">
 </rdf:Description>
 </rdf:RDF>
@@ -6299,7 +6107,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_121" name="p2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_121">
 </rdf:Description>
 </rdf:RDF>
@@ -6307,7 +6117,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_122" name="p3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_122">
 </rdf:Description>
 </rdf:RDF>
@@ -6315,7 +6127,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_123" name="p4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_123">
 </rdf:Description>
 </rdf:RDF>
@@ -6323,7 +6137,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_124" name="p5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_124">
 </rdf:Description>
 </rdf:RDF>
@@ -6331,7 +6147,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_125" name="g5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_125">
 </rdf:Description>
 </rdf:RDF>
@@ -6339,7 +6157,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_126" name="g6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_126">
 </rdf:Description>
 </rdf:RDF>
@@ -6347,7 +6167,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_127" name="g7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_127">
 </rdf:Description>
 </rdf:RDF>
@@ -6355,7 +6177,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_128" name="g8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_128">
 </rdf:Description>
 </rdf:RDF>
@@ -6363,7 +6187,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_129" name="g9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_129">
 </rdf:Description>
 </rdf:RDF>
@@ -6371,7 +6197,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_130" name="h" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_130">
 </rdf:Description>
 </rdf:RDF>
@@ -6379,7 +6207,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_131" name="h1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_131">
 </rdf:Description>
 </rdf:RDF>
@@ -6387,7 +6217,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_132" name="h2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_132">
 </rdf:Description>
 </rdf:RDF>
@@ -6398,7 +6230,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_133" name="has_DNA_DSB_repair" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_133">
 </rdf:Description>
 </rdf:RDF>
@@ -6406,7 +6240,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_134" name="i1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_134">
 </rdf:Description>
 </rdf:RDF>
@@ -6416,7 +6252,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_136" name="M1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_136">
 </rdf:Description>
 </rdf:RDF>
@@ -6424,7 +6262,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_137" name="M2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_137">
 </rdf:Description>
 </rdf:RDF>
@@ -6432,7 +6272,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_138" name="M3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_138">
 </rdf:Description>
 </rdf:RDF>
@@ -6440,7 +6282,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_139" name="p1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_139">
 </rdf:Description>
 </rdf:RDF>
@@ -6448,7 +6292,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_140" name="p6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_140">
 </rdf:Description>
 </rdf:RDF>
@@ -6456,7 +6302,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_141" name="p7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_141">
 </rdf:Description>
 </rdf:RDF>
@@ -6464,7 +6312,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_142" name="q1_pten" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_142">
 </rdf:Description>
 </rdf:RDF>
@@ -6472,7 +6322,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_143" name="s1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_143">
 </rdf:Description>
 </rdf:RDF>
@@ -6480,7 +6332,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_144" name="s10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_144">
 </rdf:Description>
 </rdf:RDF>
@@ -6488,21 +6342,49 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_145" name="s2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_145">
 </rdf:Description>
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_146" name="s3" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelValue_146">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_147" name="s4" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelValue_147">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_148" name="s5" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelValue_148">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_149" name="s6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_149">
 </rdf:Description>
 </rdf:RDF>
@@ -6510,7 +6392,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_150" name="p8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_150">
 </rdf:Description>
 </rdf:RDF>
@@ -6518,7 +6402,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_151" name="p9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_151">
 </rdf:Description>
 </rdf:RDF>
@@ -6526,7 +6412,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_152" name="q0_bax" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_152">
 </rdf:Description>
 </rdf:RDF>
@@ -6534,7 +6422,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_153" name="q0_mdm2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_153">
 </rdf:Description>
 </rdf:RDF>
@@ -6542,7 +6432,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_154" name="q0_p21" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_154">
 </rdf:Description>
 </rdf:RDF>
@@ -6550,7 +6442,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_155" name="q0_pten" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_155">
 </rdf:Description>
 </rdf:RDF>
@@ -6558,7 +6452,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_156" name="q0_wip1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_156">
 </rdf:Description>
 </rdf:RDF>
@@ -6566,7 +6462,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_157" name="q1_bax" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_157">
 </rdf:Description>
 </rdf:RDF>
@@ -6574,7 +6472,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_158" name="q1_mdm2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_158">
 </rdf:Description>
 </rdf:RDF>
@@ -6582,7 +6482,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_159" name="q1_p21" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_159">
 </rdf:Description>
 </rdf:RDF>
@@ -6590,7 +6492,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_160" name="q1_wip1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_160">
 </rdf:Description>
 </rdf:RDF>
@@ -6598,7 +6502,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_161" name="q2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_161">
 </rdf:Description>
 </rdf:RDF>
@@ -6606,7 +6512,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_162" name="rep" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_162">
 </rdf:Description>
 </rdf:RDF>
@@ -6617,7 +6525,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_163" name="s7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_163">
 </rdf:Description>
 </rdf:RDF>
@@ -6625,7 +6535,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_164" name="s8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_164">
 </rdf:Description>
 </rdf:RDF>
@@ -6633,7 +6545,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_165" name="t5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_165">
 </rdf:Description>
 </rdf:RDF>
@@ -6641,7 +6555,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_166" name="time_days" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_166">
 </rdf:Description>
 </rdf:RDF>
@@ -6652,7 +6568,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_167" name="tp2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_167">
 </rdf:Description>
 </rdf:RDF>
@@ -6660,7 +6578,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_168" name="u1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_168">
 </rdf:Description>
 </rdf:RDF>
@@ -6668,7 +6588,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_169" name="u2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_169">
 </rdf:Description>
 </rdf:RDF>
@@ -6676,7 +6598,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_170" name="u3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_170">
 </rdf:Description>
 </rdf:RDF>
@@ -6684,7 +6608,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_171" name="u5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_171">
 </rdf:Description>
 </rdf:RDF>
@@ -6692,7 +6618,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_172" name="u6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_172">
 </rdf:Description>
 </rdf:RDF>
@@ -6700,7 +6628,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_173" name="s9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_173">
 </rdf:Description>
 </rdf:RDF>
@@ -6708,7 +6638,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_174" name="t1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_174">
 </rdf:Description>
 </rdf:RDF>
@@ -6716,7 +6648,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_175" name="t2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_175">
 </rdf:Description>
 </rdf:RDF>
@@ -6724,7 +6658,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_176" name="t3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_176">
 </rdf:Description>
 </rdf:RDF>
@@ -6732,7 +6668,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
       <ModelValue key="ModelValue_177" name="t4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_177">
 </rdf:Description>
 </rdf:RDF>
@@ -7192,7 +7130,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_8" name="re9" reversible="true" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_8">
 </rdf:Description>
 </rdf:RDF>
@@ -7562,7 +7502,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ListOfProducts>
         <ListOfConstants>
           <Constant key="Parameter_7435" name="k1" value="1e-06"/>
-          <Constant key="Parameter_7434" name="k2" value="0.001"/>
+          <Constant key="Parameter_7433" name="k2" value="0.001"/>
         </ListOfConstants>
         <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell]">
           <ListOfCallParameters>
@@ -7619,7 +7559,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7433" name="k1" value="1"/>
+          <Constant key="Parameter_7434" name="k1" value="1"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell]">
           <ListOfCallParameters>
@@ -9109,7 +9049,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_42" name="Activation of caspases by active (free) Bax R81" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_42">
 </rdf:Description>
 </rdf:RDF>
@@ -9142,7 +9084,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_43" name="Activation_autoactivation of caspases R82" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_43">
 </rdf:Description>
 </rdf:RDF>
@@ -9172,7 +9116,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_44" name="Binding of Bad_p and 14-3-3 R78" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_44">
 </rdf:Description>
 </rdf:RDF>
@@ -9202,7 +9148,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_45" name="Binding of Bax and BclXL R66" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_45">
 </rdf:Description>
 </rdf:RDF>
@@ -9231,7 +9179,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_46" name="Binding of BclXL and Bad_0 R71" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_46">
 </rdf:Description>
 </rdf:RDF>
@@ -9257,7 +9207,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_47" name="Binding of Cyclin_E and p21 R50" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_47">
 </rdf:Description>
 </rdf:RDF>
@@ -9286,7 +9238,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_48" name="Binding of Rb1 and E2F1 R54" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_48">
 </rdf:Description>
 </rdf:RDF>
@@ -9319,7 +9273,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_49" name="Degradation induced by Mdm2_nuc_S166S186p and SIAH1 R8" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_49">
 </rdf:Description>
 </rdf:RDF>
@@ -9353,7 +9309,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_50" name="Degradation of Bax in Bax:BclXL complex R69" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_50">
 </rdf:Description>
 </rdf:RDF>
@@ -9380,7 +9338,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_51" name="Degradation R67" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_51">
 </rdf:Description>
 </rdf:RDF>
@@ -9403,6 +9363,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_52" name="Dephoshorylation by Wip1 R3" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Reaction_52">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_88" stoichiometry="1"/>
         </ListOfSubstrates>
@@ -9428,7 +9396,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_53" name="Dephosphorylation R72" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_53">
 </rdf:Description>
 </rdf:RDF>
@@ -9455,7 +9425,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_54" name="Phopshorylation at PIP3 R45" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_54">
 </rdf:Description>
 </rdf:RDF>
@@ -9486,7 +9458,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_55" name="Phoshorylation due to IR R4" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_55">
 </rdf:Description>
 </rdf:RDF>
@@ -9525,7 +9499,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_56" name="Phosphorylation at Ser46 by HIPK2 R14" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_56">
 </rdf:Description>
 </rdf:RDF>
@@ -9558,7 +9534,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_57" name="Phosphorylation at Ser46 by HIPK2 R16" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_57">
 </rdf:Description>
 </rdf:RDF>
@@ -9591,7 +9569,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_58" name="Phosphorylation by ATM_p at Ser395 R31" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_58">
 </rdf:Description>
 </rdf:RDF>
@@ -9624,7 +9604,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_59" name="Degradation of Bax mRNA R63" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_59">
 </rdf:Description>
 </rdf:RDF>
@@ -9648,7 +9630,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_60" name="Degradation of caspases R83" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_60">
 </rdf:Description>
 </rdf:RDF>
@@ -9672,7 +9656,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_61" name="Degradation of p21 mRNA R48" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_61">
 </rdf:Description>
 </rdf:RDF>
@@ -9696,7 +9682,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_62" name="Degradation of p21 R52" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_62">
 </rdf:Description>
 </rdf:RDF>
@@ -9720,7 +9708,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_63" name="Degradation of proCaspase R80" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_63">
 </rdf:Description>
 </rdf:RDF>
@@ -9744,7 +9734,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_64" name="Degradation of PTEN R42" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_64">
 </rdf:Description>
 </rdf:RDF>
@@ -9768,7 +9760,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_65" name="Degradation R36" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_65">
 </rdf:Description>
 </rdf:RDF>
@@ -9792,7 +9786,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_66" name="Degradation R40" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_66">
 </rdf:Description>
 </rdf:RDF>
@@ -9816,7 +9812,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_67" name="Degradation R60" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_67">
 </rdf:Description>
 </rdf:RDF>
@@ -9840,7 +9838,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_68" name="Degradation R61" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_68">
 </rdf:Description>
 </rdf:RDF>
@@ -9864,7 +9864,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_69" name="Degradation Ser395p-dependent R34" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_69">
 </rdf:Description>
 </rdf:RDF>
@@ -9888,7 +9890,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_70" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R15" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_70">
 </rdf:Description>
 </rdf:RDF>
@@ -9926,7 +9930,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_71" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R19" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_71">
 </rdf:Description>
 </rdf:RDF>
@@ -9964,7 +9970,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_72" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R20" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_72">
 </rdf:Description>
 </rdf:RDF>
@@ -10002,7 +10010,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_73" name="Degradation spontaneous R23" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_73">
 </rdf:Description>
 </rdf:RDF>
@@ -10026,7 +10036,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_74" name="Degradation spontaneous R27" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_74">
 </rdf:Description>
 </rdf:RDF>
@@ -10050,7 +10062,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_75" name="Degradation spontaneous R29" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_75">
 </rdf:Description>
 </rdf:RDF>
@@ -10074,7 +10088,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_76" name="Degradation spontaneous R30" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_76">
 </rdf:Description>
 </rdf:RDF>
@@ -10098,7 +10114,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_77" name="Degradation spontaneous R33" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_77">
 </rdf:Description>
 </rdf:RDF>
@@ -10122,7 +10140,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_78" name="Degradation spontanuous and induced by Mdm2_nuc_S166S186p  R12" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_78">
 </rdf:Description>
 </rdf:RDF>
@@ -10160,7 +10180,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_79" name="Dephosphorylation and dissociation of Bad_p in Bad:14_3_3 complex R75" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_79">
 </rdf:Description>
 </rdf:RDF>
@@ -10187,7 +10209,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_80" name="Dephosphorylation at Ser166 and 186 R26" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_80">
 </rdf:Description>
 </rdf:RDF>
@@ -10214,7 +10238,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_81" name="Dephosphorylation at Ser46 by Wip1 R17" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_81">
 </rdf:Description>
 </rdf:RDF>
@@ -10247,7 +10273,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_82" name="Dephosphorylation of AKT R46" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_82">
 </rdf:Description>
 </rdf:RDF>
@@ -10271,7 +10299,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_83" name="Dephosphorylation of PIP3 by PTENR44" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_83">
 </rdf:Description>
 </rdf:RDF>
@@ -10301,7 +10331,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_84" name="Dephosphorylation of Rb1 at S567 R53" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_84">
 </rdf:Description>
 </rdf:RDF>
@@ -10332,7 +10364,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_85" name="Dephosphorylation of Ser15 and Ser20 R21" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_85">
 </rdf:Description>
 </rdf:RDF>
@@ -10359,7 +10393,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_86" name="Dephosphorylation of Ser395 of Mdm2_nuc_S166S186p_S395p by Wip1 R32" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_86">
 </rdf:Description>
 </rdf:RDF>
@@ -10392,7 +10428,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_87" name="Dephosphorylation of Ser46 by Wip1 R13" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_87">
 </rdf:Description>
 </rdf:RDF>
@@ -10425,7 +10463,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_88" name="Dephosphorylation of SIAH1_p R6" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_88">
 </rdf:Description>
 </rdf:RDF>
@@ -10452,7 +10492,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_89" name="Dephosphorylation spontaneous of p53_arrester R11" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_89">
 </rdf:Description>
 </rdf:RDF>
@@ -10479,7 +10521,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_90" name="Dissociation of Bad:14-3-3 complex R76" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_90">
 </rdf:Description>
 </rdf:RDF>
@@ -10506,7 +10550,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_91" name="Dissociation of Bax:BclXL complex R65" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_91">
 </rdf:Description>
 </rdf:RDF>
@@ -10534,7 +10580,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_92" name="Dissociation of BclXL:Bad complex R68" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_92">
 </rdf:Description>
 </rdf:RDF>
@@ -10561,7 +10609,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_93" name="Dissociation of BclXL:Bad complex R73" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_93">
 </rdf:Description>
 </rdf:RDF>
@@ -10588,7 +10638,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_94" name="Dissociation of complex Cyclin_E:p21 R51" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_94">
 </rdf:Description>
 </rdf:RDF>
@@ -10616,7 +10668,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_95" name="Dissociation of Rb1:E2F1 complex R56" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_95">
 </rdf:Description>
 </rdf:RDF>
@@ -10643,7 +10697,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_96" name="DNA damage R1" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_96">
 </rdf:Description>
 </rdf:RDF>
@@ -10690,7 +10746,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_97" name="DNA Repair R2" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_97">
 </rdf:Description>
 </rdf:RDF>
@@ -10718,7 +10776,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_98" name="Nuclear import of Mdm2_cyto_S166S186p R28" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_98">
 </rdf:Description>
 </rdf:RDF>
@@ -10745,7 +10805,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_99" name="Phopshorylation of PIP2 by PI3K R43" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_99">
 </rdf:Description>
 </rdf:RDF>
@@ -10776,7 +10838,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_100" name="Phosphorylation by ATM_p on Ser15 and Ser20 R10" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_100">
 </rdf:Description>
 </rdf:RDF>
@@ -10809,7 +10873,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_101" name="Phosphorylation by ATM_p on Ser15 and Ser20 R18" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_101">
 </rdf:Description>
 </rdf:RDF>
@@ -10842,7 +10908,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_102" name="Synthesis of proCaspase R79" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_102">
 </rdf:Description>
 </rdf:RDF>
@@ -10862,14 +10930,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_103" name="Translation of mdm2 R24" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Reaction_103">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <ListOfProducts>
           <Product metabolite="Metabolite_85" stoichiometry="1"/>
         </ListOfProducts>
@@ -10892,7 +10952,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_104" name="Translation of p21 mRNA R49" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_104">
 </rdf:Description>
 </rdf:RDF>
@@ -10919,7 +10981,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_105" name="Translation of PTEN_mRNA R41" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_105">
 </rdf:Description>
 </rdf:RDF>
@@ -10946,7 +11010,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_106" name="Translation of Wip mRNA R37" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_106">
 </rdf:Description>
 </rdf:RDF>
@@ -10972,14 +11038,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_107" name="Translation of Wip mRNA R38" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Reaction_107">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_89" stoichiometry="1"/>
         </ListOfSubstrates>
@@ -10999,7 +11057,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_108" name="Phosphorylation by ATM_p R5" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_108">
 </rdf:Description>
 </rdf:RDF>
@@ -11029,7 +11089,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_109" name="Phosphorylation of Bad in BclXL:Bad complex and complex Dissociation R77" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_109">
 </rdf:Description>
 </rdf:RDF>
@@ -11060,7 +11122,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_110" name="Phosphorylation of Bad in BclXL:Bad complex R70" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_110">
 </rdf:Description>
 </rdf:RDF>
@@ -11091,7 +11155,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_111" name="Phosphorylation of Bad_0 by AKT_p R74" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_111">
 </rdf:Description>
 </rdf:RDF>
@@ -11124,7 +11190,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_112" name="Phosphorylation of Mdm2_cyt_0 by AKT_p R25" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_112">
 </rdf:Description>
 </rdf:RDF>
@@ -11157,7 +11225,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_113" name="Phosphorylation of Rb1 by Cyclin_E  R55" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_113">
 </rdf:Description>
 </rdf:RDF>
@@ -11187,7 +11257,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_114" name="Phosphorylation of Rb1 in Rb1:E2F1 complex by Cyclin_ER57" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_114">
 </rdf:Description>
 </rdf:RDF>
@@ -11217,7 +11289,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_115" name="Synthesis induced by E2F1 R59" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_115">
 </rdf:Description>
 </rdf:RDF>
@@ -11248,7 +11322,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_116" name="Synthesis of HIPK2 R7" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_116">
 </rdf:Description>
 </rdf:RDF>
@@ -11269,7 +11345,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_117" name="Synthesis of p53_0p R9" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_117">
 </rdf:Description>
 </rdf:RDF>
@@ -11290,7 +11368,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_118" name="Synthesis R58" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_118">
 </rdf:Description>
 </rdf:RDF>
@@ -11310,14 +11390,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_119" name="Transcription Mdm2 gene transcription R22" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Reaction_119">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <ListOfProducts>
           <Product metabolite="Metabolite_84" stoichiometry="1"/>
         </ListOfProducts>
@@ -11326,10 +11398,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_7345" name="s3" value="0.1"/>
-          <Constant key="Parameter_7343" name="q0_mdm2" value="0.0001"/>
-          <Constant key="Parameter_7341" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_7340" name="h" value="2"/>
-          <Constant key="Parameter_7342" name="q2" value="0.003"/>
+          <Constant key="Parameter_7340" name="q0_mdm2" value="0.0001"/>
+          <Constant key="Parameter_7342" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_7343" name="h" value="2"/>
+          <Constant key="Parameter_7341" name="q2" value="0.003"/>
         </ListOfConstants>
         <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell]">
           <ListOfCallParameters>
@@ -11355,6 +11427,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_120" name="Transcription of Bax gene R62" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Reaction_120">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
         <ListOfProducts>
           <Product metabolite="Metabolite_75" stoichiometry="1"/>
         </ListOfProducts>
@@ -11393,7 +11473,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_121" name="Transcription of p21 gene R47" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_121">
 </rdf:Description>
 </rdf:RDF>
@@ -11436,7 +11518,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_122" name="Transcription of PTEN gene R39" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_122">
 </rdf:Description>
 </rdf:RDF>
@@ -11479,7 +11563,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Reaction>
       <Reaction key="Reaction_123" name="Transcription of Wip1 gene R35" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Reaction_123">
 </rdf:Description>
 </rdf:RDF>
@@ -11521,27 +11607,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_124" name="Translation of Bax mRNA R64" reversible="false" fast="false" addNoise="false">
-        <ListOfProducts>
-          <Product metabolite="Metabolite_44" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_75" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_8506" name="k" value="0.1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_383">
-              <SourceParameter reference="Parameter_8506"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_382">
-              <SourceParameter reference="Metabolite_75"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_125" name="Translation_of_Bax_OLD" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#Reaction_124">
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
         <ListOfProducts>
           <Product metabolite="Metabolite_58" stoichiometry="1"/>
         </ListOfProducts>
@@ -11549,7 +11622,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Modifier metabolite="Metabolite_75" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7498" name="k" value="1"/>
+          <Constant key="Parameter_8506" name="k" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell]">
           <ListOfCallParameters>
@@ -11563,32 +11636,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </KineticLaw>
       </Reaction>
     </ListOfReactions>
-    <ListOfEvents>
-      <Event key="Event_0" name="S4_value_0" fireAtInitialTime="0" persistentTrigger="0">
-        <TriggerExpression>
-          &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_killer],Reference=Concentration> > 1000
-        </TriggerExpression>
-        <ListOfAssignments>
-          <Assignment target="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4]" targetKey="ModelValue_147">
-            <Expression>
-              0
-            </Expression>
-          </Assignment>
-        </ListOfAssignments>
-      </Event>
-      <Event key="Event_1" name="s4_value_0_03" fireAtInitialTime="0" persistentTrigger="0">
-        <TriggerExpression>
-          &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_killer],Reference=Concentration> &lt; 1000
-        </TriggerExpression>
-        <ListOfAssignments>
-          <Assignment target="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4]" targetKey="ModelValue_147">
-            <Expression>
-              0.03
-            </Expression>
-          </Assignment>
-        </ListOfAssignments>
-      </Event>
-    </ListOfEvents>
     <ListOfModelParameterSets activeSet="ModelParameterSet_1">
       <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
         <MiriamAnnotation>
@@ -11607,7 +11654,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[L]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[L]" value="1.8066422279999886e+27" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[R]" value="1.204428152e+26" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[flip]" value="6.0221407599999999e+25" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proC8]" value="1.2044281519999876e+28" type="Species" simulationType="reactions"/>
@@ -11667,60 +11714,60 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax2]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_(free)]" value="8.5820323542608e+22" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Caspase]" value="8.5820925756684003e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proCaspase]" value="6.0221407599999795e+28" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proCaspase]" value="6.0221407599999936e+28" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_phosphorylated_(free)]" value="6.1368625414779999e+22" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_free]" value="9.2876152571936094e+28" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_free]" value="9.2876152571936516e+28" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax:BclXL_complex]" value="1.9998505700030801e+26" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_(free)]" value="5.1455338624113606e+28" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_0_(free)]" value="3.6644425417561827e+22" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E (free)]" value="1.0242577447423141e+29" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E:p21_complex]" value="6.6666904855427648e+26" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_0_(free)]" value="3.6644425417561895e+22" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E (free)]" value="1.0242577447423169e+29" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E:p21_complex]" value="6.6666904855427758e+26" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p21_(free)]" value="7.8393819557375987e+22" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1]" value="1.1356372380985145e+29" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0:E2F1 complex]" value="6.8790913901479873e+27" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1]" value="1.1356372380985171e+29" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0:E2F1 complex]" value="6.8790913901479917e+27" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0_(free)]" value="1.8616785724056399e+27" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[HIPK2]" value="1.1388530612643599e+28" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_nuc_S166S186phosphorylated]" value="1.5628238150498792e+28" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_0]" value="6.0221407599999831e+28" type="Species" simulationType="reactions">
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_0]" value="6.0221407599999971e+28" type="Species" simulationType="reactions">
             <InitialExpression>
               &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_tot],Reference=InitialConcentration>
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_mRNA]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_mRNA]" value="2.0007117361317601e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p21_mRNA]" value="6.6690391204392005e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PTEN]" value="6.6690391204392007e+26" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Wip1 mRNA]" value="6.6690391204392005e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PTEN mRNA]" value="2.0007117361317601e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_nuc_S166S186p_S395p]" value="3.1734995605787201e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_arrester]" value="1.1835313235627981e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_S46phosphorylated]" value="6.5442001424843628e+26" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_S46phosphorylated]" value="6.5442001424843848e+26" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_killer]" value="4.1843038428631998e+19" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2 mRNA]" value="6.4754272950052004e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_cyt_0phosphorylated]" value="1.6463027302650001e+27" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_cyt_S166S186phosphorylated]" value="4.6884654230088611e+26" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_0phosphorylated]" value="2.6778653317491879e+28" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_cyt_S166S186phosphorylated]" value="4.6884654230088721e+26" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_0phosphorylated]" value="2.6778653317491949e+28" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_phosphorylated]" value="1.59018842266332e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Wip1]" value="2.2230130401464e+26" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex]" value="2.7566662628063382e+28" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[AKT_phosphorylated]" value="1.9379851179755889e+28" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP3]" value="2.8575901005906297e+28" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex]" value="2.7566662628063241e+28" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[AKT_phosphorylated]" value="1.9379851179755924e+28" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP3]" value="2.8575901005906368e+28" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb_phosphorylated]" value="1.7192345283744633e+29" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_phosphorylated]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_Bad_complex]" value="8.5660839188857812e+27" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[DNA_double_strand_break]" value="1.7164185151336731e+19" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_0]" value="4.0841556420243684e+28" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PI3K_tot]" value="6.022140759999976e+28" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP2]" value="3.164550659409348e+28" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_0]" value="6.0221407440980762e+28" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_tot]" value="6.0221407599999576e+28" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[ATM_tot]" value="6.0221407599999602e+28" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_Bad_complex]" value="8.566083918885922e+27" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[DNA_double_strand_break]" value="1.7164185151336763e+19" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_0]" value="4.084155642024379e+28" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PI3K_tot]" value="6.0221407599999901e+28" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP2]" value="3.1645506594093551e+28" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_0]" value="6.0221407440980903e+28" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_tot]" value="6.0221407599999716e+28" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[ATM_tot]" value="6.0221407599999743e+28" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_tot]" value="3.613284456e+28" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_tot]" value="6.022140759999969e+28" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1_tot]" value="1.2044281519999943e+29" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_tot]" value="1.2044281519999949e+29" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP_tot]" value="6.0221407599999778e+28" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_tot]" value="6.0221407599999831e+28" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1_tot]" value="1.2044281519999971e+29" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_tot]" value="1.2044281519999977e+29" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP_tot]" value="6.0221407599999919e+28" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb_tot]" value="1.8066422280000001e+29" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_tot]" value="6.0221407599999831e+28" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_tot]" value="6.0221407599999971e+28" type="Species" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[k1]" value="3.9999999999999998e-07" type="ModelValue" simulationType="fixed"/>
@@ -11817,7 +11864,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[d7]" value="2.9999999999999999e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[d8]" value="0.0001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[d9]" value="3.0000000000000001e-05" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[DNA_DSB_due_to_IR]" value="0.033333333333333333" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[DNA_DSB_due_to_IR]" value="0.16666666666666666" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[DNA_DSB_max]" value="1000000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[d12]" value="10000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[d2]" value="3.0000000000000001e-05" type="ModelValue" simulationType="fixed"/>
@@ -11840,7 +11887,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[g13]" value="1e-13" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[g3]" value="0.00029999999999999997" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[g4]" value="0.00029999999999999997" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[IR_Gy]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[IR_Gy]" value="10" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[p10]" value="3.0000000000000001e-06" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[p11]" value="1e-10" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[p12]" value="1.0000000000000001e-09" type="ModelValue" simulationType="fixed"/>
@@ -11858,7 +11905,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[h2]" value="1e-13" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[has_DNA_DSB_repair]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[i1]" value="0.001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[is_IR_switched_on]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[is_IR_switched_on]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[M1]" value="5" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[M2]" value="100000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[M3]" value="200000" type="ModelValue" simulationType="fixed"/>
@@ -11870,7 +11917,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s10]" value="3" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s2]" value="0.029999999999999999" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s3]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4]" value="0.029999999999999999" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s5]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s6]" value="300" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[p8]" value="3e-09" type="ModelValue" simulationType="fixed"/>
@@ -12816,12 +12863,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[h1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0.033333333333333333" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0.16666666666666666" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[DNA_DSB_due_to_IR],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=is_IR_switched_on" value="0" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=is_IR_switched_on" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[is_IR_switched_on],Reference=InitialValue>
               </InitialExpression>
@@ -13029,7 +13076,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Transcription of Bax gene R62]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Transcription of Bax gene R62],ParameterGroup=Parameters,Parameter=s3" value="0" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Transcription of Bax gene R62],ParameterGroup=Parameters,Parameter=s3" value="0.029999999999999999" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4],Reference=InitialValue>
               </InitialExpression>
@@ -13137,10 +13184,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Translation of Bax mRNA R64]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Translation of Bax mRNA R64],ParameterGroup=Parameters,Parameter=k" value="0.10000000000000001" type="ReactionParameter" simulationType="fixed"/>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Translation_of_Bax_OLD]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Translation_of_Bax_OLD],ParameterGroup=Parameters,Parameter=k" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Reactions[Translation of Bax mRNA R64],ParameterGroup=Parameters,Parameter=k" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[t4],Reference=InitialValue>
               </InitialExpression>
@@ -13155,12 +13199,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="Metabolite_8"/>
       <StateTemplateVariable objectReference="Metabolite_64"/>
       <StateTemplateVariable objectReference="Metabolite_87"/>
-      <StateTemplateVariable objectReference="Metabolite_44"/>
       <StateTemplateVariable objectReference="Metabolite_56"/>
       <StateTemplateVariable objectReference="Metabolite_57"/>
       <StateTemplateVariable objectReference="Metabolite_61"/>
       <StateTemplateVariable objectReference="Metabolite_66"/>
       <StateTemplateVariable objectReference="Metabolite_83"/>
+      <StateTemplateVariable objectReference="Metabolite_44"/>
       <StateTemplateVariable objectReference="Metabolite_65"/>
       <StateTemplateVariable objectReference="Metabolite_60"/>
       <StateTemplateVariable objectReference="Metabolite_71"/>
@@ -13204,43 +13248,43 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="Metabolite_33"/>
       <StateTemplateVariable objectReference="Metabolite_3"/>
       <StateTemplateVariable objectReference="Metabolite_54"/>
-      <StateTemplateVariable objectReference="Metabolite_16"/>
       <StateTemplateVariable objectReference="Metabolite_63"/>
+      <StateTemplateVariable objectReference="Metabolite_16"/>
       <StateTemplateVariable objectReference="Metabolite_30"/>
-      <StateTemplateVariable objectReference="Metabolite_49"/>
       <StateTemplateVariable objectReference="Metabolite_31"/>
+      <StateTemplateVariable objectReference="Metabolite_49"/>
       <StateTemplateVariable objectReference="Metabolite_37"/>
       <StateTemplateVariable objectReference="Metabolite_39"/>
-      <StateTemplateVariable objectReference="Metabolite_26"/>
+      <StateTemplateVariable objectReference="Metabolite_6"/>
       <StateTemplateVariable objectReference="Metabolite_13"/>
-      <StateTemplateVariable objectReference="Metabolite_46"/>
       <StateTemplateVariable objectReference="Metabolite_40"/>
       <StateTemplateVariable objectReference="Metabolite_23"/>
       <StateTemplateVariable objectReference="Metabolite_14"/>
       <StateTemplateVariable objectReference="Metabolite_52"/>
       <StateTemplateVariable objectReference="Metabolite_27"/>
-      <StateTemplateVariable objectReference="Metabolite_9"/>
-      <StateTemplateVariable objectReference="Metabolite_18"/>
-      <StateTemplateVariable objectReference="Metabolite_38"/>
-      <StateTemplateVariable objectReference="Metabolite_35"/>
-      <StateTemplateVariable objectReference="Metabolite_0"/>
-      <StateTemplateVariable objectReference="Metabolite_53"/>
-      <StateTemplateVariable objectReference="Metabolite_11"/>
-      <StateTemplateVariable objectReference="Metabolite_45"/>
-      <StateTemplateVariable objectReference="Metabolite_55"/>
-      <StateTemplateVariable objectReference="Metabolite_15"/>
-      <StateTemplateVariable objectReference="Metabolite_24"/>
-      <StateTemplateVariable objectReference="Metabolite_42"/>
       <StateTemplateVariable objectReference="Metabolite_36"/>
+      <StateTemplateVariable objectReference="Metabolite_45"/>
+      <StateTemplateVariable objectReference="Metabolite_18"/>
       <StateTemplateVariable objectReference="Metabolite_25"/>
-      <StateTemplateVariable objectReference="Metabolite_41"/>
-      <StateTemplateVariable objectReference="Metabolite_28"/>
-      <StateTemplateVariable objectReference="Metabolite_32"/>
+      <StateTemplateVariable objectReference="Metabolite_38"/>
+      <StateTemplateVariable objectReference="Metabolite_53"/>
+      <StateTemplateVariable objectReference="Metabolite_0"/>
+      <StateTemplateVariable objectReference="Metabolite_9"/>
       <StateTemplateVariable objectReference="Metabolite_48"/>
-      <StateTemplateVariable objectReference="Metabolite_34"/>
-      <StateTemplateVariable objectReference="Metabolite_1"/>
-      <StateTemplateVariable objectReference="Metabolite_6"/>
+      <StateTemplateVariable objectReference="Metabolite_35"/>
+      <StateTemplateVariable objectReference="Metabolite_24"/>
+      <StateTemplateVariable objectReference="Metabolite_15"/>
+      <StateTemplateVariable objectReference="Metabolite_11"/>
+      <StateTemplateVariable objectReference="Metabolite_41"/>
+      <StateTemplateVariable objectReference="Metabolite_55"/>
+      <StateTemplateVariable objectReference="Metabolite_32"/>
+      <StateTemplateVariable objectReference="Metabolite_28"/>
+      <StateTemplateVariable objectReference="Metabolite_42"/>
       <StateTemplateVariable objectReference="Metabolite_2"/>
+      <StateTemplateVariable objectReference="Metabolite_34"/>
+      <StateTemplateVariable objectReference="Metabolite_46"/>
+      <StateTemplateVariable objectReference="Metabolite_26"/>
+      <StateTemplateVariable objectReference="Metabolite_1"/>
       <StateTemplateVariable objectReference="Metabolite_17"/>
       <StateTemplateVariable objectReference="Metabolite_62"/>
       <StateTemplateVariable objectReference="Metabolite_69"/>
@@ -13249,8 +13293,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="Metabolite_95"/>
       <StateTemplateVariable objectReference="Metabolite_99"/>
       <StateTemplateVariable objectReference="Metabolite_100"/>
-      <StateTemplateVariable objectReference="Metabolite_90"/>
       <StateTemplateVariable objectReference="Metabolite_97"/>
+      <StateTemplateVariable objectReference="Metabolite_90"/>
       <StateTemplateVariable objectReference="ModelValue_71"/>
       <StateTemplateVariable objectReference="ModelValue_72"/>
       <StateTemplateVariable objectReference="ModelValue_73"/>
@@ -13443,7 +13487,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_177"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 5.1455338624113606e+28 2.6778653317491879e+28 0 0 0 6.1368625414779999e+22 1.0242577447423141e+29 4.1843038428631998e+19 3.6644425417561827e+22 6.0221407599999795e+28 1.8616785724056399e+27 1.5628238150498792e+28 1.6463027302650001e+27 0 0 0 6.0221407599999083e+28 1.1835313235627981e+21 8.5820323542608e+22 7.8393819557375987e+22 0 3.1734995605787201e+20 6.5442001424843628e+26 0 4.6884654230088611e+26 1.2044281519999876e+28 1.1388530612643599e+28 6.0221407599999831e+28 0 6.6690391204392005e+23 6.6690391204392007e+26 6.6690391204392005e+23 2.0007117361317601e+23 6.4754272950052004e+24 1.59018842266332e+20 2.2230130401464e+26 1.9379851179755889e+28 2.8575901005906297e+28 1.7164185151336731e+19 8.5820925756684003e+21 6.8790913901479873e+27 0 0 6.6666904855427648e+26 0 6.022140759999938e+27 0 0 0 1.2044281519999876e+28 0 0 1.9998505700030801e+26 0 0 0 0 0 0 0 0 0 0 6.0221407600000001e+29 6.0221407599999083e+28 0 2.4088563039999752e+28 6.0221407599999083e+28 0 0 0 0 6.022140759999938e+27 6.0221407599999083e+28 6.0221407599999083e+28 0 0 3.0110703800000001e+29 0 0 0 0 0 3.0110703800000001e+29 0 1.204428152e+26 6.0221407599999927e+26 6.0221407599999999e+25 1.2044281519999876e+28 9.2876152571936094e+28 1.1356372380985145e+29 1.7192345283744633e+29 0 8.5660839188857812e+27 3.164550659409348e+28 6.0221407440980762e+28 2.7566662628063382e+28 4.0841556420243684e+28 1 0 0 0 9999.9999999998981 0 0.033333333333333333 1e-13 0.001 0 6.022140759999969e+28 1.2044281519999943e+29 1.2044281519999949e+29 6.0221407599999778e+28 1.8066422280000001e+29 6.0221407599999831e+28 6.0221407599999576e+28 6.0221407599999602e+28 3.613284456e+28 6.022140759999976e+28 1 1 3.9999999999999998e-07 0.001 1.0000000000000001e-05 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 1 9.9999999999999995e-07 0.001 9.9999999999999995e-08 0.001 1 9.9999999999999995e-07 0.001 1 2.9999999999999997e-08 0.001 1.9999999999999999e-06 0.001 0.10000000000000001 9.9999999999999995e-07 0.01 1 9.9999999999999995e-08 0.001 1 9.9999999999999995e-07 0.001 9.9999999999999995e-08 0.001 1 0.01 0.01 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 1 1.9999999999999999e-06 0.001 10 1.9999999999999999e-06 0.001 10 0.01 0.01 4.9999999999999998e-07 0.001 1 4.9999999999999998e-08 0.001 5.0000000000000001e-09 0.001 1 0.01 0.01 1.9999999999999999e-06 0.001 6.9999999999999999e-06 0.001 1 0.070000000000000007 3e-10 9.9999999999999998e-13 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 1e-08 1 0.0001 1e-10 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 1000000 10000 3.0000000000000001e-05 0.0001 10 20 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 1.0000000000000001e-05 0.00029999999999999997 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.00029999999999999997 0.00029999999999999997 2 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 2.9999999999999997e-08 1e-10 1e-08 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 2 9.9999999999999995e-07 1 0.001 0 5 100000 200000 0.00029999999999999997 1e-08 3e-09 2.9999999999999998e-13 0.10000000000000001 3 0.029999999999999999 0.10000000000000001 0 0.10000000000000001 300 3e-09 3.0000000000000001e-06 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 30 30 0.10000000000000001 600 0.001 0.001 0.001 0.0001 0.0001 30 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
+      0 0 0 5.1455338624113606e+28 2.6778653317491949e+28 0 0 6.1368625414779999e+22 1.0242577447423169e+29 4.1843038428631998e+19 0 3.6644425417561895e+22 6.0221407599999936e+28 1.8616785724056399e+27 1.5628238150498792e+28 1.6463027302650001e+27 0 0 0 6.0221407599999083e+28 1.1835313235627981e+21 8.5820323542608e+22 7.8393819557375987e+22 0 3.1734995605787201e+20 6.5442001424843848e+26 0 4.6884654230088721e+26 1.2044281519999876e+28 1.1388530612643599e+28 6.0221407599999971e+28 2.0007117361317601e+23 6.6690391204392005e+23 6.6690391204392007e+26 6.6690391204392005e+23 2.0007117361317601e+23 6.4754272950052004e+24 1.59018842266332e+20 2.2230130401464e+26 1.9379851179755924e+28 2.8575901005906368e+28 1.7164185151336763e+19 8.5820925756684003e+21 6.8790913901479917e+27 0 0 6.6666904855427758e+26 0 6.022140759999938e+27 0 0 0 1.2044281519999876e+28 0 1.9998505700030801e+26 0 0 0 0 0 0 6.0221407599999927e+26 0 0 0 6.0221407600000001e+29 6.0221407599999083e+28 0 0 6.0221407599999083e+28 6.0221407599999083e+28 0 0 0 1.8066422279999886e+27 2.4088563039999752e+28 3.0110703800000001e+29 0 0 0 6.022140759999938e+27 0 6.0221407599999083e+28 0 0 3.0110703800000001e+29 6.0221407599999999e+25 0 0 0 1.204428152e+26 1.2044281519999876e+28 9.2876152571936516e+28 1.1356372380985171e+29 1.7192345283744633e+29 0 8.566083918885922e+27 3.1645506594093551e+28 6.0221407440980903e+28 4.084155642024379e+28 2.7566662628063241e+28 1 0 0 0 9999.9999999998981 0 0.16666666666666666 1e-13 0.001 0 6.0221407599999831e+28 1.2044281519999971e+29 1.2044281519999977e+29 6.0221407599999919e+28 1.8066422280000001e+29 6.0221407599999971e+28 6.0221407599999716e+28 6.0221407599999743e+28 3.613284456e+28 6.0221407599999901e+28 1 1 3.9999999999999998e-07 0.001 1.0000000000000001e-05 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 1 9.9999999999999995e-07 0.001 9.9999999999999995e-08 0.001 1 9.9999999999999995e-07 0.001 1 2.9999999999999997e-08 0.001 1.9999999999999999e-06 0.001 0.10000000000000001 9.9999999999999995e-07 0.01 1 9.9999999999999995e-08 0.001 1 9.9999999999999995e-07 0.001 9.9999999999999995e-08 0.001 1 0.01 0.01 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 9.9999999999999995e-07 0.001 1 1.9999999999999999e-06 0.001 10 1.9999999999999999e-06 0.001 10 0.01 0.01 4.9999999999999998e-07 0.001 1 4.9999999999999998e-08 0.001 5.0000000000000001e-09 0.001 1 0.01 0.01 1.9999999999999999e-06 0.001 6.9999999999999999e-06 0.001 1 0.070000000000000007 3e-10 9.9999999999999998e-13 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 1e-08 1 0.0001 1e-10 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 1000000 10000 3.0000000000000001e-05 0.0001 10 20 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 1.0000000000000001e-05 0.00029999999999999997 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.00029999999999999997 0.00029999999999999997 10 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 2.9999999999999997e-08 1e-10 1e-08 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 2 9.9999999999999995e-07 1 0.001 1 5 100000 200000 0.00029999999999999997 1e-08 3e-09 2.9999999999999998e-13 0.10000000000000001 3 0.029999999999999999 0.10000000000000001 0.029999999999999999 0.10000000000000001 300 3e-09 3.0000000000000001e-06 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 30 30 0.10000000000000001 600 0.001 0.001 0.001 0.0001 0.0001 30 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -13850,15 +13894,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Report>
   </ListOfReports>
   <ListOfPlots>
-    <PlotSpecification name="M# and Bax_free" type="Plot2D" active="1" taskTypes="">
+    <PlotSpecification name="Concentrations, Volumes, and Global Quantity Values" type="Plot2D" active="1" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
-      <Parameter name="x axis" type="string" value=""/>
-      <Parameter name="y axis" type="string" value=""/>
-      <Parameter name="z axis" type="string" value=""/>
-      <Parameter name="plot engine" type="string" value="QWT"/>
+      <Parameter name="plot engine" type="string" value="QCustomPlot"/>
       <ListOfPlotItems>
-        <PlotItem name="[Bax_(free)]|Time" type="Curve2D">
+        <PlotItem name="[L]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13867,10 +13908,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_(free)],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[L],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
-        <PlotItem name="[M#]|Time" type="Curve2D">
+        <PlotItem name="[R]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13879,10 +13920,334 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[M#],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[R],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
-        <PlotItem name="[Apop]|Time" type="Curve2D">
+        <PlotItem name="[flip]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[flip],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proC8]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proC8],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[casp8]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[casp8],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[casp6]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[casp6],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BAR]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BAR],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proC3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proC3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[casp3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[casp3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bid]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bid],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[tBid]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[tBid],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proC6]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proC6],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[XIAP]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[XIAP],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Ub C3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Ub C3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PARP]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PARP],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[cPARP]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[cPARP],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Smac]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Smac],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[cytosolic Bcl-2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[cytosolic Bcl-2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax#]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax#],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bcl-2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bcl-2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[L:R]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[L:R],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[R#]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[R#],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[flip:R#]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[flip:R#],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[R#:pC8]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[R#:pC8],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[C6:pC8]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[C6:pC8],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BAR:C8]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BAR:C8],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[C8:pC3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[C8:pC3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[pC3:Apop]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[pC3:Apop],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Apop]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13894,7 +14259,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Apop],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
-        <PlotItem name="[p53_killer]|Time" type="Curve2D">
+        <PlotItem name="[C8:Bid]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13903,10 +14268,538 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_killer],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[C8:Bid],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
-        <PlotItem name="[Bax_mRNA]|Time" type="Curve2D">
+        <PlotItem name="[C3:pC6]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[C3:pC6],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[XIAP:C3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[XIAP:C3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PARP:C3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PARP:C3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Apop:XIAP]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Apop:XIAP],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Smac:XIAP]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Smac:XIAP],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bcl2c:tBid]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bcl2c:tBid],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax:tBid]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax:tBid],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Baxm:Bcl2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Baxm:Bcl2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax4]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax4],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax2:Bcl2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax2:Bcl2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax4:Bcl2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax4:Bcl2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[M]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[M],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax4:M]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax4:M],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[M#]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[M#],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Smac_m]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Smac_m],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[M#:Smac_m]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[M#:Smac_m],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Smac released]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Smac released],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[CytoC_m]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[CytoC_m],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[M#:CytoC_m]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[M#:CytoC_m],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[CytoC released]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[CytoC released],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[CytoC]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[CytoC],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Apaf]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Apaf],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[CytoC:Apaf]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[CytoC:Apaf],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Apaf#]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Apaf#],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proC9]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proC9],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Baxm]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Baxm],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bax2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Caspase]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Caspase],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proCaspase]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[proCaspase],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_phosphorylated_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_phosphorylated_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Fourteen33_free]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Fourteen33_free],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax:BclXL_complex]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax:BclXL_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BclXL_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_0_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bad_0_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Cyclin_E (free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E (free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Cyclin_E:p21_complex]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Cyclin_E:p21_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p21_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p21_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[E2F1]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[E2F1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb1_0:E2F1 complex]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb1_0_(free)]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb1_0_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[HIPK2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[HIPK2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_nuc_S166S186phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_nuc_S166S186phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[SIAH1_0]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax_mRNA]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13918,7 +14811,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Bax_mRNA],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
-        <PlotItem name="Values[s4]|Time" type="Curve2D">
+        <PlotItem name="[p21_mRNA]" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
@@ -13927,7 +14820,415 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[s4],Reference=Value"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p21_mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PTEN]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PTEN],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Wip1 mRNA]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Wip1 mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PTEN mRNA]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PTEN mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_nuc_S166S186p_S395p]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_nuc_S166S186p_S395p],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_arrester]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_arrester],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_S46phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_S46phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_killer]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_killer],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2 mRNA]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2 mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_cyt_0phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_cyt_0phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_cyt_S166S186phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Mdm2_cyt_S166S186phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_0phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[p53_0phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[ATM_phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Wip1]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Wip1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_phosphorylated_Fourteen33_complex]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AKT_phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[AKT_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PIP3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb_phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[Rb_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[SIAH1_phosphorylated]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[SIAH1_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BclXL_Bad_complex]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[BclXL_Bad_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[DNA_double_strand_break]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[DNA_double_strand_break],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AKT_0]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[mitochondrion],Vector=Metabolites[AKT_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PI3K_tot]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PI3K_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PIP2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[PIP2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[ATM_0]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Compartments[cell],Vector=Metabolites[ATM_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[pC3 fraction]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[pC3 fraction],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[C3 fraction]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[C3 fraction],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[degraded C3 fraction]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[degraded C3 fraction],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[cPARP fraction]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[cPARP fraction],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[total Caspase 3]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[total Caspase 3],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[free C3 fraction]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[free C3 fraction],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[DNA_DSB_due_to_IR]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[DNA_DSB_due_to_IR],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[h2]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[h2],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[rep]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[rep],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[time_days]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Albeck2008_extrinsic_apoptosis,Vector=Values[time_days],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
