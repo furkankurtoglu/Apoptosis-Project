@@ -211,9 +211,16 @@ void update_intracellular()
                 
                 
                 
-                double apop_flag = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag");
+                double p_Apoptosis_C = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_C");
+                double p_Apoptosis_A = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_A");
                 
-                if ( apop_flag > 0.0 )
+                
+                
+                std::cout << "P_A_C = " << p_Apoptosis_C << std::endl;
+                std::cout << "P_A_A = " << p_Apoptosis_A << std::endl;
+                
+                
+                /* if ( apop_flag > 0.0 )
                 {
                     Cell* pCell;
                     double number_of_debris = 5;
@@ -230,7 +237,7 @@ void update_intracellular()
                        
                     }
                     delete_cell((*all_cells)[i]);
-                }
+                } */
                 //std::cout << (*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") << std::endl;
                 //double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
                 /* if (apoptosome_level > 35000)

@@ -97,7 +97,7 @@
 	</overall>
 	
 	<parallel>
-		<omp_num_threads>10</omp_num_threads>
+		<omp_num_threads>1</omp_num_threads>
 	</parallel> 
 	
 	<save>
@@ -291,7 +291,7 @@
 				</cell_transformations>
 
 				<intracellular type="roadrunner">
-					<sbml_filename>./config/BIOMD0000000220_test.xml</sbml_filename>
+					<sbml_filename>./config/Merged_Apoptosis_Pathway.xml</sbml_filename>
                     <intracellular_dt>0.01</intracellular_dt>
 				</intracellular>
                 
