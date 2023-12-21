@@ -291,7 +291,7 @@
 				</cell_transformations>
 
 				<intracellular type="roadrunner">
-					<sbml_filename>./config/Merged_Apoptosis_Pathway.xml</sbml_filename>
+					<sbml_filename>./config/943_irradiation_at_zero_merge_all_done.xml</sbml_filename>
                     <intracellular_dt>0.01</intracellular_dt>
 				</intracellular>
                 

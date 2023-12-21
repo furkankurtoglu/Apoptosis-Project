@@ -202,7 +202,7 @@ void update_intracellular()
             if( (*all_cells)[i]->is_out_of_domain == false  )
             {
                 
-                (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
+                //(*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
                 // SBML Simulation
                 (*all_cells)[i]->phenotype.intracellular->update();
                 
@@ -211,15 +211,11 @@ void update_intracellular()
                 
                 
                 
-                double p_Apoptosis_C = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_C");
-                double p_Apoptosis_A = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_A");
+                double ligand = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("ligand");
+                //double p_Apoptosis_A = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_A");
                 
-                
-                
-                std::cout << "P_A_C = " << p_Apoptosis_C << std::endl;
-                std::cout << "P_A_A = " << p_Apoptosis_A << std::endl;
-                
-                
+               
+                std::cout << ligand << std::endl;
                 /* if ( apop_flag > 0.0 )
                 {
                     Cell* pCell;
