@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.42 (Build 284) on 2023-12-21 08:53 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.42 (Build 284) on 2023-12-21 10:23 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="Hat2016___Reponse_of_p53_System_to_irradiation_in_cell_fate_decision_making" name="Hat2016 - Reponse of p53 System to irradiation in cell fate decision making">
     <notes>
@@ -14,20 +14,20 @@
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>MAIRE</vCard:Family>
-                  <vCard:Given>Matthieu</vCard:Given>
+                  <vCard:Family>Zyoud</vCard:Family>
+                  <vCard:Given>Ahmad</vCard:Given>
                 </vCard:N>
-                <vCard:EMAIL>matt.maire@free.fr</vCard:EMAIL>
+                <vCard:EMAIL>ahmad.azd@hotmail.com</vCard:EMAIL>
                 <vCard:ORG rdf:parseType="Resource">
                   <vCard:Orgname>EMBL-EBI</vCard:Orgname>
                 </vCard:ORG>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Zyoud</vCard:Family>
-                  <vCard:Given>Ahmad</vCard:Given>
+                  <vCard:Family>MAIRE</vCard:Family>
+                  <vCard:Given>Matthieu</vCard:Given>
                 </vCard:N>
-                <vCard:EMAIL>ahmad.azd@hotmail.com</vCard:EMAIL>
+                <vCard:EMAIL>matt.maire@free.fr</vCard:EMAIL>
                 <vCard:ORG rdf:parseType="Resource">
                   <vCard:Orgname>EMBL-EBI</vCard:Orgname>
                 </vCard:ORG>
@@ -120,14 +120,14 @@
       </copasi:COPASI>
     </annotation>
     <listOfFunctionDefinitions>
-      <functionDefinition metaid="COPASI239" id="Constant_flux__irreversible" name="Constant flux (irreversible)">
+      <functionDefinition metaid="COPASI239" id="Function_for_R53" name="Function for R53">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI239">
                 <dcterms:created>
                   <rdf:Description>
-                    <dcterms:W3CDTF>2020-05-04T17:00:14Z</dcterms:W3CDTF>
+                    <dcterms:W3CDTF>2018-07-18T11:34:11Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
               </rdf:Description>
@@ -137,32 +137,50 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
-              <ci> v </ci>
+              <ci> d12 </ci>
             </bvar>
-            <ci> v </ci>
+            <bvar>
+              <ci> Rb_p </ci>
+            </bvar>
+            <bvar>
+              <ci> M2 </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> d12 </ci>
+                <ci> Rb_p </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> M2 </ci>
+                <ci> Rb_p </ci>
+              </apply>
+            </apply>
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition id="Function_for_re33" name="Function for re33">
+      <functionDefinition id="Function_for_re35" name="Function for re35">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
-              <ci> Bax4 </ci>
+              <ci> M_hash </ci>
             </bvar>
             <bvar>
-              <ci> M </ci>
+              <ci> Smacm </ci>
             </bvar>
             <bvar>
-              <ci> k19 </ci>
+              <ci> k21 </ci>
             </bvar>
             <bvar>
               <ci> v </ci>
             </bvar>
             <bvar>
-              <ci> Bax4_M </ci>
+              <ci> M_hash_Smacm </ci>
             </bvar>
             <bvar>
-              <ci> k_19 </ci>
+              <ci> k_21 </ci>
             </bvar>
             <apply>
               <minus/>
@@ -170,60 +188,26 @@
                 <divide/>
                 <apply>
                   <times/>
-                  <ci> Bax4 </ci>
-                  <ci> M </ci>
-                  <ci> k19 </ci>
+                  <ci> M_hash </ci>
+                  <ci> Smacm </ci>
+                  <ci> k21 </ci>
                 </apply>
                 <ci> v </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> Bax4_M </ci>
-                <ci> k_19 </ci>
+                <ci> M_hash_Smacm </ci>
+                <ci> k_21 </ci>
               </apply>
             </apply>
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI240" id="Function_substrate_modifier" name="Function substrate modifier">
+      <functionDefinition metaid="COPASI240" id="Function_for_R12" name="Function for R12">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI240">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-17T14:17:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> k </ci>
-            </bvar>
-            <bvar>
-              <ci> modifier </ci>
-            </bvar>
-            <bvar>
-              <ci> substrate </ci>
-            </bvar>
-            <apply>
-              <times/>
-              <ci> k </ci>
-              <ci> modifier </ci>
-              <ci> substrate </ci>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI241" id="Function_for_R12" name="Function for R12">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI241">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2018-07-17T16:57:54Z</dcterms:W3CDTF>
@@ -270,11 +254,291 @@
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI242" id="Function_for_R22" name="Function for R22">
+      <functionDefinition id="Function_for_re32" name="Function for re32">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> Bcl2 </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax4 </ci>
+            </bvar>
+            <bvar>
+              <ci> k18 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax4_Bcl2 </ci>
+            </bvar>
+            <bvar>
+              <ci> k_18 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Bcl2 </ci>
+                  <ci> Bax4 </ci>
+                  <ci> k18 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> Bax4_Bcl2 </ci>
+                <ci> k_18 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI241" id="Function_for_R45" name="Function for R45">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI241">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-18T11:29:02Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> p12 </ci>
+            </bvar>
+            <bvar>
+              <ci> AKT_0 </ci>
+            </bvar>
+            <bvar>
+              <ci> y18 </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> p12 </ci>
+              <ci> AKT_0 </ci>
+              <ci> y18 </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition id="Function_for_re26" name="Function for re26">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> cell </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax_hash </ci>
+            </bvar>
+            <bvar>
+              <ci> k13 </ci>
+            </bvar>
+            <bvar>
+              <ci> Baxm </ci>
+            </bvar>
+            <bvar>
+              <ci> k_13 </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Bax_hash </ci>
+                  <ci> k13 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Baxm </ci>
+                  <ci> k_13 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI242" id="Function_for_R43" name="Function for R43">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI242">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-17T17:15:15Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> p8 </ci>
+            </bvar>
+            <bvar>
+              <ci> PIP2 </ci>
+            </bvar>
+            <bvar>
+              <ci> PI3K_tot </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> p8 </ci>
+              <ci> PIP2 </ci>
+              <ci> PI3K_tot </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition id="Function_for_re33" name="Function for re33">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> Bax4 </ci>
+            </bvar>
+            <bvar>
+              <ci> M </ci>
+            </bvar>
+            <bvar>
+              <ci> k19 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax4_M </ci>
+            </bvar>
+            <bvar>
+              <ci> k_19 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Bax4 </ci>
+                  <ci> M </ci>
+                  <ci> k19 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> Bax4_M </ci>
+                <ci> k_19 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI243" id="Function_for_R4" name="Function for R4">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI243">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-17T16:50:51Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> p1 </ci>
+            </bvar>
+            <bvar>
+              <ci> ATM_0 </ci>
+            </bvar>
+            <bvar>
+              <ci> y1 </ci>
+            </bvar>
+            <bvar>
+              <ci> h </ci>
+            </bvar>
+            <bvar>
+              <ci> M1 </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> p1 </ci>
+                <ci> ATM_0 </ci>
+                <apply>
+                  <power/>
+                  <ci> y1 </ci>
+                  <ci> h </ci>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <power/>
+                  <ci> y1 </ci>
+                  <ci> h </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> M1 </ci>
+                  <ci> h </ci>
+                </apply>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI244" id="Function_modifier" name="Function modifier">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI244">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-17T16:54:04Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> k </ci>
+            </bvar>
+            <bvar>
+              <ci> modifier </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> k </ci>
+              <ci> modifier </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI245" id="Function_for_R22" name="Function for R22">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI245">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2018-07-17T17:04:18Z</dcterms:W3CDTF>
@@ -341,14 +605,14 @@
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI243" id="Function_for_R43" name="Function for R43">
+      <functionDefinition metaid="COPASI246" id="Function_modifier1_modifier2" name="Function modifier1 modifier2">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI243">
+              <rdf:Description rdf:about="#COPASI246">
                 <dcterms:created>
                   <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-17T17:15:15Z</dcterms:W3CDTF>
+                    <dcterms:W3CDTF>2018-07-18T11:58:06Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
               </rdf:Description>
@@ -358,28 +622,157 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
-              <ci> p8 </ci>
+              <ci> k </ci>
             </bvar>
             <bvar>
-              <ci> PIP2 </ci>
+              <ci> modifier1 </ci>
             </bvar>
             <bvar>
-              <ci> PI3K_tot </ci>
+              <ci> modifier2 </ci>
             </bvar>
             <apply>
               <times/>
-              <ci> p8 </ci>
-              <ci> PIP2 </ci>
-              <ci> PI3K_tot </ci>
+              <ci> k </ci>
+              <ci> modifier1 </ci>
+              <ci> modifier2 </ci>
             </apply>
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI244" id="Function_for_R1" name="Function for R1">
+      <functionDefinition id="Function_for_re31" name="Function for re31">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> Bcl2 </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax2 </ci>
+            </bvar>
+            <bvar>
+              <ci> k16 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax2_Bcl2 </ci>
+            </bvar>
+            <bvar>
+              <ci> k_16 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Bcl2 </ci>
+                  <ci> Bax2 </ci>
+                  <ci> k16 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> Bax2_Bcl2 </ci>
+                <ci> k_16 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI247" id="Function_for_R59" name="Function for R59">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI244">
+              <rdf:Description rdf:about="#COPASI247">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-18T11:49:02Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> s9 </ci>
+            </bvar>
+            <bvar>
+              <ci> E2F1 </ci>
+            </bvar>
+            <bvar>
+              <ci> M3 </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> s9 </ci>
+                <apply>
+                  <power/>
+                  <ci> E2F1 </ci>
+                  <cn> 2 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <power/>
+                  <ci> M3 </ci>
+                  <cn> 2 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> E2F1 </ci>
+                  <cn> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI248" id="Function_substrate_modifier" name="Function substrate modifier">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI248">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2018-07-17T14:17:20Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> k </ci>
+            </bvar>
+            <bvar>
+              <ci> modifier </ci>
+            </bvar>
+            <bvar>
+              <ci> substrate </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> k </ci>
+              <ci> modifier </ci>
+              <ci> substrate </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI249" id="Function_for_R1" name="Function for R1">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI249">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2018-07-17T16:06:31Z</dcterms:W3CDTF>
@@ -437,270 +830,11 @@
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI245" id="Function_for_R53" name="Function for R53">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI245">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-18T11:34:11Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> d12 </ci>
-            </bvar>
-            <bvar>
-              <ci> Rb_p </ci>
-            </bvar>
-            <bvar>
-              <ci> M2 </ci>
-            </bvar>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> d12 </ci>
-                <ci> Rb_p </ci>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> M2 </ci>
-                <ci> Rb_p </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI246" id="Function_modifier" name="Function modifier">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI246">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-17T16:54:04Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> k </ci>
-            </bvar>
-            <bvar>
-              <ci> modifier </ci>
-            </bvar>
-            <apply>
-              <times/>
-              <ci> k </ci>
-              <ci> modifier </ci>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI247" id="Function_modifier1_modifier2" name="Function modifier1 modifier2">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI247">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-18T11:58:06Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> k </ci>
-            </bvar>
-            <bvar>
-              <ci> modifier1 </ci>
-            </bvar>
-            <bvar>
-              <ci> modifier2 </ci>
-            </bvar>
-            <apply>
-              <times/>
-              <ci> k </ci>
-              <ci> modifier1 </ci>
-              <ci> modifier2 </ci>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI248" id="Function_for_R59" name="Function for R59">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI248">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-18T11:49:02Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> s9 </ci>
-            </bvar>
-            <bvar>
-              <ci> E2F1 </ci>
-            </bvar>
-            <bvar>
-              <ci> M3 </ci>
-            </bvar>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> s9 </ci>
-                <apply>
-                  <power/>
-                  <ci> E2F1 </ci>
-                  <cn> 2 </cn>
-                </apply>
-              </apply>
-              <apply>
-                <plus/>
-                <apply>
-                  <power/>
-                  <ci> M3 </ci>
-                  <cn> 2 </cn>
-                </apply>
-                <apply>
-                  <power/>
-                  <ci> E2F1 </ci>
-                  <cn> 2 </cn>
-                </apply>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI249" id="Function_for_R2" name="Function for R2">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI249">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-17T16:47:56Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> y1 </ci>
-            </bvar>
-            <bvar>
-              <ci> rep </ci>
-            </bvar>
-            <bvar>
-              <ci> DNA_DSB_RepairCplx_total </ci>
-            </bvar>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> y1 </ci>
-                <ci> rep </ci>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> y1 </ci>
-                <ci> DNA_DSB_RepairCplx_total </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI250" id="Function_for_R4" name="Function for R4">
+      <functionDefinition metaid="COPASI250" id="Function_for_R8" name="Function for R8">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI250">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-17T16:50:51Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
-        </annotation>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> p1 </ci>
-            </bvar>
-            <bvar>
-              <ci> ATM_0 </ci>
-            </bvar>
-            <bvar>
-              <ci> y1 </ci>
-            </bvar>
-            <bvar>
-              <ci> h </ci>
-            </bvar>
-            <bvar>
-              <ci> M1 </ci>
-            </bvar>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> p1 </ci>
-                <ci> ATM_0 </ci>
-                <apply>
-                  <power/>
-                  <ci> y1 </ci>
-                  <ci> h </ci>
-                </apply>
-              </apply>
-              <apply>
-                <plus/>
-                <apply>
-                  <power/>
-                  <ci> y1 </ci>
-                  <ci> h </ci>
-                </apply>
-                <apply>
-                  <power/>
-                  <ci> M1 </ci>
-                  <ci> h </ci>
-                </apply>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition metaid="COPASI251" id="Function_for_R8" name="Function for R8">
-        <annotation>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI251">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2018-07-17T16:55:19Z</dcterms:W3CDTF>
@@ -741,14 +875,14 @@
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI252" id="Function_for_R45" name="Function for R45">
+      <functionDefinition metaid="COPASI251" id="Function_for_R2" name="Function for R2">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI252">
+              <rdf:Description rdf:about="#COPASI251">
                 <dcterms:created>
                   <rdf:Description>
-                    <dcterms:W3CDTF>2018-07-18T11:29:02Z</dcterms:W3CDTF>
+                    <dcterms:W3CDTF>2018-07-17T16:47:56Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
               </rdf:Description>
@@ -758,28 +892,35 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
-              <ci> p12 </ci>
+              <ci> y1 </ci>
             </bvar>
             <bvar>
-              <ci> AKT_0 </ci>
+              <ci> rep </ci>
             </bvar>
             <bvar>
-              <ci> y18 </ci>
+              <ci> DNA_DSB_RepairCplx_total </ci>
             </bvar>
             <apply>
-              <times/>
-              <ci> p12 </ci>
-              <ci> AKT_0 </ci>
-              <ci> y18 </ci>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y1 </ci>
+                <ci> rep </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> y1 </ci>
+                <ci> DNA_DSB_RepairCplx_total </ci>
+              </apply>
             </apply>
           </lambda>
         </math>
       </functionDefinition>
-      <functionDefinition metaid="COPASI253" id="Function_for_R82" name="Function for R82">
+      <functionDefinition metaid="COPASI252" id="Function_for_R82" name="Function for R82">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI253">
+              <rdf:Description rdf:about="#COPASI252">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2018-07-18T12:06:04Z</dcterms:W3CDTF>
@@ -809,44 +950,6 @@
                 <cn> 2 </cn>
               </apply>
               <ci> y32 </ci>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re26" name="Function for re26">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> cell </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax_hash </ci>
-            </bvar>
-            <bvar>
-              <ci> k13 </ci>
-            </bvar>
-            <bvar>
-              <ci> Baxm </ci>
-            </bvar>
-            <bvar>
-              <ci> k_13 </ci>
-            </bvar>
-            <apply>
-              <times/>
-              <ci> cell </ci>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <ci> Bax_hash </ci>
-                  <ci> k13 </ci>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> Baxm </ci>
-                  <ci> k_13 </ci>
-                </apply>
-              </apply>
             </apply>
           </lambda>
         </math>
@@ -888,252 +991,6 @@
                 <times/>
                 <ci> Baxm_Bcl2 </ci>
                 <ci> k_14 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re31" name="Function for re31">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> Bcl2 </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax2 </ci>
-            </bvar>
-            <bvar>
-              <ci> k16 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax2_Bcl2 </ci>
-            </bvar>
-            <bvar>
-              <ci> k_16 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> Bcl2 </ci>
-                  <ci> Bax2 </ci>
-                  <ci> k16 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> Bax2_Bcl2 </ci>
-                <ci> k_16 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re32" name="Function for re32">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> Bcl2 </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax4 </ci>
-            </bvar>
-            <bvar>
-              <ci> k18 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax4_Bcl2 </ci>
-            </bvar>
-            <bvar>
-              <ci> k_18 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> Bcl2 </ci>
-                  <ci> Bax4 </ci>
-                  <ci> k18 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> Bax4_Bcl2 </ci>
-                <ci> k_18 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re35" name="Function for re35">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> M_hash </ci>
-            </bvar>
-            <bvar>
-              <ci> Smacm </ci>
-            </bvar>
-            <bvar>
-              <ci> k21 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> M_hash_Smacm </ci>
-            </bvar>
-            <bvar>
-              <ci> k_21 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> M_hash </ci>
-                  <ci> Smacm </ci>
-                  <ci> k21 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> M_hash_Smacm </ci>
-                <ci> k_21 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re29" name="Function for re29">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> Baxm </ci>
-            </bvar>
-            <bvar>
-              <ci> k15 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax2 </ci>
-            </bvar>
-            <bvar>
-              <ci> k_15 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> Baxm </ci>
-                  <ci> Baxm </ci>
-                  <ci> k15 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> Bax2 </ci>
-                <ci> k_15 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re30" name="Function for re30">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> Bax2 </ci>
-            </bvar>
-            <bvar>
-              <ci> k17 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> Bax4 </ci>
-            </bvar>
-            <bvar>
-              <ci> k_17 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> Bax2 </ci>
-                  <ci> Bax2 </ci>
-                  <ci> k17 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> Bax4 </ci>
-                <ci> k_17 </ci>
-              </apply>
-            </apply>
-          </lambda>
-        </math>
-      </functionDefinition>
-      <functionDefinition id="Function_for_re38" name="Function for re38">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <lambda>
-            <bvar>
-              <ci> M_hash </ci>
-            </bvar>
-            <bvar>
-              <ci> CytoCm </ci>
-            </bvar>
-            <bvar>
-              <ci> k20 </ci>
-            </bvar>
-            <bvar>
-              <ci> v </ci>
-            </bvar>
-            <bvar>
-              <ci> M_hash_CytoCm </ci>
-            </bvar>
-            <bvar>
-              <ci> k_20 </ci>
-            </bvar>
-            <apply>
-              <minus/>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> M_hash </ci>
-                  <ci> CytoCm </ci>
-                  <ci> k20 </ci>
-                </apply>
-                <ci> v </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> M_hash_CytoCm </ci>
-                <ci> k_20 </ci>
               </apply>
             </apply>
           </lambda>
@@ -1212,6 +1069,149 @@
                 </apply>
               </apply>
             </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition id="Function_for_re29" name="Function for re29">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> Baxm </ci>
+            </bvar>
+            <bvar>
+              <ci> k15 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax2 </ci>
+            </bvar>
+            <bvar>
+              <ci> k_15 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Baxm </ci>
+                  <ci> Baxm </ci>
+                  <ci> k15 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> Bax2 </ci>
+                <ci> k_15 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition id="Function_for_re38" name="Function for re38">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> M_hash </ci>
+            </bvar>
+            <bvar>
+              <ci> CytoCm </ci>
+            </bvar>
+            <bvar>
+              <ci> k20 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> M_hash_CytoCm </ci>
+            </bvar>
+            <bvar>
+              <ci> k_20 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> M_hash </ci>
+                  <ci> CytoCm </ci>
+                  <ci> k20 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> M_hash_CytoCm </ci>
+                <ci> k_20 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition id="Function_for_re30" name="Function for re30">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> Bax2 </ci>
+            </bvar>
+            <bvar>
+              <ci> k17 </ci>
+            </bvar>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <bvar>
+              <ci> Bax4 </ci>
+            </bvar>
+            <bvar>
+              <ci> k_17 </ci>
+            </bvar>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Bax2 </ci>
+                  <ci> Bax2 </ci>
+                  <ci> k17 </ci>
+                </apply>
+                <ci> v </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> Bax4 </ci>
+                <ci> k_17 </ci>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI253" id="Constant_flux__irreversible" name="Constant flux (irreversible)">
+        <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI253">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-05-04T17:00:14Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> v </ci>
+            </bvar>
+            <ci> v </ci>
           </lambda>
         </math>
       </functionDefinition>
@@ -1914,12 +1914,12 @@
             <rdf:Description rdf:about="#COPASI25">
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C17388"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/O96020"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/O96020"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C17388"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
             </rdf:Description>
@@ -2082,12 +2082,12 @@
             <rdf:Description rdf:about="#COPASI31">
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q92934"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q07812"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q07812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q92934"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
             </rdf:Description>
@@ -2642,12 +2642,12 @@
             <rdf:Description rdf:about="#COPASI53">
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P31947"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q92934"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q92934"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P31947"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
               <bqbiol:hasProperty>
@@ -2698,7 +2698,7 @@
           </copasi:COPASI>
         </annotation>
       </species>
-      <species id="L" name="L" compartment="nuclear" initialConcentration="3000" boundaryCondition="false" constant="false"/>
+      <species id="L" name="L" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
       <species id="L_R" name="L:R" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
       <species id="R" name="R" compartment="nuclear" initialConcentration="200" boundaryCondition="false" constant="false"/>
       <species id="C8_pC3" name="C8:pC3" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
@@ -2756,6 +2756,7 @@
       <species id="C6_pC8" name="C6:pC8" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
       <species id="BAR" name="BAR" compartment="nuclear" initialConcentration="1000" boundaryCondition="false" constant="false"/>
       <species id="BAR_C8" name="BAR:C8" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="IR_Gray" name="IR_Gray" compartment="nuclear" initialConcentration="0" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter metaid="COPASI55" id="is_IR_switched_on" name="is_IR_switched_on" value="1" constant="true">
@@ -4198,7 +4199,7 @@
           </copasi:COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI151" id="DNA_DSB_due_to_IR" name="DNA_DSB_due_to_IR" value="0.0666666666666667" constant="false">
+      <parameter metaid="COPASI151" id="DNA_DSB_due_to_IR" name="DNA_DSB_due_to_IR" value="0" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -4213,7 +4214,7 @@
           </copasi:COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI152" id="IR_Gy" name="IR_Gy" value="4" constant="true">
+      <parameter metaid="COPASI152" id="IR_Gy" name="IR_Gy" value="0" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -4359,24 +4360,6 @@
       </initialAssignment>
     </listOfInitialAssignments>
     <listOfRules>
-      <assignmentRule variable="rep">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <times/>
-            <ci> has_DNA_DSB_repair </ci>
-            <cn> 0.001 </cn>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="h2">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <times/>
-            <ci> can_Caspase_make_DNA_DSB </ci>
-            <cn type="e-notation"> 1 <sep/> -13 </cn>
-          </apply>
-        </math>
-      </assignmentRule>
       <assignmentRule variable="BclXL_Bad_complex">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -4416,21 +4399,30 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="ATM_0">
+      <assignmentRule variable="rep">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
-            <minus/>
-            <ci> ATM_tot </ci>
-            <ci> ATM_phosphorylated </ci>
+            <times/>
+            <ci> has_DNA_DSB_repair </ci>
+            <cn> 0.001 </cn>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="PIP2">
+      <assignmentRule variable="h2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> can_Caspase_make_DNA_DSB </ci>
+            <cn type="e-notation"> 1 <sep/> -13 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="E2F1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <minus/>
-            <ci> PIP_tot </ci>
-            <ci> PIP3 </ci>
+            <ci> E2F1_tot </ci>
+            <ci> Rb1_0_E2F1_complex </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -4447,12 +4439,30 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="E2F1">
+      <assignmentRule variable="ATM_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <minus/>
-            <ci> E2F1_tot </ci>
-            <ci> Rb1_0_E2F1_complex </ci>
+            <ci> ATM_tot </ci>
+            <ci> ATM_phosphorylated </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="AKT_0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> AKT_tot </ci>
+            <ci> AKT_phosphorylated </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="PIP2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> PIP_tot </ci>
+            <ci> PIP3 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -4465,12 +4475,17 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="AKT_0">
+      <assignmentRule variable="IR_Gy">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> IR_Gray </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="time_days">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
-            <minus/>
-            <ci> AKT_tot </ci>
-            <ci> AKT_phosphorylated </ci>
+            <divide/>
+            <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+            <cn> 86400 </cn>
           </apply>
         </math>
       </assignmentRule>
@@ -4487,15 +4502,6 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="time_days">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-            <cn> 86400 </cn>
-          </apply>
-        </math>
-      </assignmentRule>
       <assignmentRule variable="total_Caspase_3">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -4508,15 +4514,6 @@
             <ci> XIAP_C3 </ci>
             <ci> PARP_C3 </ci>
             <ci> Ub_C3 </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="free_C3_fraction">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <ci> casp3 </ci>
-            <ci> total_Caspase_3 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -4554,6 +4551,15 @@
               <ci> XIAP_C3 </ci>
               <ci> PARP_C3 </ci>
             </apply>
+            <ci> total_Caspase_3 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="free_C3_fraction">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> casp3 </ci>
             <ci> total_Caspase_3 </ci>
           </apply>
         </math>

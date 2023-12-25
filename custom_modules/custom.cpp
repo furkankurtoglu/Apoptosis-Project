@@ -160,7 +160,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 10;
+	double initial_tissue_radius = 150;
     double retval;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -189,11 +189,8 @@ void setup_tissue( void )
 
 void update_intracellular()
 {
-    // BioFVM Indices
-    static int oxygen_substrate_index = microenvironment.find_density_index( "oxygen" );
-    static int glucose_substrate_index = microenvironment.find_density_index( "glucose" ); 
-    static int lactate_substrate_index = microenvironment.find_density_index( "lactate");
 
+    int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
     #pragma omp parallel for 
     for( int i=0; i < (*all_cells).size(); i++ )
     {
@@ -202,48 +199,33 @@ void update_intracellular()
             if( (*all_cells)[i]->is_out_of_domain == false  )
             {
                 
-                //(*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
+                (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
                 // SBML Simulation
                 (*all_cells)[i]->phenotype.intracellular->update();
                 
                 // Phenotype Simulation
-                (*all_cells)[i]->phenotype.intracellular->update_phenotype_parameters((*all_cells)[i]->phenotype);
+                //(*all_cells)[i]->phenotype.intracellular->update_phenotype_parameters((*all_cells)[i]->phenotype);
                 
                 
                 
-                double ligand = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("ligand");
-                //double p_Apoptosis_A = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("p_Apoptosis_A");
+                double apop = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
+                double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
+
+                double apop_star = 36708;
+                double casp_star = 96190;
+
+                double p_apop_a = apop/apop_star;
+                double p_apop_c = casp/casp_star;
                 
-               
-                std::cout << ligand << std::endl;
-                /* if ( apop_flag > 0.0 )
-                {
-                    Cell* pCell;
-                    double number_of_debris = 5;
-                    double cell_x = (*all_cells)[i]->position[0];
-                    double cell_y = (*all_cells)[i]->position[1];
-                    double cell_z = (*all_cells)[i]->position[2];
-                    
-                    for( int k=0; k < number_of_debris; k++ )
-                    {
-                       // (*all_cells)[i].positions[0]
-                       Cell* pCell;
-                       pCell = create_cell(get_cell_definition("debris"));
-                       pCell-> assign_position({cell_x,cell_y,cell_z});
-                       
-                    }
-                    delete_cell((*all_cells)[i]);
-                } */
-                //std::cout << (*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") << std::endl;
-                //double apoptosome_level = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
-                /* if (apoptosome_level > 35000)
-                {
-                    //std::cout << "Apoptosome level = " << apoptosome_level << std::endl;
-                    //std::cout << "Simulation Wall time = " << PhysiCell_globals.current_time << std::endl;
-                }    */     
-                // Internalized Chemical Update After SBML Simulation
-                
-                //std::cout << "Flag : " <<(*all_cells)[i]->phenotype.intracellular->get_parameter_value("apoptosis_flag") << std::endl;
+                if( UniformRandom() < p_apop_c )
+				{
+					(*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
+				}
+        
+                if( UniformRandom() < p_apop_a )
+				{
+					(*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
+				}
             }
         }
     }

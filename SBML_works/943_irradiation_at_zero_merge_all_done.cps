@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.42 (Build 284) (http://www.copasi.org) at 2023-12-21T15:43:15Z -->
+<!-- generated with COPASI 4.42 (Build 284) (http://www.copasi.org) at 2023-12-21T16:24:07Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="42" versionDevel="284" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -673,16 +673,20 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <ListOfCompartments>
       <Compartment key="Compartment_0" name="nuclear" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Compartment_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T17:05:08Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
-    <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C13361" />
+    <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C13361"/>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Compartment>
       <Compartment key="Compartment_1" name="cytoplasm" simulationType="fixed" dimensionality="3" addNoise="false">
@@ -1479,14 +1483,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_52" name="L" simulationType="reactions" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_52">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_53" name="L:R" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
@@ -2057,6 +2053,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 </rdf:Description>
 </rdf:RDF>
         </MiriamAnnotation>
+      </Metabolite>
+      <Metabolite key="Metabolite_110" name="IR_Gray" simulationType="reactions" compartment="Compartment_0" addNoise="false">
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
@@ -3330,9 +3328,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy],Reference=Value>*&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_per_IR_Gy],Reference=Value>/&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[tp2],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_97" name="IR_Gy" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_97" name="IR_Gy" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_97">
     <dcterms:created>
       <rdf:Description>
@@ -3341,7 +3341,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[IR_Gray],Reference=Concentration>
+        </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_98" name="DNA_DSB_per_IR_Gy" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
@@ -5385,7 +5389,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_6095" name="k" value="0.1"/>
+          <Constant key="Parameter_6096" name="k" value="0.1"/>
         </ListOfConstants>
         <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
@@ -5415,7 +5419,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_6096" name="k1" value="0.0003"/>
+          <Constant key="Parameter_6093" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
@@ -5448,9 +5452,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Modifier metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_6093" name="s3" value="0.03"/>
-          <Constant key="Parameter_6094" name="q0_mdm2" value="1e-05"/>
-          <Constant key="Parameter_6097" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_6095" name="s3" value="0.03"/>
+          <Constant key="Parameter_6097" name="q0_mdm2" value="1e-05"/>
+          <Constant key="Parameter_6094" name="q1_mdm2" value="3e-13"/>
           <Constant key="Parameter_6092" name="h" value="2"/>
           <Constant key="Parameter_6090" name="q2" value="0.003"/>
         </ListOfConstants>
@@ -5942,7 +5946,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_6073" name="d12" value="10000"/>
-          <Constant key="Parameter_6072" name="M2" value="100000"/>
+          <Constant key="Parameter_6070" name="M2" value="100000"/>
         </ListOfConstants>
         <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
@@ -5981,7 +5985,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Modifier metabolite="Metabolite_48" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_6070" name="k" value="1e-05"/>
+          <Constant key="Parameter_6072" name="k" value="1e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
@@ -8578,7 +8582,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_Bad_complex]" value="8.5660840568619808e+24" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex]" value="2.7566663072085607e+25" type="Species" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Fourteen33_free]" value="9.2876154067914435e+25" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[L]" value="1.8066422571e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[L]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[L:R]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[R]" value="1.2044281714000001e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[C8:pC3]" value="0" type="Species" simulationType="reactions"/>
@@ -8636,6 +8640,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[C6:pC8]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[BAR]" value="6.0221408570000002e+23" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[BAR:C8]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[IR_Gray]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[is_IR_switched_on]" value="1" type="ModelValue" simulationType="fixed"/>
@@ -8734,8 +8739,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[M3]" value="200000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_RepairCplx_total]" value="20" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_max]" value="1000000" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR]" value="0.066666666666666666" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy]" value="4" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_per_IR_Gy]" value="10" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[tp2]" value="600" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[time_days]" value="0" type="ModelValue" simulationType="assignment"/>
@@ -8824,7 +8829,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[h1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0.066666666666666666" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR],Reference=InitialValue>
               </InitialExpression>
@@ -10166,6 +10171,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_2"/>
       <StateTemplateVariable objectReference="ModelValue_4"/>
       <StateTemplateVariable objectReference="ModelValue_96"/>
+      <StateTemplateVariable objectReference="ModelValue_97"/>
       <StateTemplateVariable objectReference="ModelValue_100"/>
       <StateTemplateVariable objectReference="ModelValue_172"/>
       <StateTemplateVariable objectReference="ModelValue_173"/>
@@ -10183,6 +10189,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="Metabolite_44"/>
       <StateTemplateVariable objectReference="Metabolite_45"/>
       <StateTemplateVariable objectReference="Metabolite_46"/>
+      <StateTemplateVariable objectReference="Metabolite_110"/>
       <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
@@ -10279,7 +10286,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_93"/>
       <StateTemplateVariable objectReference="ModelValue_94"/>
       <StateTemplateVariable objectReference="ModelValue_95"/>
-      <StateTemplateVariable objectReference="ModelValue_97"/>
       <StateTemplateVariable objectReference="ModelValue_98"/>
       <StateTemplateVariable objectReference="ModelValue_99"/>
       <StateTemplateVariable objectReference="ModelValue_101"/>
@@ -10355,7 +10361,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_171"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 2.6778653748821901e+25 0 5.1455339452916523e+25 0 41843039102607400 1.024257761240274e+26 0 6.1368626403258499e+19 3.6644426007802151e+19 3.1734996116950042e+17 1.861678602392123e+24 6.0221408570000023e+25 1.6463027567823751e+24 0 0 0 6.0221408570000023e+25 1.18353134262621e+18 8.5820324924935602e+19 7.8393820820083196e+19 1.562823840222641e+25 0 6.5442002478933299e+23 0 4.6884654985270686e+23 1.2044281713999999e+25 17164185427804260 1.590188448276849e+17 6.6690392278589401e+20 2.8575901466184981e+25 2.0007117683576822e+20 2.0007117683576822e+20 1.1388530796081273e+25 2.2230130759529801e+23 6.6690392278589401e+20 6.6690392278589404e+23 1.9379851491911701e+25 6.0221408570000023e+25 6.4754273993063903e+21 6.8790915009511001e+24 8.5820927139021302e+18 0 0 6.6666905929247106e+23 0 6.0221408569999997e+24 0 0 0 1.2044281713999999e+25 0 1.9998506022151313e+23 0 0 0 0 0 0 6.0221408570000002e+23 0 0 0 6.0221408570000004e+26 6.0221408570000023e+25 0 2.4088563427999999e+25 6.0221408570000023e+25 6.0221408570000023e+25 0 0 3.0110704285000002e+26 6.0221408569999997e+24 6.0221408570000023e+25 0 0 1.8066422571e+24 0 0 0 0 0 6.0221408570000005e+22 0 3.0110704285000002e+26 0 0 0 1.2044281713999999e+25 1.2044281714000001e+23 6.022140841098117e+25 0 3.1645507103815038e+25 1.7192345560665677e+26 1.1356372563904893e+26 9.2876154067914435e+25 4.0841557078088318e+25 8.5660840568619808e+24 2.7566663072085607e+25 1e-13 0.001 0.066666666666666666 0 1 10000 0 0 0 0 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 1.2044281714000005e+26 1.2044281714000005e+26 1.8066422570999999e+26 6.0221408570000023e+25 3.6132845142000003e+25 6.0221408570000023e+25 1 1 1 9.9999999999999995e-07 1 1 3e-10 9.9999999999999998e-13 1.0000000000000001e-05 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 300 30 30 30 3 0.00029999999999999997 1e-08 2.9999999999999997e-08 1e-10 1e-08 1e-08 3e-09 3e-09 3.0000000000000001e-06 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 3.0000000000000001e-05 0.0001 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 0.0001 1e-10 10000 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 0.001 0.001 0.001 0.0001 0.0001 0.001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 2 5 100000 200000 20 1000000 4 10 600 3.9999999999999998e-07 9.9999999999999995e-08 9.9999999999999995e-07 9.9999999999999995e-08 0.01 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 1.9999999999999999e-06 1.9999999999999999e-06 0.01 4.9999999999999998e-07 4.9999999999999998e-08 5.0000000000000001e-09 0.01 1.9999999999999999e-06 6.9999999999999999e-06 9.9999999999999995e-07 9.9999999999999995e-08 9.9999999999999995e-07 9.9999999999999995e-07 2.9999999999999997e-08 1.9999999999999999e-06 9.9999999999999995e-07 0.001 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.01 1.0000000000000001e-05 1 1 1 10 10 1 1 1 1 1 1 0.10000000000000001 1 0.070000000000000007 
+      0 0 0 2.6778653748821901e+25 0 5.1455339452916523e+25 0 41843039102607400 1.024257761240274e+26 0 6.1368626403258499e+19 3.6644426007802151e+19 3.1734996116950042e+17 1.861678602392123e+24 6.0221408570000023e+25 1.6463027567823751e+24 0 0 0 6.0221408570000023e+25 1.18353134262621e+18 8.5820324924935602e+19 7.8393820820083196e+19 1.562823840222641e+25 0 6.5442002478933299e+23 0 4.6884654985270686e+23 1.2044281713999999e+25 17164185427804260 1.590188448276849e+17 6.6690392278589401e+20 2.8575901466184981e+25 2.0007117683576822e+20 2.0007117683576822e+20 1.1388530796081273e+25 2.2230130759529801e+23 6.6690392278589401e+20 6.6690392278589404e+23 1.9379851491911701e+25 6.0221408570000023e+25 6.4754273993063903e+21 6.8790915009511001e+24 8.5820927139021302e+18 0 0 6.6666905929247106e+23 0 6.0221408569999997e+24 0 0 0 1.2044281713999999e+25 0 1.9998506022151313e+23 0 0 0 0 0 0 6.0221408570000002e+23 0 0 0 6.0221408570000004e+26 6.0221408570000023e+25 0 2.4088563427999999e+25 6.0221408570000023e+25 6.0221408570000023e+25 0 0 3.0110704285000002e+26 6.0221408569999997e+24 6.0221408570000023e+25 0 0 0 0 0 0 0 0 6.0221408570000005e+22 0 3.0110704285000002e+26 0 0 0 1.2044281713999999e+25 1.2044281714000001e+23 6.022140841098117e+25 0 3.1645507103815038e+25 1.7192345560665677e+26 1.1356372563904893e+26 9.2876154067914435e+25 4.0841557078088318e+25 8.5660840568619808e+24 2.7566663072085607e+25 1e-13 0.001 0 0 0 1 10000 0 0 0 0 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 1.2044281714000005e+26 1.2044281714000005e+26 1.8066422570999999e+26 6.0221408570000023e+25 3.6132845142000003e+25 6.0221408570000023e+25 0 1 1 1 9.9999999999999995e-07 1 1 3e-10 9.9999999999999998e-13 1.0000000000000001e-05 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 300 30 30 30 3 0.00029999999999999997 1e-08 2.9999999999999997e-08 1e-10 1e-08 1e-08 3e-09 3e-09 3.0000000000000001e-06 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 3.0000000000000001e-05 0.0001 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 0.0001 1e-10 10000 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 0.001 0.001 0.001 0.0001 0.0001 0.001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 2 5 100000 200000 20 1000000 10 600 3.9999999999999998e-07 9.9999999999999995e-08 9.9999999999999995e-07 9.9999999999999995e-08 0.01 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 1.9999999999999999e-06 1.9999999999999999e-06 0.01 4.9999999999999998e-07 4.9999999999999998e-08 5.0000000000000001e-09 0.01 1.9999999999999999e-06 6.9999999999999999e-06 9.9999999999999995e-07 9.9999999999999995e-08 9.9999999999999995e-07 9.9999999999999995e-07 2.9999999999999997e-08 1.9999999999999999e-06 9.9999999999999995e-07 0.001 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.01 1.0000000000000001e-05 1 1 1 10 10 1 1 1 1 1 1 0.10000000000000001 1 0.070000000000000007 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -10385,7 +10391,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="StepNumber" type="unsignedInteger" value="10000"/>
         <Parameter name="StepSize" type="float" value="10"/>
         <Parameter name="Duration" type="float" value="100000"/>
-        <Parameter name="TimeSeriesRequested" type="bool" value="0"/>
+        <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
@@ -10850,40 +10856,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="Wip1" type="Plot2D" active="0" taskTypes="">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <Parameter name="x axis" type="string" value=""/>
-      <Parameter name="y axis" type="string" value=""/>
-      <Parameter name="z axis" type="string" value=""/>
-      <Parameter name="plot engine" type="string" value="QWT"/>
-      <ListOfPlotItems>
-        <PlotItem name="[Wip1]|Values[time_days]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[time_days],Reference=Value"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Wip1],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="Values[is_IR_switched_on]|Values[time_days]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[time_days],Reference=Value"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[is_IR_switched_on],Reference=Value"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
     <PlotSpecification name="Casp" type="Plot2D" active="0" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
@@ -10906,9 +10878,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="plot" type="Plot2D" active="0" taskTypes="">
+    <PlotSpecification name="plot" type="Plot2D" active="1" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
       <ListOfPlotItems>
         <PlotItem name="[Bax_(free)]|Time" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
@@ -11548,99 +11524,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="plot_1" type="Plot2D" active="0" taskTypes="">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[Bax:BclXL_complex]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax:BclXL_complex],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Bax_(free)]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax_(free)],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[Bax_mRNA]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax_mRNA],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[BclXL_(free)]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_(free)],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[BclXL_Bad_complex]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_Bad_complex],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[BclXL_tot]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_tot],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[p53_killer]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p53_killer],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
     <PlotSpecification name="p53_killer_related_species" type="Plot2D" active="0" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
       <ListOfPlotItems>
         <PlotItem name="[Mdm2_nuc_S166S186phosphorylated]|Time" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
@@ -11692,9 +11582,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="p53_related_fluxes" type="Plot2D" active="1" taskTypes="">
+    <PlotSpecification name="p53_related_fluxes" type="Plot2D" active="0" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
       <ListOfPlotItems>
         <PlotItem name="(Degradation spontaneous and induced by Mdm2_nuc_S166S186p R20).Flux|Time" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
@@ -11734,7 +11628,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="Caspase and Apoptosome" type="Plot2D" active="1" taskTypes="">
+    <PlotSpecification name="plot_1" type="Plot2D" active="1" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
       <Parameter name="x axis" type="string" value=""/>
@@ -11771,7 +11665,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   </ListOfPlots>
   <GUI>
   </GUI>
-  <SBMLReference file="hat2016.xml">
+  <SBMLReference file="../config/943_irradiation_at_zero_merge_all_done.xml">
     <SBMLMap SBMLid="AKT_0" COPASIkey="Metabolite_41"/>
     <SBMLMap SBMLid="AKT_phosphorylated" COPASIkey="Metabolite_13"/>
     <SBMLMap SBMLid="AKT_tot" COPASIkey="Metabolite_34"/>
@@ -11780,25 +11674,53 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="ATM_tot" COPASIkey="Metabolite_33"/>
     <SBMLMap SBMLid="Activation_autoactivation_of_caspases_R82" COPASIkey="Reaction_81"/>
     <SBMLMap SBMLid="Activation_of_caspases_by_active__free__Bax_R81" COPASIkey="Reaction_80"/>
+    <SBMLMap SBMLid="Apaf" COPASIkey="Metabolite_103"/>
+    <SBMLMap SBMLid="Apaf_0" COPASIkey="Metabolite_105"/>
+    <SBMLMap SBMLid="Apop" COPASIkey="Metabolite_61"/>
+    <SBMLMap SBMLid="Apop_XIAP" COPASIkey="Metabolite_74"/>
+    <SBMLMap SBMLid="BAR" COPASIkey="Metabolite_108"/>
+    <SBMLMap SBMLid="BAR_C8" COPASIkey="Metabolite_109"/>
     <SBMLMap SBMLid="Bad_0__free" COPASIkey="Metabolite_29"/>
     <SBMLMap SBMLid="Bad_phosphorylated_Fourteen33_complex" COPASIkey="Metabolite_50"/>
     <SBMLMap SBMLid="Bad_phosphorylated__free" COPASIkey="Metabolite_30"/>
     <SBMLMap SBMLid="Bad_tot" COPASIkey="Metabolite_45"/>
+    <SBMLMap SBMLid="Bax" COPASIkey="Metabolite_79"/>
+    <SBMLMap SBMLid="Bax2" COPASIkey="Metabolite_85"/>
+    <SBMLMap SBMLid="Bax2_Bcl2" COPASIkey="Metabolite_89"/>
+    <SBMLMap SBMLid="Bax4" COPASIkey="Metabolite_88"/>
+    <SBMLMap SBMLid="Bax4_Bcl2" COPASIkey="Metabolite_90"/>
+    <SBMLMap SBMLid="Bax4_M" COPASIkey="Metabolite_91"/>
+    <SBMLMap SBMLid="Bax_0" COPASIkey="Metabolite_81"/>
     <SBMLMap SBMLid="Bax_BclXL_complex" COPASIkey="Metabolite_28"/>
     <SBMLMap SBMLid="Bax__free" COPASIkey="Metabolite_26"/>
     <SBMLMap SBMLid="Bax_mRNA" COPASIkey="Metabolite_25"/>
+    <SBMLMap SBMLid="Bax_tBid" COPASIkey="Metabolite_80"/>
+    <SBMLMap SBMLid="Baxm" COPASIkey="Metabolite_82"/>
+    <SBMLMap SBMLid="Baxm_Bcl2" COPASIkey="Metabolite_83"/>
+    <SBMLMap SBMLid="Bcl2c_tBid" COPASIkey="Metabolite_77"/>
     <SBMLMap SBMLid="BclXL_Bad_complex" COPASIkey="Metabolite_49"/>
     <SBMLMap SBMLid="BclXL__free" COPASIkey="Metabolite_27"/>
     <SBMLMap SBMLid="BclXL_tot" COPASIkey="Metabolite_46"/>
+    <SBMLMap SBMLid="Bcl_2" COPASIkey="Metabolite_84"/>
+    <SBMLMap SBMLid="Bid" COPASIkey="Metabolite_58"/>
     <SBMLMap SBMLid="Binding_of_Bad_p_and_14_3_3_R78" COPASIkey="Reaction_77"/>
     <SBMLMap SBMLid="Binding_of_Bax_and_BclXL_R66" COPASIkey="Reaction_65"/>
     <SBMLMap SBMLid="Binding_of_BclXL_and_Bad_0_R71" COPASIkey="Reaction_70"/>
     <SBMLMap SBMLid="Binding_of_Cyclin_E_and_p21_R50" COPASIkey="Reaction_49"/>
     <SBMLMap SBMLid="Binding_of_Rb1_and_E2F1_R54" COPASIkey="Reaction_53"/>
+    <SBMLMap SBMLid="C3_fraction" COPASIkey="ModelValue_175"/>
+    <SBMLMap SBMLid="C3_pC6" COPASIkey="Metabolite_64"/>
+    <SBMLMap SBMLid="C6_pC8" COPASIkey="Metabolite_107"/>
+    <SBMLMap SBMLid="C8_Bid" COPASIkey="Metabolite_59"/>
+    <SBMLMap SBMLid="C8_pC3" COPASIkey="Metabolite_55"/>
     <SBMLMap SBMLid="Caspase" COPASIkey="Metabolite_32"/>
     <SBMLMap SBMLid="Constant_flux__irreversible" COPASIkey="Function_6"/>
     <SBMLMap SBMLid="Cyclin_E__free" COPASIkey="Metabolite_21"/>
     <SBMLMap SBMLid="Cyclin_E_p21_complex" COPASIkey="Metabolite_22"/>
+    <SBMLMap SBMLid="CytoC" COPASIkey="Metabolite_102"/>
+    <SBMLMap SBMLid="CytoC_Apaf" COPASIkey="Metabolite_104"/>
+    <SBMLMap SBMLid="CytoC_m" COPASIkey="Metabolite_97"/>
+    <SBMLMap SBMLid="CytoC_released" COPASIkey="Metabolite_99"/>
     <SBMLMap SBMLid="DNA_DSB_RepairCplx_total" COPASIkey="ModelValue_94"/>
     <SBMLMap SBMLid="DNA_DSB_due_to_IR" COPASIkey="ModelValue_96"/>
     <SBMLMap SBMLid="DNA_DSB_max" COPASIkey="ModelValue_95"/>
@@ -11863,20 +11785,40 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="Function_for_R59" COPASIkey="Function_52"/>
     <SBMLMap SBMLid="Function_for_R8" COPASIkey="Function_46"/>
     <SBMLMap SBMLid="Function_for_R82" COPASIkey="Function_54"/>
+    <SBMLMap SBMLid="Function_for_re26" COPASIkey="Function_55"/>
+    <SBMLMap SBMLid="Function_for_re27" COPASIkey="Function_56"/>
+    <SBMLMap SBMLid="Function_for_re29" COPASIkey="Function_64"/>
+    <SBMLMap SBMLid="Function_for_re30" COPASIkey="Function_65"/>
+    <SBMLMap SBMLid="Function_for_re31" COPASIkey="Function_57"/>
+    <SBMLMap SBMLid="Function_for_re32" COPASIkey="Function_58"/>
+    <SBMLMap SBMLid="Function_for_re33" COPASIkey="Function_59"/>
+    <SBMLMap SBMLid="Function_for_re35" COPASIkey="Function_60"/>
+    <SBMLMap SBMLid="Function_for_re37" COPASIkey="Function_61"/>
+    <SBMLMap SBMLid="Function_for_re38" COPASIkey="Function_62"/>
+    <SBMLMap SBMLid="Function_for_re40" COPASIkey="Function_63"/>
     <SBMLMap SBMLid="Function_modifier" COPASIkey="Function_45"/>
     <SBMLMap SBMLid="Function_modifier1_modifier2" COPASIkey="Function_53"/>
     <SBMLMap SBMLid="Function_substrate_modifier" COPASIkey="Function_41"/>
     <SBMLMap SBMLid="HIPK2" COPASIkey="Metabolite_3"/>
+    <SBMLMap SBMLid="IR_Gray" COPASIkey="Metabolite_110"/>
     <SBMLMap SBMLid="IR_Gy" COPASIkey="ModelValue_97"/>
+    <SBMLMap SBMLid="L" COPASIkey="Metabolite_52"/>
+    <SBMLMap SBMLid="L_R" COPASIkey="Metabolite_53"/>
+    <SBMLMap SBMLid="M" COPASIkey="Metabolite_92"/>
     <SBMLMap SBMLid="M1" COPASIkey="ModelValue_91"/>
     <SBMLMap SBMLid="M2" COPASIkey="ModelValue_92"/>
     <SBMLMap SBMLid="M3" COPASIkey="ModelValue_93"/>
+    <SBMLMap SBMLid="M_0" COPASIkey="Metabolite_93"/>
+    <SBMLMap SBMLid="M__CytoC_m" COPASIkey="Metabolite_98"/>
+    <SBMLMap SBMLid="M__Smac_m" COPASIkey="Metabolite_94"/>
     <SBMLMap SBMLid="Mdm2_cyt_0phosphorylated" COPASIkey="Metabolite_11"/>
     <SBMLMap SBMLid="Mdm2_cyt_S166S186phosphorylated" COPASIkey="Metabolite_12"/>
     <SBMLMap SBMLid="Mdm2_mRNA" COPASIkey="Metabolite_10"/>
     <SBMLMap SBMLid="Mdm2_nuc_S166S186p_S395p" COPASIkey="Metabolite_14"/>
     <SBMLMap SBMLid="Mdm2_nuc_S166S186phosphorylated" COPASIkey="Metabolite_7"/>
     <SBMLMap SBMLid="Nuclear_import_of_Mdm2_cyto_S166S186p_R28" COPASIkey="Reaction_27"/>
+    <SBMLMap SBMLid="PARP" COPASIkey="Metabolite_70"/>
+    <SBMLMap SBMLid="PARP_C3" COPASIkey="Metabolite_71"/>
     <SBMLMap SBMLid="PI3K_tot" COPASIkey="Metabolite_36"/>
     <SBMLMap SBMLid="PIP2" COPASIkey="Metabolite_42"/>
     <SBMLMap SBMLid="PIP3" COPASIkey="Metabolite_18"/>
@@ -11898,6 +11840,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="Phosphorylation_of_Mdm2_cyt_0_by_AKT_p_R25" COPASIkey="Reaction_24"/>
     <SBMLMap SBMLid="Phosphorylation_of_Rb1_by_Cyclin_E__R55" COPASIkey="Reaction_54"/>
     <SBMLMap SBMLid="Phosphorylation_of_Rb1_in_Rb1_E2F1_complex_by_Cyclin_ER57" COPASIkey="Reaction_56"/>
+    <SBMLMap SBMLid="R" COPASIkey="Metabolite_54"/>
+    <SBMLMap SBMLid="R_0" COPASIkey="Metabolite_72"/>
+    <SBMLMap SBMLid="R__pC8" COPASIkey="Metabolite_100"/>
     <SBMLMap SBMLid="Rb1_0_E2F1_complex" COPASIkey="Metabolite_24"/>
     <SBMLMap SBMLid="Rb1_0__free" COPASIkey="Metabolite_23"/>
     <SBMLMap SBMLid="Rb_phosphorylated" COPASIkey="Metabolite_47"/>
@@ -11905,6 +11850,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="SIAH1_0" COPASIkey="Metabolite_2"/>
     <SBMLMap SBMLid="SIAH1_phosphorylated" COPASIkey="Metabolite_40"/>
     <SBMLMap SBMLid="SIAH1_tot" COPASIkey="Metabolite_44"/>
+    <SBMLMap SBMLid="Smac" COPASIkey="Metabolite_75"/>
+    <SBMLMap SBMLid="Smac_XIAP" COPASIkey="Metabolite_76"/>
+    <SBMLMap SBMLid="Smac_m" COPASIkey="Metabolite_95"/>
+    <SBMLMap SBMLid="Smac_released" COPASIkey="Metabolite_96"/>
     <SBMLMap SBMLid="Synthesis_R58" COPASIkey="Reaction_57"/>
     <SBMLMap SBMLid="Synthesis_induced_by_E2F1_R59" COPASIkey="Reaction_58"/>
     <SBMLMap SBMLid="Synthesis_of_HIPK2_R7" COPASIkey="Reaction_6"/>
@@ -11921,8 +11870,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="Translation_of_Wip_mRNA_R38" COPASIkey="Reaction_37"/>
     <SBMLMap SBMLid="Translation_of_mdm2_R24" COPASIkey="Reaction_23"/>
     <SBMLMap SBMLid="Translation_of_p21_mRNA_R49" COPASIkey="Reaction_48"/>
+    <SBMLMap SBMLid="Ub_C3" COPASIkey="Metabolite_69"/>
     <SBMLMap SBMLid="Wip1" COPASIkey="Metabolite_8"/>
     <SBMLMap SBMLid="Wip1_mRNA" COPASIkey="Metabolite_15"/>
+    <SBMLMap SBMLid="XIAP" COPASIkey="Metabolite_67"/>
+    <SBMLMap SBMLid="XIAP_C3" COPASIkey="Metabolite_68"/>
     <SBMLMap SBMLid="a1" COPASIkey="ModelValue_6"/>
     <SBMLMap SBMLid="a2" COPASIkey="ModelValue_7"/>
     <SBMLMap SBMLid="b1" COPASIkey="ModelValue_58"/>
@@ -11930,8 +11882,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="b3" COPASIkey="ModelValue_60"/>
     <SBMLMap SBMLid="b4" COPASIkey="ModelValue_61"/>
     <SBMLMap SBMLid="b5" COPASIkey="ModelValue_62"/>
+    <SBMLMap SBMLid="cPARP" COPASIkey="Metabolite_73"/>
+    <SBMLMap SBMLid="cPARP_fraction" COPASIkey="ModelValue_176"/>
     <SBMLMap SBMLid="can_Caspase_make_DNA_DSB" COPASIkey="ModelValue_3"/>
+    <SBMLMap SBMLid="casp3" COPASIkey="Metabolite_56"/>
+    <SBMLMap SBMLid="casp6" COPASIkey="Metabolite_66"/>
+    <SBMLMap SBMLid="casp8" COPASIkey="Metabolite_57"/>
     <SBMLMap SBMLid="cytoplasm" COPASIkey="Compartment_1"/>
+    <SBMLMap SBMLid="cytosolic_Bcl_2" COPASIkey="Metabolite_78"/>
     <SBMLMap SBMLid="d1" COPASIkey="ModelValue_46"/>
     <SBMLMap SBMLid="d10" COPASIkey="ModelValue_55"/>
     <SBMLMap SBMLid="d11" COPASIkey="ModelValue_56"/>
@@ -11944,6 +11902,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="d7" COPASIkey="ModelValue_52"/>
     <SBMLMap SBMLid="d8" COPASIkey="ModelValue_53"/>
     <SBMLMap SBMLid="d9" COPASIkey="ModelValue_54"/>
+    <SBMLMap SBMLid="degraded_C3_fraction" COPASIkey="ModelValue_174"/>
+    <SBMLMap SBMLid="flip" COPASIkey="Metabolite_86"/>
+    <SBMLMap SBMLid="flip_R" COPASIkey="Metabolite_87"/>
+    <SBMLMap SBMLid="free_C3_fraction" COPASIkey="ModelValue_177"/>
     <SBMLMap SBMLid="g1" COPASIkey="ModelValue_69"/>
     <SBMLMap SBMLid="g10" COPASIkey="ModelValue_78"/>
     <SBMLMap SBMLid="g101" COPASIkey="ModelValue_79"/>
@@ -11971,6 +11933,76 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="has_DNA_DSB_repair" COPASIkey="ModelValue_5"/>
     <SBMLMap SBMLid="i1" COPASIkey="ModelValue_68"/>
     <SBMLMap SBMLid="is_IR_switched_on" COPASIkey="ModelValue_0"/>
+    <SBMLMap SBMLid="k1" COPASIkey="ModelValue_101"/>
+    <SBMLMap SBMLid="k10" COPASIkey="ModelValue_102"/>
+    <SBMLMap SBMLid="k11" COPASIkey="ModelValue_103"/>
+    <SBMLMap SBMLid="k12" COPASIkey="ModelValue_104"/>
+    <SBMLMap SBMLid="k13" COPASIkey="ModelValue_105"/>
+    <SBMLMap SBMLid="k14" COPASIkey="ModelValue_106"/>
+    <SBMLMap SBMLid="k15" COPASIkey="ModelValue_107"/>
+    <SBMLMap SBMLid="k16" COPASIkey="ModelValue_108"/>
+    <SBMLMap SBMLid="k17" COPASIkey="ModelValue_109"/>
+    <SBMLMap SBMLid="k18" COPASIkey="ModelValue_110"/>
+    <SBMLMap SBMLid="k19" COPASIkey="ModelValue_111"/>
+    <SBMLMap SBMLid="k2" COPASIkey="ModelValue_112"/>
+    <SBMLMap SBMLid="k20" COPASIkey="ModelValue_113"/>
+    <SBMLMap SBMLid="k21" COPASIkey="ModelValue_114"/>
+    <SBMLMap SBMLid="k22" COPASIkey="ModelValue_115"/>
+    <SBMLMap SBMLid="k23" COPASIkey="ModelValue_116"/>
+    <SBMLMap SBMLid="k24" COPASIkey="ModelValue_117"/>
+    <SBMLMap SBMLid="k25" COPASIkey="ModelValue_118"/>
+    <SBMLMap SBMLid="k26" COPASIkey="ModelValue_119"/>
+    <SBMLMap SBMLid="k27" COPASIkey="ModelValue_120"/>
+    <SBMLMap SBMLid="k28" COPASIkey="ModelValue_121"/>
+    <SBMLMap SBMLid="k3" COPASIkey="ModelValue_122"/>
+    <SBMLMap SBMLid="k4" COPASIkey="ModelValue_124"/>
+    <SBMLMap SBMLid="k5" COPASIkey="ModelValue_123"/>
+    <SBMLMap SBMLid="k6" COPASIkey="ModelValue_125"/>
+    <SBMLMap SBMLid="k7" COPASIkey="ModelValue_126"/>
+    <SBMLMap SBMLid="k8" COPASIkey="ModelValue_127"/>
+    <SBMLMap SBMLid="k9" COPASIkey="ModelValue_128"/>
+    <SBMLMap SBMLid="k_1" COPASIkey="ModelValue_129"/>
+    <SBMLMap SBMLid="k_10" COPASIkey="ModelValue_130"/>
+    <SBMLMap SBMLid="k_11" COPASIkey="ModelValue_131"/>
+    <SBMLMap SBMLid="k_12" COPASIkey="ModelValue_132"/>
+    <SBMLMap SBMLid="k_13" COPASIkey="ModelValue_133"/>
+    <SBMLMap SBMLid="k_14" COPASIkey="ModelValue_134"/>
+    <SBMLMap SBMLid="k_15" COPASIkey="ModelValue_135"/>
+    <SBMLMap SBMLid="k_16" COPASIkey="ModelValue_136"/>
+    <SBMLMap SBMLid="k_17" COPASIkey="ModelValue_137"/>
+    <SBMLMap SBMLid="k_18" COPASIkey="ModelValue_138"/>
+    <SBMLMap SBMLid="k_19" COPASIkey="ModelValue_139"/>
+    <SBMLMap SBMLid="k_2" COPASIkey="ModelValue_140"/>
+    <SBMLMap SBMLid="k_20" COPASIkey="ModelValue_141"/>
+    <SBMLMap SBMLid="k_21" COPASIkey="ModelValue_142"/>
+    <SBMLMap SBMLid="k_22" COPASIkey="ModelValue_143"/>
+    <SBMLMap SBMLid="k_23" COPASIkey="ModelValue_144"/>
+    <SBMLMap SBMLid="k_24" COPASIkey="ModelValue_145"/>
+    <SBMLMap SBMLid="k_25" COPASIkey="ModelValue_146"/>
+    <SBMLMap SBMLid="k_26" COPASIkey="ModelValue_147"/>
+    <SBMLMap SBMLid="k_27" COPASIkey="ModelValue_148"/>
+    <SBMLMap SBMLid="k_28" COPASIkey="ModelValue_149"/>
+    <SBMLMap SBMLid="k_3" COPASIkey="ModelValue_150"/>
+    <SBMLMap SBMLid="k_4" COPASIkey="ModelValue_151"/>
+    <SBMLMap SBMLid="k_5" COPASIkey="ModelValue_152"/>
+    <SBMLMap SBMLid="k_6" COPASIkey="ModelValue_153"/>
+    <SBMLMap SBMLid="k_7" COPASIkey="ModelValue_154"/>
+    <SBMLMap SBMLid="k_8" COPASIkey="ModelValue_155"/>
+    <SBMLMap SBMLid="k_9" COPASIkey="ModelValue_156"/>
+    <SBMLMap SBMLid="kc1" COPASIkey="ModelValue_157"/>
+    <SBMLMap SBMLid="kc10" COPASIkey="ModelValue_158"/>
+    <SBMLMap SBMLid="kc12" COPASIkey="ModelValue_159"/>
+    <SBMLMap SBMLid="kc19" COPASIkey="ModelValue_160"/>
+    <SBMLMap SBMLid="kc20" COPASIkey="ModelValue_161"/>
+    <SBMLMap SBMLid="kc21" COPASIkey="ModelValue_162"/>
+    <SBMLMap SBMLid="kc23" COPASIkey="ModelValue_163"/>
+    <SBMLMap SBMLid="kc25" COPASIkey="ModelValue_164"/>
+    <SBMLMap SBMLid="kc3" COPASIkey="ModelValue_165"/>
+    <SBMLMap SBMLid="kc5" COPASIkey="ModelValue_166"/>
+    <SBMLMap SBMLid="kc6" COPASIkey="ModelValue_167"/>
+    <SBMLMap SBMLid="kc7" COPASIkey="ModelValue_168"/>
+    <SBMLMap SBMLid="kc8" COPASIkey="ModelValue_169"/>
+    <SBMLMap SBMLid="kc9" COPASIkey="ModelValue_170"/>
     <SBMLMap SBMLid="nuclear" COPASIkey="Compartment_0"/>
     <SBMLMap SBMLid="p1" COPASIkey="ModelValue_34"/>
     <SBMLMap SBMLid="p10" COPASIkey="ModelValue_43"/>
@@ -11990,6 +12022,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="p7" COPASIkey="ModelValue_40"/>
     <SBMLMap SBMLid="p8" COPASIkey="ModelValue_41"/>
     <SBMLMap SBMLid="p9" COPASIkey="ModelValue_42"/>
+    <SBMLMap SBMLid="pC3_Apop" COPASIkey="Metabolite_62"/>
+    <SBMLMap SBMLid="pC3_fraction" COPASIkey="ModelValue_172"/>
+    <SBMLMap SBMLid="proC3" COPASIkey="Metabolite_63"/>
+    <SBMLMap SBMLid="proC6" COPASIkey="Metabolite_65"/>
+    <SBMLMap SBMLid="proC8" COPASIkey="Metabolite_101"/>
+    <SBMLMap SBMLid="proC9" COPASIkey="Metabolite_106"/>
     <SBMLMap SBMLid="proCaspase" COPASIkey="Metabolite_31"/>
     <SBMLMap SBMLid="q0_bax" COPASIkey="ModelValue_11"/>
     <SBMLMap SBMLid="q0_mdm2" COPASIkey="ModelValue_10"/>
@@ -12002,6 +12040,48 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="q1_pten" COPASIkey="ModelValue_13"/>
     <SBMLMap SBMLid="q1_wip1" COPASIkey="ModelValue_15"/>
     <SBMLMap SBMLid="q2" COPASIkey="ModelValue_18"/>
+    <SBMLMap SBMLid="re1" COPASIkey="Reaction_83"/>
+    <SBMLMap SBMLid="re10" COPASIkey="Reaction_84"/>
+    <SBMLMap SBMLid="re11" COPASIkey="Reaction_93"/>
+    <SBMLMap SBMLid="re12" COPASIkey="Reaction_94"/>
+    <SBMLMap SBMLid="re13" COPASIkey="Reaction_95"/>
+    <SBMLMap SBMLid="re14" COPASIkey="Reaction_96"/>
+    <SBMLMap SBMLid="re15" COPASIkey="Reaction_97"/>
+    <SBMLMap SBMLid="re16" COPASIkey="Reaction_98"/>
+    <SBMLMap SBMLid="re17" COPASIkey="Reaction_99"/>
+    <SBMLMap SBMLid="re18" COPASIkey="Reaction_100"/>
+    <SBMLMap SBMLid="re19" COPASIkey="Reaction_101"/>
+    <SBMLMap SBMLid="re2" COPASIkey="Reaction_102"/>
+    <SBMLMap SBMLid="re20" COPASIkey="Reaction_85"/>
+    <SBMLMap SBMLid="re21" COPASIkey="Reaction_86"/>
+    <SBMLMap SBMLid="re22" COPASIkey="Reaction_87"/>
+    <SBMLMap SBMLid="re23" COPASIkey="Reaction_88"/>
+    <SBMLMap SBMLid="re24" COPASIkey="Reaction_89"/>
+    <SBMLMap SBMLid="re25" COPASIkey="Reaction_90"/>
+    <SBMLMap SBMLid="re26" COPASIkey="Reaction_91"/>
+    <SBMLMap SBMLid="re27" COPASIkey="Reaction_92"/>
+    <SBMLMap SBMLid="re29" COPASIkey="Reaction_103"/>
+    <SBMLMap SBMLid="re3" COPASIkey="Reaction_112"/>
+    <SBMLMap SBMLid="re30" COPASIkey="Reaction_113"/>
+    <SBMLMap SBMLid="re31" COPASIkey="Reaction_114"/>
+    <SBMLMap SBMLid="re32" COPASIkey="Reaction_115"/>
+    <SBMLMap SBMLid="re33" COPASIkey="Reaction_116"/>
+    <SBMLMap SBMLid="re34" COPASIkey="Reaction_117"/>
+    <SBMLMap SBMLid="re35" COPASIkey="Reaction_118"/>
+    <SBMLMap SBMLid="re36" COPASIkey="Reaction_119"/>
+    <SBMLMap SBMLid="re37" COPASIkey="Reaction_120"/>
+    <SBMLMap SBMLid="re38" COPASIkey="Reaction_121"/>
+    <SBMLMap SBMLid="re39" COPASIkey="Reaction_104"/>
+    <SBMLMap SBMLid="re4" COPASIkey="Reaction_122"/>
+    <SBMLMap SBMLid="re40" COPASIkey="Reaction_105"/>
+    <SBMLMap SBMLid="re41" COPASIkey="Reaction_106"/>
+    <SBMLMap SBMLid="re42" COPASIkey="Reaction_107"/>
+    <SBMLMap SBMLid="re43" COPASIkey="Reaction_108"/>
+    <SBMLMap SBMLid="re5" COPASIkey="Reaction_109"/>
+    <SBMLMap SBMLid="re6" COPASIkey="Reaction_110"/>
+    <SBMLMap SBMLid="re7" COPASIkey="Reaction_111"/>
+    <SBMLMap SBMLid="re8" COPASIkey="Reaction_123"/>
+    <SBMLMap SBMLid="re9" COPASIkey="Reaction_124"/>
     <SBMLMap SBMLid="rep" COPASIkey="ModelValue_4"/>
     <SBMLMap SBMLid="s1" COPASIkey="ModelValue_19"/>
     <SBMLMap SBMLid="s10" COPASIkey="ModelValue_33"/>
@@ -12018,13 +12098,16 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="t3" COPASIkey="ModelValue_26"/>
     <SBMLMap SBMLid="t4" COPASIkey="ModelValue_27"/>
     <SBMLMap SBMLid="t5" COPASIkey="ModelValue_28"/>
+    <SBMLMap SBMLid="tBid" COPASIkey="Metabolite_60"/>
     <SBMLMap SBMLid="time_days" COPASIkey="ModelValue_100"/>
+    <SBMLMap SBMLid="total_Caspase_3" COPASIkey="ModelValue_173"/>
     <SBMLMap SBMLid="tp2" COPASIkey="ModelValue_99"/>
     <SBMLMap SBMLid="u1" COPASIkey="ModelValue_63"/>
     <SBMLMap SBMLid="u2" COPASIkey="ModelValue_64"/>
     <SBMLMap SBMLid="u3" COPASIkey="ModelValue_65"/>
     <SBMLMap SBMLid="u5" COPASIkey="ModelValue_66"/>
     <SBMLMap SBMLid="u6" COPASIkey="ModelValue_67"/>
+    <SBMLMap SBMLid="v" COPASIkey="ModelValue_171"/>
   </SBMLReference>
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_1" name="meter" symbol="m">
