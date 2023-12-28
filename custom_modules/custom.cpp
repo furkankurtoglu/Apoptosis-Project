@@ -296,3 +296,45 @@ std::vector<std::vector<double>> create_cell_circle_positions(double cell_radius
 	}
 	return cells;
 }
+
+
+void radiation_start()
+{
+    double x_min = parameters.doubles("radiation_xmin");
+    double x_max = parameters.doubles("radiation_xmax");
+    double y_min = parameters.doubles("radiation_ymin");
+    double y_max = parameters.doubles("radiation_ymax");
+    double ir_gy = parameters.doubles("radiation_grey");
+    
+	for( int i = 0; i < microenvironment.mesh.voxels.size() ; i++ )
+	{
+		std::vector<double> position = microenvironment.mesh.voxels[i].center;
+        if ( position[0] > x_min )
+        {
+            if ( position[0] < x_max )
+            {
+                if ( position[1] > y_min )
+                {
+                    if ( position[1] < y_max )
+                    {
+                        microenvironment(i)[2] = ir_gy;
+                    }
+                }
+            }
+        }
+		
+		
+	}
+    
+}
+
+
+void radiation_stop()
+{    
+	for( int i = 0; i < microenvironment.mesh.voxels.size() ; i++ )
+	{
+        microenvironment(i)[2] = 0;	
+	}
+    
+}
+

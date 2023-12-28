@@ -85,6 +85,8 @@ std::vector<std::string> my_coloring_function( Cell* );
 void update_intracellular();
 
 // custom functions can go here 
+void radiation_stop();
+void radiation_start();
 
 void predator_hunting_function( Cell* pCell, Phenotype& phenotype, double dt ); 
 void predator_cycling_function( Cell* pCell, Phenotype& phenotype, double dt ); 

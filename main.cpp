@@ -167,6 +167,9 @@ int main( int argc, char* argv[] )
     double intracellular_dt_tolerance = 0.001 * intracellular_dt; 
     double next_intracellular_update = intracellular_dt; 
 
+    // Radiation
+    double radiation_start_time = 30;
+    double radiation_stop_time = 630;
     
     
 	// main loop 
@@ -235,6 +238,16 @@ int main( int argc, char* argv[] )
 			    update_intracellular();
 
                 next_intracellular_update += intracellular_dt; 
+            }
+            
+            if ( PhysiCell_globals.current_time >=  radiation_start_time)
+            {
+                radiation_start();   
+            }
+            
+            if ( PhysiCell_globals.current_time >=  radiation_stop_time)
+            {
+                radiation_stop();   
             }
 
 			PhysiCell_globals.current_time += diffusion_dt;
