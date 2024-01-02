@@ -200,6 +200,7 @@ void update_intracellular()
             {
                 
                 (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
+                (*all_cells)[i]->phenotype.intracellular->set_parameter_value("IR_Gray",get_single_signal( (*all_cells)[i], "radiation"));
                 // SBML Simulation
                 (*all_cells)[i]->phenotype.intracellular->update();
                 
@@ -211,6 +212,7 @@ void update_intracellular()
                 double apop = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
                 double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
 
+                // Furkan : Check apop and casp values
                 double apop_star = 36708;
                 double casp_star = 96190;
 
