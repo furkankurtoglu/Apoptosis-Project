@@ -104,12 +104,12 @@
 		<folder>output</folder> <!-- use . for root --> 
 
 		<full_data>
-			<interval units="min">10</interval>
+			<interval units="min">60</interval>
 			<enable>true</enable>
 		</full_data>
 		
 		<SVG>
-			<interval units="min">10</interval>
+			<interval units="min">60</interval>
 			<enable>true</enable>
 		</SVG>
 		
@@ -408,7 +408,7 @@
 				
 				<secretion>
                     <substrate name="ligand">
-						<secretion_rate units="1/min">0.0</secretion_rate> <!-- 40 -->
+						<secretion_rate units="1/min">40.0</secretion_rate> <!-- 40 -->
 						<secretion_target units="substrate density">500.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
@@ -596,7 +596,7 @@
 		<radiation_xmax type="double" units="dimensionless">50</radiation_xmax>
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
-        <radiation_grey type="double" units="Grey">10</radiation_grey>
+        <radiation_grey type="double" units="Grey">0</radiation_grey>
 	</user_parameters>
 	
 </PhysiCell_settings>
