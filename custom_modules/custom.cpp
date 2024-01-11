@@ -160,7 +160,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 200;
+	double initial_tissue_radius = 50;
     double retval;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);

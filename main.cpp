@@ -89,12 +89,22 @@ int main( int argc, char* argv[] )
 	// load and parse settings file(s)
 	
 	bool XML_status = false; 
+	char copy_command [1024]; 
 	if( argc > 1 )
-	{ XML_status = load_PhysiCell_config_file( argv[1] ); }
+	{
+		XML_status = load_PhysiCell_config_file( argv[1] ); 
+		sprintf( copy_command , "cp %s %s" , argv[1] , PhysiCell_settings.folder.c_str() ); 
+	}
 	else
-	{ XML_status = load_PhysiCell_config_file( "./config/PhysiCell_settings.xml" ); }
+	{
+		XML_status = load_PhysiCell_config_file( "./config/PhysiCell_settings.xml" );
+		sprintf( copy_command , "cp ./config/PhysiCell_settings.xml %s" , PhysiCell_settings.folder.c_str() ); 
+	}
 	if( !XML_status )
 	{ exit(-1); }
+	
+	// copy config file to output directry 
+	system( copy_command ); 
 	
 	// OpenMP setup
 	omp_set_num_threads(PhysiCell_settings.omp_num_threads);
@@ -131,7 +141,7 @@ int main( int argc, char* argv[] )
 	
 	char filename[1024];
 	sprintf( filename , "%s/initial" , PhysiCell_settings.folder.c_str() ); 
-	save_PhysiCell_to_MultiCellDS_xml_pugi( filename , microenvironment , PhysiCell_globals.current_time ); 
+	save_PhysiCell_to_MultiCellDS_v2( filename , microenvironment , PhysiCell_globals.current_time ); 
 	
 	// save a quick SVG cross section through z = 0, after setting its 
 	// length bar to 200 microns 
@@ -191,7 +201,7 @@ int main( int argc, char* argv[] )
 				{	
 					sprintf( filename , "%s/output%08u" , PhysiCell_settings.folder.c_str(),  PhysiCell_globals.full_output_index ); 
 					
-					save_PhysiCell_to_MultiCellDS_xml_pugi( filename , microenvironment , PhysiCell_globals.current_time ); 
+					save_PhysiCell_to_MultiCellDS_v2( filename , microenvironment , PhysiCell_globals.current_time ); 
 				}
 				
 				PhysiCell_globals.full_output_index++; 
@@ -267,7 +277,7 @@ int main( int argc, char* argv[] )
 	// save a final simulation snapshot 
 	
 	sprintf( filename , "%s/final" , PhysiCell_settings.folder.c_str() ); 
-	save_PhysiCell_to_MultiCellDS_xml_pugi( filename , microenvironment , PhysiCell_globals.current_time ); 
+	save_PhysiCell_to_MultiCellDS_v2( filename , microenvironment , PhysiCell_globals.current_time ); 
 	
 	sprintf( filename , "%s/final.svg" , PhysiCell_settings.folder.c_str() ); 
 	SVG_plot( filename , microenvironment, 0.0 , PhysiCell_globals.current_time, cell_coloring_function );
