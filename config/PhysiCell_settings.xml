@@ -128,10 +128,10 @@
 		<variable name="ligand" units="mM" ID="0">
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
-				<decay_rate units="1/min">10.0</decay_rate>
+				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mmHg">0.0</initial_condition> <!-- more to come ... --> 
-			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
+			<initial_condition units="mM">3000.0</initial_condition> <!-- more to come ... --> 
+			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
         
@@ -147,7 +147,7 @@
         
         <variable name="radiation" units="Grey" ID="2">
 			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
+				<diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient>
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
 			<initial_condition units="Grey">0.0</initial_condition> <!-- more to come ... --> 
@@ -306,8 +306,15 @@
                 
 				<molecular />
 			</phenotype>
-			<custom_data>  
-                <receptor units="none">200.0</receptor>
+			<custom_data>
+                <ligand units="a.u">0.0</ligand>
+                <receptor units="a.u">0.0</receptor>
+                <IR_gray unit="Gray">0.0</IR_gray>
+                <Apop unit="a.u">0.0</Apop>
+                <Caspase unit="a.u">0.0</Caspase>
+                <XIAP unit="a.u">0.0</XIAP>
+                <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
+                <CytoC_released unit="a.u">0.0</CytoC_released>
 			</custom_data>
 		</cell_definition>
         
@@ -409,7 +416,7 @@
 				<secretion>
                     <substrate name="ligand">
 						<secretion_rate units="1/min">40.0</secretion_rate> <!-- 40 -->
-						<secretion_target units="substrate density">500.0</secretion_target>
+						<secretion_target units="a.u">500.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
@@ -437,7 +444,14 @@
 				<molecular />
 			</phenotype>
 			<custom_data>  
-                <receptor units="none">0.0</receptor>
+                <ligand units="a.u">0.0</ligand>
+                <receptor units="a.u">0.0</receptor>
+                <IR_gray unit="Gray">0.0</IR_gray>
+                <Apop unit="a.u">0.0</Apop>
+                <Caspase unit="a.u">0.0</Caspase>
+                <XIAP unit="a.u">0.0</XIAP>
+                <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
+                <CytoC_released unit="a.u">0.0</CytoC_released>
 			</custom_data>
 		</cell_definition>
 
@@ -567,7 +581,14 @@
 				<molecular />
 			</phenotype>
 			<custom_data>  
-                <receptor units="none">0.0</receptor>
+                <ligand units="a.u">0.0</ligand>
+                <receptor units="a.u">0.0</receptor>
+                <IR_gray unit="Gray">0.0</IR_gray>
+                <Apop unit="a.u">0.0</Apop>
+                <Caspase unit="a.u">0.0</Caspase>
+                <XIAP unit="a.u">0.0</XIAP>
+                <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
+                <CytoC_released unit="a.u">0.0</CytoC_released>
 			</custom_data>
 		</cell_definition>
 	</cell_definitions>

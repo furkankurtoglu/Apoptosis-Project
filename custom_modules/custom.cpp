@@ -160,28 +160,30 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 50;
-    double retval;
+	double initial_tissue_radius = 220;
+
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
     
     std::cout << "NUMBER OF TARGET CELLS : " << positions.size() << " __________" << std::endl;
     for( int i=0; i < positions.size(); i++ )
     {
-        pCell = create_cell(get_cell_definition("target")); 
-        pCell->assign_position( positions[i] );
-       
-        double cell_volume = pCell->phenotype.volume.total;
+        pCell = create_cell(get_cell_definition("target")); // Create Cell
+        pCell->assign_position( positions[i] ); // Assign position to created cell
         
-        pCell->phenotype.intracellular->start();
+        pCell->phenotype.intracellular->start(); //Read SBML and add into cell
         
-        double receptor_level = 160 + (240 - 160) * UniformRandom(); // Furkan to fix it. It should read custom data named "receptor"
-        pCell->phenotype.intracellular->set_parameter_value("R",receptor_level);
-        pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand"));
+        double receptor_level = NormalRandom(200,20); // Randomly define receptor value (Normal Dist)                          Furkan to fix it. It should be normal distribution
+        pCell->phenotype.intracellular->set_parameter_value("R",receptor_level); // Set Receptor Value in SBML for cell
+        pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand")); // Get Ligand from microenvironment then assign into SBML
+        
+        
+        set_single_behavior( pCell , "custom:ligand" , get_single_signal( pCell, "ligand") );  // Define Custom Data for ligand based on ligand in microenvironment
+        set_single_behavior( pCell , "custom:receptor" , receptor_level );  // Define Custom Data for receptor
     }
     
-    pCell = create_cell(get_cell_definition("NK"));
-    pCell-> assign_position({50,50,0});
+    //pCell = create_cell(get_cell_definition("NK"));
+    //pCell-> assign_position({50,50,0});
     
 
 	return; 
@@ -204,10 +206,6 @@ void update_intracellular()
                 // SBML Simulation
                 (*all_cells)[i]->phenotype.intracellular->update();
                 
-                // Phenotype Simulation
-                //(*all_cells)[i]->phenotype.intracellular->update_phenotype_parameters((*all_cells)[i]->phenotype);
-                
-                
                 
                 double apop = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
                 double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
@@ -228,6 +226,14 @@ void update_intracellular()
 				{
 					(*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
 				}
+                set_single_behavior( (*all_cells)[i] , "custom:ligand" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("L"));
+                set_single_behavior( (*all_cells)[i] , "custom:receptor" ,(*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") );
+                set_single_behavior( (*all_cells)[i] , "custom:IR_gray" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("IR_Gray") );
+                set_single_behavior( (*all_cells)[i] , "custom:Apop" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop") );
+                set_single_behavior( (*all_cells)[i] , "custom:Caspase" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase") );
+                set_single_behavior( (*all_cells)[i] , "custom:XIAP" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("XIAP") );
+                set_single_behavior( (*all_cells)[i] , "custom:DNA_double_strand_break" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("DNA_double_strand_break") );
+                set_single_behavior( (*all_cells)[i] , "custom:CytoC_released" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("CytoC released") );
             }
         }
     }
@@ -238,8 +244,6 @@ void update_intracellular()
 
 std::vector<std::string> my_coloring_function( Cell* pCell )
 {
-	
-
     // start with flow cytometry coloring 
 	std::vector<std::string> output = false_cell_coloring_cytometry(pCell); 
 	
@@ -339,4 +343,5 @@ void radiation_stop()
 	}
     
 }
+
 
