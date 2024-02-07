@@ -135,12 +135,12 @@
  		</variable>
         
         
-        <variable name="chemokine" units="mM" ID="1">
+        <variable name="FM_Chemokine" units="mM" ID="1">
 			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
+				<diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient> <!-- ???????????????????????????????????????????? -->
 				<decay_rate units="1/min">5.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mmHg">0.0</initial_condition> <!-- more to come ... --> 
+			<initial_condition units="mmHg">0.0</initial_condition> <!-- ... --> 
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         <!-- more to come ... --> 
@@ -278,6 +278,13 @@
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
+                    
+                    <substrate name="radiation">
+						<secretion_rate units="1/min">0.0</secretion_rate>
+						<secretion_target units="substrate density">0.0</secretion_target>
+						<uptake_rate units="1/min">0.0</uptake_rate>
+						<net_export_rate units="total substrate/min">0</net_export_rate> 
+                    </substrate> 
 				</secretion>
 
 				<cell_interactions>
@@ -315,10 +322,11 @@
                 <XIAP unit="a.u">0.0</XIAP>
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
+                <Eat_Me unit="a.u">0.0</Eat_Me>
 			</custom_data>
 		</cell_definition>
         
-        <cell_definition name="NK" ID="1">
+        <cell_definition name="Macrophages" ID="1">
 			<phenotype>
 				<cycle code="5" name="live">  
 					<phase_transition_rates units="1/min"> 
@@ -415,8 +423,8 @@
 				
 				<secretion>
                     <substrate name="ligand">
-						<secretion_rate units="1/min">40.0</secretion_rate> <!-- 40 -->
-						<secretion_target units="a.u">500.0</secretion_target>
+						<secretion_rate units="1/min">0.0</secretion_rate> <!-- 40 -->
+						<secretion_target units="a.u">0.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
@@ -452,11 +460,12 @@
                 <XIAP unit="a.u">0.0</XIAP>
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
+                <Eat_Me unit="a.u">0.0</Eat_Me>
 			</custom_data>
 		</cell_definition>
 
 
-        <cell_definition name="debris" ID="2">
+        <cell_definition name="Apoptotic Body" ID="2">
 			<phenotype>
 				<cycle code="5" name="live">  
 					<phase_transition_rates units="1/min"> 
@@ -551,9 +560,9 @@
 				</motility>
 				
 				<secretion>
-                    <substrate name="ligand">
-						<secretion_rate units="1/min">40.0</secretion_rate> <!-- -->
-						<secretion_target units="substrate density">500.0</secretion_target>
+                    <substrate name="FM_Chemokine">
+						<secretion_rate units="1/min">10.0</secretion_rate> <!-- ????????????????? -->
+						<secretion_target units="substrate density">100.0</secretion_target> <!-- ????????????????? -->
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
@@ -589,6 +598,7 @@
                 <XIAP unit="a.u">0.0</XIAP>
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
+                <Eat_Me unit="a.u">1.0</Eat_Me>
 			</custom_data>
 		</cell_definition>
 	</cell_definitions>
