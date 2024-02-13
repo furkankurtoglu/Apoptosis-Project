@@ -130,10 +130,6 @@ void setup_microenvironment( void )
 
 void setup_tissue( void )
 {
-
-    static int oxygen_substrate_index = microenvironment.find_density_index( "oxygen" );
-    static int glucose_substrate_index = microenvironment.find_density_index( "glucose" ); 
-    static int lactate_substrate_index = microenvironment.find_density_index( "lactate");
     
     
 	double Xmin = microenvironment.mesh.bounding_box[0]; 
@@ -160,7 +156,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 220;
+	double initial_tissue_radius = 50;
 
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -168,7 +164,7 @@ void setup_tissue( void )
     std::cout << "NUMBER OF TARGET CELLS : " << positions.size() << " __________" << std::endl;
     for( int i=0; i < positions.size(); i++ )
     {
-        pCell = create_cell(get_cell_definition("target")); // Create Cell
+        pCell = create_cell(get_cell_definition("cancer cell")); // Create Cell
         pCell->assign_position( positions[i] ); // Assign position to created cell
         
         pCell->phenotype.intracellular->start(); //Read SBML and add into cell
@@ -234,6 +230,9 @@ void update_intracellular()
                 set_single_behavior( (*all_cells)[i] , "custom:XIAP" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("XIAP") );
                 set_single_behavior( (*all_cells)[i] , "custom:DNA_double_strand_break" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("DNA_double_strand_break") );
                 set_single_behavior( (*all_cells)[i] , "custom:CytoC_released" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("CytoC released") );
+                
+                //std::cout << "Apop_A = " << p_apop_a << std::endl;
+               // std::cout << "Apop_C = " << p_apop_c << std::endl;
             }
         }
     }

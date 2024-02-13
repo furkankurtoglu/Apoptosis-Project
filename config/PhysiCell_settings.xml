@@ -130,27 +130,27 @@
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mM">3000.0</initial_condition> <!-- more to come ... --> 
+			<initial_condition units="mM">0.0</initial_condition> <!-- Default value : 3000 ... --> 
 			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
         
         <variable name="FM_Chemokine" units="mM" ID="1">
 			<physical_parameter_set>
-				<diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient> <!-- ???????????????????????????????????????????? -->
+				<diffusion_coefficient units="micron^2/min">180.0</diffusion_coefficient> <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8608893/ -->
 				<decay_rate units="1/min">5.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mmHg">0.0</initial_condition> <!-- ... --> 
+			<initial_condition units="mmHg">0.0</initial_condition> <!-- Defaul value : 0 --> 
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
-        <!-- more to come ... --> 
+
         
-        <variable name="radiation" units="Grey" ID="2">
+        <variable name="radiation" units="Grey" ID="2">    
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient>
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="Grey">0.0</initial_condition> <!-- more to come ... --> 
+			<initial_condition units="Grey">0.0</initial_condition> <!-- Don't use here to apply radiation. Use "User Parameters" at the bottom --> 
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
@@ -169,7 +169,7 @@
 	</microenvironment_setup>	
 	
 	<cell_definitions>
-		<cell_definition name="target" ID="0">
+		<cell_definition name="cancer cell" ID="0">
 			<phenotype>
 				<cycle code="5" name="live">  
 					<phase_transition_rates units="1/min"> 
@@ -272,7 +272,7 @@
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
                     
-                    <substrate name="chemokine">
+                    <substrate name="FM_Chemokine">
 						<secretion_rate units="1/min">1.0</secretion_rate>
 						<secretion_target units="substrate density">200.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
@@ -326,7 +326,7 @@
 			</custom_data>
 		</cell_definition>
         
-        <cell_definition name="Macrophages" ID="1">
+        <cell_definition name="Macrophage" ID="1">
 			<phenotype>
 				<cycle code="5" name="live">  
 					<phase_transition_rates units="1/min"> 
@@ -415,7 +415,7 @@
 						<use_2D>true</use_2D>
 						<chemotaxis>
 							<enabled>true</enabled>
-							<substrate>chemokine</substrate>
+							<substrate>FM_Chemokine</substrate>
 							<direction>1</direction>
 						</chemotaxis>
 					</options>
@@ -553,7 +553,7 @@
 						<use_2D>false</use_2D>
 						<chemotaxis>
 							<enabled>false</enabled>
-							<substrate>chemokine</substrate>
+							<substrate>FM_Chemokine</substrate>
 							<direction>1</direction>
 						</chemotaxis>
 					</options>
@@ -623,7 +623,7 @@
 	<user_parameters>
 		<random_seed type="int" units="dimensionless">0</random_seed>
         <!-- Radiation Parameters -->
-		<radiation_xmin type="double" units="dimensionless">-50</radiation_xmin>
+		<radiation_xmin type="double" units="dimensionless">0</radiation_xmin>
 		<radiation_xmax type="double" units="dimensionless">50</radiation_xmax>
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
