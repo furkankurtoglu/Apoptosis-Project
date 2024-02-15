@@ -512,7 +512,7 @@
 				</death>					
 
 				<volume>  
-					<total units="micron^3">2494</total>
+					<total units="micron^3">200</total>
 					<fluid_fraction units="dimensionless">0.75</fluid_fraction>
 					<nuclear units="micron^3">540</nuclear>
 					
@@ -527,14 +527,14 @@
 				</volume> 				
 				
 				<mechanics> 
-					<cell_cell_adhesion_strength units="micron/min">0.4</cell_cell_adhesion_strength>
+					<cell_cell_adhesion_strength units="micron/min">1</cell_cell_adhesion_strength>
 					<cell_cell_repulsion_strength units="micron/min">10.0</cell_cell_repulsion_strength>
-					<relative_maximum_adhesion_distance units="dimensionless">1.25</relative_maximum_adhesion_distance>
+					<relative_maximum_adhesion_distance units="dimensionless">0.5</relative_maximum_adhesion_distance>
   					<cell_adhesion_affinities>
 	  					<cell_adhesion_affinity name="default">1</cell_adhesion_affinity> 
 		  			</cell_adhesion_affinities>					
 					<options>
-						<set_relative_equilibrium_distance enabled="false" units="dimensionless">1.8</set_relative_equilibrium_distance>
+						<set_relative_equilibrium_distance enabled="true" units="dimensionless">0.5</set_relative_equilibrium_distance>
 						<set_absolute_equilibrium_distance enabled="false" units="micron">15.12</set_absolute_equilibrium_distance>
 					</options>
                     <cell_BM_adhesion_strength units="micron/min">4.0</cell_BM_adhesion_strength>
@@ -627,7 +627,7 @@
 		<radiation_xmax type="double" units="dimensionless">50</radiation_xmax>
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
-        <radiation_grey type="double" units="Grey">0</radiation_grey>
+        <radiation_grey type="double" units="Grey">10</radiation_grey>
 	</user_parameters>
 	
 </PhysiCell_settings>

@@ -187,8 +187,14 @@ void setup_tissue( void )
 
 void update_intracellular()
 {
-
+    Cell* pCell;
+    
     int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
+    double cell_radius = cell_defaults.phenotype.geometry.radius; 
+	double cell_spacing = 0.8 * 2.0 * cell_radius; 
+	double initial_tissue_radius = 20; 
+    std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
+    
     #pragma omp parallel for 
     for( int i=0; i < (*all_cells).size(); i++ )
     {
@@ -196,7 +202,6 @@ void update_intracellular()
         {
             if( (*all_cells)[i]->is_out_of_domain == false  )
             {
-                
                 (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
                 (*all_cells)[i]->phenotype.intracellular->set_parameter_value("IR_Gray",get_single_signal( (*all_cells)[i], "radiation"));
                 // SBML Simulation
@@ -213,14 +218,36 @@ void update_intracellular()
                 double p_apop_a = apop/apop_star;
                 double p_apop_c = casp/casp_star;
                 
-                if( UniformRandom() < p_apop_c )
+                // Furkan : Delete apoptotic cancer cells from simulation
+                
+                if ( (*all_cells)[i]->phenotype.volume.total > 100)
 				{
-					(*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
-				}
+                    if( UniformRandom() < p_apop_c )
+                    { 
+                        (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
+                        std::vector<double> apoptotic_cell_position;
+                        apoptotic_cell_position = (*all_cells)[i]->position;
+                        for( int i=0; i < positions.size(); i++ )
+                        {
+                            pCell = create_cell(get_cell_definition("Apoptotic Body"));
+                            pCell->assign_position( apoptotic_cell_position[0] + positions[i][0],apoptotic_cell_position[1] + positions[i][1],apoptotic_cell_position[3] + positions[i][3] ); // Assign position to created cell
+                        }
+                    }
+                    
+
+                }
         
-                if( UniformRandom() < p_apop_a )
+                if ( (*all_cells)[i]->phenotype.volume.total > 100)
 				{
-					(*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
+                    if( UniformRandom() < p_apop_a )
+                    { 
+                        std::vector<double> apoptotic_cell_position;
+                        apoptotic_cell_position = (*all_cells)[i]->position;
+                        (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
+                        pCell = create_cell(get_cell_definition("Apoptotic Body"));
+                        pCell->assign_position(apoptotic_cell_position);
+                    //std::cout << " I AM DYING !!" << std::endl;
+                    }
 				}
                 set_single_behavior( (*all_cells)[i] , "custom:ligand" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("L"));
                 set_single_behavior( (*all_cells)[i] , "custom:receptor" ,(*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") );
