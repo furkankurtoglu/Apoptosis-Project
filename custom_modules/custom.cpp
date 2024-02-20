@@ -189,12 +189,6 @@ void update_intracellular()
 {
     Cell* pCell;
     
-    int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
-    double cell_radius = cell_defaults.phenotype.geometry.radius; 
-	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 20; 
-    std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
-    
     #pragma omp parallel for 
     for( int i=0; i < (*all_cells).size(); i++ )
     {
@@ -224,13 +218,25 @@ void update_intracellular()
 				{
                     if( UniformRandom() < p_apop_c )
                     { 
+						double total_dying_cell_volume = (*all_cells)[i]->phenotype.volume.total;							
                         (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
-                        std::vector<double> apoptotic_cell_position;
-                        apoptotic_cell_position = (*all_cells)[i]->position;
+						int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
+						double cell_radius = NormalRandom(5,0.4); 					
+						double initial_tissue_radius = 12;
+						std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
+						//std::cout << "cell count :"  << positions.size() << std::endl;	
+						std::vector<double> apoptotic_cell_position;
+						apoptotic_cell_position = (*all_cells)[i]->position;
+						double apoptotic_body_count = positions.size();
+						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;						
+
                         for( int i=0; i < positions.size(); i++ )
                         {
                             pCell = create_cell(get_cell_definition("Apoptotic Body"));
                             pCell->assign_position( apoptotic_cell_position[0] + positions[i][0],apoptotic_cell_position[1] + positions[i][1],apoptotic_cell_position[3] + positions[i][3] ); // Assign position to created cell
+							double reff_apoptotic_body_volume = pCell->phenotype.volume.total;													
+							pCell->phenotype.volume.multiply_by_ratio(apoptotic_body_volume/reff_apoptotic_body_volume/3); //Bug fix needed
+							
                         }
                     }
                     
