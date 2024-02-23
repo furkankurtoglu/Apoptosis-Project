@@ -215,7 +215,13 @@ int main( int argc, char* argv[] )
 				{	
 					sprintf( filename , "%s/snapshot%08u.svg" , PhysiCell_settings.folder.c_str() , PhysiCell_globals.SVG_output_index ); 
 					SVG_plot( filename , microenvironment, 0.0 , PhysiCell_globals.current_time, cell_coloring_function );
-					
+		time_t t; // t passed as argument in function time()
+		struct tm * tt; // decalring variable for localtime()
+	
+		time (&t); //passing argument to time()
+		tt = localtime(&t);
+		std::cout << "Current Day, Date and Time is = "<< asctime(tt) << std::endl;			
+		
 					PhysiCell_globals.SVG_output_index++; 
 					PhysiCell_globals.next_SVG_save_time  += PhysiCell_settings.SVG_save_interval;
 				}

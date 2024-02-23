@@ -254,5 +254,6 @@ std::ostream& operator<<(std::ostream& os, const Custom_Cell_Data& ccd)
 	
 	return os;
 }
+	
 
 };

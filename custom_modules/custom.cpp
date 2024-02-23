@@ -69,7 +69,6 @@
 #include "../BioFVM/BioFVM.h"  
 using namespace BioFVM;
 
-
 #include "rrc_api.h"
 #include "rrc_types.h"
 // #include "rrc_utilities.h"
@@ -130,8 +129,7 @@ void setup_microenvironment( void )
 
 void setup_tissue( void )
 {
-    
-    
+   
 	double Xmin = microenvironment.mesh.bounding_box[0]; 
 	double Ymin = microenvironment.mesh.bounding_box[1]; 
 	double Zmin = microenvironment.mesh.bounding_box[2]; 
@@ -160,7 +158,7 @@ void setup_tissue( void )
 
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
-    
+	
     std::cout << "NUMBER OF TARGET CELLS : " << positions.size() << " __________" << std::endl;
     for( int i=0; i < positions.size(); i++ )
     {
@@ -229,6 +227,8 @@ void update_intracellular()
 						apoptotic_cell_position = (*all_cells)[i]->position;
 						double apoptotic_body_count = positions.size();
 						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;						
+						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;
+				
 
                         for( int i=0; i < positions.size(); i++ )
                         {
@@ -271,6 +271,9 @@ void update_intracellular()
     }
     
 }
+
+
+
 
 
 
@@ -365,7 +368,6 @@ void radiation_start()
 	}
     
 }
-
 
 void radiation_stop()
 {    
