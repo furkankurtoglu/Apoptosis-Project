@@ -273,8 +273,8 @@
                     </substrate> 
                     
                     <substrate name="FM_Chemokine">
-						<secretion_rate units="1/min">1.0</secretion_rate>
-						<secretion_target units="substrate density">200.0</secretion_target>
+						<secretion_rate units="1/min">0.0</secretion_rate>
+						<secretion_target units="substrate density">0.0</secretion_target>
 						<uptake_rate units="1/min">0.0</uptake_rate>
 						<net_export_rate units="total substrate/min">0</net_export_rate> 
                     </substrate> 
@@ -628,6 +628,8 @@
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
         <radiation_grey type="double" units="Grey">10</radiation_grey>
+        
+        <macrophage_seeding type="bool">true</macrophage_seeding>
 	</user_parameters>
 	
 	

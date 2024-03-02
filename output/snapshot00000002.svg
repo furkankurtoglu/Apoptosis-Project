@@ -17,7 +17,7 @@
   </text>
   <text x="12.5" y="57.5"
    font-family="Arial" font-size="23.75" fill="black" >
-   34 agents
+   35 agents
   </text>
  <g id="tissue" 
     transform="translate(0,1070) scale(1,-1)">
@@ -160,6 +160,10 @@
   <circle cx="536.119" cy="525.651" r="8.41271" stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(255,255,0)"/>
   <circle cx="536.119" cy="525.651" r="5.05167" stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(125,125,0)"/>
    </g>
+   <g id="cell34" type="Macrophage" dead="false" >
+  <circle cx="442.158" cy="599.916" r="8.41271" stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(0,255,0)"/>
+  <circle cx="442.158" cy="599.916" r="5.05167" stroke-width="0.5" stroke="rgb(0,0,0)" fill="rgb(0,125,0)"/>
+   </g>
   </g>
  </g>
   <rect x="775" y="1035" width="200" height="10" stroke-width="2" stroke="rgb(255,255,255)" fill="rgb(0,0,0)"/>
@@ -169,7 +173,7 @@
   </text>
   <text x="25" y="1045"
    font-family="Arial" font-size="18.75" fill="black" >
-   0 days, 0 hours, 0 minutes, and 23.0749 seconds
+   0 days, 0 hours, 0 minutes, and 29.9864 seconds
   </text>
   <rect x="0" y="70" width="1000" height="1000" stroke-width="2" stroke="rgb(0,0,0)" fill="none"/>
   <rect x="1025" y="70" width="25" height="975" stroke-width="2" stroke="black" fill="none"/>

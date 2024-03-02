@@ -159,7 +159,7 @@ void setup_tissue( void )
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
 	
-    std::cout << "NUMBER OF TARGET CELLS : " << positions.size() << " __________" << std::endl;
+    std::cout << "NUMBER OF CANCER CELLS : " << positions.size() << " __________" << std::endl;
     for( int i=0; i < positions.size(); i++ )
     {
         pCell = create_cell(get_cell_definition("cancer cell")); // Create Cell
@@ -176,8 +176,8 @@ void setup_tissue( void )
         set_single_behavior( pCell , "custom:receptor" , receptor_level );  // Define Custom Data for receptor
     }
     
-    //pCell = create_cell(get_cell_definition("NK"));
-    //pCell-> assign_position({50,50,0});
+    pCell = create_cell(get_cell_definition("Macrophage"));
+    pCell-> assign_position({50,50,0});
     
 
 	return; 
@@ -204,8 +204,8 @@ void update_intracellular()
                 double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
 
                 // Furkan : Check apop and casp values
-                double apop_star = 36708;
-                double casp_star = 96190;
+                double apop_star = 36708; // ligand 
+                double casp_star = 96190; // radiation
 
                 double p_apop_a = apop/apop_star;
                 double p_apop_c = casp/casp_star;
@@ -216,9 +216,14 @@ void update_intracellular()
 				{
                     if( UniformRandom() < p_apop_c )
                     { 
+                        int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
 						double total_dying_cell_volume = (*all_cells)[i]->phenotype.volume.total;							
                         (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
-						int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
+                        (*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().unlysed_fluid_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().cytoplasmic_biomass_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().nuclear_biomass_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().lysed_fluid_change_rate = 9e99;
 						double cell_radius = NormalRandom(5,0.4); 					
 						double initial_tissue_radius = 12;
 						std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
@@ -227,16 +232,14 @@ void update_intracellular()
 						apoptotic_cell_position = (*all_cells)[i]->position;
 						double apoptotic_body_count = positions.size();
 						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;						
-						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;
 				
-
+                        
                         for( int i=0; i < positions.size(); i++ )
                         {
                             pCell = create_cell(get_cell_definition("Apoptotic Body"));
                             pCell->assign_position( apoptotic_cell_position[0] + positions[i][0],apoptotic_cell_position[1] + positions[i][1],apoptotic_cell_position[3] + positions[i][3] ); // Assign position to created cell
 							double reff_apoptotic_body_volume = pCell->phenotype.volume.total;													
 							pCell->phenotype.volume.multiply_by_ratio(apoptotic_body_volume/reff_apoptotic_body_volume/3); //Bug fix needed
-							
                         }
                     }
                     
@@ -267,7 +270,7 @@ void update_intracellular()
                 //std::cout << "Apop_A = " << p_apop_a << std::endl;
                // std::cout << "Apop_C = " << p_apop_c << std::endl;
             }
-        }
+        }  
     }
     
 }
@@ -379,3 +382,33 @@ void radiation_stop()
 }
 
 
+void macrophage_cell_rule()
+{   
+    int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
+    #pragma omp parallel for 
+    for( int i=0; i < (*all_cells).size(); i++ )
+    {
+        if ((*all_cells)[i]->type == 1) // if it is macrophage
+        {
+            if( (*all_cells)[i]->is_out_of_domain == false  )
+            {
+                for( int k=0; k < (*all_cells)[i]->state.neighbors.size() ; k++ )
+                {
+                    Cell* pTemp = (*all_cells)[i]->state.neighbors[k]; 
+                    if (pTemp->type == 2)
+                    {
+                        set_single_behavior( (*all_cells)[i] , "migration speed" , 0.0 );
+                        std::cout << "Index : " <<  pTemp->ID << std::endl;
+                        int target_apoptotic_body_index_in_physicell =  pTemp->ID
+                        (*all_cells)[target_apoptotic_body_index_in_physicell].phenotype.death.model().phase_link(0,1).fixed_duration == true;
+                        (*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 7;
+                    }
+                }
+            }
+        }
+    } 
+
+
+
+    return; 
+}

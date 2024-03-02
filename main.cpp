@@ -127,6 +127,9 @@ int main( int argc, char* argv[] )
 	create_cell_types();
 	
 	setup_tissue();
+    
+
+    
 
 	/* Users typically stop modifying here. END USERMODS */ 
 	
@@ -180,6 +183,16 @@ int main( int argc, char* argv[] )
     // Radiation
     double radiation_start_time = 30;
     double radiation_stop_time = 630;
+    
+    
+    // Macrophage
+    double macrophage_dt = 1.0;
+    double last_macrophage_time  = 0.0; 
+    double macrophage_dt_tolerance = 0.001 * macrophage_dt; 
+    double next_macrophage_update = macrophage_dt; 
+    
+
+    bool macrophage_seeding = parameters.bools( "macrophage_seeding" );
     
     
 	// main loop 
@@ -265,6 +278,15 @@ int main( int argc, char* argv[] )
             {
                 radiation_stop();   
             }
+            
+            if ( macrophage_seeding == true)
+			{		
+				if( PhysiCell_globals.current_time >= next_macrophage_update )
+				{
+					macrophage_cell_rule();
+                    next_macrophage_update += macrophage_dt; 
+				}
+			}
 
 			PhysiCell_globals.current_time += diffusion_dt;
 		}
