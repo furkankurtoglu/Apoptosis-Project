@@ -87,7 +87,7 @@
 	</domain>
 	
 	<overall>
-		<max_time units="min">1440</max_time> <!-- 1 days * 24 h * 60 min -->
+		<max_time units="min">14400</max_time> <!-- 1 days * 24 h * 60 min -->
 		<time_units>min</time_units>
 		<space_units>micron</space_units>
 	
@@ -138,9 +138,9 @@
         <variable name="FM_Chemokine" units="mM" ID="1">
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">180.0</diffusion_coefficient> <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8608893/ -->
-				<decay_rate units="1/min">5.0</decay_rate>
+				<decay_rate units="1/min">30.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mmHg">0.0</initial_condition> <!-- Defaul value : 0 --> 
+			<initial_condition units="mmHg">0.0</initial_condition>
 			<Dirichlet_boundary_condition units="mmHg" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
 
@@ -323,6 +323,8 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">0.0</Eat_Me>
+                <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
+                <Phagocytosis_Target_index unit="dimensionless">0.0</Phagocytosis_Target_index>
 			</custom_data>
 		</cell_definition>
         
@@ -406,10 +408,9 @@
 				</mechanics>
 				
 				<motility>  
-					<speed units="micron/min">15.0</speed>
-					<persistence_time units="min">0.1</persistence_time>
-					<migration_bias units="dimensionless">0.5</migration_bias>
-					
+					<speed units="micron/min">10.0</speed>
+					<persistence_time units="min">0.2</persistence_time>
+					<migration_bias units="dimensionless">0.8</migration_bias>
 					<options>
 						<enabled>true</enabled>
 						<use_2D>true</use_2D>
@@ -461,6 +462,8 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">0.0</Eat_Me>
+                <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
+                <Phagocytosis_Target_index unit="dimensionless">100000000</Phagocytosis_Target_index>
 			</custom_data>
 		</cell_definition>
 
@@ -480,10 +483,10 @@
 							<rate start_index="0" end_index="1" fixed_duration="true">0.0</rate>
 						</phase_transition_rates>
 						<parameters>
-							<unlysed_fluid_change_rate units="1/min">0.05</unlysed_fluid_change_rate>
-							<lysed_fluid_change_rate units="1/min">0</lysed_fluid_change_rate>
-							<cytoplasmic_biomass_change_rate units="1/min">1.66667e-02</cytoplasmic_biomass_change_rate>
-							<nuclear_biomass_change_rate units="1/min">5.83333e-03</nuclear_biomass_change_rate>
+							<unlysed_fluid_change_rate units="1/min">1.66667e-01</unlysed_fluid_change_rate>
+							<lysed_fluid_change_rate units="1/min">1.66667e-01</lysed_fluid_change_rate>
+							<cytoplasmic_biomass_change_rate units="1/min">1.66667e-01</cytoplasmic_biomass_change_rate>
+							<nuclear_biomass_change_rate units="1/min">1.66667e-01</nuclear_biomass_change_rate>
 							<calcification_rate units="1/min">0</calcification_rate>
 							<relative_rupture_volume units="dimensionless">2.0</relative_rupture_volume>
 						</parameters>
@@ -599,6 +602,8 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">1.0</Eat_Me>
+                <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
+                <Phagocytosis_Target_index unit="dimensionless">0.0</Phagocytosis_Target_index>
 			</custom_data>
 		</cell_definition>
 	</cell_definitions>

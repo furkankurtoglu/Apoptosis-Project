@@ -246,7 +246,7 @@ void update_intracellular()
 
                 }
         
-                if ( (*all_cells)[i]->phenotype.volume.total > 100)
+                if ( (*all_cells)[i]->phenotype.volume.total > 100) /////////////////// Implement same algorithm to extrinsic death
 				{
                     if( UniformRandom() < p_apop_a )
                     { 
@@ -395,20 +395,53 @@ void macrophage_cell_rule()
                 for( int k=0; k < (*all_cells)[i]->state.neighbors.size() ; k++ )
                 {
                     Cell* pTemp = (*all_cells)[i]->state.neighbors[k]; 
-                    if (pTemp->type == 2)
+                    int a = 0;
+                    if (pTemp->type == 2) ///////////////////////// Change to EatMe 
                     {
-                        set_single_behavior( (*all_cells)[i] , "migration speed" , 0.0 );
-                        std::cout << "Index : " <<  pTemp->ID << std::endl;
-                        int target_apoptotic_body_index_in_physicell =  pTemp->ID
-                        (*all_cells)[target_apoptotic_body_index_in_physicell].phenotype.death.model().phase_link(0,1).fixed_duration == true;
-                        (*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 7;
+                        int apoptotic_body_index = pTemp->ID;
+                        double memory_target_index = get_single_signal( (*all_cells)[i], "custom:Phagocytosis_Target_index");
+                        int mem_tar_index = memory_target_index;
+                        double memory_presence = get_single_signal( (*all_cells)[i], "custom:Phagocytosis_Target_Memory");
+                        double clear_duration = 0.2; // min
+                        if( apoptotic_body_index == memory_target_index && (*all_cells)[apoptotic_body_index]->phenotype.death.dead == true)
+                        { // take reset
+                            std::cout << "I cleared apoptotic body number " << apoptotic_body_index << std::endl;
+                            set_single_behavior( (*all_cells)[i], "custom:Phagocytosis_Target_Memory", 0);
+                            set_single_behavior( (*all_cells)[i], "custom:Phagocytosis_Target_index", 100000000);
+                            std::cout << "I am start get going" << std::endl;
+                            set_single_behavior( (*all_cells)[i] , "migration speed" , 15.0 );
+                            set_single_behavior( (*all_cells)[i] , "migration bias" , 0.35 );
+                        }
+                            
+                        if( apoptotic_body_index == memory_target_index && (*all_cells)[apoptotic_body_index]->phenotype.death.dead == false) 
+                        {// kill
+                            std::cout << "I am gonna kill "  << apoptotic_body_index << std::endl;
+                            (*all_cells)[apoptotic_body_index]->phenotype.death.models[apoptosis_model_index]->phase_links[0][0].fixed_duration == true;
+                            (*all_cells)[apoptotic_body_index]->phenotype.death.rates[apoptosis_model_index] = 1.0 / (clear_duration+1e-16); 
+                        }
+                        if( apoptotic_body_index != memory_target_index && (*all_cells)[apoptotic_body_index]->phenotype.death.dead == true )
+                        {
+                        }
+                        if( apoptotic_body_index != memory_target_index && (*all_cells)[apoptotic_body_index]->phenotype.death.dead == false )                        
+                        {
+                            if (memory_presence == 0)
+                            { // define target
+                                std::cout << "I found my target in my mind. It is " << apoptotic_body_index << std::endl;
+                                set_single_behavior( (*all_cells)[i], "custom:Phagocytosis_Target_Memory", 1);
+                                set_single_behavior( (*all_cells)[i], "custom:Phagocytosis_Target_index", (double)apoptotic_body_index);
+                                std::cout << "I am stopping" << std::endl;
+                                set_single_behavior( (*all_cells)[i] , "migration speed", 0.0 );
+                                
+                            }
+                            else
+                            { // I have a different target in my mind so do nothing
+                            }
+                        }
                     }
                 }
             }
         }
     } 
-
-
 
     return; 
 }
