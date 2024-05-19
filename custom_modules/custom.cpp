@@ -167,7 +167,7 @@ void setup_tissue( void )
         
         pCell->phenotype.intracellular->start(); //Read SBML and add into cell
         
-        double receptor_level = NormalRandom(200,20); // Randomly define receptor value (Normal Dist)                          Furkan to fix it. It should be normal distribution
+        double receptor_level = NormalRandom(200,20); // Randomly define receptor value (Normal Dist) 
         pCell->phenotype.intracellular->set_parameter_value("R",receptor_level); // Set Receptor Value in SBML for cell
         pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand")); // Get Ligand from microenvironment then assign into SBML
         
@@ -175,6 +175,11 @@ void setup_tissue( void )
         set_single_behavior( pCell , "custom:ligand" , get_single_signal( pCell, "ligand") );  // Define Custom Data for ligand based on ligand in microenvironment
         set_single_behavior( pCell , "custom:receptor" , receptor_level );  // Define Custom Data for receptor
     }
+    
+    
+    // Proper Machrophage seeding --> Use user parameters......
+    
+    
     
     pCell = create_cell(get_cell_definition("Macrophage"));
     pCell-> assign_position({50,50,0});
@@ -197,6 +202,9 @@ void update_intracellular()
                 (*all_cells)[i]->phenotype.intracellular->set_parameter_value("L",get_single_signal( (*all_cells)[i], "ligand"));
                 (*all_cells)[i]->phenotype.intracellular->set_parameter_value("IR_Gray",get_single_signal( (*all_cells)[i], "radiation"));
                 // SBML Simulation
+                
+                // There are two evaluations in intracellular dt 
+                // Fix this issue at Core 
                 (*all_cells)[i]->phenotype.intracellular->update();
                 
                 
@@ -207,11 +215,15 @@ void update_intracellular()
                 double apop_star = 36708; // ligand 
                 double casp_star = 96190; // radiation
 
+
+                // Fix this to be proportional to dt 
                 double p_apop_a = apop/apop_star;
                 double p_apop_c = casp/casp_star;
                 
                 // Furkan : Delete apoptotic cancer cells from simulation
-                
+
+
+                // Forming Apoptotic Bodies in the location of dying cells
                 if ( (*all_cells)[i]->phenotype.volume.total > 100)
 				{
                     if( UniformRandom() < p_apop_c )

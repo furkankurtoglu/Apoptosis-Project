@@ -135,7 +135,7 @@
  		</variable>
         
         
-        <variable name="FM_Chemokine" units="mM" ID="1">
+        <variable name="FM_Chemokine" units="mM" ID="1"> <!-- Find Me Chemokine ... --> 
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">180.0</diffusion_coefficient> <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8608893/ -->
 				<decay_rate units="1/min">30.0</decay_rate>
