@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.42 (Build 284) (http://www.copasi.org) at 2024-04-28T15:09:58Z -->
+<!-- generated with COPASI 4.43 (Build 288) (http://www.copasi.org) at 2024-06-26T23:39:24Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
-<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="42" versionDevel="284" copasiSourcesModified="0">
+<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="43" versionDevel="288" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_6" name="Constant flux (irreversible)" type="PreDefined" reversible="false">
       <MiriamAnnotation>
@@ -46,10 +46,10 @@ Reaction scheme where the products are created from the reactants and the change
         <ParameterDescription key="FunctionParameter_81" name="substrate" order="1" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_44" name="Function substrate modifier [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_41" name="Function substrate modifier [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_44">
+  <rdf:Description rdf:about="#Function_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T14:17:20Z</dcterms:W3CDTF>
@@ -62,15 +62,15 @@ Reaction scheme where the products are created from the reactants and the change
         k*modifier*substrate
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_285" name="k" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_284" name="modifier" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_283" name="substrate" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_275" name="k" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_274" name="modifier" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_273" name="substrate" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_65" name="Function for R1 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_42" name="Function for R1 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_65">
+  <rdf:Description rdf:about="#Function_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:06:31Z</dcterms:W3CDTF>
@@ -83,19 +83,19 @@ Reaction scheme where the products are created from the reactants and the change
         (h1*DNA_DSB_DUE_to_IR*is_IR_switched_on+h2*y33)*(DNA_DSB_max-y1)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_377" name="h1" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_378" name="DNA_DSB_DUE_to_IR" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_379" name="is_IR_switched_on" order="2" role="constant"/>
-        <ParameterDescription key="FunctionParameter_370" name="h2" order="3" role="constant"/>
-        <ParameterDescription key="FunctionParameter_369" name="y33" order="4" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_332" name="DNA_DSB_max" order="5" role="constant"/>
-        <ParameterDescription key="FunctionParameter_331" name="y1" order="6" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_276" name="h1" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_266" name="DNA_DSB_DUE_to_IR" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_272" name="is_IR_switched_on" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_277" name="h2" order="3" role="constant"/>
+        <ParameterDescription key="FunctionParameter_278" name="y33" order="4" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_279" name="DNA_DSB_max" order="5" role="constant"/>
+        <ParameterDescription key="FunctionParameter_280" name="y1" order="6" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_63" name="Function for R2 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_43" name="Function for R2 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_63">
+  <rdf:Description rdf:about="#Function_43">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:47:56Z</dcterms:W3CDTF>
@@ -108,15 +108,15 @@ Reaction scheme where the products are created from the reactants and the change
         y1*rep/(y1+DNA_DSB_RepairCplx_total)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_299" name="y1" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_300" name="rep" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_301" name="DNA_DSB_RepairCplx_total" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_287" name="y1" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_286" name="rep" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_285" name="DNA_DSB_RepairCplx_total" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_54" name="Function for R4 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_44" name="Function for R4 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_54">
+  <rdf:Description rdf:about="#Function_44">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:50:51Z</dcterms:W3CDTF>
@@ -129,17 +129,17 @@ Reaction scheme where the products are created from the reactants and the change
         p1*ATM_0*y1^h/(y1^h+M1^h)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_329" name="p1" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_328" name="ATM_0" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_302" name="y1" order="2" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_330" name="h" order="3" role="constant"/>
-        <ParameterDescription key="FunctionParameter_298" name="M1" order="4" role="constant"/>
+        <ParameterDescription key="FunctionParameter_282" name="p1" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_283" name="ATM_0" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_284" name="y1" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_281" name="h" order="3" role="constant"/>
+        <ParameterDescription key="FunctionParameter_288" name="M1" order="4" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_47" name="Function modifier [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_45" name="Function modifier [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_47">
+  <rdf:Description rdf:about="#Function_45">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:54:04Z</dcterms:W3CDTF>
@@ -152,14 +152,14 @@ Reaction scheme where the products are created from the reactants and the change
         k*modifier
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_323" name="k" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_324" name="modifier" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_293" name="k" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_292" name="modifier" order="1" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_52" name="Function for R8 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_46" name="Function for R8 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_52">
+  <rdf:Description rdf:about="#Function_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:55:19Z</dcterms:W3CDTF>
@@ -172,16 +172,16 @@ Reaction scheme where the products are created from the reactants and the change
         g7*y4*(y3+y12)^2
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_326" name="g7" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_325" name="y4" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_297" name="y3" order="2" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_322" name="y12" order="3" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_290" name="g7" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_291" name="y4" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_289" name="y3" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_294" name="y12" order="3" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_41" name="Function for R12 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_47" name="Function for R12 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_41">
+  <rdf:Description rdf:about="#Function_47">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:57:54Z</dcterms:W3CDTF>
@@ -194,17 +194,17 @@ Reaction scheme where the products are created from the reactants and the change
         (g101+g11*y12^h)*y5
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_273" name="g101" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_272" name="g11" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_266" name="y12" order="2" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_276" name="h" order="3" role="constant"/>
-        <ParameterDescription key="FunctionParameter_274" name="y5" order="4" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_298" name="g101" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_297" name="g11" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_296" name="y12" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_295" name="h" order="3" role="constant"/>
+        <ParameterDescription key="FunctionParameter_299" name="y5" order="4" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_61" name="Function for R22 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_48" name="Function for R22 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_61">
+  <rdf:Description rdf:about="#Function_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:04:18Z</dcterms:W3CDTF>
@@ -217,18 +217,18 @@ Reaction scheme where the products are created from the reactants and the change
         s3*(q0_mdm2 + q1_mdm2*y6^h)/(q2+q0_mdm2 + q1_mdm2*y6^h)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_360" name="s3" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_361" name="q0_mdm2" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_362" name="q1_mdm2" order="2" role="constant"/>
-        <ParameterDescription key="FunctionParameter_363" name="y6" order="3" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_275" name="h" order="4" role="constant"/>
-        <ParameterDescription key="FunctionParameter_359" name="q2" order="5" role="constant"/>
+        <ParameterDescription key="FunctionParameter_304" name="s3" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_303" name="q0_mdm2" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_302" name="q1_mdm2" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_301" name="y6" order="3" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_300" name="h" order="4" role="constant"/>
+        <ParameterDescription key="FunctionParameter_305" name="q2" order="5" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_57" name="Function for R43 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_49" name="Function for R43 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_57">
+  <rdf:Description rdf:about="#Function_49">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:15:15Z</dcterms:W3CDTF>
@@ -241,15 +241,15 @@ Reaction scheme where the products are created from the reactants and the change
         p8*PIP2*PI3K_tot
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_342" name="p8" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_343" name="PIP2" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_344" name="PI3K_tot" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_311" name="p8" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_310" name="PIP2" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_309" name="PI3K_tot" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_66" name="Function for R45 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_50" name="Function for R45 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_66">
+  <rdf:Description rdf:about="#Function_50">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:29:02Z</dcterms:W3CDTF>
@@ -262,15 +262,15 @@ Reaction scheme where the products are created from the reactants and the change
         p12*AKT_0*y18
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_358" name="p12" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_346" name="AKT_0" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_345" name="y18" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_306" name="p12" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_307" name="AKT_0" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_308" name="y18" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_49" name="Function for R53 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_51" name="Function for R53 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_49">
+  <rdf:Description rdf:about="#Function_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:34:11Z</dcterms:W3CDTF>
@@ -283,15 +283,15 @@ Reaction scheme where the products are created from the reactants and the change
         d12*Rb_p/(M2+Rb_p)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_384" name="d12" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_385" name="Rb_p" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_341" name="M2" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_314" name="d12" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_313" name="Rb_p" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_312" name="M2" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_48" name="Function for R59 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_52" name="Function for R59 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_48">
+  <rdf:Description rdf:about="#Function_52">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:49:02Z</dcterms:W3CDTF>
@@ -304,15 +304,15 @@ Reaction scheme where the products are created from the reactants and the change
         s9*E2F1^2/(M3^2+E2F1^2)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_381" name="s9" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_382" name="E2F1" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_383" name="M3" order="2" role="constant"/>
+        <ParameterDescription key="FunctionParameter_317" name="s9" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_316" name="E2F1" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_315" name="M3" order="2" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_51" name="Function modifier1 modifier2 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_53" name="Function modifier1 modifier2 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_51">
+  <rdf:Description rdf:about="#Function_53">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:58:06Z</dcterms:W3CDTF>
@@ -325,15 +325,15 @@ Reaction scheme where the products are created from the reactants and the change
         k*modifier1*modifier2
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_311" name="k" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_312" name="modifier1" order="1" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_380" name="modifier2" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_320" name="k" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_319" name="modifier1" order="1" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_318" name="modifier2" order="2" role="modifier"/>
       </ListOfParameterDescriptions>
     </Function>
-    <Function key="Function_59" name="Function for R82 [1]" type="UserDefined" reversible="unspecified">
+    <Function key="Function_54" name="Function for R82 [1]" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_59">
+  <rdf:Description rdf:about="#Function_54">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:06:04Z</dcterms:W3CDTF>
@@ -346,13 +346,13 @@ Reaction scheme where the products are created from the reactants and the change
         a2*y33^2*y32
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_308" name="a2" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_309" name="y33" order="1" role="product"/>
-        <ParameterDescription key="FunctionParameter_310" name="y32" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_323" name="a2" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_322" name="y33" order="1" role="product"/>
+        <ParameterDescription key="FunctionParameter_321" name="y32" order="2" role="substrate"/>
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="Hat2016 - Reponse of p53 System to irradiation in cell fate decision making" simulationType="time" timeUnit="s" volumeUnit="ml" areaUnit="m²" lengthUnit="m" quantityUnit="mmol" type="deterministic" avogadroConstant="6.0221408570000002e+23">
+  <Model key="Model_0" name="Hat2016 - Reponse of p53 System to irradiation in cell fate decision making" simulationType="time" timeUnit="s" volumeUnit="ml" areaUnit="m²" lengthUnit="m" quantityUnit="mmol" type="deterministic" avogadroConstant="6.0221408570000002e+23">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
@@ -360,7 +360,7 @@ Reaction scheme where the products are created from the reactants and the change
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <rdf:Description rdf:about="#Model_1">
+  <rdf:Description rdf:about="#Model_0">
     <bqbiol:hasProperty rdf:resource="urn:miriam:mamo:MAMO_0000046"/>
     <bqbiol:hasTaxon rdf:resource="urn:miriam:taxonomy:9606"/>
     <dcterms:bibliographicCitation>
@@ -419,10 +419,10 @@ Reaction scheme where the products are created from the reactants and the change
       The p53 transcription factor is a regulator of key cellular processes including DNA repair, cell cycle arrest, and apoptosis. In this theoretical study, we investigate how the complex circuitry of the p53 network allows for stochastic yet unambiguous cell fate decision-making. The proposed Markov chain model consists of the regulatory core and two subordinated bistable modules responsible for cell cycle arrest and apoptosis. The regulatory core is controlled by two negative feedback loops (regulated by Mdm2 and Wip1) responsible for oscillations, and two antagonistic positive feedback loops (regulated by phosphatases Wip1 and PTEN) responsible for bistability. By means of bifurcation analysis of the deterministic approximation we capture the recurrent solutions (i.e., steady states and limit cycles) that delineate temporal responses of the stochastic system. Direct switching from the limit-cycle oscillations to the "apoptotic" steady state is enabled by the existence of a subcritical Neimark-Sacker bifurcation in which the limit cycle loses its stability by merging with an unstable invariant torus. Our analysis provides an explanation why cancer cell lines known to have vastly diverse expression levels of Wip1 and PTEN exhibit a broad spectrum of responses to DNA damage: from a fast transition to a high level of p53 killer (a p53 phosphoform which promotes commitment to apoptosis) in cells characterized by high PTEN and low Wip1 levels to long-lasting p53 level oscillations in cells having PTEN promoter methylated (as in, e.g., MCF-7 cell line).
     </Comment>
     <ListOfCompartments>
-      <Compartment key="Compartment_2" name="nuclear" simulationType="fixed" dimensionality="3" addNoise="false">
+      <Compartment key="Compartment_0" name="nuclear" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Compartment_2">
+  <rdf:Description rdf:about="#Compartment_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T17:05:08Z</dcterms:W3CDTF>
@@ -433,10 +433,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Compartment>
-      <Compartment key="Compartment_3" name="cytoplasm" simulationType="fixed" dimensionality="3" addNoise="false">
+      <Compartment key="Compartment_1" name="cytoplasm" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Compartment_3">
+  <rdf:Description rdf:about="#Compartment_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T17:05:09Z</dcterms:W3CDTF>
@@ -449,24 +449,28 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_111" name="DNA_double_strand_break" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_0" name="DNA_double_strand_break" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_111">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:27:55Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
-    <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0035861" />
+    <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0035861"/>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_112" name="ATM_phosphorylated" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_1" name="ATM_phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_112">
+  <rdf:Description rdf:about="#Metabolite_1">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -478,10 +482,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_113" name="SIAH1_0" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_2" name="SIAH1_0" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_113">
+  <rdf:Description rdf:about="#Metabolite_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:29Z</dcterms:W3CDTF>
@@ -495,10 +499,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_tot],Reference=InitialConcentration>
         </InitialExpression>
       </Metabolite>
-      <Metabolite key="Metabolite_114" name="HIPK2" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_3" name="HIPK2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_114">
+  <rdf:Description rdf:about="#Metabolite_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:28:31Z</dcterms:W3CDTF>
@@ -509,10 +513,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_115" name="p53_0phosphorylated" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_4" name="p53_0phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_115">
+  <rdf:Description rdf:about="#Metabolite_4">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -524,10 +528,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_116" name="p53_arrester" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_5" name="p53_arrester" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_116">
+  <rdf:Description rdf:about="#Metabolite_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:30:28Z</dcterms:W3CDTF>
@@ -538,10 +542,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_117" name="p53_S46phosphorylated" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_6" name="p53_S46phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_117">
+  <rdf:Description rdf:about="#Metabolite_6">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -553,10 +557,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_118" name="Mdm2_nuc_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_7" name="Mdm2_nuc_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_118">
+  <rdf:Description rdf:about="#Metabolite_7">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -568,10 +572,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_119" name="Wip1" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_8" name="Wip1" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_119">
+  <rdf:Description rdf:about="#Metabolite_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:48:15Z</dcterms:W3CDTF>
@@ -582,10 +586,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_120" name="p53_killer" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_9" name="p53_killer" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_120">
+  <rdf:Description rdf:about="#Metabolite_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:07:06Z</dcterms:W3CDTF>
@@ -596,10 +600,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_121" name="Mdm2 mRNA" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_10" name="Mdm2 mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_121">
+  <rdf:Description rdf:about="#Metabolite_10">
     <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697" />
     <dcterms:created>
       <rdf:Description>
@@ -611,10 +615,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_122" name="Mdm2_cyt_0phosphorylated" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_11" name="Mdm2_cyt_0phosphorylated" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_122">
+  <rdf:Description rdf:about="#Metabolite_11">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -626,10 +630,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_123" name="Mdm2_cyt_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_12" name="Mdm2_cyt_S166S186phosphorylated" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_123">
+  <rdf:Description rdf:about="#Metabolite_12">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -641,10 +645,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_124" name="AKT_phosphorylated" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_13" name="AKT_phosphorylated" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_124">
+  <rdf:Description rdf:about="#Metabolite_13">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -656,10 +660,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_125" name="Mdm2_nuc_S166S186p_S395p" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_14" name="Mdm2_nuc_S166S186p_S395p" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_125">
+  <rdf:Description rdf:about="#Metabolite_14">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -671,25 +675,30 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_126" name="Wip1 mRNA" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_15" name="Wip1 mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_126">
-    <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697" />
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_15">
+    <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697"/>
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:48:09Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
-    <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:O15297" />
+    <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:O15297"/>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_127" name="PTEN mRNA" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_16" name="PTEN mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_127">
+  <rdf:Description rdf:about="#Metabolite_16">
     <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697" />
     <dcterms:created>
       <rdf:Description>
@@ -701,10 +710,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_128" name="PTEN" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_17" name="PTEN" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_128">
+  <rdf:Description rdf:about="#Metabolite_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T14:13:04Z</dcterms:W3CDTF>
@@ -715,10 +724,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_129" name="PIP3" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_18" name="PIP3" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_129">
+  <rdf:Description rdf:about="#Metabolite_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:11:53Z</dcterms:W3CDTF>
@@ -728,10 +737,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_130" name="p21_mRNA" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_19" name="p21_mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_130">
+  <rdf:Description rdf:about="#Metabolite_19">
     <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697" />
     <dcterms:created>
       <rdf:Description>
@@ -743,10 +752,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_131" name="p21_(free)" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_20" name="p21_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_131">
+  <rdf:Description rdf:about="#Metabolite_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:49:04Z</dcterms:W3CDTF>
@@ -757,10 +766,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_132" name="Cyclin_E (free)" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_21" name="Cyclin_E (free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_132">
+  <rdf:Description rdf:about="#Metabolite_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:49:42Z</dcterms:W3CDTF>
@@ -771,10 +780,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_133" name="Cyclin_E:p21_complex" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_22" name="Cyclin_E:p21_complex" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_133">
+  <rdf:Description rdf:about="#Metabolite_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:49:50Z</dcterms:W3CDTF>
@@ -786,10 +795,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_134" name="Rb1_0_(free)" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_23" name="Rb1_0_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_134">
+  <rdf:Description rdf:about="#Metabolite_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:12:29Z</dcterms:W3CDTF>
@@ -800,10 +809,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_135" name="Rb1_0:E2F1 complex" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_24" name="Rb1_0:E2F1 complex" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_135">
+  <rdf:Description rdf:about="#Metabolite_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:49:24Z</dcterms:W3CDTF>
@@ -815,10 +824,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_136" name="Bax_mRNA" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_25" name="Bax_mRNA" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_136">
+  <rdf:Description rdf:about="#Metabolite_25">
     <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:33697" />
     <dcterms:created>
       <rdf:Description>
@@ -830,10 +839,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_137" name="Bax_(free)" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_26" name="Bax_(free)" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_137">
+  <rdf:Description rdf:about="#Metabolite_26">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:50:13Z</dcterms:W3CDTF>
@@ -844,10 +853,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_138" name="BclXL_(free)" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_27" name="BclXL_(free)" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_138">
+  <rdf:Description rdf:about="#Metabolite_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:12:52Z</dcterms:W3CDTF>
@@ -858,10 +867,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_139" name="Bax:BclXL_complex" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_28" name="Bax:BclXL_complex" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_139">
+  <rdf:Description rdf:about="#Metabolite_28">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:50:35Z</dcterms:W3CDTF>
@@ -873,10 +882,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_140" name="Bad_0_(free)" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_29" name="Bad_0_(free)" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_140">
+  <rdf:Description rdf:about="#Metabolite_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:13:10Z</dcterms:W3CDTF>
@@ -887,10 +896,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_141" name="Bad_phosphorylated_(free)" simulationType="reactions" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_30" name="Bad_phosphorylated_(free)" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_141">
+  <rdf:Description rdf:about="#Metabolite_30">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -902,10 +911,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_142" name="proCaspase" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_31" name="proCaspase" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_142">
+  <rdf:Description rdf:about="#Metabolite_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:51:06Z</dcterms:W3CDTF>
@@ -916,10 +925,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_143" name="Caspase" simulationType="reactions" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_32" name="Caspase" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_143">
+  <rdf:Description rdf:about="#Metabolite_32">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T15:28:39Z</dcterms:W3CDTF>
@@ -930,10 +939,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_144" name="ATM_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_33" name="ATM_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_144">
+  <rdf:Description rdf:about="#Metabolite_33">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T14:11:34Z</dcterms:W3CDTF>
@@ -944,10 +953,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_145" name="AKT_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_34" name="AKT_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_145">
+  <rdf:Description rdf:about="#Metabolite_34">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T14:11:57Z</dcterms:W3CDTF>
@@ -958,10 +967,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_146" name="PIP_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_35" name="PIP_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_146">
+  <rdf:Description rdf:about="#Metabolite_35">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:32Z</dcterms:W3CDTF>
@@ -971,10 +980,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_147" name="PI3K_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_36" name="PI3K_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_147">
+  <rdf:Description rdf:about="#Metabolite_36">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:33Z</dcterms:W3CDTF>
@@ -985,10 +994,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_148" name="E2F1_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_37" name="E2F1_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_148">
+  <rdf:Description rdf:about="#Metabolite_37">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:34Z</dcterms:W3CDTF>
@@ -999,10 +1008,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_149" name="Fourteen33_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_38" name="Fourteen33_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_149">
+  <rdf:Description rdf:about="#Metabolite_38">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:33Z</dcterms:W3CDTF>
@@ -1013,10 +1022,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_150" name="ATM_0" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_39" name="ATM_0" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_150">
+  <rdf:Description rdf:about="#Metabolite_39">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:44:06Z</dcterms:W3CDTF>
@@ -1030,10 +1039,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[ATM_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[ATM_phosphorylated],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_151" name="SIAH1_phosphorylated" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_40" name="SIAH1_phosphorylated" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_151">
+  <rdf:Description rdf:about="#Metabolite_40">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -1048,10 +1057,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_0],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_152" name="AKT_0" simulationType="assignment" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_41" name="AKT_0" simulationType="assignment" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_152">
+  <rdf:Description rdf:about="#Metabolite_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:46:40Z</dcterms:W3CDTF>
@@ -1065,10 +1074,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[AKT_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[AKT_phosphorylated],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_153" name="PIP2" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_42" name="PIP2" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_153">
+  <rdf:Description rdf:about="#Metabolite_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:47:01Z</dcterms:W3CDTF>
@@ -1081,10 +1090,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PIP_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PIP3],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_154" name="Rb_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_43" name="Rb_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_154">
+  <rdf:Description rdf:about="#Metabolite_43">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:32Z</dcterms:W3CDTF>
@@ -1095,10 +1104,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_155" name="SIAH1_tot" simulationType="fixed" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_44" name="SIAH1_tot" simulationType="fixed" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_155">
+  <rdf:Description rdf:about="#Metabolite_44">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T13:27:33Z</dcterms:W3CDTF>
@@ -1109,10 +1118,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_156" name="Bad_tot" simulationType="fixed" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_45" name="Bad_tot" simulationType="fixed" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_156">
+  <rdf:Description rdf:about="#Metabolite_45">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T17:05:23Z</dcterms:W3CDTF>
@@ -1123,10 +1132,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_157" name="BclXL_tot" simulationType="fixed" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_46" name="BclXL_tot" simulationType="fixed" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_157">
+  <rdf:Description rdf:about="#Metabolite_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T14:11:39Z</dcterms:W3CDTF>
@@ -1137,10 +1146,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_158" name="Rb_phosphorylated" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_47" name="Rb_phosphorylated" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_158">
+  <rdf:Description rdf:about="#Metabolite_47">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -1155,10 +1164,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb1_0_(free)],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_159" name="E2F1" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_48" name="E2F1" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_159">
+  <rdf:Description rdf:about="#Metabolite_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:44:55Z</dcterms:W3CDTF>
@@ -1172,10 +1181,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[E2F1_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_160" name="BclXL_Bad_complex" simulationType="assignment" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_49" name="BclXL_Bad_complex" simulationType="assignment" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_160">
+  <rdf:Description rdf:about="#Metabolite_49">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:54:57Z</dcterms:W3CDTF>
@@ -1190,10 +1199,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_(free)],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax:BclXL_complex],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_161" name="Bad_phosphorylated_Fourteen33_complex" simulationType="assignment" compartment="Compartment_3" addNoise="false">
+      <Metabolite key="Metabolite_50" name="Bad_phosphorylated_Fourteen33_complex" simulationType="assignment" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_161">
+  <rdf:Description rdf:about="#Metabolite_50">
     <bqbiol:hasProperty rdf:resource="urn:miriam:pato:PATO:0002220" />
     <dcterms:created>
       <rdf:Description>
@@ -1209,10 +1218,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_tot],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_Bad_complex],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_0_(free)],Reference=Concentration>-&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_phosphorylated_(free)],Reference=Concentration>
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_162" name="Fourteen33_free" simulationType="assignment" compartment="Compartment_2" addNoise="false">
+      <Metabolite key="Metabolite_51" name="Fourteen33_free" simulationType="assignment" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_162">
+  <rdf:Description rdf:about="#Metabolite_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:56:19Z</dcterms:W3CDTF>
@@ -1228,10 +1237,12 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_178" name="is_IR_switched_on" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_0" name="is_IR_switched_on" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_178">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:54Z</dcterms:W3CDTF>
@@ -1239,12 +1250,13 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_179" name="h1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1" name="h1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_179">
+  <rdf:Description rdf:about="#ModelValue_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:50Z</dcterms:W3CDTF>
@@ -1254,10 +1266,12 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_180" name="h2" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_2" name="h2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_180">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:11:51Z</dcterms:W3CDTF>
@@ -1265,15 +1279,18 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[can_Caspase_make_DNA_DSB],Reference=Value>*1e-13
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_181" name="can_Caspase_make_DNA_DSB" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_3" name="can_Caspase_make_DNA_DSB" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_181">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -1281,12 +1298,13 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_182" name="rep" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_4" name="rep" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_182">
+  <rdf:Description rdf:about="#ModelValue_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:12:31Z</dcterms:W3CDTF>
@@ -1299,10 +1317,12 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[has_DNA_DSB_repair],Reference=Value>*1e-3
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_183" name="has_DNA_DSB_repair" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_5" name="has_DNA_DSB_repair" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_183">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:50Z</dcterms:W3CDTF>
@@ -1310,12 +1330,13 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_184" name="a1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_6" name="a1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_184">
+  <rdf:Description rdf:about="#ModelValue_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:45Z</dcterms:W3CDTF>
@@ -1325,10 +1346,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_185" name="a2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_7" name="a2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_185">
+  <rdf:Description rdf:about="#ModelValue_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:47Z</dcterms:W3CDTF>
@@ -1338,10 +1359,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_186" name="q0_pten" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_8" name="q0_pten" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_186">
+  <rdf:Description rdf:about="#ModelValue_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:59Z</dcterms:W3CDTF>
@@ -1351,10 +1372,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_187" name="q0_wip1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_9" name="q0_wip1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_187">
+  <rdf:Description rdf:about="#ModelValue_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:59Z</dcterms:W3CDTF>
@@ -1364,10 +1385,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_188" name="q0_mdm2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_10" name="q0_mdm2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_188">
+  <rdf:Description rdf:about="#ModelValue_10">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:59Z</dcterms:W3CDTF>
@@ -1377,10 +1398,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_189" name="q0_bax" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_11" name="q0_bax" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_189">
+  <rdf:Description rdf:about="#ModelValue_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:59Z</dcterms:W3CDTF>
@@ -1390,10 +1411,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_190" name="q0_p21" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_12" name="q0_p21" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_190">
+  <rdf:Description rdf:about="#ModelValue_12">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:59Z</dcterms:W3CDTF>
@@ -1403,10 +1424,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_191" name="q1_pten" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_13" name="q1_pten" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_191">
+  <rdf:Description rdf:about="#ModelValue_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1416,10 +1437,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_192" name="q1_mdm2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_14" name="q1_mdm2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_192">
+  <rdf:Description rdf:about="#ModelValue_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1429,10 +1450,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_193" name="q1_wip1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_15" name="q1_wip1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_193">
+  <rdf:Description rdf:about="#ModelValue_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1442,10 +1463,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_194" name="q1_p21" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_16" name="q1_p21" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_194">
+  <rdf:Description rdf:about="#ModelValue_16">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1455,10 +1476,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_195" name="q1_bax" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_17" name="q1_bax" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_195">
+  <rdf:Description rdf:about="#ModelValue_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1468,10 +1489,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_196" name="q2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_18" name="q2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_196">
+  <rdf:Description rdf:about="#ModelValue_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:00Z</dcterms:W3CDTF>
@@ -1481,10 +1502,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_197" name="s1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_19" name="s1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_197">
+  <rdf:Description rdf:about="#ModelValue_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:01Z</dcterms:W3CDTF>
@@ -1494,10 +1515,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_198" name="s2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_20" name="s2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_198">
+  <rdf:Description rdf:about="#ModelValue_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:01Z</dcterms:W3CDTF>
@@ -1507,10 +1528,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_199" name="s3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_21" name="s3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_199">
+  <rdf:Description rdf:about="#ModelValue_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:01Z</dcterms:W3CDTF>
@@ -1520,10 +1541,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_200" name="s4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_22" name="s4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_200">
+  <rdf:Description rdf:about="#ModelValue_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:01Z</dcterms:W3CDTF>
@@ -1533,10 +1554,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_201" name="s5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_23" name="s5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_201">
+  <rdf:Description rdf:about="#ModelValue_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1546,10 +1567,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_202" name="t1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_24" name="t1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_202">
+  <rdf:Description rdf:about="#ModelValue_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1559,10 +1580,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_203" name="t2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_25" name="t2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_203">
+  <rdf:Description rdf:about="#ModelValue_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1572,10 +1593,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_204" name="t3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_26" name="t3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_204">
+  <rdf:Description rdf:about="#ModelValue_26">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1585,10 +1606,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_205" name="t4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_27" name="t4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_205">
+  <rdf:Description rdf:about="#ModelValue_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:03Z</dcterms:W3CDTF>
@@ -1598,10 +1619,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_206" name="t5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_28" name="t5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_206">
+  <rdf:Description rdf:about="#ModelValue_28">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:04Z</dcterms:W3CDTF>
@@ -1611,10 +1632,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_207" name="s6" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_29" name="s6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_207">
+  <rdf:Description rdf:about="#ModelValue_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1624,10 +1645,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_208" name="s7" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_30" name="s7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_208">
+  <rdf:Description rdf:about="#ModelValue_30">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1637,10 +1658,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_209" name="s8" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_31" name="s8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_209">
+  <rdf:Description rdf:about="#ModelValue_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1650,10 +1671,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_210" name="s9" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_32" name="s9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_210">
+  <rdf:Description rdf:about="#ModelValue_32">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:02Z</dcterms:W3CDTF>
@@ -1663,10 +1684,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_211" name="s10" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_33" name="s10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_211">
+  <rdf:Description rdf:about="#ModelValue_33">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:01Z</dcterms:W3CDTF>
@@ -1676,10 +1697,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_212" name="p1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_34" name="p1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_212">
+  <rdf:Description rdf:about="#ModelValue_34">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:54Z</dcterms:W3CDTF>
@@ -1689,10 +1710,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_213" name="p2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_35" name="p2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_213">
+  <rdf:Description rdf:about="#ModelValue_35">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1702,10 +1723,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_214" name="p3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_36" name="p3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_214">
+  <rdf:Description rdf:about="#ModelValue_36">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1715,10 +1736,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_215" name="p4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_37" name="p4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_215">
+  <rdf:Description rdf:about="#ModelValue_37">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1728,10 +1749,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_216" name="p5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_38" name="p5" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_38">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2018-07-18T12:09:56Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+      </ModelValue>
+      <ModelValue key="ModelValue_39" name="p6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_216">
+  <rdf:Description rdf:about="#ModelValue_39">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:56Z</dcterms:W3CDTF>
@@ -1741,23 +1778,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_217" name="p6" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_40" name="p7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_217">
-    <dcterms:created>
-      <rdf:Description>
-        <dcterms:W3CDTF>2018-07-18T12:09:56Z</dcterms:W3CDTF>
-      </rdf:Description>
-    </dcterms:created>
-  </rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
-      </ModelValue>
-      <ModelValue key="ModelValue_218" name="p7" simulationType="fixed" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_218">
+  <rdf:Description rdf:about="#ModelValue_40">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:58Z</dcterms:W3CDTF>
@@ -1767,10 +1791,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_219" name="p8" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_41" name="p8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_219">
+  <rdf:Description rdf:about="#ModelValue_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:58Z</dcterms:W3CDTF>
@@ -1780,10 +1804,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_220" name="p9" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_42" name="p9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_220">
+  <rdf:Description rdf:about="#ModelValue_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:58Z</dcterms:W3CDTF>
@@ -1793,10 +1817,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_221" name="p10" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_43" name="p10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_221">
+  <rdf:Description rdf:about="#ModelValue_43">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1806,10 +1830,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_222" name="p11" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_44" name="p11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_222">
+  <rdf:Description rdf:about="#ModelValue_44">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1819,10 +1843,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_223" name="p12" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_45" name="p12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_223">
+  <rdf:Description rdf:about="#ModelValue_45">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:55Z</dcterms:W3CDTF>
@@ -1832,10 +1856,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_224" name="d1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_46" name="d1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_224">
+  <rdf:Description rdf:about="#ModelValue_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -1845,10 +1869,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_225" name="d2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_47" name="d2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_225">
+  <rdf:Description rdf:about="#ModelValue_47">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:50Z</dcterms:W3CDTF>
@@ -1858,10 +1882,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_226" name="d3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_48" name="d3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_226">
+  <rdf:Description rdf:about="#ModelValue_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1871,10 +1895,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_227" name="d4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_49" name="d4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_227">
+  <rdf:Description rdf:about="#ModelValue_49">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1884,10 +1908,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_228" name="d5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_50" name="d5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_228">
+  <rdf:Description rdf:about="#ModelValue_50">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1897,10 +1921,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_229" name="d6" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_51" name="d6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_229">
+  <rdf:Description rdf:about="#ModelValue_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1910,10 +1934,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_230" name="d7" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_52" name="d7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_230">
+  <rdf:Description rdf:about="#ModelValue_52">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1923,10 +1947,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_231" name="d8" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_53" name="d8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_231">
+  <rdf:Description rdf:about="#ModelValue_53">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1936,10 +1960,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_232" name="d9" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_54" name="d9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_232">
+  <rdf:Description rdf:about="#ModelValue_54">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -1949,10 +1973,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_233" name="d10" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_55" name="d10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_233">
+  <rdf:Description rdf:about="#ModelValue_55">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -1962,10 +1986,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_234" name="d11" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_56" name="d11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_234">
+  <rdf:Description rdf:about="#ModelValue_56">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -1975,10 +1999,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_235" name="d12" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_57" name="d12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_235">
+  <rdf:Description rdf:about="#ModelValue_57">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:50Z</dcterms:W3CDTF>
@@ -1988,10 +2012,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_236" name="b1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_58" name="b1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_236">
+  <rdf:Description rdf:about="#ModelValue_58">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:47Z</dcterms:W3CDTF>
@@ -2001,10 +2025,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_237" name="b2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_59" name="b2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_237">
+  <rdf:Description rdf:about="#ModelValue_59">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:47Z</dcterms:W3CDTF>
@@ -2014,10 +2038,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_238" name="b3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_60" name="b3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_238">
+  <rdf:Description rdf:about="#ModelValue_60">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -2027,10 +2051,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_239" name="b4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_61" name="b4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_239">
+  <rdf:Description rdf:about="#ModelValue_61">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -2040,10 +2064,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_240" name="b5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_62" name="b5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_240">
+  <rdf:Description rdf:about="#ModelValue_62">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:48Z</dcterms:W3CDTF>
@@ -2053,10 +2077,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_241" name="u1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_63" name="u1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_241">
+  <rdf:Description rdf:about="#ModelValue_63">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:05Z</dcterms:W3CDTF>
@@ -2066,10 +2090,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_242" name="u2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_64" name="u2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_242">
+  <rdf:Description rdf:about="#ModelValue_64">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:05Z</dcterms:W3CDTF>
@@ -2079,10 +2103,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_243" name="u3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_65" name="u3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_243">
+  <rdf:Description rdf:about="#ModelValue_65">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:05Z</dcterms:W3CDTF>
@@ -2092,10 +2116,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_244" name="u5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_66" name="u5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_244">
+  <rdf:Description rdf:about="#ModelValue_66">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:05Z</dcterms:W3CDTF>
@@ -2105,10 +2129,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_245" name="u6" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_67" name="u6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_245">
+  <rdf:Description rdf:about="#ModelValue_67">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:06Z</dcterms:W3CDTF>
@@ -2118,10 +2142,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_246" name="i1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_68" name="i1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_246">
+  <rdf:Description rdf:about="#ModelValue_68">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:53Z</dcterms:W3CDTF>
@@ -2131,10 +2155,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_247" name="g1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_69" name="g1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_247">
+  <rdf:Description rdf:about="#ModelValue_69">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:54Z</dcterms:W3CDTF>
@@ -2144,10 +2168,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_248" name="g2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_70" name="g2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_248">
+  <rdf:Description rdf:about="#ModelValue_70">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:58Z</dcterms:W3CDTF>
@@ -2157,10 +2181,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_249" name="g3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_71" name="g3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_249">
+  <rdf:Description rdf:about="#ModelValue_71">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2170,10 +2194,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_250" name="g4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_72" name="g4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_250">
+  <rdf:Description rdf:about="#ModelValue_72">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2183,10 +2207,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_251" name="g5" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_73" name="g5" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_251">
+  <rdf:Description rdf:about="#ModelValue_73">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2196,10 +2220,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_252" name="g6" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_74" name="g6" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_252">
+  <rdf:Description rdf:about="#ModelValue_74">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2209,10 +2233,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_253" name="g7" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_75" name="g7" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_253">
+  <rdf:Description rdf:about="#ModelValue_75">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2222,10 +2246,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_254" name="g8" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_76" name="g8" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_254">
+  <rdf:Description rdf:about="#ModelValue_76">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2235,10 +2259,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_255" name="g9" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_77" name="g9" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_255">
+  <rdf:Description rdf:about="#ModelValue_77">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:49Z</dcterms:W3CDTF>
@@ -2248,10 +2272,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_256" name="g10" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_78" name="g10" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_256">
+  <rdf:Description rdf:about="#ModelValue_78">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:54Z</dcterms:W3CDTF>
@@ -2261,10 +2285,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_257" name="g101" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_79" name="g101" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_257">
+  <rdf:Description rdf:about="#ModelValue_79">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:54Z</dcterms:W3CDTF>
@@ -2274,10 +2298,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_258" name="g11" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_80" name="g11" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_258">
+  <rdf:Description rdf:about="#ModelValue_80">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:55Z</dcterms:W3CDTF>
@@ -2287,10 +2311,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_259" name="g12" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_81" name="g12" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_259">
+  <rdf:Description rdf:about="#ModelValue_81">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:55Z</dcterms:W3CDTF>
@@ -2300,10 +2324,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_260" name="g13" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_82" name="g13" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_260">
+  <rdf:Description rdf:about="#ModelValue_82">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2313,10 +2337,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_261" name="g14" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_83" name="g14" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_261">
+  <rdf:Description rdf:about="#ModelValue_83">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2326,10 +2350,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_262" name="g15" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_84" name="g15" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_262">
+  <rdf:Description rdf:about="#ModelValue_84">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2339,10 +2363,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_263" name="g16" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_85" name="g16" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_263">
+  <rdf:Description rdf:about="#ModelValue_85">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2352,10 +2376,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_264" name="g17" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_86" name="g17" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_264">
+  <rdf:Description rdf:about="#ModelValue_86">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2365,10 +2389,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_265" name="g18" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_87" name="g18" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_265">
+  <rdf:Description rdf:about="#ModelValue_87">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:57Z</dcterms:W3CDTF>
@@ -2378,10 +2402,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_266" name="g19" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_88" name="g19" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_266">
+  <rdf:Description rdf:about="#ModelValue_88">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:58Z</dcterms:W3CDTF>
@@ -2391,10 +2415,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_267" name="g20" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_89" name="g20" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_267">
+  <rdf:Description rdf:about="#ModelValue_89">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:48Z</dcterms:W3CDTF>
@@ -2404,10 +2428,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_268" name="h" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_90" name="h" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_268">
+  <rdf:Description rdf:about="#ModelValue_90">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:50Z</dcterms:W3CDTF>
@@ -2417,10 +2441,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_269" name="M1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_91" name="M1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_269">
+  <rdf:Description rdf:about="#ModelValue_91">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:54Z</dcterms:W3CDTF>
@@ -2430,10 +2454,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_270" name="M2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_92" name="M2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_270">
+  <rdf:Description rdf:about="#ModelValue_92">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:54Z</dcterms:W3CDTF>
@@ -2443,10 +2467,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_271" name="M3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_93" name="M3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_271">
+  <rdf:Description rdf:about="#ModelValue_93">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:54Z</dcterms:W3CDTF>
@@ -2456,10 +2480,12 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_272" name="DNA_DSB_RepairCplx_total" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_94" name="DNA_DSB_RepairCplx_total" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_272">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_94">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:54Z</dcterms:W3CDTF>
@@ -2467,12 +2493,13 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_273" name="DNA_DSB_max" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_95" name="DNA_DSB_max" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_273">
+  <rdf:Description rdf:about="#ModelValue_95">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:08:51Z</dcterms:W3CDTF>
@@ -2482,10 +2509,12 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_274" name="DNA_DSB_due_to_IR" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_96" name="DNA_DSB_due_to_IR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_274">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_96">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:26:09Z</dcterms:W3CDTF>
@@ -2493,17 +2522,18 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy],Reference=Value>*&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_per_IR_Gy],Reference=Value>/&lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[tp2],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_275" name="IR_Gy" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_97" name="IR_Gy" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_275">
+  <rdf:Description rdf:about="#ModelValue_97">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:53Z</dcterms:W3CDTF>
@@ -2514,10 +2544,10 @@ Reaction scheme where the products are created from the reactants and the change
 
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_276" name="DNA_DSB_per_IR_Gy" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_98" name="DNA_DSB_per_IR_Gy" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_276">
+  <rdf:Description rdf:about="#ModelValue_98">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:27:32Z</dcterms:W3CDTF>
@@ -2527,10 +2557,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_277" name="tp2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_99" name="tp2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_277">
+  <rdf:Description rdf:about="#ModelValue_99">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:10:05Z</dcterms:W3CDTF>
@@ -2540,10 +2570,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_278" name="time_days" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_100" name="time_days" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_278">
+  <rdf:Description rdf:about="#ModelValue_100">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-20T10:12:42Z</dcterms:W3CDTF>
@@ -2558,97 +2588,105 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
-      <Reaction key="Reaction_125" name="DNA damage R1" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_0" name="DNA damage R1" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_125">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:06:12Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
-    <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C16507" />
+    <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C16507"/>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_111" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_143" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_111" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_32" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7367" name="h1" value="1e-06"/>
-          <Constant key="Parameter_8250" name="DNA_DSB_DUE_to_IR" value="0.0666667"/>
-          <Constant key="Parameter_8249" name="is_IR_switched_on" value="1"/>
-          <Constant key="Parameter_8246" name="h2" value="1e-13"/>
-          <Constant key="Parameter_7366" name="DNA_DSB_max" value="1e+06"/>
+          <Constant key="Parameter_5879" name="h1" value="1e-06"/>
+          <Constant key="Parameter_5875" name="DNA_DSB_DUE_to_IR" value="0.00833333"/>
+          <Constant key="Parameter_7241" name="is_IR_switched_on" value="1"/>
+          <Constant key="Parameter_5877" name="h2" value="1e-13"/>
+          <Constant key="Parameter_7238" name="DNA_DSB_max" value="1e+06"/>
         </ListOfConstants>
-        <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_377">
-              <SourceParameter reference="ModelValue_179"/>
+            <CallParameter functionParameter="FunctionParameter_276">
+              <SourceParameter reference="ModelValue_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_378">
-              <SourceParameter reference="ModelValue_274"/>
+            <CallParameter functionParameter="FunctionParameter_266">
+              <SourceParameter reference="ModelValue_96"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_379">
-              <SourceParameter reference="ModelValue_178"/>
+            <CallParameter functionParameter="FunctionParameter_272">
+              <SourceParameter reference="ModelValue_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_370">
-              <SourceParameter reference="ModelValue_180"/>
+            <CallParameter functionParameter="FunctionParameter_277">
+              <SourceParameter reference="ModelValue_2"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_369">
-              <SourceParameter reference="Metabolite_143"/>
+            <CallParameter functionParameter="FunctionParameter_278">
+              <SourceParameter reference="Metabolite_32"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_332">
-              <SourceParameter reference="ModelValue_273"/>
+            <CallParameter functionParameter="FunctionParameter_279">
+              <SourceParameter reference="ModelValue_95"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_331">
-              <SourceParameter reference="Metabolite_111"/>
+            <CallParameter functionParameter="FunctionParameter_280">
+              <SourceParameter reference="Metabolite_0"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_126" name="DNA Repair R2" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_1" name="DNA Repair R2" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_126">
+<rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:06:23Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
-    <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0006281" />
+    <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0006281"/>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_111" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7387" name="rep" value="0.001"/>
-          <Constant key="Parameter_7396" name="DNA_DSB_RepairCplx_total" value="20"/>
+          <Constant key="Parameter_7242" name="rep" value="0.001"/>
+          <Constant key="Parameter_4698" name="DNA_DSB_RepairCplx_total" value="20"/>
         </ListOfConstants>
-        <KineticLaw function="Function_63" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_299">
-              <SourceParameter reference="Metabolite_111"/>
+            <CallParameter functionParameter="FunctionParameter_287">
+              <SourceParameter reference="Metabolite_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_300">
-              <SourceParameter reference="ModelValue_182"/>
+            <CallParameter functionParameter="FunctionParameter_286">
+              <SourceParameter reference="ModelValue_4"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_301">
-              <SourceParameter reference="ModelValue_272"/>
+            <CallParameter functionParameter="FunctionParameter_285">
+              <SourceParameter reference="ModelValue_94"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_127" name="Dephoshorylation by Wip1 R3" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_2" name="Dephoshorylation by Wip1 R3" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_127">
+  <rdf:Description rdf:about="#Reaction_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:50:12Z</dcterms:W3CDTF>
@@ -2659,32 +2697,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_112" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_119" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8014" name="k" value="1e-08"/>
+          <Constant key="Parameter_4694" name="k" value="1e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_224"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_46"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_119"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_112"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_128" name="Phoshorylation due to IR R4" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_3" name="Phoshorylation due to IR R4" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_128">
+  <rdf:Description rdf:about="#Reaction_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:50:34Z</dcterms:W3CDTF>
@@ -2695,42 +2733,42 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_112" stoichiometry="1"/>
+          <Product metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_150" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_111" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_39" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8011" name="y1" value="0"/>
-          <Constant key="Parameter_7398" name="p1" value="0.0003"/>
-          <Constant key="Parameter_7397" name="h" value="2"/>
-          <Constant key="Parameter_8012" name="M1" value="5"/>
+          <Constant key="Parameter_4700" name="y1" value="0"/>
+          <Constant key="Parameter_7240" name="p1" value="0.0003"/>
+          <Constant key="Parameter_4697" name="h" value="2"/>
+          <Constant key="Parameter_7239" name="M1" value="5"/>
         </ListOfConstants>
-        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_329">
-              <SourceParameter reference="ModelValue_212"/>
+            <CallParameter functionParameter="FunctionParameter_282">
+              <SourceParameter reference="ModelValue_34"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_328">
-              <SourceParameter reference="Metabolite_150"/>
+            <CallParameter functionParameter="FunctionParameter_283">
+              <SourceParameter reference="Metabolite_39"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_302">
-              <SourceParameter reference="Metabolite_111"/>
+            <CallParameter functionParameter="FunctionParameter_284">
+              <SourceParameter reference="Metabolite_0"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_330">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_281">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_298">
-              <SourceParameter reference="ModelValue_269"/>
+            <CallParameter functionParameter="FunctionParameter_288">
+              <SourceParameter reference="ModelValue_91"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_129" name="Phosphorylation by ATM_p R5" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_4" name="Phosphorylation by ATM_p R5" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_129">
+  <rdf:Description rdf:about="#Reaction_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:53:21Z</dcterms:W3CDTF>
@@ -2741,32 +2779,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_113" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_112" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8039" name="k" value="1e-08"/>
+          <Constant key="Parameter_4699" name="k" value="1e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_213"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_35"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_112"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_113"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_2"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_130" name="Dephosphorylation of SIAH1_p R6" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_5" name="Dephosphorylation of SIAH1_p R6" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_130">
+  <rdf:Description rdf:about="#Reaction_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:53:40Z</dcterms:W3CDTF>
@@ -2777,29 +2815,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_113" stoichiometry="1"/>
+          <Product metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_151" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_40" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8036" name="k" value="3e-05"/>
+          <Constant key="Parameter_4696" name="k" value="3e-05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_225"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_47"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_151"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_40"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_131" name="Synthesis of HIPK2 R7" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_6" name="Synthesis of HIPK2 R7" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_131">
+  <rdf:Description rdf:about="#Reaction_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:55:04Z</dcterms:W3CDTF>
@@ -2810,23 +2848,23 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_114" stoichiometry="1"/>
+          <Product metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_8015" name="v" value="30"/>
+          <Constant key="Parameter_4695" name="v" value="30"/>
         </ListOfConstants>
         <KineticLaw function="Function_6" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_49">
-              <SourceParameter reference="ModelValue_209"/>
+              <SourceParameter reference="ModelValue_31"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_132" name="Degradation induced by Mdm2_nuc_S166S186p and SIAH1 R8" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_7" name="Degradation induced by Mdm2_nuc_S166S186p and SIAH1 R8" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_132">
+  <rdf:Description rdf:about="#Reaction_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:55:58Z</dcterms:W3CDTF>
@@ -2837,36 +2875,36 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_114" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_113" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_118" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_2" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8013" name="g7" value="1e-13"/>
+          <Constant key="Parameter_5369" name="g7" value="1e-13"/>
         </ListOfConstants>
-        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_326">
-              <SourceParameter reference="ModelValue_253"/>
+            <CallParameter functionParameter="FunctionParameter_290">
+              <SourceParameter reference="ModelValue_75"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_325">
-              <SourceParameter reference="Metabolite_114"/>
+            <CallParameter functionParameter="FunctionParameter_291">
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_297">
-              <SourceParameter reference="Metabolite_113"/>
+            <CallParameter functionParameter="FunctionParameter_289">
+              <SourceParameter reference="Metabolite_2"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_322">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_294">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_133" name="Synthesis of p53_0p R9" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_8" name="Synthesis of p53_0p R9" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_133">
+  <rdf:Description rdf:about="#Reaction_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:56:37Z</dcterms:W3CDTF>
@@ -2877,23 +2915,23 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_115" stoichiometry="1"/>
+          <Product metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_8040" name="v" value="300"/>
+          <Constant key="Parameter_5367" name="v" value="300"/>
         </ListOfConstants>
         <KineticLaw function="Function_6" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_49">
-              <SourceParameter reference="ModelValue_207"/>
+              <SourceParameter reference="ModelValue_29"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_134" name="Phosphorylation by ATM_p on Ser15 and Ser20 R10" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_9" name="Phosphorylation by ATM_p on Ser15 and Ser20 R10" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_134">
+  <rdf:Description rdf:about="#Reaction_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:56:55Z</dcterms:W3CDTF>
@@ -2904,35 +2942,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_115" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_116" stoichiometry="1"/>
+          <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_112" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8037" name="k" value="3e-08"/>
+          <Constant key="Parameter_5370" name="k" value="3e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_214"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_36"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_112"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_115"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_135" name="Dephosphorylation spontaneous of p53_arrester R11" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_10" name="Dephosphorylation spontaneous of p53_arrester R11" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_135">
+  <rdf:Description rdf:about="#Reaction_10">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:57:31Z</dcterms:W3CDTF>
@@ -2943,29 +2981,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_116" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_115" stoichiometry="1"/>
+          <Product metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_8038" name="k1" value="0.0001"/>
+          <Constant key="Parameter_5368" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_226"/>
+              <SourceParameter reference="ModelValue_48"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_116"/>
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_136" name="Degradation spontanuous and induced by Mdm2_nuc_S166S186p  R12" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_11" name="Degradation spontanuous and induced by Mdm2_nuc_S166S186p  R12" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_136">
+  <rdf:Description rdf:about="#Reaction_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:57:48Z</dcterms:W3CDTF>
@@ -2976,40 +3014,40 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_115" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_118" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7399" name="g101" value="1e-05"/>
-          <Constant key="Parameter_7400" name="g11" value="1e-11"/>
-          <Constant key="Parameter_7403" name="h" value="2"/>
+          <Constant key="Parameter_5371" name="g101" value="1e-05"/>
+          <Constant key="Parameter_8504" name="g11" value="1e-11"/>
+          <Constant key="Parameter_8502" name="h" value="2"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_257"/>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="ModelValue_79"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
-              <SourceParameter reference="ModelValue_258"/>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="ModelValue_80"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_296">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_295">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="Metabolite_115"/>
+            <CallParameter functionParameter="FunctionParameter_299">
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_137" name="Dephosphorylation of Ser46 by Wip1 R13" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_12" name="Dephosphorylation of Ser46 by Wip1 R13" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_137">
+  <rdf:Description rdf:about="#Reaction_12">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:59:11Z</dcterms:W3CDTF>
@@ -3020,35 +3058,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_117" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_115" stoichiometry="1"/>
+          <Product metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_119" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7401" name="k" value="1e-10"/>
+          <Constant key="Parameter_8505" name="k" value="1e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_234"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_56"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_119"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_117"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_6"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_138" name="Phosphorylation at Ser46 by HIPK2 R14" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_13" name="Phosphorylation at Ser46 by HIPK2 R14" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_138">
+  <rdf:Description rdf:about="#Reaction_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:59:29Z</dcterms:W3CDTF>
@@ -3059,35 +3097,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_115" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_117" stoichiometry="1"/>
+          <Product metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_114" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7402" name="k" value="1e-10"/>
+          <Constant key="Parameter_8503" name="k" value="1e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_222"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_44"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_114"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_115"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_139" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R15" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_14" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R15" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_139">
+  <rdf:Description rdf:about="#Reaction_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:59:50Z</dcterms:W3CDTF>
@@ -3098,40 +3136,40 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_116" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_118" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7404" name="g101" value="1e-05"/>
-          <Constant key="Parameter_7405" name="g11" value="1e-13"/>
-          <Constant key="Parameter_7408" name="h" value="2"/>
+          <Constant key="Parameter_8506" name="g101" value="1e-05"/>
+          <Constant key="Parameter_5379" name="g11" value="1e-13"/>
+          <Constant key="Parameter_5378" name="h" value="2"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_257"/>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="ModelValue_79"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
-              <SourceParameter reference="ModelValue_259"/>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="ModelValue_81"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_296">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_295">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="Metabolite_116"/>
+            <CallParameter functionParameter="FunctionParameter_299">
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_140" name="Phosphorylation at Ser46 by HIPK2 R16" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_15" name="Phosphorylation at Ser46 by HIPK2 R16" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_140">
+  <rdf:Description rdf:about="#Reaction_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:00:54Z</dcterms:W3CDTF>
@@ -3142,35 +3180,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_116" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_120" stoichiometry="1"/>
+          <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_114" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7406" name="k" value="1e-10"/>
+          <Constant key="Parameter_7610" name="k" value="1e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_215"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_37"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_114"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_116"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_141" name="Dephosphorylation at Ser46 by Wip1 R17" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_16" name="Dephosphorylation at Ser46 by Wip1 R17" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_141">
+  <rdf:Description rdf:about="#Reaction_16">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:01:26Z</dcterms:W3CDTF>
@@ -3181,35 +3219,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_120" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_116" stoichiometry="1"/>
+          <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_119" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7407" name="k" value="1e-10"/>
+          <Constant key="Parameter_8601" name="k" value="1e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_227"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_49"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_119"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_120"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_142" name="Phosphorylation by ATM_p on Ser15 and Ser20 R18" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_17" name="Phosphorylation by ATM_p on Ser15 and Ser20 R18" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_142">
+  <rdf:Description rdf:about="#Reaction_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:01:29Z</dcterms:W3CDTF>
@@ -3220,35 +3258,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_117" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_120" stoichiometry="1"/>
+          <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_112" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7410" name="k" value="3e-08"/>
+          <Constant key="Parameter_7611" name="k" value="3e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_214"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_36"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_112"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_117"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_6"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_143" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R19" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_18" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R19" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_143">
+  <rdf:Description rdf:about="#Reaction_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:01:45Z</dcterms:W3CDTF>
@@ -3259,40 +3297,40 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_117" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_118" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7409" name="g101" value="1e-05"/>
-          <Constant key="Parameter_7411" name="g11" value="1e-13"/>
-          <Constant key="Parameter_7413" name="h" value="2"/>
+          <Constant key="Parameter_8442" name="g101" value="1e-05"/>
+          <Constant key="Parameter_8446" name="g11" value="1e-13"/>
+          <Constant key="Parameter_5581" name="h" value="2"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_256"/>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="ModelValue_78"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
-              <SourceParameter reference="ModelValue_260"/>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="ModelValue_82"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_296">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_295">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="Metabolite_117"/>
+            <CallParameter functionParameter="FunctionParameter_299">
+              <SourceParameter reference="Metabolite_6"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_144" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R20" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_19" name="Degradation spontaneous and induced by Mdm2_nuc_S166S186p R20" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_144">
+  <rdf:Description rdf:about="#Reaction_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:02:32Z</dcterms:W3CDTF>
@@ -3303,40 +3341,40 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_120" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_118" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7417" name="g101" value="1e-05"/>
-          <Constant key="Parameter_7416" name="g11" value="1e-13"/>
-          <Constant key="Parameter_7415" name="h" value="2"/>
+          <Constant key="Parameter_7613" name="g101" value="1e-05"/>
+          <Constant key="Parameter_5374" name="g11" value="1e-13"/>
+          <Constant key="Parameter_5582" name="h" value="2"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_256"/>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="ModelValue_78"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
-              <SourceParameter reference="ModelValue_260"/>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="ModelValue_82"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_296">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_295">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="Metabolite_120"/>
+            <CallParameter functionParameter="FunctionParameter_299">
+              <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_145" name="Dephosphorylation of Ser15 and Ser20 R21" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_20" name="Dephosphorylation of Ser15 and Ser20 R21" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_145">
+  <rdf:Description rdf:about="#Reaction_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:03:23Z</dcterms:W3CDTF>
@@ -3347,29 +3385,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_120" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_117" stoichiometry="1"/>
+          <Product metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7418" name="k1" value="0.0001"/>
+          <Constant key="Parameter_7614" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_233"/>
+              <SourceParameter reference="ModelValue_55"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_120"/>
+              <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_146" name="Transcription Mdm2 gene transcription R22" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_21" name="Transcription Mdm2 gene transcription R22" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_146">
+  <rdf:Description rdf:about="#Reaction_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:03:52Z</dcterms:W3CDTF>
@@ -3380,45 +3418,45 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_121" stoichiometry="1"/>
+          <Product metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_116" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7412" name="s3" value="0.1"/>
-          <Constant key="Parameter_7414" name="q0_mdm2" value="0.0001"/>
-          <Constant key="Parameter_7419" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_7420" name="h" value="2"/>
-          <Constant key="Parameter_7423" name="q2" value="0.003"/>
+          <Constant key="Parameter_5578" name="s3" value="0.1"/>
+          <Constant key="Parameter_5376" name="q0_mdm2" value="0.0001"/>
+          <Constant key="Parameter_5377" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_5372" name="h" value="2"/>
+          <Constant key="Parameter_5380" name="q2" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_199"/>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_21"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_188"/>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_10"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_192"/>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_14"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="Metabolite_116"/>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_196"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_147" name="Degradation spontaneous R23" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_22" name="Degradation spontaneous R23" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_147">
+  <rdf:Description rdf:about="#Reaction_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:07:10Z</dcterms:W3CDTF>
@@ -3429,26 +3467,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_121" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7421" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5373" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_249"/>
+              <SourceParameter reference="ModelValue_71"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_121"/>
+              <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_148" name="Translation of mdm2 R24" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_23" name="Translation of mdm2 R24" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_148">
+  <rdf:Description rdf:about="#Reaction_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:07:35Z</dcterms:W3CDTF>
@@ -3459,29 +3497,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_122" stoichiometry="1"/>
+          <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_121" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7429" name="k" value="0.1"/>
+          <Constant key="Parameter_5381" name="k" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_204"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_26"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_121"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_149" name="Phosphorylation of Mdm2_cyt_0 by AKT_p R25" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_24" name="Phosphorylation of Mdm2_cyt_0 by AKT_p R25" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_149">
+  <rdf:Description rdf:about="#Reaction_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:07:57Z</dcterms:W3CDTF>
@@ -3492,35 +3530,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_122" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_123" stoichiometry="1"/>
+          <Product metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_124" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7424" name="k" value="1e-08"/>
+          <Constant key="Parameter_8443" name="k" value="1e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_216"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_38"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_124"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_122"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_150" name="Dephosphorylation at Ser166 and 186 R26" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_25" name="Dephosphorylation at Ser166 and 186 R26" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_150">
+  <rdf:Description rdf:about="#Reaction_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:08:45Z</dcterms:W3CDTF>
@@ -3531,29 +3569,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_123" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_122" stoichiometry="1"/>
+          <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7426" name="k1" value="0.0001"/>
+          <Constant key="Parameter_7612" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_228"/>
+              <SourceParameter reference="ModelValue_50"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_123"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_151" name="Degradation spontaneous R27" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_26" name="Degradation spontaneous R27" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_151">
+  <rdf:Description rdf:about="#Reaction_26">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:09:15Z</dcterms:W3CDTF>
@@ -3564,26 +3602,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_122" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7425" name="k1" value="0.0001"/>
+          <Constant key="Parameter_5375" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_261"/>
+              <SourceParameter reference="ModelValue_83"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_122"/>
+              <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_152" name="Nuclear import of Mdm2_cyto_S166S186p R28" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_27" name="Nuclear import of Mdm2_cyto_S166S186p R28" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_152">
+  <rdf:Description rdf:about="#Reaction_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:09:28Z</dcterms:W3CDTF>
@@ -3594,29 +3632,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_123" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_118" stoichiometry="1"/>
+          <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7422" name="k1" value="0.001"/>
+          <Constant key="Parameter_8445" name="k1" value="0.001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_246"/>
+              <SourceParameter reference="ModelValue_68"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_123"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_153" name="Degradation spontaneous R29" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_28" name="Degradation spontaneous R29" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_153">
+  <rdf:Description rdf:about="#Reaction_28">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:09:49Z</dcterms:W3CDTF>
@@ -3627,26 +3665,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_123" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_8603" name="k1" value="3e-05"/>
+          <Constant key="Parameter_8597" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_262"/>
+              <SourceParameter reference="ModelValue_84"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_123"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_154" name="Degradation spontaneous R30" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_29" name="Degradation spontaneous R30" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_154">
+  <rdf:Description rdf:about="#Reaction_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:09:55Z</dcterms:W3CDTF>
@@ -3657,26 +3695,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_118" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_8605" name="k1" value="3e-05"/>
+          <Constant key="Parameter_8600" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_262"/>
+              <SourceParameter reference="ModelValue_84"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_118"/>
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_155" name="Phosphorylation by ATM_p at Ser395 R31" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_30" name="Phosphorylation by ATM_p at Ser395 R31" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_155">
+  <rdf:Description rdf:about="#Reaction_30">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:10:20Z</dcterms:W3CDTF>
@@ -3687,35 +3725,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_118" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_125" stoichiometry="1"/>
+          <Product metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_112" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8601" name="k" value="1e-08"/>
+          <Constant key="Parameter_8154" name="k" value="1e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_217"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_39"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_112"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_1"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_118"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_156" name="Dephosphorylation of Ser395 of Mdm2_nuc_S166S186p_S395p by Wip1 R32" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_31" name="Dephosphorylation of Ser395 of Mdm2_nuc_S166S186p_S395p by Wip1 R32" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_156">
+  <rdf:Description rdf:about="#Reaction_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:10:47Z</dcterms:W3CDTF>
@@ -3726,35 +3764,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_125" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_118" stoichiometry="1"/>
+          <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_119" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7735" name="k" value="1e-10"/>
+          <Constant key="Parameter_8311" name="k" value="1e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_229"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_51"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_119"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_125"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_157" name="Degradation spontaneous R33" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_32" name="Degradation spontaneous R33" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_157">
+  <rdf:Description rdf:about="#Reaction_32">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:11:00Z</dcterms:W3CDTF>
@@ -3765,26 +3803,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_125" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7354" name="k1" value="3e-05"/>
+          <Constant key="Parameter_8153" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_262"/>
+              <SourceParameter reference="ModelValue_84"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_125"/>
+              <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_158" name="Degradation Ser395p-dependent R34" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_33" name="Degradation Ser395p-dependent R34" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_158">
+  <rdf:Description rdf:about="#Reaction_33">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:11:04Z</dcterms:W3CDTF>
@@ -3795,26 +3833,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_125" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7737" name="k1" value="0.0001"/>
+          <Constant key="Parameter_8308" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_263"/>
+              <SourceParameter reference="ModelValue_85"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_125"/>
+              <SourceParameter reference="Metabolite_14"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_159" name="Transcription of Wip1 gene R35" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_34" name="Transcription of Wip1 gene R35" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_159">
+  <rdf:Description rdf:about="#Reaction_34">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:11:06Z</dcterms:W3CDTF>
@@ -3825,45 +3863,45 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_126" stoichiometry="1"/>
+          <Product metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_116" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7739" name="s3" value="0.1"/>
-          <Constant key="Parameter_7736" name="q0_mdm2" value="1e-05"/>
-          <Constant key="Parameter_8602" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_8604" name="h" value="2"/>
-          <Constant key="Parameter_7342" name="q2" value="0.003"/>
+          <Constant key="Parameter_8444" name="s3" value="0.1"/>
+          <Constant key="Parameter_8310" name="q0_mdm2" value="1e-05"/>
+          <Constant key="Parameter_8309" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_8307" name="h" value="2"/>
+          <Constant key="Parameter_8152" name="q2" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_197"/>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_19"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_187"/>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_193"/>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_15"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="Metabolite_116"/>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_196"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_160" name="Degradation R36" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_35" name="Degradation R36" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_160">
+  <rdf:Description rdf:about="#Reaction_35">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:12:16Z</dcterms:W3CDTF>
@@ -3874,26 +3912,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_126" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7341" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5579" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_247"/>
+              <SourceParameter reference="ModelValue_69"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_126"/>
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_161" name="Translation of Wip mRNA R37" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_36" name="Translation of Wip mRNA R37" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_161">
+  <rdf:Description rdf:about="#Reaction_36">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:12:34Z</dcterms:W3CDTF>
@@ -3904,29 +3942,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_119" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_126" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7344" name="k" value="0.1"/>
+          <Constant key="Parameter_5580" name="k" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_202"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_24"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_126"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_162" name="Translation of Wip mRNA R38" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_37" name="Translation of Wip mRNA R38" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_162">
+  <rdf:Description rdf:about="#Reaction_37">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:12:46Z</dcterms:W3CDTF>
@@ -3937,26 +3975,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_119" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7340" name="k1" value="0.0003"/>
+          <Constant key="Parameter_8156" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_254"/>
+              <SourceParameter reference="ModelValue_76"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_119"/>
+              <SourceParameter reference="Metabolite_8"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_163" name="Transcription of PTEN gene R39" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_38" name="Transcription of PTEN gene R39" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_163">
+  <rdf:Description rdf:about="#Reaction_38">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:13:09Z</dcterms:W3CDTF>
@@ -3967,45 +4005,45 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_127" stoichiometry="1"/>
+          <Product metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_120" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7343" name="s3" value="0.03"/>
-          <Constant key="Parameter_7345" name="q0_mdm2" value="1e-05"/>
-          <Constant key="Parameter_7348" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_7350" name="h" value="2"/>
-          <Constant key="Parameter_7351" name="q2" value="0.003"/>
+          <Constant key="Parameter_8155" name="s3" value="0.03"/>
+          <Constant key="Parameter_8598" name="q0_mdm2" value="1e-05"/>
+          <Constant key="Parameter_5177" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_5181" name="h" value="2"/>
+          <Constant key="Parameter_8599" name="q2" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_198"/>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_186"/>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_8"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_191"/>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="Metabolite_120"/>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_196"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_164" name="Degradation R40" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_39" name="Degradation R40" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_164">
+  <rdf:Description rdf:about="#Reaction_39">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:14:20Z</dcterms:W3CDTF>
@@ -4016,26 +4054,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_127" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7352" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5180" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_248"/>
+              <SourceParameter reference="ModelValue_70"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_127"/>
+              <SourceParameter reference="Metabolite_16"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_165" name="Translation of PTEN_mRNA R41" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_40" name="Translation of PTEN_mRNA R41" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_165">
+  <rdf:Description rdf:about="#Reaction_40">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:14:34Z</dcterms:W3CDTF>
@@ -4046,29 +4084,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_128" stoichiometry="1"/>
+          <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_127" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7346" name="k" value="0.1"/>
+          <Constant key="Parameter_4934" name="k" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_203"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_25"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_127"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_16"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_166" name="Degradation of PTEN R42" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_41" name="Degradation of PTEN R42" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_166">
+  <rdf:Description rdf:about="#Reaction_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:14:41Z</dcterms:W3CDTF>
@@ -4079,26 +4117,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_128" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7349" name="k1" value="3e-05"/>
+          <Constant key="Parameter_4931" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_252"/>
+              <SourceParameter reference="ModelValue_74"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_128"/>
+              <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_167" name="Phopshorylation of PIP2 by PI3K R43" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_42" name="Phopshorylation of PIP2 by PI3K R43" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_167">
+  <rdf:Description rdf:about="#Reaction_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T17:14:55Z</dcterms:W3CDTF>
@@ -4109,33 +4147,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_129" stoichiometry="1"/>
+          <Product metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_153" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_147" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_42" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_36" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7347" name="p8" value="3e-09"/>
+          <Constant key="Parameter_4935" name="p8" value="3e-09"/>
         </ListOfConstants>
-        <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_342">
-              <SourceParameter reference="ModelValue_219"/>
+            <CallParameter functionParameter="FunctionParameter_311">
+              <SourceParameter reference="ModelValue_41"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_343">
-              <SourceParameter reference="Metabolite_153"/>
+            <CallParameter functionParameter="FunctionParameter_310">
+              <SourceParameter reference="Metabolite_42"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
-              <SourceParameter reference="Metabolite_147"/>
+            <CallParameter functionParameter="FunctionParameter_309">
+              <SourceParameter reference="Metabolite_36"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_168" name="Dephosphorylation of PIP3 by PTENR44" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_43" name="Dephosphorylation of PIP3 by PTENR44" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_168">
+  <rdf:Description rdf:about="#Reaction_43">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:28:06Z</dcterms:W3CDTF>
@@ -4146,32 +4184,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_129" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_128" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7353" name="k" value="3e-07"/>
+          <Constant key="Parameter_5179" name="k" value="3e-07"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_230"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_52"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_128"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_129"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_169" name="Phopshorylation at PIP3 R45" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_44" name="Phopshorylation at PIP3 R45" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_169">
+  <rdf:Description rdf:about="#Reaction_44">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:28:50Z</dcterms:W3CDTF>
@@ -4182,33 +4220,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_124" stoichiometry="1"/>
+          <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_152" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_129" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_41" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7738" name="p12" value="1e-09"/>
+          <Constant key="Parameter_5178" name="p12" value="1e-09"/>
         </ListOfConstants>
-        <KineticLaw function="Function_66" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_358">
-              <SourceParameter reference="ModelValue_223"/>
+            <CallParameter functionParameter="FunctionParameter_306">
+              <SourceParameter reference="ModelValue_45"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
-              <SourceParameter reference="Metabolite_152"/>
+            <CallParameter functionParameter="FunctionParameter_307">
+              <SourceParameter reference="Metabolite_41"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_345">
-              <SourceParameter reference="Metabolite_129"/>
+            <CallParameter functionParameter="FunctionParameter_308">
+              <SourceParameter reference="Metabolite_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_170" name="Dephosphorylation of AKT R46" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_45" name="Dephosphorylation of AKT R46" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_170">
+  <rdf:Description rdf:about="#Reaction_45">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:30:01Z</dcterms:W3CDTF>
@@ -4219,26 +4257,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_124" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7355" name="k1" value="0.0001"/>
+          <Constant key="Parameter_4933" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_231"/>
+              <SourceParameter reference="ModelValue_53"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_124"/>
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_171" name="Transcription of p21 gene R47" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_46" name="Transcription of p21 gene R47" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_171">
+  <rdf:Description rdf:about="#Reaction_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:31:16Z</dcterms:W3CDTF>
@@ -4249,45 +4287,45 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_130" stoichiometry="1"/>
+          <Product metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_116" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7358" name="s3" value="0.1"/>
-          <Constant key="Parameter_7434" name="q0_mdm2" value="1e-05"/>
-          <Constant key="Parameter_7430" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_7427" name="h" value="2"/>
-          <Constant key="Parameter_7428" name="q2" value="0.003"/>
+          <Constant key="Parameter_5754" name="s3" value="0.1"/>
+          <Constant key="Parameter_4932" name="q0_mdm2" value="1e-05"/>
+          <Constant key="Parameter_5751" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_5755" name="h" value="2"/>
+          <Constant key="Parameter_5753" name="q2" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_201"/>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_23"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_190"/>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_12"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_194"/>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_16"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="Metabolite_116"/>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_196"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_172" name="Degradation of p21 mRNA R48" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_47" name="Degradation of p21 mRNA R48" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_172">
+  <rdf:Description rdf:about="#Reaction_47">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:32:47Z</dcterms:W3CDTF>
@@ -4298,26 +4336,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_130" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7435" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5752" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_251"/>
+              <SourceParameter reference="ModelValue_73"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_130"/>
+              <SourceParameter reference="Metabolite_19"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_173" name="Translation of p21 mRNA R49" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_48" name="Translation of p21 mRNA R49" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_173">
+  <rdf:Description rdf:about="#Reaction_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:32:58Z</dcterms:W3CDTF>
@@ -4328,29 +4366,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_131" stoichiometry="1"/>
+          <Product metabolite="Metabolite_20" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_130" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7433" name="k" value="0.1"/>
+          <Constant key="Parameter_5811" name="k" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_206"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_28"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_130"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_19"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_174" name="Binding of Cyclin_E and p21 R50" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_49" name="Binding of Cyclin_E and p21 R50" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_174">
+  <rdf:Description rdf:about="#Reaction_49">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:33:11Z</dcterms:W3CDTF>
@@ -4361,31 +4399,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_131" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_132" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_20" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_133" stoichiometry="1"/>
+          <Product metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7431" name="k1" value="1e-05"/>
+          <Constant key="Parameter_5808" name="k1" value="1e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_240"/>
+              <SourceParameter reference="ModelValue_62"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_131"/>
-              <SourceParameter reference="Metabolite_132"/>
+              <SourceParameter reference="Metabolite_20"/>
+              <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_175" name="Dissociation of complex Cyclin_E:p21 R51" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_50" name="Dissociation of complex Cyclin_E:p21 R51" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_175">
+  <rdf:Description rdf:about="#Reaction_50">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:33:35Z</dcterms:W3CDTF>
@@ -4396,30 +4434,30 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_133" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_131" stoichiometry="1"/>
-          <Product metabolite="Metabolite_132" stoichiometry="1"/>
+          <Product metabolite="Metabolite_20" stoichiometry="1"/>
+          <Product metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7438" name="k1" value="0.0001"/>
+          <Constant key="Parameter_5812" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_245"/>
+              <SourceParameter reference="ModelValue_67"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_133"/>
+              <SourceParameter reference="Metabolite_22"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_176" name="Degradation of p21 R52" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_51" name="Degradation of p21 R52" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_176">
+  <rdf:Description rdf:about="#Reaction_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:33:50Z</dcterms:W3CDTF>
@@ -4430,26 +4468,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_131" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_20" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7432" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5810" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_266"/>
+              <SourceParameter reference="ModelValue_88"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_131"/>
+              <SourceParameter reference="Metabolite_20"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_177" name="Dephosphorylation of Rb1 at S567 R53" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_52" name="Dephosphorylation of Rb1 at S567 R53" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_177">
+  <rdf:Description rdf:about="#Reaction_52">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:34:06Z</dcterms:W3CDTF>
@@ -4460,33 +4498,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_134" stoichiometry="1"/>
+          <Product metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_158" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_47" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7436" name="d12" value="10000"/>
-          <Constant key="Parameter_7437" name="M2" value="100000"/>
+          <Constant key="Parameter_5809" name="d12" value="10000"/>
+          <Constant key="Parameter_7408" name="M2" value="100000"/>
         </ListOfConstants>
-        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_384">
-              <SourceParameter reference="ModelValue_235"/>
+            <CallParameter functionParameter="FunctionParameter_314">
+              <SourceParameter reference="ModelValue_57"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_385">
-              <SourceParameter reference="Metabolite_158"/>
+            <CallParameter functionParameter="FunctionParameter_313">
+              <SourceParameter reference="Metabolite_47"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_341">
-              <SourceParameter reference="ModelValue_270"/>
+            <CallParameter functionParameter="FunctionParameter_312">
+              <SourceParameter reference="ModelValue_92"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_178" name="Binding of Rb1 and E2F1 R54" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_53" name="Binding of Rb1 and E2F1 R54" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_178">
+  <rdf:Description rdf:about="#Reaction_53">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:44:25Z</dcterms:W3CDTF>
@@ -4497,35 +4535,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_134" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_135" stoichiometry="1"/>
+          <Product metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_159" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_48" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7444" name="k" value="1e-05"/>
+          <Constant key="Parameter_7409" name="k" value="1e-05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_239"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_61"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_159"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_48"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_134"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_23"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_179" name="Phosphorylation of Rb1 by Cyclin_E  R55" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_54" name="Phosphorylation of Rb1 by Cyclin_E  R55" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_179">
+  <rdf:Description rdf:about="#Reaction_54">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:45:52Z</dcterms:W3CDTF>
@@ -4536,32 +4574,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_134" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_132" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7443" name="k" value="3e-06"/>
+          <Constant key="Parameter_7405" name="k" value="3e-06"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_220"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_42"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_132"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_134"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_23"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_180" name="Dissociation of Rb1:E2F1 complex R56" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_55" name="Dissociation of Rb1:E2F1 complex R56" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_180">
+  <rdf:Description rdf:about="#Reaction_55">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:48:04Z</dcterms:W3CDTF>
@@ -4572,29 +4610,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_135" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_134" stoichiometry="1"/>
+          <Product metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7445" name="k1" value="0.0001"/>
+          <Constant key="Parameter_7406" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_244"/>
+              <SourceParameter reference="ModelValue_66"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_135"/>
+              <SourceParameter reference="Metabolite_24"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_181" name="Phosphorylation of Rb1 in Rb1:E2F1 complex by Cyclin_ER57" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_56" name="Phosphorylation of Rb1 in Rb1:E2F1 complex by Cyclin_ER57" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_181">
+  <rdf:Description rdf:about="#Reaction_56">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:48:20Z</dcterms:W3CDTF>
@@ -4605,32 +4643,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_135" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_132" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7439" name="k" value="3e-06"/>
+          <Constant key="Parameter_7407" name="k" value="3e-06"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_221"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_43"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_132"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_135"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_24"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_182" name="Synthesis R58" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_57" name="Synthesis R58" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_182">
+  <rdf:Description rdf:about="#Reaction_57">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:48:38Z</dcterms:W3CDTF>
@@ -4641,23 +4679,23 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_132" stoichiometry="1"/>
+          <Product metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7441" name="v" value="3"/>
+          <Constant key="Parameter_5759" name="v" value="3"/>
         </ListOfConstants>
         <KineticLaw function="Function_6" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_49">
-              <SourceParameter reference="ModelValue_211"/>
+              <SourceParameter reference="ModelValue_33"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_183" name="Synthesis induced by E2F1 R59" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_58" name="Synthesis induced by E2F1 R59" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_183">
+  <rdf:Description rdf:about="#Reaction_58">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:48:58Z</dcterms:W3CDTF>
@@ -4668,33 +4706,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_132" stoichiometry="1"/>
+          <Product metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_159" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_48" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7440" name="s9" value="30"/>
-          <Constant key="Parameter_7442" name="M3" value="200000"/>
+          <Constant key="Parameter_6230" name="s9" value="30"/>
+          <Constant key="Parameter_6233" name="M3" value="200000"/>
         </ListOfConstants>
-        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_381">
-              <SourceParameter reference="ModelValue_210"/>
+            <CallParameter functionParameter="FunctionParameter_317">
+              <SourceParameter reference="ModelValue_32"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_382">
-              <SourceParameter reference="Metabolite_159"/>
+            <CallParameter functionParameter="FunctionParameter_316">
+              <SourceParameter reference="Metabolite_48"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_383">
-              <SourceParameter reference="ModelValue_271"/>
+            <CallParameter functionParameter="FunctionParameter_315">
+              <SourceParameter reference="ModelValue_93"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_184" name="Degradation R60" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_59" name="Degradation R60" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_184">
+  <rdf:Description rdf:about="#Reaction_59">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-17T16:54:27Z</dcterms:W3CDTF>
@@ -4705,26 +4743,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_132" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7446" name="k1" value="0.0001"/>
+          <Constant key="Parameter_6231" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_267"/>
+              <SourceParameter reference="ModelValue_89"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_132"/>
+              <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_185" name="Degradation R61" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_60" name="Degradation R61" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_185">
+  <rdf:Description rdf:about="#Reaction_60">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:51:04Z</dcterms:W3CDTF>
@@ -4735,26 +4773,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_133" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_22" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7453" name="k1" value="0.0001"/>
+          <Constant key="Parameter_6232" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_267"/>
+              <SourceParameter reference="ModelValue_89"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_133"/>
+              <SourceParameter reference="Metabolite_22"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_186" name="Transcription of Bax gene R62" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_61" name="Transcription of Bax gene R62" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_186">
+  <rdf:Description rdf:about="#Reaction_61">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:51:17Z</dcterms:W3CDTF>
@@ -4765,45 +4803,45 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_136" stoichiometry="1"/>
+          <Product metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_120" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7455" name="s3" value="0.03"/>
-          <Constant key="Parameter_7452" name="q0_mdm2" value="1e-05"/>
-          <Constant key="Parameter_7447" name="q1_mdm2" value="3e-13"/>
-          <Constant key="Parameter_7456" name="h" value="2"/>
-          <Constant key="Parameter_7448" name="q2" value="0.003"/>
+          <Constant key="Parameter_6229" name="s3" value="0.03"/>
+          <Constant key="Parameter_5756" name="q0_mdm2" value="1e-05"/>
+          <Constant key="Parameter_5760" name="q1_mdm2" value="3e-13"/>
+          <Constant key="Parameter_5758" name="h" value="2"/>
+          <Constant key="Parameter_5757" name="q2" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_200"/>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_22"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_189"/>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_11"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_195"/>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_17"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="Metabolite_120"/>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="Metabolite_9"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="ModelValue_268"/>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_196"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_18"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_187" name="Degradation of Bax mRNA R63" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_62" name="Degradation of Bax mRNA R63" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_187">
+  <rdf:Description rdf:about="#Reaction_62">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:52:53Z</dcterms:W3CDTF>
@@ -4814,26 +4852,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_136" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7450" name="k1" value="0.0003"/>
+          <Constant key="Parameter_8463" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_250"/>
+              <SourceParameter reference="ModelValue_72"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_136"/>
+              <SourceParameter reference="Metabolite_25"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_188" name="Translation of Bax mRNA R64" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_63" name="Translation of Bax mRNA R64" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_188">
+  <rdf:Description rdf:about="#Reaction_63">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:53:19Z</dcterms:W3CDTF>
@@ -4844,29 +4882,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_137" stoichiometry="1"/>
+          <Product metabolite="Metabolite_26" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_136" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7449" name="k" value="0.1"/>
+          <Constant key="Parameter_8462" name="k" value="0.1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_205"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_27"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_136"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_25"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_189" name="Dissociation of Bax:BclXL complex R65" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_64" name="Dissociation of Bax:BclXL complex R65" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_189">
+  <rdf:Description rdf:about="#Reaction_64">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:53:33Z</dcterms:W3CDTF>
@@ -4877,30 +4915,30 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_139" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_28" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_137" stoichiometry="1"/>
-          <Product metabolite="Metabolite_138" stoichiometry="1"/>
+          <Product metabolite="Metabolite_26" stoichiometry="1"/>
+          <Product metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7454" name="k1" value="0.001"/>
+          <Constant key="Parameter_8464" name="k1" value="0.001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_241"/>
+              <SourceParameter reference="ModelValue_63"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_139"/>
+              <SourceParameter reference="Metabolite_28"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_190" name="Binding of Bax and BclXL R66" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_65" name="Binding of Bax and BclXL R66" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_190">
+  <rdf:Description rdf:about="#Reaction_65">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:53:54Z</dcterms:W3CDTF>
@@ -4911,31 +4949,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_137" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_138" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_26" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_139" stoichiometry="1"/>
+          <Product metabolite="Metabolite_28" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7451" name="k1" value="3e-05"/>
+          <Constant key="Parameter_8466" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_236"/>
+              <SourceParameter reference="ModelValue_58"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_137"/>
-              <SourceParameter reference="Metabolite_138"/>
+              <SourceParameter reference="Metabolite_26"/>
+              <SourceParameter reference="Metabolite_27"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_191" name="Degradation R67" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_66" name="Degradation R67" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_191">
+  <rdf:Description rdf:about="#Reaction_66">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:54:02Z</dcterms:W3CDTF>
@@ -4946,26 +4984,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_137" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_26" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7365" name="k1" value="0.0001"/>
+          <Constant key="Parameter_8465" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_255"/>
+              <SourceParameter reference="ModelValue_77"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_137"/>
+              <SourceParameter reference="Metabolite_26"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_192" name="Dissociation of BclXL:Bad complex R68" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_67" name="Dissociation of BclXL:Bad complex R68" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_192">
+  <rdf:Description rdf:about="#Reaction_67">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:54:13Z</dcterms:W3CDTF>
@@ -4976,29 +5014,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_138" stoichiometry="1"/>
+          <Product metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_160" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_49" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7359" name="k" value="0.001"/>
+          <Constant key="Parameter_6888" name="k" value="0.001"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_242"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_64"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_160"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_49"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_193" name="Degradation of Bax in Bax:BclXL complex R69" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_68" name="Degradation of Bax in Bax:BclXL complex R69" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_193">
+  <rdf:Description rdf:about="#Reaction_68">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:54:17Z</dcterms:W3CDTF>
@@ -5009,29 +5047,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_139" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_28" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_138" stoichiometry="1"/>
+          <Product metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7363" name="k1" value="0.0001"/>
+          <Constant key="Parameter_6891" name="k1" value="0.0001"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_263"/>
+              <SourceParameter reference="ModelValue_85"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_139"/>
+              <SourceParameter reference="Metabolite_28"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_194" name="Phosphorylation of Bad in BclXL:Bad complex R70" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_69" name="Phosphorylation of Bad in BclXL:Bad complex R70" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_194">
+  <rdf:Description rdf:about="#Reaction_69">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:57:19Z</dcterms:W3CDTF>
@@ -5042,33 +5080,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_138" stoichiometry="1"/>
+          <Product metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_124" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_160" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_49" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8549" name="k" value="3e-09"/>
+          <Constant key="Parameter_6280" name="k" value="3e-09"/>
         </ListOfConstants>
-        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_311">
-              <SourceParameter reference="ModelValue_218"/>
+            <CallParameter functionParameter="FunctionParameter_320">
+              <SourceParameter reference="ModelValue_40"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_312">
-              <SourceParameter reference="Metabolite_124"/>
+            <CallParameter functionParameter="FunctionParameter_319">
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_380">
-              <SourceParameter reference="Metabolite_160"/>
+            <CallParameter functionParameter="FunctionParameter_318">
+              <SourceParameter reference="Metabolite_49"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_195" name="Binding of BclXL and Bad_0 R71" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_70" name="Binding of BclXL and Bad_0 R71" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_195">
+  <rdf:Description rdf:about="#Reaction_70">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:59:21Z</dcterms:W3CDTF>
@@ -5079,28 +5117,28 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_138" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_140" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_27" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7364" name="k1" value="0.003"/>
+          <Constant key="Parameter_6884" name="k1" value="0.003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_237"/>
+              <SourceParameter reference="ModelValue_59"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_138"/>
-              <SourceParameter reference="Metabolite_140"/>
+              <SourceParameter reference="Metabolite_27"/>
+              <SourceParameter reference="Metabolite_29"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_196" name="Dephosphorylation R72" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_71" name="Dephosphorylation R72" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_196">
+  <rdf:Description rdf:about="#Reaction_71">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T11:59:39Z</dcterms:W3CDTF>
@@ -5111,29 +5149,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_141" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_140" stoichiometry="1"/>
+          <Product metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7362" name="k1" value="3e-05"/>
+          <Constant key="Parameter_6890" name="k1" value="3e-05"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_232"/>
+              <SourceParameter reference="ModelValue_54"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_141"/>
+              <SourceParameter reference="Metabolite_30"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_197" name="Dissociation of BclXL:Bad complex R73" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_72" name="Dissociation of BclXL:Bad complex R73" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_197">
+  <rdf:Description rdf:about="#Reaction_72">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:00:18Z</dcterms:W3CDTF>
@@ -5144,29 +5182,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_140" stoichiometry="1"/>
+          <Product metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_160" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_49" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7368" name="k" value="0.001"/>
+          <Constant key="Parameter_6279" name="k" value="0.001"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_242"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_64"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_160"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_49"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_198" name="Phosphorylation of Bad_0 by AKT_p R74" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_73" name="Phosphorylation of Bad_0 by AKT_p R74" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_198">
+  <rdf:Description rdf:about="#Reaction_73">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:00:19Z</dcterms:W3CDTF>
@@ -5177,35 +5215,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_140" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_141" stoichiometry="1"/>
+          <Product metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_124" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8547" name="k" value="3e-09"/>
+          <Constant key="Parameter_6282" name="k" value="3e-09"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_218"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_40"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_124"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_140"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_29"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_199" name="Dephosphorylation and dissociation of Bad_p in Bad:14_3_3 complex R75" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_74" name="Dephosphorylation and dissociation of Bad_p in Bad:14_3_3 complex R75" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_199">
+  <rdf:Description rdf:about="#Reaction_74">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:00:20Z</dcterms:W3CDTF>
@@ -5216,29 +5254,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_140" stoichiometry="1"/>
+          <Product metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_161" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_50" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8546" name="k" value="3e-05"/>
+          <Constant key="Parameter_6283" name="k" value="3e-05"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_232"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_54"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_161"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_50"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_200" name="Dissociation of Bad:14-3-3 complex R76" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_75" name="Dissociation of Bad:14-3-3 complex R76" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_200">
+  <rdf:Description rdf:about="#Reaction_75">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:01:30Z</dcterms:W3CDTF>
@@ -5249,29 +5287,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_141" stoichiometry="1"/>
+          <Product metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_161" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_50" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8550" name="k" value="0.001"/>
+          <Constant key="Parameter_6892" name="k" value="0.001"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="ModelValue_243"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="ModelValue_65"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_161"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_50"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_201" name="Phosphorylation of Bad in BclXL:Bad complex and complex Dissociation R77" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_76" name="Phosphorylation of Bad in BclXL:Bad complex and complex Dissociation R77" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_201">
+  <rdf:Description rdf:about="#Reaction_76">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:04:00Z</dcterms:W3CDTF>
@@ -5282,33 +5320,33 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_141" stoichiometry="1"/>
+          <Product metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_124" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_160" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_13" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_49" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7360" name="k" value="3e-09"/>
+          <Constant key="Parameter_6281" name="k" value="3e-09"/>
         </ListOfConstants>
-        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
+        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_311">
-              <SourceParameter reference="ModelValue_218"/>
+            <CallParameter functionParameter="FunctionParameter_320">
+              <SourceParameter reference="ModelValue_40"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_312">
-              <SourceParameter reference="Metabolite_124"/>
+            <CallParameter functionParameter="FunctionParameter_319">
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_380">
-              <SourceParameter reference="Metabolite_160"/>
+            <CallParameter functionParameter="FunctionParameter_318">
+              <SourceParameter reference="Metabolite_49"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_202" name="Binding of Bad_p and 14-3-3 R78" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_77" name="Binding of Bad_p and 14-3-3 R78" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_202">
+  <rdf:Description rdf:about="#Reaction_77">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:04:22Z</dcterms:W3CDTF>
@@ -5319,32 +5357,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_141" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_162" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_51" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7357" name="k" value="0.003"/>
+          <Constant key="Parameter_5506" name="k" value="0.003"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_238"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_60"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_162"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_51"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_141"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_30"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_203" name="Synthesis of proCaspase R79" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_78" name="Synthesis of proCaspase R79" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_203">
+  <rdf:Description rdf:about="#Reaction_78">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:04:30Z</dcterms:W3CDTF>
@@ -5355,23 +5393,23 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_142" stoichiometry="1"/>
+          <Product metabolite="Metabolite_31" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7356" name="v" value="30"/>
+          <Constant key="Parameter_5505" name="v" value="30"/>
         </ListOfConstants>
         <KineticLaw function="Function_6" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_49">
-              <SourceParameter reference="ModelValue_208"/>
+              <SourceParameter reference="ModelValue_30"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_204" name="Degradation of proCaspase R80" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_79" name="Degradation of proCaspase R80" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_204">
+  <rdf:Description rdf:about="#Reaction_79">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:05:26Z</dcterms:W3CDTF>
@@ -5382,26 +5420,26 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_142" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_31" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7361" name="k1" value="0.0003"/>
+          <Constant key="Parameter_4671" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_264"/>
+              <SourceParameter reference="ModelValue_86"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_142"/>
+              <SourceParameter reference="Metabolite_31"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_205" name="Activation of caspases by active (free) Bax R81" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_80" name="Activation of caspases by active (free) Bax R81" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_205">
+  <rdf:Description rdf:about="#Reaction_80">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:05:36Z</dcterms:W3CDTF>
@@ -5412,35 +5450,35 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_142" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_31" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_143" stoichiometry="1"/>
+          <Product metabolite="Metabolite_32" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_137" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_26" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_8548" name="k" value="3e-10"/>
+          <Constant key="Parameter_5504" name="k" value="3e-10"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_184"/>
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="ModelValue_6"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="Metabolite_137"/>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="Metabolite_26"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="Metabolite_142"/>
+            <CallParameter functionParameter="FunctionParameter_273">
+              <SourceParameter reference="Metabolite_31"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_206" name="Activation_autoactivation of caspases R82" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_81" name="Activation_autoactivation of caspases R82" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_206">
+  <rdf:Description rdf:about="#Reaction_81">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:05:42Z</dcterms:W3CDTF>
@@ -5451,32 +5489,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_142" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_31" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_143" stoichiometry="1"/>
+          <Product metabolite="Metabolite_32" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7457" name="a2" value="1e-12"/>
+          <Constant key="Parameter_5502" name="a2" value="1e-12"/>
         </ListOfConstants>
-        <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
+        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_308">
-              <SourceParameter reference="ModelValue_185"/>
+            <CallParameter functionParameter="FunctionParameter_323">
+              <SourceParameter reference="ModelValue_7"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_309">
-              <SourceParameter reference="Metabolite_143"/>
+            <CallParameter functionParameter="FunctionParameter_322">
+              <SourceParameter reference="Metabolite_32"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_310">
-              <SourceParameter reference="Metabolite_142"/>
+            <CallParameter functionParameter="FunctionParameter_321">
+              <SourceParameter reference="Metabolite_31"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_207" name="Degradation of caspases R83" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_82" name="Degradation of caspases R83" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_207">
+  <rdf:Description rdf:about="#Reaction_82">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2018-07-18T12:09:29Z</dcterms:W3CDTF>
@@ -5487,18 +5525,18 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_143" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_32" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7460" name="k1" value="0.0003"/>
+          <Constant key="Parameter_5503" name="k1" value="0.0003"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_265"/>
+              <SourceParameter reference="ModelValue_87"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_143"/>
+              <SourceParameter reference="Metabolite_32"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
@@ -5507,7 +5545,9 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfEvents>
       <Event key="Event_0" name="Stop Irradiation phase" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_0">
     <dcterms:created>
       <rdf:Description>
@@ -5516,6 +5556,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <TriggerExpression>
           &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time> >= 601
@@ -5529,13 +5570,13 @@ Reaction scheme where the products are created from the reactants and the change
         </ListOfAssignments>
       </Event>
     </ListOfEvents>
-    <ListOfModelParameterSets activeSet="ModelParameterSet_1">
-      <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
+    <ListOfModelParameterSets activeSet="ModelParameterSet_0">
+      <ModelParameterSet key="ModelParameterSet_0" name="Initial State">
         <MiriamAnnotation>
 <rdf:RDF
 xmlns:dcterms="http://purl.org/dc/terms/"
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_1">
+<rdf:Description rdf:about="#ModelParameterSet_0">
 </rdf:Description>
 </rdf:RDF>
         </MiriamAnnotation>
@@ -5701,8 +5742,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[M3]" value="200000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_RepairCplx_total]" value="20" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_max]" value="1000000" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR]" value="0.0083333333333333332" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR]" value="0.16666666666666666" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[IR_Gy]" value="10" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_per_IR_Gy]" value="10" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[tp2]" value="600" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[time_days]" value="0" type="ModelValue" simulationType="assignment"/>
@@ -5714,7 +5755,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[h1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0.0083333333333333332" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA damage R1],ParameterGroup=Parameters,Parameter=DNA_DSB_DUE_to_IR" value="0.16666666666666666" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR],Reference=InitialValue>
               </InitialExpression>
@@ -6478,170 +6519,170 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelParameterSet>
     </ListOfModelParameterSets>
     <StateTemplate>
-      <StateTemplateVariable objectReference="Model_1"/>
-      <StateTemplateVariable objectReference="Metabolite_115"/>
-      <StateTemplateVariable objectReference="Metabolite_138"/>
-      <StateTemplateVariable objectReference="Metabolite_120"/>
-      <StateTemplateVariable objectReference="Metabolite_132"/>
-      <StateTemplateVariable objectReference="Metabolite_141"/>
-      <StateTemplateVariable objectReference="Metabolite_140"/>
-      <StateTemplateVariable objectReference="Metabolite_118"/>
-      <StateTemplateVariable objectReference="Metabolite_134"/>
-      <StateTemplateVariable objectReference="Metabolite_142"/>
-      <StateTemplateVariable objectReference="Metabolite_122"/>
-      <StateTemplateVariable objectReference="Metabolite_117"/>
-      <StateTemplateVariable objectReference="Metabolite_137"/>
-      <StateTemplateVariable objectReference="Metabolite_131"/>
-      <StateTemplateVariable objectReference="Metabolite_125"/>
-      <StateTemplateVariable objectReference="Metabolite_116"/>
-      <StateTemplateVariable objectReference="Metabolite_123"/>
-      <StateTemplateVariable objectReference="Metabolite_130"/>
-      <StateTemplateVariable objectReference="Metabolite_126"/>
-      <StateTemplateVariable objectReference="Metabolite_114"/>
-      <StateTemplateVariable objectReference="Metabolite_121"/>
-      <StateTemplateVariable objectReference="Metabolite_136"/>
-      <StateTemplateVariable objectReference="Metabolite_127"/>
-      <StateTemplateVariable objectReference="Metabolite_119"/>
-      <StateTemplateVariable objectReference="Metabolite_113"/>
-      <StateTemplateVariable objectReference="Metabolite_129"/>
-      <StateTemplateVariable objectReference="Metabolite_124"/>
-      <StateTemplateVariable objectReference="Metabolite_112"/>
-      <StateTemplateVariable objectReference="Metabolite_128"/>
-      <StateTemplateVariable objectReference="Metabolite_111"/>
-      <StateTemplateVariable objectReference="Metabolite_143"/>
-      <StateTemplateVariable objectReference="Metabolite_135"/>
-      <StateTemplateVariable objectReference="Metabolite_133"/>
-      <StateTemplateVariable objectReference="Metabolite_139"/>
-      <StateTemplateVariable objectReference="Metabolite_150"/>
-      <StateTemplateVariable objectReference="Metabolite_151"/>
-      <StateTemplateVariable objectReference="Metabolite_153"/>
-      <StateTemplateVariable objectReference="Metabolite_158"/>
-      <StateTemplateVariable objectReference="Metabolite_159"/>
-      <StateTemplateVariable objectReference="Metabolite_162"/>
-      <StateTemplateVariable objectReference="Metabolite_152"/>
-      <StateTemplateVariable objectReference="Metabolite_160"/>
-      <StateTemplateVariable objectReference="Metabolite_161"/>
-      <StateTemplateVariable objectReference="ModelValue_180"/>
-      <StateTemplateVariable objectReference="ModelValue_182"/>
-      <StateTemplateVariable objectReference="ModelValue_274"/>
-      <StateTemplateVariable objectReference="ModelValue_278"/>
-      <StateTemplateVariable objectReference="Metabolite_144"/>
-      <StateTemplateVariable objectReference="Metabolite_145"/>
-      <StateTemplateVariable objectReference="Metabolite_146"/>
-      <StateTemplateVariable objectReference="Metabolite_147"/>
-      <StateTemplateVariable objectReference="Metabolite_148"/>
-      <StateTemplateVariable objectReference="Metabolite_149"/>
-      <StateTemplateVariable objectReference="Metabolite_154"/>
-      <StateTemplateVariable objectReference="Metabolite_155"/>
-      <StateTemplateVariable objectReference="Metabolite_156"/>
-      <StateTemplateVariable objectReference="Metabolite_157"/>
-      <StateTemplateVariable objectReference="Compartment_2"/>
-      <StateTemplateVariable objectReference="Compartment_3"/>
-      <StateTemplateVariable objectReference="ModelValue_178"/>
-      <StateTemplateVariable objectReference="ModelValue_179"/>
-      <StateTemplateVariable objectReference="ModelValue_181"/>
-      <StateTemplateVariable objectReference="ModelValue_183"/>
-      <StateTemplateVariable objectReference="ModelValue_184"/>
-      <StateTemplateVariable objectReference="ModelValue_185"/>
-      <StateTemplateVariable objectReference="ModelValue_186"/>
-      <StateTemplateVariable objectReference="ModelValue_187"/>
-      <StateTemplateVariable objectReference="ModelValue_188"/>
-      <StateTemplateVariable objectReference="ModelValue_189"/>
-      <StateTemplateVariable objectReference="ModelValue_190"/>
-      <StateTemplateVariable objectReference="ModelValue_191"/>
-      <StateTemplateVariable objectReference="ModelValue_192"/>
-      <StateTemplateVariable objectReference="ModelValue_193"/>
-      <StateTemplateVariable objectReference="ModelValue_194"/>
-      <StateTemplateVariable objectReference="ModelValue_195"/>
-      <StateTemplateVariable objectReference="ModelValue_196"/>
-      <StateTemplateVariable objectReference="ModelValue_197"/>
-      <StateTemplateVariable objectReference="ModelValue_198"/>
-      <StateTemplateVariable objectReference="ModelValue_199"/>
-      <StateTemplateVariable objectReference="ModelValue_200"/>
-      <StateTemplateVariable objectReference="ModelValue_201"/>
-      <StateTemplateVariable objectReference="ModelValue_202"/>
-      <StateTemplateVariable objectReference="ModelValue_203"/>
-      <StateTemplateVariable objectReference="ModelValue_204"/>
-      <StateTemplateVariable objectReference="ModelValue_205"/>
-      <StateTemplateVariable objectReference="ModelValue_206"/>
-      <StateTemplateVariable objectReference="ModelValue_207"/>
-      <StateTemplateVariable objectReference="ModelValue_208"/>
-      <StateTemplateVariable objectReference="ModelValue_209"/>
-      <StateTemplateVariable objectReference="ModelValue_210"/>
-      <StateTemplateVariable objectReference="ModelValue_211"/>
-      <StateTemplateVariable objectReference="ModelValue_212"/>
-      <StateTemplateVariable objectReference="ModelValue_213"/>
-      <StateTemplateVariable objectReference="ModelValue_214"/>
-      <StateTemplateVariable objectReference="ModelValue_215"/>
-      <StateTemplateVariable objectReference="ModelValue_216"/>
-      <StateTemplateVariable objectReference="ModelValue_217"/>
-      <StateTemplateVariable objectReference="ModelValue_218"/>
-      <StateTemplateVariable objectReference="ModelValue_219"/>
-      <StateTemplateVariable objectReference="ModelValue_220"/>
-      <StateTemplateVariable objectReference="ModelValue_221"/>
-      <StateTemplateVariable objectReference="ModelValue_222"/>
-      <StateTemplateVariable objectReference="ModelValue_223"/>
-      <StateTemplateVariable objectReference="ModelValue_224"/>
-      <StateTemplateVariable objectReference="ModelValue_225"/>
-      <StateTemplateVariable objectReference="ModelValue_226"/>
-      <StateTemplateVariable objectReference="ModelValue_227"/>
-      <StateTemplateVariable objectReference="ModelValue_228"/>
-      <StateTemplateVariable objectReference="ModelValue_229"/>
-      <StateTemplateVariable objectReference="ModelValue_230"/>
-      <StateTemplateVariable objectReference="ModelValue_231"/>
-      <StateTemplateVariable objectReference="ModelValue_232"/>
-      <StateTemplateVariable objectReference="ModelValue_233"/>
-      <StateTemplateVariable objectReference="ModelValue_234"/>
-      <StateTemplateVariable objectReference="ModelValue_235"/>
-      <StateTemplateVariable objectReference="ModelValue_236"/>
-      <StateTemplateVariable objectReference="ModelValue_237"/>
-      <StateTemplateVariable objectReference="ModelValue_238"/>
-      <StateTemplateVariable objectReference="ModelValue_239"/>
-      <StateTemplateVariable objectReference="ModelValue_240"/>
-      <StateTemplateVariable objectReference="ModelValue_241"/>
-      <StateTemplateVariable objectReference="ModelValue_242"/>
-      <StateTemplateVariable objectReference="ModelValue_243"/>
-      <StateTemplateVariable objectReference="ModelValue_244"/>
-      <StateTemplateVariable objectReference="ModelValue_245"/>
-      <StateTemplateVariable objectReference="ModelValue_246"/>
-      <StateTemplateVariable objectReference="ModelValue_247"/>
-      <StateTemplateVariable objectReference="ModelValue_248"/>
-      <StateTemplateVariable objectReference="ModelValue_249"/>
-      <StateTemplateVariable objectReference="ModelValue_250"/>
-      <StateTemplateVariable objectReference="ModelValue_251"/>
-      <StateTemplateVariable objectReference="ModelValue_252"/>
-      <StateTemplateVariable objectReference="ModelValue_253"/>
-      <StateTemplateVariable objectReference="ModelValue_254"/>
-      <StateTemplateVariable objectReference="ModelValue_255"/>
-      <StateTemplateVariable objectReference="ModelValue_256"/>
-      <StateTemplateVariable objectReference="ModelValue_257"/>
-      <StateTemplateVariable objectReference="ModelValue_258"/>
-      <StateTemplateVariable objectReference="ModelValue_259"/>
-      <StateTemplateVariable objectReference="ModelValue_260"/>
-      <StateTemplateVariable objectReference="ModelValue_261"/>
-      <StateTemplateVariable objectReference="ModelValue_262"/>
-      <StateTemplateVariable objectReference="ModelValue_263"/>
-      <StateTemplateVariable objectReference="ModelValue_264"/>
-      <StateTemplateVariable objectReference="ModelValue_265"/>
-      <StateTemplateVariable objectReference="ModelValue_266"/>
-      <StateTemplateVariable objectReference="ModelValue_267"/>
-      <StateTemplateVariable objectReference="ModelValue_268"/>
-      <StateTemplateVariable objectReference="ModelValue_269"/>
-      <StateTemplateVariable objectReference="ModelValue_270"/>
-      <StateTemplateVariable objectReference="ModelValue_271"/>
-      <StateTemplateVariable objectReference="ModelValue_272"/>
-      <StateTemplateVariable objectReference="ModelValue_273"/>
-      <StateTemplateVariable objectReference="ModelValue_275"/>
-      <StateTemplateVariable objectReference="ModelValue_276"/>
-      <StateTemplateVariable objectReference="ModelValue_277"/>
+      <StateTemplateVariable objectReference="Model_0"/>
+      <StateTemplateVariable objectReference="Metabolite_4"/>
+      <StateTemplateVariable objectReference="Metabolite_27"/>
+      <StateTemplateVariable objectReference="Metabolite_9"/>
+      <StateTemplateVariable objectReference="Metabolite_21"/>
+      <StateTemplateVariable objectReference="Metabolite_30"/>
+      <StateTemplateVariable objectReference="Metabolite_29"/>
+      <StateTemplateVariable objectReference="Metabolite_7"/>
+      <StateTemplateVariable objectReference="Metabolite_23"/>
+      <StateTemplateVariable objectReference="Metabolite_31"/>
+      <StateTemplateVariable objectReference="Metabolite_11"/>
+      <StateTemplateVariable objectReference="Metabolite_6"/>
+      <StateTemplateVariable objectReference="Metabolite_26"/>
+      <StateTemplateVariable objectReference="Metabolite_20"/>
+      <StateTemplateVariable objectReference="Metabolite_14"/>
+      <StateTemplateVariable objectReference="Metabolite_5"/>
+      <StateTemplateVariable objectReference="Metabolite_12"/>
+      <StateTemplateVariable objectReference="Metabolite_19"/>
+      <StateTemplateVariable objectReference="Metabolite_15"/>
+      <StateTemplateVariable objectReference="Metabolite_3"/>
+      <StateTemplateVariable objectReference="Metabolite_10"/>
+      <StateTemplateVariable objectReference="Metabolite_25"/>
+      <StateTemplateVariable objectReference="Metabolite_16"/>
+      <StateTemplateVariable objectReference="Metabolite_8"/>
+      <StateTemplateVariable objectReference="Metabolite_2"/>
+      <StateTemplateVariable objectReference="Metabolite_18"/>
+      <StateTemplateVariable objectReference="Metabolite_13"/>
+      <StateTemplateVariable objectReference="Metabolite_1"/>
+      <StateTemplateVariable objectReference="Metabolite_17"/>
+      <StateTemplateVariable objectReference="Metabolite_0"/>
+      <StateTemplateVariable objectReference="Metabolite_32"/>
+      <StateTemplateVariable objectReference="Metabolite_24"/>
+      <StateTemplateVariable objectReference="Metabolite_22"/>
+      <StateTemplateVariable objectReference="Metabolite_28"/>
+      <StateTemplateVariable objectReference="Metabolite_39"/>
+      <StateTemplateVariable objectReference="Metabolite_40"/>
+      <StateTemplateVariable objectReference="Metabolite_42"/>
+      <StateTemplateVariable objectReference="Metabolite_47"/>
+      <StateTemplateVariable objectReference="Metabolite_48"/>
+      <StateTemplateVariable objectReference="Metabolite_51"/>
+      <StateTemplateVariable objectReference="Metabolite_41"/>
+      <StateTemplateVariable objectReference="Metabolite_49"/>
+      <StateTemplateVariable objectReference="Metabolite_50"/>
+      <StateTemplateVariable objectReference="ModelValue_2"/>
+      <StateTemplateVariable objectReference="ModelValue_4"/>
+      <StateTemplateVariable objectReference="ModelValue_96"/>
+      <StateTemplateVariable objectReference="ModelValue_100"/>
+      <StateTemplateVariable objectReference="Metabolite_33"/>
+      <StateTemplateVariable objectReference="Metabolite_34"/>
+      <StateTemplateVariable objectReference="Metabolite_35"/>
+      <StateTemplateVariable objectReference="Metabolite_36"/>
+      <StateTemplateVariable objectReference="Metabolite_37"/>
+      <StateTemplateVariable objectReference="Metabolite_38"/>
+      <StateTemplateVariable objectReference="Metabolite_43"/>
+      <StateTemplateVariable objectReference="Metabolite_44"/>
+      <StateTemplateVariable objectReference="Metabolite_45"/>
+      <StateTemplateVariable objectReference="Metabolite_46"/>
+      <StateTemplateVariable objectReference="Compartment_0"/>
+      <StateTemplateVariable objectReference="Compartment_1"/>
+      <StateTemplateVariable objectReference="ModelValue_0"/>
+      <StateTemplateVariable objectReference="ModelValue_1"/>
+      <StateTemplateVariable objectReference="ModelValue_3"/>
+      <StateTemplateVariable objectReference="ModelValue_5"/>
+      <StateTemplateVariable objectReference="ModelValue_6"/>
+      <StateTemplateVariable objectReference="ModelValue_7"/>
+      <StateTemplateVariable objectReference="ModelValue_8"/>
+      <StateTemplateVariable objectReference="ModelValue_9"/>
+      <StateTemplateVariable objectReference="ModelValue_10"/>
+      <StateTemplateVariable objectReference="ModelValue_11"/>
+      <StateTemplateVariable objectReference="ModelValue_12"/>
+      <StateTemplateVariable objectReference="ModelValue_13"/>
+      <StateTemplateVariable objectReference="ModelValue_14"/>
+      <StateTemplateVariable objectReference="ModelValue_15"/>
+      <StateTemplateVariable objectReference="ModelValue_16"/>
+      <StateTemplateVariable objectReference="ModelValue_17"/>
+      <StateTemplateVariable objectReference="ModelValue_18"/>
+      <StateTemplateVariable objectReference="ModelValue_19"/>
+      <StateTemplateVariable objectReference="ModelValue_20"/>
+      <StateTemplateVariable objectReference="ModelValue_21"/>
+      <StateTemplateVariable objectReference="ModelValue_22"/>
+      <StateTemplateVariable objectReference="ModelValue_23"/>
+      <StateTemplateVariable objectReference="ModelValue_24"/>
+      <StateTemplateVariable objectReference="ModelValue_25"/>
+      <StateTemplateVariable objectReference="ModelValue_26"/>
+      <StateTemplateVariable objectReference="ModelValue_27"/>
+      <StateTemplateVariable objectReference="ModelValue_28"/>
+      <StateTemplateVariable objectReference="ModelValue_29"/>
+      <StateTemplateVariable objectReference="ModelValue_30"/>
+      <StateTemplateVariable objectReference="ModelValue_31"/>
+      <StateTemplateVariable objectReference="ModelValue_32"/>
+      <StateTemplateVariable objectReference="ModelValue_33"/>
+      <StateTemplateVariable objectReference="ModelValue_34"/>
+      <StateTemplateVariable objectReference="ModelValue_35"/>
+      <StateTemplateVariable objectReference="ModelValue_36"/>
+      <StateTemplateVariable objectReference="ModelValue_37"/>
+      <StateTemplateVariable objectReference="ModelValue_38"/>
+      <StateTemplateVariable objectReference="ModelValue_39"/>
+      <StateTemplateVariable objectReference="ModelValue_40"/>
+      <StateTemplateVariable objectReference="ModelValue_41"/>
+      <StateTemplateVariable objectReference="ModelValue_42"/>
+      <StateTemplateVariable objectReference="ModelValue_43"/>
+      <StateTemplateVariable objectReference="ModelValue_44"/>
+      <StateTemplateVariable objectReference="ModelValue_45"/>
+      <StateTemplateVariable objectReference="ModelValue_46"/>
+      <StateTemplateVariable objectReference="ModelValue_47"/>
+      <StateTemplateVariable objectReference="ModelValue_48"/>
+      <StateTemplateVariable objectReference="ModelValue_49"/>
+      <StateTemplateVariable objectReference="ModelValue_50"/>
+      <StateTemplateVariable objectReference="ModelValue_51"/>
+      <StateTemplateVariable objectReference="ModelValue_52"/>
+      <StateTemplateVariable objectReference="ModelValue_53"/>
+      <StateTemplateVariable objectReference="ModelValue_54"/>
+      <StateTemplateVariable objectReference="ModelValue_55"/>
+      <StateTemplateVariable objectReference="ModelValue_56"/>
+      <StateTemplateVariable objectReference="ModelValue_57"/>
+      <StateTemplateVariable objectReference="ModelValue_58"/>
+      <StateTemplateVariable objectReference="ModelValue_59"/>
+      <StateTemplateVariable objectReference="ModelValue_60"/>
+      <StateTemplateVariable objectReference="ModelValue_61"/>
+      <StateTemplateVariable objectReference="ModelValue_62"/>
+      <StateTemplateVariable objectReference="ModelValue_63"/>
+      <StateTemplateVariable objectReference="ModelValue_64"/>
+      <StateTemplateVariable objectReference="ModelValue_65"/>
+      <StateTemplateVariable objectReference="ModelValue_66"/>
+      <StateTemplateVariable objectReference="ModelValue_67"/>
+      <StateTemplateVariable objectReference="ModelValue_68"/>
+      <StateTemplateVariable objectReference="ModelValue_69"/>
+      <StateTemplateVariable objectReference="ModelValue_70"/>
+      <StateTemplateVariable objectReference="ModelValue_71"/>
+      <StateTemplateVariable objectReference="ModelValue_72"/>
+      <StateTemplateVariable objectReference="ModelValue_73"/>
+      <StateTemplateVariable objectReference="ModelValue_74"/>
+      <StateTemplateVariable objectReference="ModelValue_75"/>
+      <StateTemplateVariable objectReference="ModelValue_76"/>
+      <StateTemplateVariable objectReference="ModelValue_77"/>
+      <StateTemplateVariable objectReference="ModelValue_78"/>
+      <StateTemplateVariable objectReference="ModelValue_79"/>
+      <StateTemplateVariable objectReference="ModelValue_80"/>
+      <StateTemplateVariable objectReference="ModelValue_81"/>
+      <StateTemplateVariable objectReference="ModelValue_82"/>
+      <StateTemplateVariable objectReference="ModelValue_83"/>
+      <StateTemplateVariable objectReference="ModelValue_84"/>
+      <StateTemplateVariable objectReference="ModelValue_85"/>
+      <StateTemplateVariable objectReference="ModelValue_86"/>
+      <StateTemplateVariable objectReference="ModelValue_87"/>
+      <StateTemplateVariable objectReference="ModelValue_88"/>
+      <StateTemplateVariable objectReference="ModelValue_89"/>
+      <StateTemplateVariable objectReference="ModelValue_90"/>
+      <StateTemplateVariable objectReference="ModelValue_91"/>
+      <StateTemplateVariable objectReference="ModelValue_92"/>
+      <StateTemplateVariable objectReference="ModelValue_93"/>
+      <StateTemplateVariable objectReference="ModelValue_94"/>
+      <StateTemplateVariable objectReference="ModelValue_95"/>
+      <StateTemplateVariable objectReference="ModelValue_97"/>
+      <StateTemplateVariable objectReference="ModelValue_98"/>
+      <StateTemplateVariable objectReference="ModelValue_99"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 2.6778653748821901e+25 5.1455339452916523e+25 41843039102607400 1.024257761240274e+26 6.1368626403258499e+19 3.6644426007802151e+19 1.562823840222641e+25 1.861678602392123e+24 6.0221408570000023e+25 1.6463027567823751e+24 6.5442002478933299e+23 8.5820324924935602e+19 7.8393820820083196e+19 3.1734996116950042e+17 1.18353134262621e+18 4.6884654985270686e+23 6.6690392278589401e+20 6.6690392278589401e+20 1.1388530796081273e+25 6.4754273993063903e+21 2.0007117683576822e+20 2.0007117683576822e+20 2.2230130759529801e+23 6.0221408570000023e+25 2.8575901466184981e+25 1.9379851491911701e+25 1.590188448276849e+17 6.6690392278589404e+23 17164185427804260 8.5820927139021302e+18 6.8790915009511001e+24 6.6666905929247106e+23 1.9998506022151313e+23 6.022140841098117e+25 0 3.1645507103815038e+25 1.7192345560665677e+26 1.1356372563904893e+26 9.2876154067914435e+25 4.0841557078088318e+25 8.5660840568619808e+24 2.7566663072085607e+25 1e-13 0.001 0.0083333333333333332 0 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 1.2044281714000005e+26 1.2044281714000005e+26 1.8066422570999999e+26 6.0221408570000023e+25 3.6132845142000003e+25 6.0221408570000023e+25 1 1 1 9.9999999999999995e-07 1 1 3e-10 9.9999999999999998e-13 1.0000000000000001e-05 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 300 30 30 30 3 0.00029999999999999997 1e-08 2.9999999999999997e-08 1e-10 1e-08 1e-08 3e-09 3e-09 3.0000000000000001e-06 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 3.0000000000000001e-05 0.0001 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 0.0001 1e-10 10000 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 0.001 0.001 0.001 0.0001 0.0001 0.001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 2 5 100000 200000 20 1000000 0.5 10 600 
+      0 2.6778653748821901e+25 5.1455339452916523e+25 41843039102607400 1.024257761240274e+26 6.1368626403258499e+19 3.6644426007802151e+19 1.562823840222641e+25 1.861678602392123e+24 6.0221408570000023e+25 1.6463027567823751e+24 6.5442002478933299e+23 8.5820324924935602e+19 7.8393820820083196e+19 3.1734996116950042e+17 1.18353134262621e+18 4.6884654985270686e+23 6.6690392278589401e+20 6.6690392278589401e+20 1.1388530796081273e+25 6.4754273993063903e+21 2.0007117683576822e+20 2.0007117683576822e+20 2.2230130759529801e+23 6.0221408570000023e+25 2.8575901466184981e+25 1.9379851491911701e+25 1.590188448276849e+17 6.6690392278589404e+23 17164185427804260 8.5820927139021302e+18 6.8790915009511001e+24 6.6666905929247106e+23 1.9998506022151313e+23 6.022140841098117e+25 0 3.1645507103815038e+25 1.7192345560665677e+26 1.1356372563904893e+26 9.2876154067914435e+25 4.0841557078088318e+25 8.5660840568619808e+24 2.7566663072085607e+25 1e-13 0.001 0.16666666666666666 0 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 6.0221408570000023e+25 1.2044281714000005e+26 1.2044281714000005e+26 1.8066422570999999e+26 6.0221408570000023e+25 3.6132845142000003e+25 6.0221408570000023e+25 1 1 1 9.9999999999999995e-07 1 1 3e-10 9.9999999999999998e-13 1.0000000000000001e-05 1.0000000000000001e-05 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 2.9999999999999998e-13 0.0030000000000000001 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.029999999999999999 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 0.10000000000000001 300 30 30 30 3 0.00029999999999999997 1e-08 2.9999999999999997e-08 1e-10 1e-08 1e-08 3e-09 3e-09 3.0000000000000001e-06 3.0000000000000001e-06 1e-10 1.0000000000000001e-09 1e-08 3.0000000000000001e-05 0.0001 1e-10 0.0001 1e-10 2.9999999999999999e-07 0.0001 3.0000000000000001e-05 0.0001 1e-10 10000 3.0000000000000001e-05 0.0030000000000000001 0.0030000000000000001 1.0000000000000001e-05 1.0000000000000001e-05 0.001 0.001 0.001 0.0001 0.0001 0.001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 3.0000000000000001e-05 1e-13 0.00029999999999999997 0.0001 1.0000000000000001e-05 1.0000000000000001e-05 9.9999999999999994e-12 1e-13 1e-13 0.0001 3.0000000000000001e-05 0.0001 0.00029999999999999997 0.00029999999999999997 0.00029999999999999997 0.0001 2 5 100000 200000 20 1000000 10 10 600 
     </InitialState>
   </Model>
   <ListOfTasks>
-    <Task key="Task_30" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
-      <Report reference="Report_21" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_13" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
+      <Report reference="Report_10" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="JacobianRequested" type="bool" value="1"/>
         <Parameter name="StabilityAnalysisRequested" type="bool" value="1"/>
@@ -6659,13 +6700,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Target Criterion" type="string" value="Distance and Rate"/>
       </Method>
     </Task>
-    <Task key="Task_29" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
-      <Report reference="Report_21" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_12" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
+      <Report reference="Report_10" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
-        <Parameter name="StepNumber" type="unsignedInteger" value="10000"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="25920"/>
         <Parameter name="StepSize" type="float" value="10"/>
-        <Parameter name="Duration" type="float" value="100000"/>
+        <Parameter name="Duration" type="float" value="259200"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="0"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -6681,27 +6722,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_28" name="Scan" type="scan" scheduled="false" updateModel="false">
+    <Task key="Task_11" name="Scan" type="scan" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
         </ParameterGroup>
-        <Parameter name="Output in subtask" type="bool" value="1"/>
+        <Parameter name="Subtask Output" type="string" value="subTaskDuring"/>
         <Parameter name="Adjust initial conditions" type="bool" value="0"/>
         <Parameter name="Continue on Error" type="bool" value="0"/>
       </Problem>
       <Method name="Scan Framework" type="ScanFramework">
       </Method>
     </Task>
-    <Task key="Task_27" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
-      <Report reference="Report_20" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_10" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
+      <Report reference="Report_9" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="EFM Algorithm" type="EFMAlgorithm">
       </Method>
     </Task>
-    <Task key="Task_26" name="Optimization" type="optimization" scheduled="false" updateModel="false">
-      <Report reference="Report_19" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_9" name="Optimization" type="optimization" scheduled="false" updateModel="false">
+      <Report reference="Report_8" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="cn" value="CN=Root,Vector=TaskList[Steady-State]"/>
         <ParameterText name="ObjectiveExpression" type="expression">
@@ -6722,8 +6763,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_25" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
-      <Report reference="Report_18" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_8" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
+      <Report reference="Report_7" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
         <Parameter name="Randomize Start Values" type="bool" value="0"/>
@@ -6753,10 +6794,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Stop after # Stalled Generations" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_24" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_17" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_7" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_6" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_30"/>
+        <Parameter name="Steady-State" type="key" value="Task_13"/>
       </Problem>
       <Method name="MCA Method (Reder)" type="MCAMethod(Reder)">
         <Parameter name="Modulation Factor" type="unsignedFloat" value="1.0000000000000001e-09"/>
@@ -6764,8 +6805,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Use Smallbone" type="bool" value="1"/>
       </Method>
     </Task>
-    <Task key="Task_23" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
-      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_6" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
+      <Report reference="Report_5" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="ExponentNumber" type="unsignedInteger" value="3"/>
         <Parameter name="DivergenceRequested" type="bool" value="1"/>
@@ -6779,8 +6820,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
-    <Task key="Task_22" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_5" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_4" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -6792,8 +6833,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Deuflhard Tolerance" type="unsignedFloat" value="0.0001"/>
       </Method>
     </Task>
-    <Task key="Task_33" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
-      <Report reference="Report_14" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_16" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
+      <Report reference="Report_3" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="SubtaskType" type="unsignedInteger" value="1"/>
         <ParameterGroup name="TargetFunctions">
@@ -6816,14 +6857,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Delta minimum" type="unsignedFloat" value="9.9999999999999998e-13"/>
       </Method>
     </Task>
-    <Task key="Task_32" name="Moieties" type="moieties" scheduled="false" updateModel="false">
-      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_15" name="Moieties" type="moieties" scheduled="false" updateModel="false">
+      <Report reference="Report_1" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="Householder Reduction" type="Householder">
       </Method>
     </Task>
-    <Task key="Task_21" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
+    <Task key="Task_4" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -6859,15 +6900,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_20" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
-      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_3" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
+      <Report reference="Report_2" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Steady-State" type="key" value=""/>
       </Problem>
       <Method name="Linear Noise Approximation" type="LinearNoiseApproximation">
       </Method>
     </Task>
-    <Task key="Task_19" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
+    <Task key="Task_2" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -6894,7 +6935,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_21" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
+    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6902,7 +6943,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_20" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
+    <Report key="Report_9" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6910,7 +6951,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_19" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
+    <Report key="Report_8" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6934,7 +6975,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_18" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+    <Report key="Report_7" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6958,7 +6999,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_17" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_6" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6970,7 +7011,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_16" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
+    <Report key="Report_5" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6982,7 +7023,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_15" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_4" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6994,7 +7035,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_14" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
+    <Report key="Report_3" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -7006,7 +7047,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_13" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
+    <Report key="Report_2" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -7018,7 +7059,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_12" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
+    <Report key="Report_1" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -7030,7 +7071,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_11" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_0" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -7165,7 +7206,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="Casp" type="Plot2D" active="1" taskTypes="">
+    <PlotSpecification name="Casp" type="Plot2D" active="0" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
       <Parameter name="x axis" type="string" value=""/>
@@ -8015,263 +8056,1035 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
+    <PlotSpecification name="plot_3" type="Plot2D" active="0" taskTypes="">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
+      <ListOfPlotItems>
+        <PlotItem name="[AKT_0]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[AKT_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AKT_phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[AKT_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[AKT_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[AKT_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[ATM_0]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[ATM_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[ATM_phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[ATM_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[ATM_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[ATM_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_0_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_0_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_phosphorylated_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_phosphorylated_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_phosphorylated_Fourteen33_complex]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_phosphorylated_Fourteen33_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bad_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Bad_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax:BclXL_complex]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax:BclXL_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Bax_mRNA]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Bax_mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BclXL_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BclXL_Bad_complex]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_Bad_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[BclXL_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[BclXL_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Caspase]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Caspase],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Cyclin_E (free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Cyclin_E (free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Cyclin_E:p21_complex]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Cyclin_E:p21_complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[DNA_double_strand_break]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[DNA_double_strand_break],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[E2F1]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[E2F1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[E2F1_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[E2F1_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Fourteen33_free]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Fourteen33_free],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Fourteen33_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Fourteen33_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[HIPK2]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[HIPK2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2 mRNA]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Mdm2 mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_cyt_0phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Mdm2_cyt_0phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_cyt_S166S186phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[cytoplasm],Vector=Metabolites[Mdm2_cyt_S166S186phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_nuc_S166S186p_S395p]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Mdm2_nuc_S166S186p_S395p],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Mdm2_nuc_S166S186phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Mdm2_nuc_S166S186phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PI3K_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PI3K_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PIP2]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PIP2],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PIP3]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PIP3],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PIP_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PIP_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PTEN mRNA]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PTEN mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[PTEN]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PTEN],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb1_0:E2F1 complex]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb1_0:E2F1 complex],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb1_0_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb1_0_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb_phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Rb_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Rb_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[SIAH1_0]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_0],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[SIAH1_phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[SIAH1_tot]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[SIAH1_tot],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Wip1 mRNA]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Wip1 mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Wip1]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[Wip1],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p21_(free)]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p21_(free)],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p21_mRNA]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p21_mRNA],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_0phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p53_0phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_S46phosphorylated]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p53_S46phosphorylated],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_arrester]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p53_arrester],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[p53_killer]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[p53_killer],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[proCaspase]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[proCaspase],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="DNA_Break_Reaction_Fluxes" type="Plot2D" active="0" taskTypes="">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
+      <ListOfPlotItems>
+        <PlotItem name="(DNA Repair R2).Flux|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA Repair R2],Reference=Flux"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="(DNA damage R1).Flux|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[DNA damage R1],Reference=Flux"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="(Phoshorylation due to IR R4).Flux|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Reactions[Phoshorylation due to IR R4],Reference=Flux"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="Original_DNA_Damage_GQs" type="Plot2D" active="0" taskTypes="">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
+      <ListOfPlotItems>
+        <PlotItem name="Values[DNA_DSB_due_to_IR]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_due_to_IR],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[DNA_DSB_max]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[DNA_DSB_max],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[h1]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[h1],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[h2]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[h2],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[is_IR_switched_on]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Values[is_IR_switched_on],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="PTEN" type="Plot2D" active="1" taskTypes="">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <Parameter name="x axis" type="string" value=""/>
+      <Parameter name="y axis" type="string" value=""/>
+      <Parameter name="z axis" type="string" value=""/>
+      <Parameter name="plot engine" type="string" value="QWT"/>
+      <ListOfPlotItems>
+        <PlotItem name="[PTEN]|Time" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1.2"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Hat2016 - Reponse of p53 System to irradiation in cell fate decision making,Vector=Compartments[nuclear],Vector=Metabolites[PTEN],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
   </ListOfPlots>
   <GUI>
   </GUI>
   <SBMLReference file="hat2016.xml">
-    <SBMLMap SBMLid="AKT_0" COPASIkey="Metabolite_152"/>
-    <SBMLMap SBMLid="AKT_phosphorylated" COPASIkey="Metabolite_124"/>
-    <SBMLMap SBMLid="AKT_tot" COPASIkey="Metabolite_145"/>
-    <SBMLMap SBMLid="ATM_0" COPASIkey="Metabolite_150"/>
-    <SBMLMap SBMLid="ATM_phosphorylated" COPASIkey="Metabolite_112"/>
-    <SBMLMap SBMLid="ATM_tot" COPASIkey="Metabolite_144"/>
-    <SBMLMap SBMLid="Activation_autoactivation_of_caspases_R82" COPASIkey="Reaction_206"/>
-    <SBMLMap SBMLid="Activation_of_caspases_by_active__free__Bax_R81" COPASIkey="Reaction_205"/>
-    <SBMLMap SBMLid="Bad_0__free" COPASIkey="Metabolite_140"/>
-    <SBMLMap SBMLid="Bad_phosphorylated_Fourteen33_complex" COPASIkey="Metabolite_161"/>
-    <SBMLMap SBMLid="Bad_phosphorylated__free" COPASIkey="Metabolite_141"/>
-    <SBMLMap SBMLid="Bad_tot" COPASIkey="Metabolite_156"/>
-    <SBMLMap SBMLid="Bax_BclXL_complex" COPASIkey="Metabolite_139"/>
-    <SBMLMap SBMLid="Bax__free" COPASIkey="Metabolite_137"/>
-    <SBMLMap SBMLid="Bax_mRNA" COPASIkey="Metabolite_136"/>
-    <SBMLMap SBMLid="BclXL_Bad_complex" COPASIkey="Metabolite_160"/>
-    <SBMLMap SBMLid="BclXL__free" COPASIkey="Metabolite_138"/>
-    <SBMLMap SBMLid="BclXL_tot" COPASIkey="Metabolite_157"/>
-    <SBMLMap SBMLid="Binding_of_Bad_p_and_14_3_3_R78" COPASIkey="Reaction_202"/>
-    <SBMLMap SBMLid="Binding_of_Bax_and_BclXL_R66" COPASIkey="Reaction_190"/>
-    <SBMLMap SBMLid="Binding_of_BclXL_and_Bad_0_R71" COPASIkey="Reaction_195"/>
-    <SBMLMap SBMLid="Binding_of_Cyclin_E_and_p21_R50" COPASIkey="Reaction_174"/>
-    <SBMLMap SBMLid="Binding_of_Rb1_and_E2F1_R54" COPASIkey="Reaction_178"/>
-    <SBMLMap SBMLid="Caspase" COPASIkey="Metabolite_143"/>
+    <SBMLMap SBMLid="AKT_0" COPASIkey="Metabolite_41"/>
+    <SBMLMap SBMLid="AKT_phosphorylated" COPASIkey="Metabolite_13"/>
+    <SBMLMap SBMLid="AKT_tot" COPASIkey="Metabolite_34"/>
+    <SBMLMap SBMLid="ATM_0" COPASIkey="Metabolite_39"/>
+    <SBMLMap SBMLid="ATM_phosphorylated" COPASIkey="Metabolite_1"/>
+    <SBMLMap SBMLid="ATM_tot" COPASIkey="Metabolite_33"/>
+    <SBMLMap SBMLid="Activation_autoactivation_of_caspases_R82" COPASIkey="Reaction_81"/>
+    <SBMLMap SBMLid="Activation_of_caspases_by_active__free__Bax_R81" COPASIkey="Reaction_80"/>
+    <SBMLMap SBMLid="Bad_0__free" COPASIkey="Metabolite_29"/>
+    <SBMLMap SBMLid="Bad_phosphorylated_Fourteen33_complex" COPASIkey="Metabolite_50"/>
+    <SBMLMap SBMLid="Bad_phosphorylated__free" COPASIkey="Metabolite_30"/>
+    <SBMLMap SBMLid="Bad_tot" COPASIkey="Metabolite_45"/>
+    <SBMLMap SBMLid="Bax_BclXL_complex" COPASIkey="Metabolite_28"/>
+    <SBMLMap SBMLid="Bax__free" COPASIkey="Metabolite_26"/>
+    <SBMLMap SBMLid="Bax_mRNA" COPASIkey="Metabolite_25"/>
+    <SBMLMap SBMLid="BclXL_Bad_complex" COPASIkey="Metabolite_49"/>
+    <SBMLMap SBMLid="BclXL__free" COPASIkey="Metabolite_27"/>
+    <SBMLMap SBMLid="BclXL_tot" COPASIkey="Metabolite_46"/>
+    <SBMLMap SBMLid="Binding_of_Bad_p_and_14_3_3_R78" COPASIkey="Reaction_77"/>
+    <SBMLMap SBMLid="Binding_of_Bax_and_BclXL_R66" COPASIkey="Reaction_65"/>
+    <SBMLMap SBMLid="Binding_of_BclXL_and_Bad_0_R71" COPASIkey="Reaction_70"/>
+    <SBMLMap SBMLid="Binding_of_Cyclin_E_and_p21_R50" COPASIkey="Reaction_49"/>
+    <SBMLMap SBMLid="Binding_of_Rb1_and_E2F1_R54" COPASIkey="Reaction_53"/>
+    <SBMLMap SBMLid="Caspase" COPASIkey="Metabolite_32"/>
     <SBMLMap SBMLid="Constant_flux__irreversible" COPASIkey="Function_6"/>
-    <SBMLMap SBMLid="Cyclin_E__free" COPASIkey="Metabolite_132"/>
-    <SBMLMap SBMLid="Cyclin_E_p21_complex" COPASIkey="Metabolite_133"/>
-    <SBMLMap SBMLid="DNA_DSB_RepairCplx_total" COPASIkey="ModelValue_272"/>
-    <SBMLMap SBMLid="DNA_DSB_due_to_IR" COPASIkey="ModelValue_274"/>
-    <SBMLMap SBMLid="DNA_DSB_max" COPASIkey="ModelValue_273"/>
-    <SBMLMap SBMLid="DNA_DSB_per_IR_Gy" COPASIkey="ModelValue_276"/>
-    <SBMLMap SBMLid="DNA_Repair_R2" COPASIkey="Reaction_126"/>
-    <SBMLMap SBMLid="DNA_damage_R1" COPASIkey="Reaction_125"/>
-    <SBMLMap SBMLid="DNA_double_strand_break" COPASIkey="Metabolite_111"/>
-    <SBMLMap SBMLid="Degradation_R36" COPASIkey="Reaction_160"/>
-    <SBMLMap SBMLid="Degradation_R40" COPASIkey="Reaction_164"/>
-    <SBMLMap SBMLid="Degradation_R60" COPASIkey="Reaction_184"/>
-    <SBMLMap SBMLid="Degradation_R61" COPASIkey="Reaction_185"/>
-    <SBMLMap SBMLid="Degradation_R67" COPASIkey="Reaction_191"/>
-    <SBMLMap SBMLid="Degradation_Ser395p_dependent_R34" COPASIkey="Reaction_158"/>
-    <SBMLMap SBMLid="Degradation_induced_by_Mdm2_nuc_S166S186p_and_SIAH1_R8" COPASIkey="Reaction_132"/>
-    <SBMLMap SBMLid="Degradation_of_Bax_in_Bax_BclXL_complex_R69" COPASIkey="Reaction_193"/>
-    <SBMLMap SBMLid="Degradation_of_Bax_mRNA_R63" COPASIkey="Reaction_187"/>
-    <SBMLMap SBMLid="Degradation_of_PTEN_R42" COPASIkey="Reaction_166"/>
-    <SBMLMap SBMLid="Degradation_of_caspases_R83" COPASIkey="Reaction_207"/>
-    <SBMLMap SBMLid="Degradation_of_p21_R52" COPASIkey="Reaction_176"/>
-    <SBMLMap SBMLid="Degradation_of_p21_mRNA_R48" COPASIkey="Reaction_172"/>
-    <SBMLMap SBMLid="Degradation_of_proCaspase_R80" COPASIkey="Reaction_204"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_R23" COPASIkey="Reaction_147"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_R27" COPASIkey="Reaction_151"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_R29" COPASIkey="Reaction_153"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_R30" COPASIkey="Reaction_154"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_R33" COPASIkey="Reaction_157"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R15" COPASIkey="Reaction_139"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R19" COPASIkey="Reaction_143"/>
-    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R20" COPASIkey="Reaction_144"/>
-    <SBMLMap SBMLid="Degradation_spontanuous_and_induced_by_Mdm2_nuc_S166S186p__R12" COPASIkey="Reaction_136"/>
-    <SBMLMap SBMLid="Dephoshorylation_by_Wip1_R3" COPASIkey="Reaction_127"/>
-    <SBMLMap SBMLid="Dephosphorylation_R72" COPASIkey="Reaction_196"/>
-    <SBMLMap SBMLid="Dephosphorylation_and_dissociation_of_Bad_p_in_Bad_14_3_3_complex_R75" COPASIkey="Reaction_199"/>
-    <SBMLMap SBMLid="Dephosphorylation_at_Ser166_and_186_R26" COPASIkey="Reaction_150"/>
-    <SBMLMap SBMLid="Dephosphorylation_at_Ser46_by_Wip1_R17" COPASIkey="Reaction_141"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_AKT_R46" COPASIkey="Reaction_170"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_PIP3_by_PTENR44" COPASIkey="Reaction_168"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_Rb1_at_S567_R53" COPASIkey="Reaction_177"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_SIAH1_p_R6" COPASIkey="Reaction_130"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_Ser15_and_Ser20_R21" COPASIkey="Reaction_145"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_Ser395_of_Mdm2_nuc_S166S186p_S395p_by_Wip1_R32" COPASIkey="Reaction_156"/>
-    <SBMLMap SBMLid="Dephosphorylation_of_Ser46_by_Wip1_R13" COPASIkey="Reaction_137"/>
-    <SBMLMap SBMLid="Dephosphorylation_spontaneous_of_p53_arrester_R11" COPASIkey="Reaction_135"/>
-    <SBMLMap SBMLid="Dissociation_of_Bad_14_3_3_complex_R76" COPASIkey="Reaction_200"/>
-    <SBMLMap SBMLid="Dissociation_of_Bax_BclXL_complex_R65" COPASIkey="Reaction_189"/>
-    <SBMLMap SBMLid="Dissociation_of_BclXL_Bad_complex_R68" COPASIkey="Reaction_192"/>
-    <SBMLMap SBMLid="Dissociation_of_BclXL_Bad_complex_R73" COPASIkey="Reaction_197"/>
-    <SBMLMap SBMLid="Dissociation_of_Rb1_E2F1_complex_R56" COPASIkey="Reaction_180"/>
-    <SBMLMap SBMLid="Dissociation_of_complex_Cyclin_E_p21_R51" COPASIkey="Reaction_175"/>
-    <SBMLMap SBMLid="E2F1" COPASIkey="Metabolite_159"/>
-    <SBMLMap SBMLid="E2F1_tot" COPASIkey="Metabolite_148"/>
-    <SBMLMap SBMLid="Fourteen33_free" COPASIkey="Metabolite_162"/>
-    <SBMLMap SBMLid="Fourteen33_tot" COPASIkey="Metabolite_149"/>
-    <SBMLMap SBMLid="Function_for_R1" COPASIkey="Function_65"/>
-    <SBMLMap SBMLid="Function_for_R12" COPASIkey="Function_41"/>
-    <SBMLMap SBMLid="Function_for_R2" COPASIkey="Function_63"/>
-    <SBMLMap SBMLid="Function_for_R22" COPASIkey="Function_61"/>
-    <SBMLMap SBMLid="Function_for_R4" COPASIkey="Function_54"/>
-    <SBMLMap SBMLid="Function_for_R43" COPASIkey="Function_57"/>
-    <SBMLMap SBMLid="Function_for_R45" COPASIkey="Function_66"/>
-    <SBMLMap SBMLid="Function_for_R53" COPASIkey="Function_49"/>
-    <SBMLMap SBMLid="Function_for_R59" COPASIkey="Function_48"/>
-    <SBMLMap SBMLid="Function_for_R8" COPASIkey="Function_52"/>
-    <SBMLMap SBMLid="Function_for_R82" COPASIkey="Function_59"/>
-    <SBMLMap SBMLid="Function_modifier" COPASIkey="Function_47"/>
-    <SBMLMap SBMLid="Function_modifier1_modifier2" COPASIkey="Function_51"/>
-    <SBMLMap SBMLid="Function_substrate_modifier" COPASIkey="Function_44"/>
-    <SBMLMap SBMLid="HIPK2" COPASIkey="Metabolite_114"/>
-    <SBMLMap SBMLid="IR_Gy" COPASIkey="ModelValue_275"/>
-    <SBMLMap SBMLid="M1" COPASIkey="ModelValue_269"/>
-    <SBMLMap SBMLid="M2" COPASIkey="ModelValue_270"/>
-    <SBMLMap SBMLid="M3" COPASIkey="ModelValue_271"/>
-    <SBMLMap SBMLid="Mdm2_cyt_0phosphorylated" COPASIkey="Metabolite_122"/>
-    <SBMLMap SBMLid="Mdm2_cyt_S166S186phosphorylated" COPASIkey="Metabolite_123"/>
-    <SBMLMap SBMLid="Mdm2_mRNA" COPASIkey="Metabolite_121"/>
-    <SBMLMap SBMLid="Mdm2_nuc_S166S186p_S395p" COPASIkey="Metabolite_125"/>
-    <SBMLMap SBMLid="Mdm2_nuc_S166S186phosphorylated" COPASIkey="Metabolite_118"/>
-    <SBMLMap SBMLid="Nuclear_import_of_Mdm2_cyto_S166S186p_R28" COPASIkey="Reaction_152"/>
-    <SBMLMap SBMLid="PI3K_tot" COPASIkey="Metabolite_147"/>
-    <SBMLMap SBMLid="PIP2" COPASIkey="Metabolite_153"/>
-    <SBMLMap SBMLid="PIP3" COPASIkey="Metabolite_129"/>
-    <SBMLMap SBMLid="PIP_tot" COPASIkey="Metabolite_146"/>
-    <SBMLMap SBMLid="PTEN" COPASIkey="Metabolite_128"/>
-    <SBMLMap SBMLid="PTEN_mRNA" COPASIkey="Metabolite_127"/>
-    <SBMLMap SBMLid="Phopshorylation_at_PIP3_R45" COPASIkey="Reaction_169"/>
-    <SBMLMap SBMLid="Phopshorylation_of_PIP2_by_PI3K_R43" COPASIkey="Reaction_167"/>
-    <SBMLMap SBMLid="Phoshorylation_due_to_IR_R4" COPASIkey="Reaction_128"/>
-    <SBMLMap SBMLid="Phosphorylation_at_Ser46_by_HIPK2_R14" COPASIkey="Reaction_138"/>
-    <SBMLMap SBMLid="Phosphorylation_at_Ser46_by_HIPK2_R16" COPASIkey="Reaction_140"/>
-    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_R5" COPASIkey="Reaction_129"/>
-    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_at_Ser395_R31" COPASIkey="Reaction_155"/>
-    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_on_Ser15_and_Ser20_R10" COPASIkey="Reaction_134"/>
-    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_on_Ser15_and_Ser20_R18" COPASIkey="Reaction_142"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Bad_0_by_AKT_p_R74" COPASIkey="Reaction_198"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Bad_in_BclXL_Bad_complex_R70" COPASIkey="Reaction_194"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Bad_in_BclXL_Bad_complex_and_complex_Dissociation_R77" COPASIkey="Reaction_201"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Mdm2_cyt_0_by_AKT_p_R25" COPASIkey="Reaction_149"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Rb1_by_Cyclin_E__R55" COPASIkey="Reaction_179"/>
-    <SBMLMap SBMLid="Phosphorylation_of_Rb1_in_Rb1_E2F1_complex_by_Cyclin_ER57" COPASIkey="Reaction_181"/>
-    <SBMLMap SBMLid="Rb1_0_E2F1_complex" COPASIkey="Metabolite_135"/>
-    <SBMLMap SBMLid="Rb1_0__free" COPASIkey="Metabolite_134"/>
-    <SBMLMap SBMLid="Rb_phosphorylated" COPASIkey="Metabolite_158"/>
-    <SBMLMap SBMLid="Rb_tot" COPASIkey="Metabolite_154"/>
-    <SBMLMap SBMLid="SIAH1_0" COPASIkey="Metabolite_113"/>
-    <SBMLMap SBMLid="SIAH1_phosphorylated" COPASIkey="Metabolite_151"/>
-    <SBMLMap SBMLid="SIAH1_tot" COPASIkey="Metabolite_155"/>
-    <SBMLMap SBMLid="Synthesis_R58" COPASIkey="Reaction_182"/>
-    <SBMLMap SBMLid="Synthesis_induced_by_E2F1_R59" COPASIkey="Reaction_183"/>
-    <SBMLMap SBMLid="Synthesis_of_HIPK2_R7" COPASIkey="Reaction_131"/>
-    <SBMLMap SBMLid="Synthesis_of_p53_0p_R9" COPASIkey="Reaction_133"/>
-    <SBMLMap SBMLid="Synthesis_of_proCaspase_R79" COPASIkey="Reaction_203"/>
-    <SBMLMap SBMLid="Transcription_Mdm2_gene_transcription_R22" COPASIkey="Reaction_146"/>
-    <SBMLMap SBMLid="Transcription_of_Bax_gene_R62" COPASIkey="Reaction_186"/>
-    <SBMLMap SBMLid="Transcription_of_PTEN_gene_R39" COPASIkey="Reaction_163"/>
-    <SBMLMap SBMLid="Transcription_of_Wip1_gene_R35" COPASIkey="Reaction_159"/>
-    <SBMLMap SBMLid="Transcription_of_p21_gene_R47" COPASIkey="Reaction_171"/>
-    <SBMLMap SBMLid="Translation_of_Bax_mRNA_R64" COPASIkey="Reaction_188"/>
-    <SBMLMap SBMLid="Translation_of_PTEN_mRNA_R41" COPASIkey="Reaction_165"/>
-    <SBMLMap SBMLid="Translation_of_Wip_mRNA_R37" COPASIkey="Reaction_161"/>
-    <SBMLMap SBMLid="Translation_of_Wip_mRNA_R38" COPASIkey="Reaction_162"/>
-    <SBMLMap SBMLid="Translation_of_mdm2_R24" COPASIkey="Reaction_148"/>
-    <SBMLMap SBMLid="Translation_of_p21_mRNA_R49" COPASIkey="Reaction_173"/>
-    <SBMLMap SBMLid="Wip1" COPASIkey="Metabolite_119"/>
-    <SBMLMap SBMLid="Wip1_mRNA" COPASIkey="Metabolite_126"/>
-    <SBMLMap SBMLid="a1" COPASIkey="ModelValue_184"/>
-    <SBMLMap SBMLid="a2" COPASIkey="ModelValue_185"/>
-    <SBMLMap SBMLid="b1" COPASIkey="ModelValue_236"/>
-    <SBMLMap SBMLid="b2" COPASIkey="ModelValue_237"/>
-    <SBMLMap SBMLid="b3" COPASIkey="ModelValue_238"/>
-    <SBMLMap SBMLid="b4" COPASIkey="ModelValue_239"/>
-    <SBMLMap SBMLid="b5" COPASIkey="ModelValue_240"/>
-    <SBMLMap SBMLid="can_Caspase_make_DNA_DSB" COPASIkey="ModelValue_181"/>
-    <SBMLMap SBMLid="cytoplasm" COPASIkey="Compartment_3"/>
-    <SBMLMap SBMLid="d1" COPASIkey="ModelValue_224"/>
-    <SBMLMap SBMLid="d10" COPASIkey="ModelValue_233"/>
-    <SBMLMap SBMLid="d11" COPASIkey="ModelValue_234"/>
-    <SBMLMap SBMLid="d12" COPASIkey="ModelValue_235"/>
-    <SBMLMap SBMLid="d2" COPASIkey="ModelValue_225"/>
-    <SBMLMap SBMLid="d3" COPASIkey="ModelValue_226"/>
-    <SBMLMap SBMLid="d4" COPASIkey="ModelValue_227"/>
-    <SBMLMap SBMLid="d5" COPASIkey="ModelValue_228"/>
-    <SBMLMap SBMLid="d6" COPASIkey="ModelValue_229"/>
-    <SBMLMap SBMLid="d7" COPASIkey="ModelValue_230"/>
-    <SBMLMap SBMLid="d8" COPASIkey="ModelValue_231"/>
-    <SBMLMap SBMLid="d9" COPASIkey="ModelValue_232"/>
-    <SBMLMap SBMLid="g1" COPASIkey="ModelValue_247"/>
-    <SBMLMap SBMLid="g10" COPASIkey="ModelValue_256"/>
-    <SBMLMap SBMLid="g101" COPASIkey="ModelValue_257"/>
-    <SBMLMap SBMLid="g11" COPASIkey="ModelValue_258"/>
-    <SBMLMap SBMLid="g12" COPASIkey="ModelValue_259"/>
-    <SBMLMap SBMLid="g13" COPASIkey="ModelValue_260"/>
-    <SBMLMap SBMLid="g14" COPASIkey="ModelValue_261"/>
-    <SBMLMap SBMLid="g15" COPASIkey="ModelValue_262"/>
-    <SBMLMap SBMLid="g16" COPASIkey="ModelValue_263"/>
-    <SBMLMap SBMLid="g17" COPASIkey="ModelValue_264"/>
-    <SBMLMap SBMLid="g18" COPASIkey="ModelValue_265"/>
-    <SBMLMap SBMLid="g19" COPASIkey="ModelValue_266"/>
-    <SBMLMap SBMLid="g2" COPASIkey="ModelValue_248"/>
-    <SBMLMap SBMLid="g20" COPASIkey="ModelValue_267"/>
-    <SBMLMap SBMLid="g3" COPASIkey="ModelValue_249"/>
-    <SBMLMap SBMLid="g4" COPASIkey="ModelValue_250"/>
-    <SBMLMap SBMLid="g5" COPASIkey="ModelValue_251"/>
-    <SBMLMap SBMLid="g6" COPASIkey="ModelValue_252"/>
-    <SBMLMap SBMLid="g7" COPASIkey="ModelValue_253"/>
-    <SBMLMap SBMLid="g8" COPASIkey="ModelValue_254"/>
-    <SBMLMap SBMLid="g9" COPASIkey="ModelValue_255"/>
-    <SBMLMap SBMLid="h" COPASIkey="ModelValue_268"/>
-    <SBMLMap SBMLid="h1" COPASIkey="ModelValue_179"/>
-    <SBMLMap SBMLid="h2" COPASIkey="ModelValue_180"/>
-    <SBMLMap SBMLid="has_DNA_DSB_repair" COPASIkey="ModelValue_183"/>
-    <SBMLMap SBMLid="i1" COPASIkey="ModelValue_246"/>
-    <SBMLMap SBMLid="is_IR_switched_on" COPASIkey="ModelValue_178"/>
-    <SBMLMap SBMLid="nuclear" COPASIkey="Compartment_2"/>
-    <SBMLMap SBMLid="p1" COPASIkey="ModelValue_212"/>
-    <SBMLMap SBMLid="p10" COPASIkey="ModelValue_221"/>
-    <SBMLMap SBMLid="p11" COPASIkey="ModelValue_222"/>
-    <SBMLMap SBMLid="p12" COPASIkey="ModelValue_223"/>
-    <SBMLMap SBMLid="p2" COPASIkey="ModelValue_213"/>
-    <SBMLMap SBMLid="p21__free" COPASIkey="Metabolite_131"/>
-    <SBMLMap SBMLid="p21_mRNA" COPASIkey="Metabolite_130"/>
-    <SBMLMap SBMLid="p3" COPASIkey="ModelValue_214"/>
-    <SBMLMap SBMLid="p4" COPASIkey="ModelValue_215"/>
-    <SBMLMap SBMLid="p5" COPASIkey="ModelValue_216"/>
-    <SBMLMap SBMLid="p53_0phosphorylated" COPASIkey="Metabolite_115"/>
-    <SBMLMap SBMLid="p53_S46phosphorylated" COPASIkey="Metabolite_117"/>
-    <SBMLMap SBMLid="p53_arrester" COPASIkey="Metabolite_116"/>
-    <SBMLMap SBMLid="p53_killer" COPASIkey="Metabolite_120"/>
-    <SBMLMap SBMLid="p6" COPASIkey="ModelValue_217"/>
-    <SBMLMap SBMLid="p7" COPASIkey="ModelValue_218"/>
-    <SBMLMap SBMLid="p8" COPASIkey="ModelValue_219"/>
-    <SBMLMap SBMLid="p9" COPASIkey="ModelValue_220"/>
-    <SBMLMap SBMLid="proCaspase" COPASIkey="Metabolite_142"/>
-    <SBMLMap SBMLid="q0_bax" COPASIkey="ModelValue_189"/>
-    <SBMLMap SBMLid="q0_mdm2" COPASIkey="ModelValue_188"/>
-    <SBMLMap SBMLid="q0_p21" COPASIkey="ModelValue_190"/>
-    <SBMLMap SBMLid="q0_pten" COPASIkey="ModelValue_186"/>
-    <SBMLMap SBMLid="q0_wip1" COPASIkey="ModelValue_187"/>
-    <SBMLMap SBMLid="q1_bax" COPASIkey="ModelValue_195"/>
-    <SBMLMap SBMLid="q1_mdm2" COPASIkey="ModelValue_192"/>
-    <SBMLMap SBMLid="q1_p21" COPASIkey="ModelValue_194"/>
-    <SBMLMap SBMLid="q1_pten" COPASIkey="ModelValue_191"/>
-    <SBMLMap SBMLid="q1_wip1" COPASIkey="ModelValue_193"/>
-    <SBMLMap SBMLid="q2" COPASIkey="ModelValue_196"/>
-    <SBMLMap SBMLid="rep" COPASIkey="ModelValue_182"/>
-    <SBMLMap SBMLid="s1" COPASIkey="ModelValue_197"/>
-    <SBMLMap SBMLid="s10" COPASIkey="ModelValue_211"/>
-    <SBMLMap SBMLid="s2" COPASIkey="ModelValue_198"/>
-    <SBMLMap SBMLid="s3" COPASIkey="ModelValue_199"/>
-    <SBMLMap SBMLid="s4" COPASIkey="ModelValue_200"/>
-    <SBMLMap SBMLid="s5" COPASIkey="ModelValue_201"/>
-    <SBMLMap SBMLid="s6" COPASIkey="ModelValue_207"/>
-    <SBMLMap SBMLid="s7" COPASIkey="ModelValue_208"/>
-    <SBMLMap SBMLid="s8" COPASIkey="ModelValue_209"/>
-    <SBMLMap SBMLid="s9" COPASIkey="ModelValue_210"/>
-    <SBMLMap SBMLid="t1" COPASIkey="ModelValue_202"/>
-    <SBMLMap SBMLid="t2" COPASIkey="ModelValue_203"/>
-    <SBMLMap SBMLid="t3" COPASIkey="ModelValue_204"/>
-    <SBMLMap SBMLid="t4" COPASIkey="ModelValue_205"/>
-    <SBMLMap SBMLid="t5" COPASIkey="ModelValue_206"/>
-    <SBMLMap SBMLid="time_days" COPASIkey="ModelValue_278"/>
-    <SBMLMap SBMLid="tp2" COPASIkey="ModelValue_277"/>
-    <SBMLMap SBMLid="u1" COPASIkey="ModelValue_241"/>
-    <SBMLMap SBMLid="u2" COPASIkey="ModelValue_242"/>
-    <SBMLMap SBMLid="u3" COPASIkey="ModelValue_243"/>
-    <SBMLMap SBMLid="u5" COPASIkey="ModelValue_244"/>
-    <SBMLMap SBMLid="u6" COPASIkey="ModelValue_245"/>
+    <SBMLMap SBMLid="Cyclin_E__free" COPASIkey="Metabolite_21"/>
+    <SBMLMap SBMLid="Cyclin_E_p21_complex" COPASIkey="Metabolite_22"/>
+    <SBMLMap SBMLid="DNA_DSB_RepairCplx_total" COPASIkey="ModelValue_94"/>
+    <SBMLMap SBMLid="DNA_DSB_due_to_IR" COPASIkey="ModelValue_96"/>
+    <SBMLMap SBMLid="DNA_DSB_max" COPASIkey="ModelValue_95"/>
+    <SBMLMap SBMLid="DNA_DSB_per_IR_Gy" COPASIkey="ModelValue_98"/>
+    <SBMLMap SBMLid="DNA_Repair_R2" COPASIkey="Reaction_1"/>
+    <SBMLMap SBMLid="DNA_damage_R1" COPASIkey="Reaction_0"/>
+    <SBMLMap SBMLid="DNA_double_strand_break" COPASIkey="Metabolite_0"/>
+    <SBMLMap SBMLid="Degradation_R36" COPASIkey="Reaction_35"/>
+    <SBMLMap SBMLid="Degradation_R40" COPASIkey="Reaction_39"/>
+    <SBMLMap SBMLid="Degradation_R60" COPASIkey="Reaction_59"/>
+    <SBMLMap SBMLid="Degradation_R61" COPASIkey="Reaction_60"/>
+    <SBMLMap SBMLid="Degradation_R67" COPASIkey="Reaction_66"/>
+    <SBMLMap SBMLid="Degradation_Ser395p_dependent_R34" COPASIkey="Reaction_33"/>
+    <SBMLMap SBMLid="Degradation_induced_by_Mdm2_nuc_S166S186p_and_SIAH1_R8" COPASIkey="Reaction_7"/>
+    <SBMLMap SBMLid="Degradation_of_Bax_in_Bax_BclXL_complex_R69" COPASIkey="Reaction_68"/>
+    <SBMLMap SBMLid="Degradation_of_Bax_mRNA_R63" COPASIkey="Reaction_62"/>
+    <SBMLMap SBMLid="Degradation_of_PTEN_R42" COPASIkey="Reaction_41"/>
+    <SBMLMap SBMLid="Degradation_of_caspases_R83" COPASIkey="Reaction_82"/>
+    <SBMLMap SBMLid="Degradation_of_p21_R52" COPASIkey="Reaction_51"/>
+    <SBMLMap SBMLid="Degradation_of_p21_mRNA_R48" COPASIkey="Reaction_47"/>
+    <SBMLMap SBMLid="Degradation_of_proCaspase_R80" COPASIkey="Reaction_79"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_R23" COPASIkey="Reaction_22"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_R27" COPASIkey="Reaction_26"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_R29" COPASIkey="Reaction_28"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_R30" COPASIkey="Reaction_29"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_R33" COPASIkey="Reaction_32"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R15" COPASIkey="Reaction_14"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R19" COPASIkey="Reaction_18"/>
+    <SBMLMap SBMLid="Degradation_spontaneous_and_induced_by_Mdm2_nuc_S166S186p_R20" COPASIkey="Reaction_19"/>
+    <SBMLMap SBMLid="Degradation_spontanuous_and_induced_by_Mdm2_nuc_S166S186p__R12" COPASIkey="Reaction_11"/>
+    <SBMLMap SBMLid="Dephoshorylation_by_Wip1_R3" COPASIkey="Reaction_2"/>
+    <SBMLMap SBMLid="Dephosphorylation_R72" COPASIkey="Reaction_71"/>
+    <SBMLMap SBMLid="Dephosphorylation_and_dissociation_of_Bad_p_in_Bad_14_3_3_complex_R75" COPASIkey="Reaction_74"/>
+    <SBMLMap SBMLid="Dephosphorylation_at_Ser166_and_186_R26" COPASIkey="Reaction_25"/>
+    <SBMLMap SBMLid="Dephosphorylation_at_Ser46_by_Wip1_R17" COPASIkey="Reaction_16"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_AKT_R46" COPASIkey="Reaction_45"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_PIP3_by_PTENR44" COPASIkey="Reaction_43"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_Rb1_at_S567_R53" COPASIkey="Reaction_52"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_SIAH1_p_R6" COPASIkey="Reaction_5"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_Ser15_and_Ser20_R21" COPASIkey="Reaction_20"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_Ser395_of_Mdm2_nuc_S166S186p_S395p_by_Wip1_R32" COPASIkey="Reaction_31"/>
+    <SBMLMap SBMLid="Dephosphorylation_of_Ser46_by_Wip1_R13" COPASIkey="Reaction_12"/>
+    <SBMLMap SBMLid="Dephosphorylation_spontaneous_of_p53_arrester_R11" COPASIkey="Reaction_10"/>
+    <SBMLMap SBMLid="Dissociation_of_Bad_14_3_3_complex_R76" COPASIkey="Reaction_75"/>
+    <SBMLMap SBMLid="Dissociation_of_Bax_BclXL_complex_R65" COPASIkey="Reaction_64"/>
+    <SBMLMap SBMLid="Dissociation_of_BclXL_Bad_complex_R68" COPASIkey="Reaction_67"/>
+    <SBMLMap SBMLid="Dissociation_of_BclXL_Bad_complex_R73" COPASIkey="Reaction_72"/>
+    <SBMLMap SBMLid="Dissociation_of_Rb1_E2F1_complex_R56" COPASIkey="Reaction_55"/>
+    <SBMLMap SBMLid="Dissociation_of_complex_Cyclin_E_p21_R51" COPASIkey="Reaction_50"/>
+    <SBMLMap SBMLid="E2F1" COPASIkey="Metabolite_48"/>
+    <SBMLMap SBMLid="E2F1_tot" COPASIkey="Metabolite_37"/>
+    <SBMLMap SBMLid="Fourteen33_free" COPASIkey="Metabolite_51"/>
+    <SBMLMap SBMLid="Fourteen33_tot" COPASIkey="Metabolite_38"/>
+    <SBMLMap SBMLid="Function_for_R1" COPASIkey="Function_42"/>
+    <SBMLMap SBMLid="Function_for_R12" COPASIkey="Function_47"/>
+    <SBMLMap SBMLid="Function_for_R2" COPASIkey="Function_43"/>
+    <SBMLMap SBMLid="Function_for_R22" COPASIkey="Function_48"/>
+    <SBMLMap SBMLid="Function_for_R4" COPASIkey="Function_44"/>
+    <SBMLMap SBMLid="Function_for_R43" COPASIkey="Function_49"/>
+    <SBMLMap SBMLid="Function_for_R45" COPASIkey="Function_50"/>
+    <SBMLMap SBMLid="Function_for_R53" COPASIkey="Function_51"/>
+    <SBMLMap SBMLid="Function_for_R59" COPASIkey="Function_52"/>
+    <SBMLMap SBMLid="Function_for_R8" COPASIkey="Function_46"/>
+    <SBMLMap SBMLid="Function_for_R82" COPASIkey="Function_54"/>
+    <SBMLMap SBMLid="Function_modifier" COPASIkey="Function_45"/>
+    <SBMLMap SBMLid="Function_modifier1_modifier2" COPASIkey="Function_53"/>
+    <SBMLMap SBMLid="Function_substrate_modifier" COPASIkey="Function_41"/>
+    <SBMLMap SBMLid="HIPK2" COPASIkey="Metabolite_3"/>
+    <SBMLMap SBMLid="IR_Gy" COPASIkey="ModelValue_97"/>
+    <SBMLMap SBMLid="M1" COPASIkey="ModelValue_91"/>
+    <SBMLMap SBMLid="M2" COPASIkey="ModelValue_92"/>
+    <SBMLMap SBMLid="M3" COPASIkey="ModelValue_93"/>
+    <SBMLMap SBMLid="Mdm2_cyt_0phosphorylated" COPASIkey="Metabolite_11"/>
+    <SBMLMap SBMLid="Mdm2_cyt_S166S186phosphorylated" COPASIkey="Metabolite_12"/>
+    <SBMLMap SBMLid="Mdm2_mRNA" COPASIkey="Metabolite_10"/>
+    <SBMLMap SBMLid="Mdm2_nuc_S166S186p_S395p" COPASIkey="Metabolite_14"/>
+    <SBMLMap SBMLid="Mdm2_nuc_S166S186phosphorylated" COPASIkey="Metabolite_7"/>
+    <SBMLMap SBMLid="Nuclear_import_of_Mdm2_cyto_S166S186p_R28" COPASIkey="Reaction_27"/>
+    <SBMLMap SBMLid="PI3K_tot" COPASIkey="Metabolite_36"/>
+    <SBMLMap SBMLid="PIP2" COPASIkey="Metabolite_42"/>
+    <SBMLMap SBMLid="PIP3" COPASIkey="Metabolite_18"/>
+    <SBMLMap SBMLid="PIP_tot" COPASIkey="Metabolite_35"/>
+    <SBMLMap SBMLid="PTEN" COPASIkey="Metabolite_17"/>
+    <SBMLMap SBMLid="PTEN_mRNA" COPASIkey="Metabolite_16"/>
+    <SBMLMap SBMLid="Phopshorylation_at_PIP3_R45" COPASIkey="Reaction_44"/>
+    <SBMLMap SBMLid="Phopshorylation_of_PIP2_by_PI3K_R43" COPASIkey="Reaction_42"/>
+    <SBMLMap SBMLid="Phoshorylation_due_to_IR_R4" COPASIkey="Reaction_3"/>
+    <SBMLMap SBMLid="Phosphorylation_at_Ser46_by_HIPK2_R14" COPASIkey="Reaction_13"/>
+    <SBMLMap SBMLid="Phosphorylation_at_Ser46_by_HIPK2_R16" COPASIkey="Reaction_15"/>
+    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_R5" COPASIkey="Reaction_4"/>
+    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_at_Ser395_R31" COPASIkey="Reaction_30"/>
+    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_on_Ser15_and_Ser20_R10" COPASIkey="Reaction_9"/>
+    <SBMLMap SBMLid="Phosphorylation_by_ATM_p_on_Ser15_and_Ser20_R18" COPASIkey="Reaction_17"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Bad_0_by_AKT_p_R74" COPASIkey="Reaction_73"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Bad_in_BclXL_Bad_complex_R70" COPASIkey="Reaction_69"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Bad_in_BclXL_Bad_complex_and_complex_Dissociation_R77" COPASIkey="Reaction_76"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Mdm2_cyt_0_by_AKT_p_R25" COPASIkey="Reaction_24"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Rb1_by_Cyclin_E__R55" COPASIkey="Reaction_54"/>
+    <SBMLMap SBMLid="Phosphorylation_of_Rb1_in_Rb1_E2F1_complex_by_Cyclin_ER57" COPASIkey="Reaction_56"/>
+    <SBMLMap SBMLid="Rb1_0_E2F1_complex" COPASIkey="Metabolite_24"/>
+    <SBMLMap SBMLid="Rb1_0__free" COPASIkey="Metabolite_23"/>
+    <SBMLMap SBMLid="Rb_phosphorylated" COPASIkey="Metabolite_47"/>
+    <SBMLMap SBMLid="Rb_tot" COPASIkey="Metabolite_43"/>
+    <SBMLMap SBMLid="SIAH1_0" COPASIkey="Metabolite_2"/>
+    <SBMLMap SBMLid="SIAH1_phosphorylated" COPASIkey="Metabolite_40"/>
+    <SBMLMap SBMLid="SIAH1_tot" COPASIkey="Metabolite_44"/>
+    <SBMLMap SBMLid="Synthesis_R58" COPASIkey="Reaction_57"/>
+    <SBMLMap SBMLid="Synthesis_induced_by_E2F1_R59" COPASIkey="Reaction_58"/>
+    <SBMLMap SBMLid="Synthesis_of_HIPK2_R7" COPASIkey="Reaction_6"/>
+    <SBMLMap SBMLid="Synthesis_of_p53_0p_R9" COPASIkey="Reaction_8"/>
+    <SBMLMap SBMLid="Synthesis_of_proCaspase_R79" COPASIkey="Reaction_78"/>
+    <SBMLMap SBMLid="Transcription_Mdm2_gene_transcription_R22" COPASIkey="Reaction_21"/>
+    <SBMLMap SBMLid="Transcription_of_Bax_gene_R62" COPASIkey="Reaction_61"/>
+    <SBMLMap SBMLid="Transcription_of_PTEN_gene_R39" COPASIkey="Reaction_38"/>
+    <SBMLMap SBMLid="Transcription_of_Wip1_gene_R35" COPASIkey="Reaction_34"/>
+    <SBMLMap SBMLid="Transcription_of_p21_gene_R47" COPASIkey="Reaction_46"/>
+    <SBMLMap SBMLid="Translation_of_Bax_mRNA_R64" COPASIkey="Reaction_63"/>
+    <SBMLMap SBMLid="Translation_of_PTEN_mRNA_R41" COPASIkey="Reaction_40"/>
+    <SBMLMap SBMLid="Translation_of_Wip_mRNA_R37" COPASIkey="Reaction_36"/>
+    <SBMLMap SBMLid="Translation_of_Wip_mRNA_R38" COPASIkey="Reaction_37"/>
+    <SBMLMap SBMLid="Translation_of_mdm2_R24" COPASIkey="Reaction_23"/>
+    <SBMLMap SBMLid="Translation_of_p21_mRNA_R49" COPASIkey="Reaction_48"/>
+    <SBMLMap SBMLid="Wip1" COPASIkey="Metabolite_8"/>
+    <SBMLMap SBMLid="Wip1_mRNA" COPASIkey="Metabolite_15"/>
+    <SBMLMap SBMLid="a1" COPASIkey="ModelValue_6"/>
+    <SBMLMap SBMLid="a2" COPASIkey="ModelValue_7"/>
+    <SBMLMap SBMLid="b1" COPASIkey="ModelValue_58"/>
+    <SBMLMap SBMLid="b2" COPASIkey="ModelValue_59"/>
+    <SBMLMap SBMLid="b3" COPASIkey="ModelValue_60"/>
+    <SBMLMap SBMLid="b4" COPASIkey="ModelValue_61"/>
+    <SBMLMap SBMLid="b5" COPASIkey="ModelValue_62"/>
+    <SBMLMap SBMLid="can_Caspase_make_DNA_DSB" COPASIkey="ModelValue_3"/>
+    <SBMLMap SBMLid="cytoplasm" COPASIkey="Compartment_1"/>
+    <SBMLMap SBMLid="d1" COPASIkey="ModelValue_46"/>
+    <SBMLMap SBMLid="d10" COPASIkey="ModelValue_55"/>
+    <SBMLMap SBMLid="d11" COPASIkey="ModelValue_56"/>
+    <SBMLMap SBMLid="d12" COPASIkey="ModelValue_57"/>
+    <SBMLMap SBMLid="d2" COPASIkey="ModelValue_47"/>
+    <SBMLMap SBMLid="d3" COPASIkey="ModelValue_48"/>
+    <SBMLMap SBMLid="d4" COPASIkey="ModelValue_49"/>
+    <SBMLMap SBMLid="d5" COPASIkey="ModelValue_50"/>
+    <SBMLMap SBMLid="d6" COPASIkey="ModelValue_51"/>
+    <SBMLMap SBMLid="d7" COPASIkey="ModelValue_52"/>
+    <SBMLMap SBMLid="d8" COPASIkey="ModelValue_53"/>
+    <SBMLMap SBMLid="d9" COPASIkey="ModelValue_54"/>
+    <SBMLMap SBMLid="g1" COPASIkey="ModelValue_69"/>
+    <SBMLMap SBMLid="g10" COPASIkey="ModelValue_78"/>
+    <SBMLMap SBMLid="g101" COPASIkey="ModelValue_79"/>
+    <SBMLMap SBMLid="g11" COPASIkey="ModelValue_80"/>
+    <SBMLMap SBMLid="g12" COPASIkey="ModelValue_81"/>
+    <SBMLMap SBMLid="g13" COPASIkey="ModelValue_82"/>
+    <SBMLMap SBMLid="g14" COPASIkey="ModelValue_83"/>
+    <SBMLMap SBMLid="g15" COPASIkey="ModelValue_84"/>
+    <SBMLMap SBMLid="g16" COPASIkey="ModelValue_85"/>
+    <SBMLMap SBMLid="g17" COPASIkey="ModelValue_86"/>
+    <SBMLMap SBMLid="g18" COPASIkey="ModelValue_87"/>
+    <SBMLMap SBMLid="g19" COPASIkey="ModelValue_88"/>
+    <SBMLMap SBMLid="g2" COPASIkey="ModelValue_70"/>
+    <SBMLMap SBMLid="g20" COPASIkey="ModelValue_89"/>
+    <SBMLMap SBMLid="g3" COPASIkey="ModelValue_71"/>
+    <SBMLMap SBMLid="g4" COPASIkey="ModelValue_72"/>
+    <SBMLMap SBMLid="g5" COPASIkey="ModelValue_73"/>
+    <SBMLMap SBMLid="g6" COPASIkey="ModelValue_74"/>
+    <SBMLMap SBMLid="g7" COPASIkey="ModelValue_75"/>
+    <SBMLMap SBMLid="g8" COPASIkey="ModelValue_76"/>
+    <SBMLMap SBMLid="g9" COPASIkey="ModelValue_77"/>
+    <SBMLMap SBMLid="h" COPASIkey="ModelValue_90"/>
+    <SBMLMap SBMLid="h1" COPASIkey="ModelValue_1"/>
+    <SBMLMap SBMLid="h2" COPASIkey="ModelValue_2"/>
+    <SBMLMap SBMLid="has_DNA_DSB_repair" COPASIkey="ModelValue_5"/>
+    <SBMLMap SBMLid="i1" COPASIkey="ModelValue_68"/>
+    <SBMLMap SBMLid="is_IR_switched_on" COPASIkey="ModelValue_0"/>
+    <SBMLMap SBMLid="nuclear" COPASIkey="Compartment_0"/>
+    <SBMLMap SBMLid="p1" COPASIkey="ModelValue_34"/>
+    <SBMLMap SBMLid="p10" COPASIkey="ModelValue_43"/>
+    <SBMLMap SBMLid="p11" COPASIkey="ModelValue_44"/>
+    <SBMLMap SBMLid="p12" COPASIkey="ModelValue_45"/>
+    <SBMLMap SBMLid="p2" COPASIkey="ModelValue_35"/>
+    <SBMLMap SBMLid="p21__free" COPASIkey="Metabolite_20"/>
+    <SBMLMap SBMLid="p21_mRNA" COPASIkey="Metabolite_19"/>
+    <SBMLMap SBMLid="p3" COPASIkey="ModelValue_36"/>
+    <SBMLMap SBMLid="p4" COPASIkey="ModelValue_37"/>
+    <SBMLMap SBMLid="p5" COPASIkey="ModelValue_38"/>
+    <SBMLMap SBMLid="p53_0phosphorylated" COPASIkey="Metabolite_4"/>
+    <SBMLMap SBMLid="p53_S46phosphorylated" COPASIkey="Metabolite_6"/>
+    <SBMLMap SBMLid="p53_arrester" COPASIkey="Metabolite_5"/>
+    <SBMLMap SBMLid="p53_killer" COPASIkey="Metabolite_9"/>
+    <SBMLMap SBMLid="p6" COPASIkey="ModelValue_39"/>
+    <SBMLMap SBMLid="p7" COPASIkey="ModelValue_40"/>
+    <SBMLMap SBMLid="p8" COPASIkey="ModelValue_41"/>
+    <SBMLMap SBMLid="p9" COPASIkey="ModelValue_42"/>
+    <SBMLMap SBMLid="proCaspase" COPASIkey="Metabolite_31"/>
+    <SBMLMap SBMLid="q0_bax" COPASIkey="ModelValue_11"/>
+    <SBMLMap SBMLid="q0_mdm2" COPASIkey="ModelValue_10"/>
+    <SBMLMap SBMLid="q0_p21" COPASIkey="ModelValue_12"/>
+    <SBMLMap SBMLid="q0_pten" COPASIkey="ModelValue_8"/>
+    <SBMLMap SBMLid="q0_wip1" COPASIkey="ModelValue_9"/>
+    <SBMLMap SBMLid="q1_bax" COPASIkey="ModelValue_17"/>
+    <SBMLMap SBMLid="q1_mdm2" COPASIkey="ModelValue_14"/>
+    <SBMLMap SBMLid="q1_p21" COPASIkey="ModelValue_16"/>
+    <SBMLMap SBMLid="q1_pten" COPASIkey="ModelValue_13"/>
+    <SBMLMap SBMLid="q1_wip1" COPASIkey="ModelValue_15"/>
+    <SBMLMap SBMLid="q2" COPASIkey="ModelValue_18"/>
+    <SBMLMap SBMLid="rep" COPASIkey="ModelValue_4"/>
+    <SBMLMap SBMLid="s1" COPASIkey="ModelValue_19"/>
+    <SBMLMap SBMLid="s10" COPASIkey="ModelValue_33"/>
+    <SBMLMap SBMLid="s2" COPASIkey="ModelValue_20"/>
+    <SBMLMap SBMLid="s3" COPASIkey="ModelValue_21"/>
+    <SBMLMap SBMLid="s4" COPASIkey="ModelValue_22"/>
+    <SBMLMap SBMLid="s5" COPASIkey="ModelValue_23"/>
+    <SBMLMap SBMLid="s6" COPASIkey="ModelValue_29"/>
+    <SBMLMap SBMLid="s7" COPASIkey="ModelValue_30"/>
+    <SBMLMap SBMLid="s8" COPASIkey="ModelValue_31"/>
+    <SBMLMap SBMLid="s9" COPASIkey="ModelValue_32"/>
+    <SBMLMap SBMLid="t1" COPASIkey="ModelValue_24"/>
+    <SBMLMap SBMLid="t2" COPASIkey="ModelValue_25"/>
+    <SBMLMap SBMLid="t3" COPASIkey="ModelValue_26"/>
+    <SBMLMap SBMLid="t4" COPASIkey="ModelValue_27"/>
+    <SBMLMap SBMLid="t5" COPASIkey="ModelValue_28"/>
+    <SBMLMap SBMLid="time_days" COPASIkey="ModelValue_100"/>
+    <SBMLMap SBMLid="tp2" COPASIkey="ModelValue_99"/>
+    <SBMLMap SBMLid="u1" COPASIkey="ModelValue_63"/>
+    <SBMLMap SBMLid="u2" COPASIkey="ModelValue_64"/>
+    <SBMLMap SBMLid="u3" COPASIkey="ModelValue_65"/>
+    <SBMLMap SBMLid="u5" COPASIkey="ModelValue_66"/>
+    <SBMLMap SBMLid="u6" COPASIkey="ModelValue_67"/>
   </SBMLReference>
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_1" name="meter" symbol="m">

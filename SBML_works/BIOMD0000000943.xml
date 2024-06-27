@@ -1,0 +1,103 @@
+<Model>
+  <name>Hat2016 - Reponse of p53 System to irradiation in cell fate decision making</name>
+  <description>&lt;notes xmlns="http://www.sbml.org/sbml/level2/version4">&#xd;
+      &lt;body xmlns="http://www.w3.org/1999/xhtml">&#xd;
+        &lt;pre>The p53 transcription factor is a regulator of key cellular processes including DNA repair, cell cycle arrest, and apoptosis. In this theoretical study, we investigate how the complex circuitry of the p53 network allows for stochastic yet unambiguous cell fate decision-making. The proposed Markov chain model consists of the regulatory core and two subordinated bistable modules responsible for cell cycle arrest and apoptosis. The regulatory core is controlled by two negative feedback loops (regulated by Mdm2 and Wip1) responsible for oscillations, and two antagonistic positive feedback loops (regulated by phosphatases Wip1 and PTEN) responsible for bistability. By means of bifurcation analysis of the deterministic approximation we capture the recurrent solutions (i.e., steady states and limit cycles) that delineate temporal responses of the stochastic system. Direct switching from the limit-cycle oscillations to the "apoptotic" steady state is enabled by the existence of a subcritical Neimark-Sacker bifurcation in which the limit cycle loses its stability by merging with an unstable invariant torus. Our analysis provides an explanation why cancer cell lines known to have vastly diverse expression levels of Wip1 and PTEN exhibit a broad spectrum of responses to DNA damage: from a fast transition to a high level of p53 killer (a p53 phosphoform which promotes commitment to apoptosis) in cells characterized by high PTEN and low Wip1 levels to long-lasting p53 level oscillations in cells having PTEN promoter methylated (as in, e.g., MCF-7 cell line).&lt;/pre>&#xd;
+      &lt;/body>&#xd;
+    &lt;/notes></description>
+  <format>
+    <name>SBML</name>
+    <version>L2V4</version>
+  </format>
+  <publication>
+    <type>PubMed ID</type>
+    <accession>26928575</accession>
+    <journal>PLoS computational biology</journal>
+    <title>Feedbacks, Bifurcations, and Cell Fate Decision-Making in the p53 System.</title>
+    <affiliation>Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.</affiliation>
+    <synopsis>The p53 transcription factor is a regulator of key cellular processes including DNA repair, cell cycle arrest, and apoptosis. In this theoretical study, we investigate how the complex circuitry of the p53 network allows for stochastic yet unambiguous cell fate decision-making. The proposed Markov chain model consists of the regulatory core and two subordinated bistable modules responsible for cell cycle arrest and apoptosis. The regulatory core is controlled by two negative feedback loops (regulated by Mdm2 and Wip1) responsible for oscillations, and two antagonistic positive feedback loops (regulated by phosphatases Wip1 and PTEN) responsible for bistability. By means of bifurcation analysis of the deterministic approximation we capture the recurrent solutions (i.e., steady states and limit cycles) that delineate temporal responses of the stochastic system. Direct switching from the limit-cycle oscillations to the "apoptotic" steady state is enabled by the existence of a subcritical Neimark-Sacker bifurcation in which the limit cycle loses its stability by merging with an unstable invariant torus. Our analysis provides an explanation why cancer cell lines known to have vastly diverse expression levels of Wip1 and PTEN exhibit a broad spectrum of responses to DNA damage: from a fast transition to a high level of p53 killer (a p53 phosphoform which promotes commitment to apoptosis) in cells characterized by high PTEN and low Wip1 levels to long-lasting p53 level oscillations in cells having PTEN promoter methylated (as in, e.g., MCF-7 cell line).</synopsis>
+    <year>2016</year>
+    <month>2</month>
+    <volume>12</volume>
+    <issue>2</issue>
+    <pages>e1004787</pages>
+    <link>http://identifiers.org/pubmed/26928575</link>
+    <authors>
+      <authors>
+        <name>Beata Hat</name>
+        <institution>Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.</institution>
+      </authors>
+      <authors>
+        <name>Marek Kochańczyk</name>
+        <institution>Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.</institution>
+        <orcid>0000-0003-1215-3920</orcid>
+      </authors>
+      <authors>
+        <name>Marta N Bogdał</name>
+        <institution>Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.</institution>
+      </authors>
+      <authors>
+        <name>Tomasz Lipniacki</name>
+        <institution>Institute of Fundamental Technological Research, Warsaw, Poland. tomek@rice.edu</institution>
+        <orcid>0000-0002-3488-2561</orcid>
+      </authors>
+    </authors>
+  </publication>
+  <files>
+    <main>
+      <main>
+        <name>Hat2016.xml</name>
+        <description>SBML L2V4 representation of Reponse of p53 System to irradiation in cell fate decision making</description>
+        <fileSize>358399</fileSize>
+        <mimeType>application/xml</mimeType>
+        <md5sum>8469996df5c550216a853c65f2b95678</md5sum>
+        <sha1sum>f8bcf7a73f13db1aa2c4f59cf7421ca16df8fd39</sha1sum>
+        <sha256sum>1531abbe31a8a2ce96039007cb0d1de5ca6126f5ce34f08ecc8bf48943d59dcc</sha256sum>
+      </main>
+    </main>
+    <additional>
+      <additional>
+        <name>Hat2016.cps</name>
+        <description>COPASI version 4.27 (Build 217) file for reproducing figure 7 in the reference publication</description>
+        <fileSize>452491</fileSize>
+        <mimeType>application/xml</mimeType>
+        <md5sum>a9569957110c7fc50371f1d74271cfb3</md5sum>
+        <sha1sum>2f9fe414141d4877736330eb30783782105c7a00</sha1sum>
+        <sha256sum>f33019471346f721ec6de3c80fc425f11db759a3fe51603ac65ba3db42a2eb4d</sha256sum>
+      </additional>
+      <additional>
+        <name>Hat2016.sedml</name>
+        <description>sed-ml L1V2 file for reproducing figure 7 in the reference publication.</description>
+        <fileSize>5762</fileSize>
+        <mimeType>application/xml</mimeType>
+        <md5sum>13243580d1504f171b793750ab551516</md5sum>
+        <sha1sum>84523585d81cb235712355e359bcb8f9b98f3716</sha1sum>
+        <sha256sum>3d27ab737d5c86da59dcadfa8bd5fb2afc9be17f0124e72a86b4cbef8a3b8166</sha256sum>
+      </additional>
+    </additional>
+  </files>
+  <history>
+    <revisions>
+      <revisions>
+        <version>2</version>
+        <submitted>1536232637000</submitted>
+        <submitter>Matthieu MAIRE</submitter>
+        <comment>Edited model metadata online.</comment>
+      </revisions>
+      <revisions>
+        <version>4</version>
+        <submitted>1588611971000</submitted>
+        <submitter>Ahmad Zyoud</submitter>
+        <comment>Automatically added model identifier BIOMD0000000943</comment>
+      </revisions>
+    </revisions>
+  </history>
+  <firstPublished>1588611973000</firstPublished>
+  <submissionId>MODEL1809060002</submissionId>
+  <publicationId>BIOMD0000000943</publicationId>
+  <modellingApproach>
+    <accession>MAMO_0000046</accession>
+    <name>ordinary differential equation model</name>
+    <resource>http://identifiers.org/mamo/MAMO_0000046</resource>
+  </modellingApproach>
+</Model>
