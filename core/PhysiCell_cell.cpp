@@ -3000,6 +3000,7 @@ Cell_Definition* initialize_cell_definition_from_pugixml( pugi::xml_node cd_node
 				pCD->phenotype.intracellular = pIntra->getIntracellularModel();
                 pCD->phenotype.intracellular->validate_PhysiCell_tokens(pCD->phenotype);
                 pCD->phenotype.intracellular->validate_SBML_species();
+				pCD->phenotype.intracellular->get_SBML_species_names();
 			}
 		}
 #endif
@@ -3016,20 +3017,6 @@ Cell_Definition* initialize_cell_definition_from_pugixml( pugi::xml_node cd_node
 			}
 		}
 #endif
-
-		if (model_type == "nn") {
-            
-            std::cout << "n" << std::endl;
-/* 			// If it has already be copied
-			if (pParent != NULL && pParent->phenotype.intracellular != NULL) {
-				pCD->phenotype.intracellular->initialize_intracellular_from_pugixml(node);
-			// Otherwise we need to create a new one
-			} else {
-				dFBAIntracellular* pIntra = new dFBAIntracellular(node);
-				pCD->phenotype.intracellular = pIntra->getIntracellularModel();
-			} */
-		}
-
 
 
 	} else{

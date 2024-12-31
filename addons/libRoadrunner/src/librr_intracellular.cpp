@@ -197,7 +197,7 @@ bool RoadRunnerIntracellular::need_update()
 void RoadRunnerIntracellular::update()
 {
     static double start_time = 0.0;
-    static double end_time = 1;
+    static double end_time = 0.6;
     // static double end_time = 10.0;
     // static int num_vals = 1;
     // static int num_vals = 10;
@@ -761,4 +761,20 @@ int RoadRunnerIntracellular::create_custom_data_for_SBML(PhysiCell::Phenotype& p
     //std::cout << "Test" << std::endl;
     
     return 0; 
+}
+
+
+std::map<std::string, std::string> RoadRunnerIntracellular::get_SBML_species_names() const {
+    std::string species_names_str = stringArrayToString(rrc::getFloatingSpeciesIds(rrHandle));
+    std::stringstream iss(species_names_str);
+    std::string species_name;
+    int idx = 0;
+
+    std::map<std::string, std::string> species_map;
+    while (iss >> species_name) {
+        species_map[species_name] = std::to_string(idx);
+        idx++;
+    }
+
+    return species_map;
 }

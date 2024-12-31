@@ -156,7 +156,6 @@ void setup_tissue( void )
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
 	double initial_tissue_radius = 50;
 
-
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
 	
     std::cout << "NUMBER OF CANCER CELLS : " << positions.size() << " __________" << std::endl;
@@ -165,12 +164,21 @@ void setup_tissue( void )
         pCell = create_cell(get_cell_definition("cancer cell")); // Create Cell
         pCell->assign_position( positions[i] ); // Assign position to created cell
         
-        pCell->phenotype.intracellular->start(); //Read SBML and add into cell
+
+        //pCell->phenotype.intracellular->start(); //Read SBML and add into cell
         
         double receptor_level = NormalRandom(200,20); // Randomly define receptor value (Normal Dist) 
-        pCell->phenotype.intracellular->set_parameter_value("R",receptor_level); // Set Receptor Value in SBML for cell
+
+		std::map<std::string, std::string> species_names = pCell->phenotype.intracellular->get_SBML_species_names();
+		for (std::map<std::string, std::string>::const_iterator it = species_names.begin(); it != species_names.end(); ++it) 
+		{
+			std::string SBML_species_name = it->first;
+			double SBML_value = pCell->phenotype.intracellular->get_parameter_value (SBML_species_name);
+			//std::cout << "  Species: " << it->first << ", Value: " << SBML_value << std::endl;
+			double stochastic_value = NormalRandom(SBML_value, SBML_value*0.1 );
+			pCell->phenotype.intracellular->set_parameter_value(SBML_species_name,stochastic_value);
+        }
         pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand")); // Get Ligand from microenvironment then assign into SBML
-        
         
         set_single_behavior( pCell , "custom:ligand" , get_single_signal( pCell, "ligand") );  // Define Custom Data for ligand based on ligand in microenvironment
         set_single_behavior( pCell , "custom:receptor" , receptor_level );  // Define Custom Data for receptor
@@ -212,13 +220,13 @@ void update_intracellular()
                 double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
 
                 // Furkan : Check apop and casp values
-                double apop_star = 36708; // ligand 
-                double casp_star = 96190; // radiation
+                double apop_star = 35000; // ligand (36708)
+                double casp_star =  90000; // radiation (96190)
 
 
                 // Fix this to be proportional to dt 
-                double p_apop_a = apop/apop_star;
-                double p_apop_c = casp/casp_star;
+                double p_apoptosis_apop = apop/apop_star;
+                double p_apoptosis_caspase = casp/casp_star;
                 
                 // Furkan : Delete apoptotic cancer cells from simulation
 
@@ -226,7 +234,37 @@ void update_intracellular()
                 // Forming Apoptotic Bodies in the location of dying cells
                 if ( (*all_cells)[i]->phenotype.volume.total > 100)
 				{
-                    if( UniformRandom() < p_apop_c )
+                    //if( UniformRandom() < p_apoptosis_apop )	
+					if ( apop > apop_star)
+                    { 
+                        int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
+						double total_dying_cell_volume = (*all_cells)[i]->phenotype.volume.total;							
+                        (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
+						std::cout << "I am here " << std::endl;
+                        (*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().unlysed_fluid_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().cytoplasmic_biomass_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().nuclear_biomass_change_rate = 9e99;
+                        (*all_cells)[i]->phenotype.death.current_parameters().lysed_fluid_change_rate = 9e99;
+						double cell_radius = NormalRandom(5,0.4); 					
+						double initial_tissue_radius = 12;
+						std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
+						//std::cout << "cell count :"  << positions.size() << std::endl;	
+						std::vector<double> apoptotic_cell_position;
+						apoptotic_cell_position = (*all_cells)[i]->position;
+						double apoptotic_body_count = positions.size();
+						double apoptotic_body_volume = total_dying_cell_volume / apoptotic_body_count;						
+				
+                        
+                        for( int i=0; i < positions.size(); i++ )
+                        {
+                            pCell = create_cell(get_cell_definition("Apoptotic Body"));
+                            pCell->assign_position( apoptotic_cell_position[0] + positions[i][0],apoptotic_cell_position[1] + positions[i][1],apoptotic_cell_position[3] + positions[i][3] ); // Assign position to created cell
+							double reff_apoptotic_body_volume = pCell->phenotype.volume.total;													
+							pCell->phenotype.volume.multiply_by_ratio(apoptotic_body_volume/reff_apoptotic_body_volume/3); //Bug fix needed
+                        }
+                    }
+					if ( casp > casp_star)
                     { 
                         int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
 						double total_dying_cell_volume = (*all_cells)[i]->phenotype.volume.total;							
@@ -254,22 +292,10 @@ void update_intracellular()
 							pCell->phenotype.volume.multiply_by_ratio(apoptotic_body_volume/reff_apoptotic_body_volume/3); //Bug fix needed
                         }
                     }
-                    
 
                 }
         
-                if ( (*all_cells)[i]->phenotype.volume.total > 100) /////////////////// Implement same algorithm to extrinsic death
-				{
-                    if( UniformRandom() < p_apop_a )
-                    { 
-                        std::vector<double> apoptotic_cell_position;
-                        apoptotic_cell_position = (*all_cells)[i]->position;
-                        (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
-                        pCell = create_cell(get_cell_definition("Apoptotic Body"));
-                        pCell->assign_position(apoptotic_cell_position);
-                    //std::cout << " I AM DYING !!" << std::endl;
-                    }
-				}
+
                 set_single_behavior( (*all_cells)[i] , "custom:ligand" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("L"));
                 set_single_behavior( (*all_cells)[i] , "custom:receptor" ,(*all_cells)[i]->phenotype.intracellular->get_parameter_value("R") );
                 set_single_behavior( (*all_cells)[i] , "custom:IR_gray" , (*all_cells)[i]->phenotype.intracellular->get_parameter_value("IR_Gray") );

@@ -94,7 +94,7 @@ class RoadRunnerIntracellular : public PhysiCell::Intracellular
 	}
     
 	void inherit(PhysiCell::Cell * cell) {}
-	
+	std::map<std::string, std::string> get_SBML_species_names() const override;
     int update_phenotype_parameters(PhysiCell::Phenotype& phenotype);
     int validate_PhysiCell_tokens(PhysiCell::Phenotype& phenotype);
     int validate_SBML_species();

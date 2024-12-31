@@ -650,6 +650,7 @@ class Intracellular
     virtual int validate_PhysiCell_tokens(PhysiCell::Phenotype& phenotype) = 0;
     virtual int validate_SBML_species() = 0;
     virtual int create_custom_data_for_SBML(PhysiCell::Phenotype& phenotype) = 0;
+	virtual std::map<std::string, std::string> get_SBML_species_names() const = 0;
 };
 
 class Cell_Interactions
