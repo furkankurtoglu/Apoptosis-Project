@@ -170,14 +170,17 @@ void setup_tissue( void )
         double receptor_level = NormalRandom(200,20); // Randomly define receptor value (Normal Dist) 
 
 		std::map<std::string, std::string> species_names = pCell->phenotype.intracellular->get_SBML_species_names();
-		for (std::map<std::string, std::string>::const_iterator it = species_names.begin(); it != species_names.end(); ++it) 
+/* 		for (std::map<std::string, std::string>::const_iterator it = species_names.begin(); it != species_names.end(); ++it) 
 		{
 			std::string SBML_species_name = it->first;
 			double SBML_value = pCell->phenotype.intracellular->get_parameter_value (SBML_species_name);
 			//std::cout << "  Species: " << it->first << ", Value: " << SBML_value << std::endl;
 			double stochastic_value = NormalRandom(SBML_value, SBML_value*0.1 );
 			pCell->phenotype.intracellular->set_parameter_value(SBML_species_name,stochastic_value);
-        }
+        } */
+		
+		pCell->phenotype.intracellular->set_parameter_value("R",receptor_level);
+		
         pCell->phenotype.intracellular->set_parameter_value("L",get_single_signal( pCell, "ligand")); // Get Ligand from microenvironment then assign into SBML
         
         set_single_behavior( pCell , "custom:ligand" , get_single_signal( pCell, "ligand") );  // Define Custom Data for ligand based on ligand in microenvironment
@@ -214,33 +217,34 @@ void update_intracellular()
                 // There are two evaluations in intracellular dt 
                 // Fix this issue at Core 
                 (*all_cells)[i]->phenotype.intracellular->update();
+				
                 
-                
-                double apop = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Apop");
+                double cPARP = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("cPARP");
                 double casp = (*all_cells)[i]->phenotype.intracellular->get_parameter_value("Caspase");
 
                 // Furkan : Check apop and casp values
-                double apop_star = 35000; // ligand (36708)
+                double cPARP_star = 999340*0.9; // ligand (36708)
                 double casp_star =  90000; // radiation (96190)
 
-
-                // Fix this to be proportional to dt 
-                double p_apoptosis_apop = apop/apop_star;
-                double p_apoptosis_caspase = casp/casp_star;
                 
-                // Furkan : Delete apoptotic cancer cells from simulation
+                if ( PhysiCell_globals.current_time > 370)
+				{
+					if ( cPARP < cPARP_star )
+					{
+						std::cout << "Benim Adim : " <<(*all_cells)[i]->ID << " cPARP level = " << cPARP <<std::endl;
+					}
+				}
 
 
                 // Forming Apoptotic Bodies in the location of dying cells
                 if ( (*all_cells)[i]->phenotype.volume.total > 100)
 				{
-                    //if( UniformRandom() < p_apoptosis_apop )	
-					if ( apop > apop_star)
+					if ( cPARP > cPARP_star)
                     { 
                         int apoptosis_model_index = cell_defaults.phenotype.death.find_death_model_index( "Apoptosis" );
 						double total_dying_cell_volume = (*all_cells)[i]->phenotype.volume.total;							
                         (*all_cells)[i]->phenotype.volume.multiply_by_ratio(0);
-						std::cout << "I am here " << std::endl;
+						//std::cout << "I am here " << std::endl;
                         (*all_cells)[i]->phenotype.death.rates[apoptosis_model_index] = 9e99;
                         (*all_cells)[i]->phenotype.death.current_parameters().unlysed_fluid_change_rate = 9e99;
                         (*all_cells)[i]->phenotype.death.current_parameters().cytoplasmic_biomass_change_rate = 9e99;

@@ -104,12 +104,12 @@
 		<folder>output</folder> <!-- use . for root --> 
 
 		<full_data>
-			<interval units="min">60</interval>
+			<interval units="min">10</interval>
 			<enable>true</enable>
 		</full_data>
 		
 		<SVG>
-			<interval units="min">60</interval>
+			<interval units="min">10</interval>
 			<enable>true</enable>
 		</SVG>
 		
@@ -130,7 +130,7 @@
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mM">0.0</initial_condition> <!-- Default value : 3000 ... --> 
+			<initial_condition units="mM">5000.0</initial_condition> <!-- Default value : 3000 ... --> 
 			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
@@ -323,6 +323,7 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">0.0</Eat_Me>
+				<Initial_cPARP unit="a.u">0.0</Initial_cPARP>
                 <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
                 <Phagocytosis_Target_index unit="dimensionless">0.0</Phagocytosis_Target_index>
 			</custom_data>
@@ -462,6 +463,7 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">0.0</Eat_Me>
+				<Initial_cPARP unit="a.u">0.0</Initial_cPARP>
                 <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
                 <Phagocytosis_Target_index unit="dimensionless">100000000</Phagocytosis_Target_index>
 			</custom_data>
@@ -602,6 +604,7 @@
                 <DNA_double_strand_break unit="a.u">0.0</DNA_double_strand_break>
                 <CytoC_released unit="a.u">0.0</CytoC_released>
                 <Eat_Me unit="a.u">1.0</Eat_Me>
+				<Initial_cPARP unit="a.u">0.0</Initial_cPARP>
                 <Phagocytosis_Target_Memory unit="dimensionless">0.0</Phagocytosis_Target_Memory>
                 <Phagocytosis_Target_index unit="dimensionless">0.0</Phagocytosis_Target_index>
 			</custom_data>
@@ -632,7 +635,7 @@
 		<radiation_xmax type="double" units="dimensionless">50</radiation_xmax>
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
-        <radiation_grey type="double" units="Grey">10</radiation_grey>
+        <radiation_grey type="double" units="Grey">0</radiation_grey>
         
         <macrophage_seeding type="bool">true</macrophage_seeding>
 	</user_parameters>
