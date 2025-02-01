@@ -154,7 +154,7 @@ void setup_tissue( void )
 	
 	double cell_radius = cell_defaults.phenotype.geometry.radius; 
 	double cell_spacing = 0.8 * 2.0 * cell_radius; 
-	double initial_tissue_radius = 60;
+	double initial_tissue_radius = 150;
 
 	std::vector<std::vector<double>> positions = create_cell_circle_positions(cell_radius,initial_tissue_radius);
 	
@@ -195,7 +195,20 @@ void setup_tissue( void )
     if (Machrophage_seeding)
 	{
 		pCell = create_cell(get_cell_definition("Macrophage"));
-		pCell-> assign_position({50,50,0});
+		pCell-> assign_position({160,160,0});
+		
+		pCell = create_cell(get_cell_definition("Macrophage"));
+		pCell-> assign_position({-160,160,0});
+		
+		
+		pCell = create_cell(get_cell_definition("Macrophage"));
+		pCell-> assign_position({0,-200,0});
+		
+		
+		pCell = create_cell(get_cell_definition("Macrophage"));
+		pCell-> assign_position({200,-150,0});
+		pCell = create_cell(get_cell_definition("Macrophage"));
+		pCell-> assign_position({200,-150,0});
     }
 
 	return; 

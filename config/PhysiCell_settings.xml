@@ -74,10 +74,10 @@
 
 <PhysiCell_settings version="devel-version">
 	<domain>
-		<x_min>-500</x_min>
-		<x_max>500</x_max>
-		<y_min>-500</y_min>
-		<y_max>500</y_max>
+		<x_min>-250</x_min>
+		<x_max>250</x_max>
+		<y_min>-250</y_min>
+		<y_max>250</y_max>
 		<z_min>-10</z_min>
 		<z_max>10</z_max>
 		<dx>20</dx>
@@ -97,7 +97,7 @@
 	</overall>
 	
 	<parallel>
-		<omp_num_threads>7</omp_num_threads>
+		<omp_num_threads>16</omp_num_threads>
 	</parallel> 
 	
 	<save>
@@ -130,7 +130,7 @@
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mM">0.009</initial_condition> <!-- Default value : 3000 ... --> 
+			<initial_condition units="mM">0</initial_condition> <!-- Default value : 3000 ... --> 
 			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
