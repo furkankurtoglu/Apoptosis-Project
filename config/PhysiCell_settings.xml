@@ -87,7 +87,7 @@
 	</domain>
 	
 	<overall>
-		<max_time units="min">14400</max_time> <!-- 1 days * 24 h * 60 min -->
+		<max_time units="min">2880</max_time> <!-- 1 days * 24 h * 60 min -->
 		<time_units>min</time_units>
 		<space_units>micron</space_units>
 	
@@ -97,19 +97,19 @@
 	</overall>
 	
 	<parallel>
-		<omp_num_threads>16</omp_num_threads>
+		<omp_num_threads>6</omp_num_threads>
 	</parallel> 
 	
 	<save>
 		<folder>output</folder> <!-- use . for root --> 
 
 		<full_data>
-			<interval units="min">60</interval>
+			<interval units="min">30</interval>
 			<enable>true</enable>
 		</full_data>
 		
 		<SVG>
-			<interval units="min">60</interval>
+			<interval units="min">30</interval>
 			<enable>true</enable>
 		</SVG>
 		
@@ -130,7 +130,7 @@
 				<diffusion_coefficient units="micron^2/min">4356.0</diffusion_coefficient> <!-- https://www.nature.com/articles/s42003-022-03179-1#:~:text=Based%20on%20the%20precise%20boundary,%C2%B0ns%E2%88%921%2C%20respectively. -->
 				<decay_rate units="1/min">0.0</decay_rate>
 			</physical_parameter_set>
-			<initial_condition units="mM">0</initial_condition> <!-- Default value : 3000 ... --> 
+			<initial_condition units="mM">3000</initial_condition> <!-- Default value : 3000 ... --> 
 			<Dirichlet_boundary_condition units="mM" enabled="false">0</Dirichlet_boundary_condition>
  		</variable>
         
@@ -629,7 +629,7 @@
     </cell_rules>
 	
 	<user_parameters>
-		<random_seed type="int" units="dimensionless">42</random_seed>
+		<random_seed type="int" units="dimensionless">8498498</random_seed>
 		
 		<!-- Ligand Parameters -->
 		<ligand_level type="double" units="dimensionless">0</ligand_level> <!-- not implemented yet --> 
@@ -640,7 +640,7 @@
 		<radiation_xmax type="double" units="dimensionless">50</radiation_xmax>
 		<radiation_ymin type="double" units="dimensionless">-50</radiation_ymin>
 		<radiation_ymax type="double" units="dimensionless">50</radiation_ymax>   
-        <radiation_grey type="double" units="Grey">10</radiation_grey>
+        <radiation_grey type="double" units="Grey">0</radiation_grey>
         
         <macrophage_seeding type="bool">true</macrophage_seeding>
 	</user_parameters>
